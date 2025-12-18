@@ -1,0 +1,116 @@
+{
+  "processed_chunks": [
+    {
+      "chunk_id": "slide_Our Work _ Welding_0_chunk_0_session_d7df4e0c",
+      "text": "Our Work across Welding An Overview CONFIDENTIAL AND PROPRIETARY Any use of this material without specific permission AlgoAnalytics is strictly prohibited",
+      "metadata": {
+        "doc_id": "Our Work _ Welding",
+        "slide_index": 0,
+        "images": [],
+        "unit_type": "slide",
+        "session_id": "session_d7df4e0c",
+        "original_doc_type": "pptx",
+        "original_doc_id": "Our Work _ Welding",
+        "user_id": "test-email@gmail.com",
+        "word_count": 21
+      }
+    },
+    {
+      "chunk_id": "slide_Our Work _ Welding_1_chunk_0_session_d7df4e0c",
+      "text": "Our Past Work    AI-driven welding solutions Welding Data Collection for Intel Sound Analysis based AI model to monitor the quality of welding process Systematically collect welding data for multiple welding defects and log accurate sensor parameters",
+      "metadata": {
+        "doc_id": "Our Work _ Welding",
+        "slide_index": 1,
+        "images": [],
+        "unit_type": "slide",
+        "session_id": "session_d7df4e0c",
+        "original_doc_type": "pptx",
+        "original_doc_id": "Our Work _ Welding",
+        "user_id": "test-email@gmail.com",
+        "word_count": 36
+      }
+    },
+    {
+      "chunk_id": "slide_Our Work _ Welding_2_chunk_0_session_d7df4e0c",
+      "text": "Welding Data Collection for Intel    Dataset Key Requirements Dataset should include data from 4 modalities: Audio, Video and time-series of the welding machine parameters, and a color photograph for each welding sample. Sensor recordings requirements: 4-17 different defect types, and 20 samples per defect type, and 14 different combinations of welding parameters per defect time. The minimum sample length will be 10cm Data should be synchronized and autonomous: Time synchronized so that the weld activities can be cross analyzed between the audio, video, and time-series modalities. The data recording will be triggered in an automated fashion",
+      "metadata": {
+        "doc_id": "Our Work _ Welding",
+        "slide_index": 2,
+        "images": [],
+        "unit_type": "slide",
+        "session_id": "session_d7df4e0c",
+        "original_doc_type": "pptx",
+        "original_doc_id": "Our Work _ Welding",
+        "user_id": "test-email@gmail.com",
+        "word_count": 96
+      }
+    },
+    {
+      "chunk_id": "slide_Our Work _ Welding_3_chunk_0_session_d7df4e0c",
+      "text": "Welding Data Collection for Intel    Data Annotation Requirements Experiment Setup Information Sensor Configuration Continue with the process Inspect next lot / item for welding Classification of Weld Document what weld defects were created A natural language description on how the weld was created If available, provide supporting testing data to confirm presence of defect Good Weld Defective Weld",
+      "metadata": {
+        "doc_id": "Our Work _ Welding",
+        "slide_index": 3,
+        "images": [],
+        "unit_type": "slide",
+        "session_id": "session_d7df4e0c",
+        "original_doc_type": "pptx",
+        "original_doc_id": "Our Work _ Welding",
+        "user_id": "test-email@gmail.com",
+        "word_count": 58
+      }
+    },
+    {
+      "chunk_id": "slide_Our Work _ Welding_4_chunk_0_session_d7df4e0c",
+      "text": "Welding Data Collection for Intel    Setup Details Camera attached to Welding Robot neck Microphones (placed side to the welding plate)",
+      "metadata": {
+        "doc_id": "Our Work _ Welding",
+        "slide_index": 4,
+        "images": [],
+        "unit_type": "slide",
+        "session_id": "session_d7df4e0c",
+        "original_doc_type": "pptx",
+        "original_doc_id": "Our Work _ Welding",
+        "user_id": "test-email@gmail.com",
+        "word_count": 20
+      }
+    },
+    {
+      "chunk_id": "slide_Our Work _ Welding_5_chunk_0_session_d7df4e0c",
+      "text": "Welding Data Collection for Intel    Camera Setup and Microphone Camera Mounting Naming of the microphones with MOTU device",
+      "metadata": {
+        "doc_id": "Our Work _ Welding",
+        "slide_index": 5,
+        "images": [],
+        "unit_type": "slide",
+        "session_id": "session_d7df4e0c",
+        "original_doc_type": "pptx",
+        "original_doc_id": "Our Work _ Welding",
+        "user_id": "test-email@gmail.com",
+        "word_count": 18
+      }
+    },
+    {
+      "chunk_id": "slide_Our Work _ Welding_6_chunk_0_session_d7df4e0c",
+      "text": "Thank You",
+      "metadata": {
+        "doc_id": "Our Work _ Welding",
+        "slide_index": 6,
+        "images": [],
+        "unit_type": "slide",
+        "session_id": "session_d7df4e0c",
+        "original_doc_type": "pptx",
+        "original_doc_id": "Our Work _ Welding",
+        "user_id": "test-email@gmail.com",
+        "word_count": 2
+      }
+    }
+  ],
+  "total_chunks": 7,
+  "original_document_count": 1,
+  "user_id": "test-email@gmail.com",
+  "session_id": "session_d7df4e0c",
+  "processing_timestamp": 1763806156.0853205,
+  "total_images_processed": 0,
+  "total_chunks_with_images": 0
+}

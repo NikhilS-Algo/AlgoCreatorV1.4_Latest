@@ -1,0 +1,322 @@
+{
+  "presentation_title": "Unlocking Financial Insights with Algofabric",
+  "total_slides": 6,
+  "presentation_style": "corporate",
+  "content_richness": "medium",
+  "executive_summary": "Comprehensive overview of Unlocking Financial Insights with Algofabric",
+  "key_value_propositions": [
+    "AI-powered financial insights platform designed for traders and investors.",
+    "Combines contextual and numerical data analysis for informed decision-making.",
+    "Real-time access to diverse data types including news, social media, and market trends."
+  ],
+  "strategic_insights": [
+    "Intelligent stock insights powered by advanced NLP models.",
+    "Dashboard for monitoring backend tasks, enhancing debugging efficiency.",
+    "Mutual fund investment composition display for comprehensive asset management."
+  ],
+  "actionable_recommendations": [
+    "Facilitates stock picking and recommendation strategies based on real-time data.",
+    "Generates insights from news articles, enabling quick adaptation to market changes.",
+    "Tracks daily price movements and identifies top gainers and losers for strategic investment."
+  ],
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_title": "Unlocking Financial Insights with Algofabric",
+      "slide_type": "title",
+      "content": "Unlocking Financial Insights with Algofabric",
+      "images": []
+    },
+    {
+      "slide_number": 2,
+      "slide_title": "Overview of Algofabric",
+      "slide_type": "content",
+      "content": "• AI-powered financial insights platform designed for traders and investors.\n• Combines contextual and numerical data analysis for informed decision-making.\n• Real-time access to diverse data types including news, social media, and market trends.",
+      "speaker_notes": "Discuss: AI-powered financial insights platform designed for traders and investors., Combines contextual and numerical data analysis for informed decision-making., Real-time access to diverse data types including news, social media, and market trends.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Overview of Algofabric",
+      "images": [
+        {
+          "image_id": "image_slide_AlgoFabric_TS_updates_2_chunk_0_build_084d5582_img0",
+          "caption": "This is a screenshot of a dashboard interface for monitoring tasks in AlgoFabric. It features sections for task definitions, including \"News ingestion,\" \"Stocks ingestion,\" \"Enrichment,\" and \"Data debrief.\" The dashboard displays metrics on news volume over time",
+          "similarity_score": 0.6359027946334863,
+          "source_document": "AlgoFabric_TS_updates",
+          "image_path": "images/test-email@gmail.com/main_corpus/slide_002_img_000_dccff9.png",
+          "user_id": "test-email@gmail.com",
+          "relevance_rank": 1
+        }
+      ]
+    },
+    {
+      "slide_number": 3,
+      "slide_title": "Key Features of Algofabric",
+      "slide_type": "content",
+      "content": "• Intelligent stock insights powered by advanced NLP models.\n• Dashboard for monitoring backend tasks, enhancing debugging efficiency.\n• Mutual fund investment composition display for comprehensive asset management.",
+      "speaker_notes": "Discuss: Intelligent stock insights powered by advanced NLP models., Dashboard for monitoring backend tasks, enhancing debugging efficiency., Mutual fund investment composition display for comprehensive asset management.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Key Features of Algofabric",
+      "images": [
+        {
+          "image_id": "image_slide_AlgoFabric overview_Deck_oct_24_2_chunk_0_build_084d5582_img1",
+          "caption": "This is a screenshot of a web-based dashboard for AlgoFabric, displaying stock market data. It features columns for stock tickers, total alerts, volume, returns, news volume, and sentiments. Each row lists various stocks with corresponding metrics, highlighted in",
+          "similarity_score": 0.637196165022148,
+          "source_document": "AlgoFabric overview_Deck_oct_24",
+          "image_path": "images/test-email@gmail.com/main_corpus/slide_002_img_001_f9f8d1.png",
+          "user_id": "test-email@gmail.com",
+          "relevance_rank": 1
+        }
+      ]
+    },
+    {
+      "slide_number": 4,
+      "slide_title": "Practical Applications",
+      "slide_type": "content",
+      "content": "• Facilitates stock picking and recommendation strategies based on real-time data.\n• Generates insights from news articles, enabling quick adaptation to market changes.\n• Tracks daily price movements and identifies top gainers and losers for strategic investment.",
+      "speaker_notes": "Discuss: Facilitates stock picking and recommendation strategies based on real-time data., Generates insights from news articles, enabling quick adaptation to market changes., Tracks daily price movements and identifies top gainers and losers for strategic investment.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Practical Applications",
+      "images": [
+        {
+          "image_id": "image_slide_AlgoFabric overview_Deck_oct_24_11_chunk_0_build_084d5582_img0",
+          "caption": "This is a screenshot of a web application interface for stock market news analysis. It features sections for selecting companies, displaying news summaries, key insights, market sentiment, and statistical valuations. The interface includes dropdown menus, text boxes, and a chatbot for user",
+          "similarity_score": 0.575665972943651,
+          "source_document": "AlgoFabric overview_Deck_oct_24",
+          "image_path": "images/test-email@gmail.com/main_corpus/slide_011_img_000_14d7a8.png",
+          "user_id": "test-email@gmail.com",
+          "relevance_rank": 1
+        }
+      ]
+    },
+    {
+      "slide_number": 5,
+      "slide_title": "Business Value Proposition",
+      "slide_type": "content",
+      "content": "• Empowers users with a 360-degree view of stock performance and market dynamics.\n• Enhances competitive edge through data-driven insights and personalized recommendations.\n• Supports risk analysis and sentiment trends to inform investment strategies.",
+      "speaker_notes": "Discuss: Empowers users with a 360-degree view of stock performance and market dynamics., Enhances competitive edge through data-driven insights and personalized recommendations., Supports risk analysis and sentiment trends to inform investment strategies.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Business Value Proposition",
+      "images": [
+        {
+          "image_id": "image_slide_Generative AI in FinTech_AGP Talk_14_chunk_0_build_084d5582_img1",
+          "caption": "This is a photograph depicting a person holding a smartphone displaying stock market data, with a computer screen in the background showing various stock charts and figures. The text \"Stock Market News Analysis\" is prominently featured, describing an LLM-driven chatbot for stock insights",
+          "similarity_score": 0.48620670117940634,
+          "source_document": "Generative AI in FinTech_AGP Talk",
+          "image_path": "images/test-email@gmail.com/main_corpus/slide_014_img_002_74e4b5.png",
+          "user_id": "test-email@gmail.com",
+          "relevance_rank": 1
+        }
+      ]
+    },
+    {
+      "slide_number": 6,
+      "slide_title": "Future Developments and Enhancements",
+      "slide_type": "content",
+      "content": "• Ongoing expansion of the Algofabric portfolio to include more companies.\n• Integration of advanced features for enhanced user experience and functionality.\n• Commitment to continuous improvement and adaptation to evolving market needs.",
+      "speaker_notes": "Discuss: Ongoing expansion of the Algofabric portfolio to include more companies., Integration of advanced features for enhanced user experience and functionality., Commitment to continuous improvement and adaptation to evolving market needs.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Future Developments and Enhancements",
+      "images": [
+        {
+          "image_id": "image_slide_AlgoAnalytics deck for UK_Europe_33_chunk_0_build_084d5582_img3",
+          "caption": "This is an infographic providing an overview of AlgoAnalytics, an NTT Data company specializing in AI/ML solutions. It includes sections on their offerings, expertise in technologies like Quantum Computing, and products such as AI-powered video surveillance. The design features text",
+          "similarity_score": 0.5235963149717833,
+          "source_document": "AlgoAnalytics deck for UK_Europe",
+          "image_path": "images/test-email@gmail.com/main_corpus/slide_033_img_003_9fc32f.png",
+          "user_id": "test-email@gmail.com",
+          "relevance_rank": 1
+        }
+      ]
+    }
+  ],
+  "generated_date": "2025-11-20T10:52:12.968401",
+  "version": "1.0",
+  "content_approach": "industry_ready",
+  "estimated_duration": "12 minutes",
+  "character_metrics": {
+    "2": {
+      "total_characters": 260,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "3": {
+      "total_characters": 233,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "4": {
+      "total_characters": 277,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "5": {
+      "total_characters": 269,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "6": {
+      "total_characters": 265,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    }
+  },
+  "character_summary": {
+    "slides_within_range": 5,
+    "total_content_slides": 5,
+    "compliance_ratio": "100.0%",
+    "average_characters_per_slide": 260,
+    "bullet_point_variation": "3-3 points per slide",
+    "variation_quality": "LOW VARIATION"
+  },
+  "content_richness_metrics": {
+    "total_content_slides": 5,
+    "total_key_points": 15,
+    "average_points_per_slide": 3.0,
+    "slides_with_rich_content": 5,
+    "richness_ratio": 1.0
+  },
+  "retrieved_chunks_metadata": [
+    {
+      "chunk_id": "text_slide_Production Level Deployments by Algoanalytics (March 2025)_18_chunk_0_build_084d5582",
+      "source_document": "Production Level Deployments by Algoanalytics (March 2025)",
+      "similarity_score": 0.6619,
+      "content_preview": "Algofabric AI powered Stock Research Assistant",
+      "content_length": 46,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_AlgoAnalytics deck for UK_Europe_24_chunk_0_build_084d5582",
+      "source_document": "AlgoAnalytics deck for UK_Europe",
+      "similarity_score": 0.6378,
+      "content_preview": "Platformification of AlgoFabric ‹#›",
+      "content_length": 35,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_AlgoFabric_TS_updates_2_chunk_0_build_084d5582",
+      "source_document": "AlgoFabric_TS_updates",
+      "similarity_score": 0.5946,
+      "content_preview": "AlgoFabric – Upcoming Features (WIP) .  3 1. Dashboard to monitor performance of all backend tasks for easy debugging The Dashboard provides a centralized and real-time view of all tasks, facilitating...",
+      "content_length": 809,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_AlgoAnalytics deck for UK_Europe_9_chunk_0_build_084d5582",
+      "source_document": "AlgoAnalytics deck for UK_Europe",
+      "similarity_score": 0.5833,
+      "content_preview": "Aksha AlgoFabric AlgoCreator Presentation Overview ‹#›",
+      "content_length": 54,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_AlgoAnalytics deck for UK_Europe_19_chunk_0_build_084d5582",
+      "source_document": "AlgoAnalytics deck for UK_Europe",
+      "similarity_score": 0.5828,
+      "content_preview": "AlgoFabric ‹#› .  © . | Page",
+      "content_length": 28,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_AlgoFabric overview_Deck_oct_24_13_chunk_0_build_084d5582",
+      "source_document": "AlgoFabric overview_Deck_oct_24",
+      "similarity_score": 0.5641,
+      "content_preview": "Thank you For more information, visit: https://algofabric.algoanalytics.com/",
+      "content_length": 76,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Project_Summaries_Jan2025_v1_23_chunk_0_build_084d5582",
+      "source_document": "Project_Summaries_Jan2025_v1",
+      "similarity_score": 0.5542,
+      "content_preview": "AlgoFabric: Generalization of Platform",
+      "content_length": 38,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_AlgoFabric overview_Deck_oct_24_0_chunk_0_build_084d5582",
+      "source_document": "AlgoFabric overview_Deck_oct_24",
+      "similarity_score": 0.5315,
+      "content_preview": "AlgoFabric: SaaS Platform AI-powered Financial Insights Platform CONFIDENTIAL AND PROPRIETARY Any use of this material without specific permission AlgoAnalytics is strictly prohibited",
+      "content_length": 183,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_AlgoFabric overview_Deck_oct_24_2_chunk_0_build_084d5582",
+      "source_document": "AlgoFabric overview_Deck_oct_24",
+      "similarity_score": 0.5301,
+      "content_preview": "Real-time News and Stock Specific Analysis Semantic Search Real-time Access to Diverse Data Types. Correlation & Insights AI-based Guidance & Recommendations Newsletter AlgoFabric: SaaS Platform - A S...",
+      "content_length": 419,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_AlgoFabric_TS_updates_0_chunk_0_build_084d5582",
+      "source_document": "AlgoFabric_TS_updates",
+      "similarity_score": 0.5297,
+      "content_preview": "AlgoFabric and AlgoTrading Updates CONFIDENTIAL AND PROPRIETARY Any use of this material without specific permission AlgoAnalytics is strictly prohibited",
+      "content_length": 153,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_AlgoAnalytics overview_NDIL_Feb 24_22_chunk_0_build_084d5582",
+      "source_document": "AlgoAnalytics overview_NDIL_Feb 24",
+      "similarity_score": 0.509,
+      "content_preview": "AlgoFabric: SaaS Platform – Insights from Unstructured Data ‹#› AlgoFabric combines the power of state-of-the-art NLP models with numerical data analysis to provide insights and recommendations. https...",
+      "content_length": 748,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_AlgoFabric_TS_updates_1_chunk_0_build_084d5582",
+      "source_document": "AlgoFabric_TS_updates",
+      "similarity_score": 0.5063,
+      "content_preview": "AlgoFabric – New Additions What’s Trending Tab Quickly identify top gainers and losers Track daily price movements Track which companies has most news published Stay updated on significant corporate a...",
+      "content_length": 688,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_AlgoAnalytics deck for UK_Europe_25_chunk_0_build_084d5582",
+      "source_document": "AlgoAnalytics deck for UK_Europe",
+      "similarity_score": 0.4824,
+      "content_preview": "Architecture: Can the overall structure and design be adapted to different contexts? Feature engineering: Are the feature extraction techniques applicable to diverse datasets? Model building: Can the ...",
+      "content_length": 895,
+      "chunk_type": "text_chunk"
+    }
+  ],
+  "image_mapping_metrics": {
+    "user_id": "test-email@gmail.com",
+    "search_mode": "corpus_only",
+    "total_slides": 6,
+    "content_slides": 5,
+    "slides_with_images": 5,
+    "total_images_mapped": 5,
+    "total_available_images": 809,
+    "images_used": 5,
+    "similarity_threshold_used": 0.4,
+    "utilization_rate": "5/809",
+    "coverage_ratio": "5/5",
+    "mapping_strategy": "STRICT_RELEVANCE_ONLY"
+  }
+}

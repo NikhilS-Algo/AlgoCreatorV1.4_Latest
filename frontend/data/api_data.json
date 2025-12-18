@@ -1,0 +1,2413 @@
+{
+    "root_node": {
+        "name": "Algo_Org_PPTs",
+        "description": "Here is a concise 6-line summary:\n\nAlgoAnalytics is a leading AI solutions provider, offering expertise in 100+ AI solutions across various domains. The company partners with industry leaders to provide solutions for Industry 4.0 and financial research assistance. AlgoAnalytics develops AI-powered solutions for data analytics, machine learning, and computer vision. The company has successfully implemented projects in various industries, including healthcare, finance, and manufacturing. Its AI-powered solutions enable tasks such as predictive maintenance, automate process optimization, and text analysis. AlgoAnalytics is committed to delivering reliable and scalable solutions to its clients, with a focus on innovation and problem-solving.",
+        "subfolders": [
+            {
+                "name": "AlgoFromDownload",
+                "description": "Description for AlgoFromDownload.",
+                "subfolders": [
+                    {
+                        "name": "Retail",
+                        "description": "Description for Retail.",
+                        "subfolders": [],
+                        "files": [
+                            {
+                                "name": "Virtual Trial Room_draft1.pptx",
+                                "type": "Presentation file"
+                            },
+                            {
+                                "name": "Fashion_AI (1).pptx",
+                                "type": "Presentation file"
+                            },
+                            {
+                                "name": "Fashion_AI_v2.pptx",
+                                "type": "Presentation file"
+                            },
+                            {
+                                "name": "Virtual TryOn_draft2.pptx",
+                                "type": "Presentation file"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Healthcare",
+                        "description": "Description for Healthcare.",
+                        "subfolders": [],
+                        "files": [
+                            {
+                                "name": "Categorization of Hospital Supplies Items_draft3.pptx",
+                                "type": "Presentation file"
+                            },
+                            {
+                                "name": "Dental radiographies labeled.pptx",
+                                "type": "Presentation file"
+                            },
+                            {
+                                "name": "Categorization of Hospital Supplies Items_draft2.pptx",
+                                "type": "Presentation file"
+                            },
+                            {
+                                "name": "AI in Healthcare_draft1 (1).pptx",
+                                "type": "Presentation file"
+                            },
+                            {
+                                "name": "AI in Healthcare_draft1.pptx",
+                                "type": "Presentation file"
+                            },
+                            {
+                                "name": "Diseases in cattle.pptx",
+                                "type": "Presentation file"
+                            },
+                            {
+                                "name": "AI Healthcare Algo 20062019.pptx",
+                                "type": "Presentation file"
+                            },
+                            {
+                                "name": "AI Healthcare Algo May 19.pptx",
+                                "type": "Presentation file"
+                            },
+                            {
+                                "name": "AI Healthcare Algo (1).pptx",
+                                "type": "Presentation file"
+                            },
+                            {
+                                "name": "AI Healthcare Algo.pptx",
+                                "type": "Presentation file"
+                            },
+                            {
+                                "name": "Healthcare_AI_NTTDATA.pptx",
+                                "type": "Presentation file"
+                            },
+                            {
+                                "name": "AI-in-healthcare.pptx",
+                                "type": "Presentation file"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "CV",
+                        "description": "Description for CV.",
+                        "subfolders": [],
+                        "files": [
+                            {
+                                "name": "Computer Vision AA.pptx",
+                                "type": "Presentation file"
+                            },
+                            {
+                                "name": "Computer Vision Use Cases-rev2.pptx",
+                                "type": "Presentation file"
+                            },
+                            {
+                                "name": "ComputerVisionUseCases-rev1.pptx",
+                                "type": "Presentation file"
+                            },
+                            {
+                                "name": "Computer Vision Use Cases (3).pptx",
+                                "type": "Presentation file"
+                            },
+                            {
+                                "name": "AlgoAnalytics_CV SIG Tech Community_June2020 (1) (1).pptx",
+                                "type": "Presentation file"
+                            },
+                            {
+                                "name": "AlgoAnalytics_CV SIG Tech Community_June2020 (1).pptx",
+                                "type": "Presentation file"
+                            },
+                            {
+                                "name": "Computer Vision Use Cases.pptx",
+                                "type": "Presentation file"
+                            },
+                            {
+                                "name": "Computer Vision Use Cases (2).pptx",
+                                "type": "Presentation file"
+                            },
+                            {
+                                "name": "Computer Vision Use Cases (1).pptx",
+                                "type": "Presentation file"
+                            },
+                            {
+                                "name": "Computer Vision AlgoAnalytics Aug 2020.pptx",
+                                "type": "Presentation file"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "BFSI",
+                        "description": "Description for BFSI.",
+                        "subfolders": [],
+                        "files": [
+                            {
+                                "name": "AI BFSI Algo.pptx",
+                                "type": "Presentation file"
+                            },
+                            {
+                                "name": "AlgoAnalytics_AI for BFSI_Nvidia_03Jul2019.pptx",
+                                "type": "Presentation file"
+                            },
+                            {
+                                "name": "Aniruddha_Insurance.pptx",
+                                "type": "Presentation file"
+                            },
+                            {
+                                "name": "AlgoAnalytics_AI for BFSI_18Jun2019.pptx",
+                                "type": "Presentation file"
+                            },
+                            {
+                                "name": "AI Insurance.pptx",
+                                "type": "Presentation file"
+                            },
+                            {
+                                "name": "AI BFSI New v1.pptx",
+                                "type": "Presentation file"
+                            },
+                            {
+                                "name": "AI BFSI New v2.pptx",
+                                "type": "Presentation file"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Manufacturing",
+                        "description": "Description for Manufacturing.",
+                        "subfolders": [],
+                        "files": [
+                            {
+                                "name": "FAQT Review Final Draft.pptx",
+                                "type": "Presentation file"
+                            },
+                            {
+                                "name": "Asquared-TechSparkVCConnect-2020.pptx",
+                                "type": "Presentation file"
+                            },
+                            {
+                                "name": "Asquared-Investor-Deck-July2020(1).pptx",
+                                "type": "Presentation file"
+                            },
+                            {
+                                "name": "FAQT Review Final.pptx",
+                                "type": "Presentation file"
+                            },
+                            {
+                                "name": "Asquared-IoT_pitch-final.pptx",
+                                "type": "Presentation file"
+                            },
+                            {
+                                "name": "Asquared-deployment-slides.pptx",
+                                "type": "Presentation file"
+                            },
+                            {
+                                "name": "Asquared-Overview-Dec2020.pptx",
+                                "type": "Presentation file"
+                            },
+                            {
+                                "name": "Asquared-TechSparkVCConnect-2020 (1).pptx",
+                                "type": "Presentation file"
+                            },
+                            {
+                                "name": "A2IoT-Investor-Deck-V2.0.pptx",
+                                "type": "Presentation file"
+                            },
+                            {
+                                "name": "FAQT Plan of Action.pptx",
+                                "type": "Presentation file"
+                            },
+                            {
+                                "name": "A2IoT-Investor-Deck-V2.2.pptx",
+                                "type": "Presentation file"
+                            },
+                            {
+                                "name": "AI_Manufacturing_Suntory_Proposal.pptx",
+                                "type": "Presentation file"
+                            },
+                            {
+                                "name": "AI Manufacturing_v1.1.pptx",
+                                "type": "Presentation file"
+                            },
+                            {
+                                "name": "AI Manufacturing-Ford-June-2019 (3).pptx",
+                                "type": "Presentation file"
+                            },
+                            {
+                                "name": "AI Manufacturing A2IOT.pptx",
+                                "type": "Presentation file"
+                            },
+                            {
+                                "name": "AI Manufacturing-Ford-June-2019 (1).pptx",
+                                "type": "Presentation file"
+                            },
+                            {
+                                "name": "AI Manufacturing-Ford-June-2019.pptx",
+                                "type": "Presentation file"
+                            },
+                            {
+                                "name": "AI Manufacturing-Ford-June-2019 (2).pptx",
+                                "type": "Presentation file"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "NLP",
+                        "description": "Description for NLP.",
+                        "subfolders": [],
+                        "files": [
+                            {
+                                "name": "AlgoAnalytics_NLP Projects and Platform_An Update_01Sep2020.pptx",
+                                "type": "Presentation file"
+                            },
+                            {
+                                "name": "AlgoAnalytics_NLP Projects and Platform_An Update_10Dec2020.pptx",
+                                "type": "Presentation file"
+                            },
+                            {
+                                "name": "AlgoAnalytics_NLP Projects and Platform_18Aug2020_draft1.pptx",
+                                "type": "Presentation file"
+                            },
+                            {
+                                "name": "AlgoAnalytics_NLP SIG Tech Community_25May2020_v1.pptx",
+                                "type": "Presentation file"
+                            },
+                            {
+                                "name": "AlgoAnalytics_NLPProjectsPlatform_14Jul2020_v1.pptx",
+                                "type": "Presentation file"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Overview decks",
+                        "description": "Description for Overview decks.",
+                        "subfolders": [],
+                        "files": [
+                            {
+                                "name": "AlgoAnalytics for Contact Center Management_Dec2020.pptx",
+                                "type": "Presentation file"
+                            },
+                            {
+                                "name": "AlgoAnalytics Overview Sept2020.pptx",
+                                "type": "Presentation file"
+                            },
+                            {
+                                "name": "AI Strategy and AI Services_10Nov2020_3.pptx",
+                                "type": "Presentation file"
+                            },
+                            {
+                                "name": "20200319_FeedbackSIG.pptx",
+                                "type": "Presentation file"
+                            },
+                            {
+                                "name": "AI Strategy and AI Services_10Nov2020.pptx",
+                                "type": "Presentation file"
+                            },
+                            {
+                                "name": "AI Strategy and AI Services_07Nov2020.pptx",
+                                "type": "Presentation file"
+                            },
+                            {
+                                "name": "AlgoAnalytics Overview Oct2020 (1).pptx",
+                                "type": "Presentation file"
+                            },
+                            {
+                                "name": "AlgoAnalytics Overview Oct2020.pptx",
+                                "type": "Presentation file"
+                            },
+                            {
+                                "name": "20200316_TechCommunity_2ndPre_SIG.pptx",
+                                "type": "Presentation file"
+                            },
+                            {
+                                "name": "vivek.pptx",
+                                "type": "Presentation file"
+                            },
+                            {
+                                "name": "Algo AI for Business.pptx",
+                                "type": "Presentation file"
+                            },
+                            {
+                                "name": "Algo Pitch 19122019.pptx",
+                                "type": "Presentation file"
+                            },
+                            {
+                                "name": "AICOE-June2020.pptx",
+                                "type": "Presentation file"
+                            },
+                            {
+                                "name": "AI COE summary June 2020.pptx",
+                                "type": "Presentation file"
+                            }
+                        ]
+                    }
+                ],
+                "files": [
+                    {
+                        "name": "Information Extraction from Clinic Letter_Project Overview_31Mar2020.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "ISV Quick10.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Entity and Relation Extraction_Proposal_from AlgoAnalytics_v1.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "ISBIS2020_SoundAnalytics_CaseStudy.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Outlier_detection_using_isolation_forest.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "NVIDIA CLARA-MEDICAL IMAGING.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Medical Information Extraction and Patient Knowledge Graph.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "LastSlides.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Crawling POC (1).pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Important Projects.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "GANs for detecting distribution shift.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Profit sharing ppt.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Text Clustering using Advanced NLP techniques_Proposal_from AlgoAnalytics_v1.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "PresalesDiscussions_SmartHealthcare_Algo.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Video Anomaly AA _V2.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Crawling POC.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AutoEncoder.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "MiddleEast Insurance.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Personalization for FL - IEEE W4SD.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "PresalesDiscussions-A2.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Big Data Demo Slides.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Video Anomaly AA (1).pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Clause Delineation_Approach_by AlgoAnalytics_draft1.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Distributed_learning_v.1.0.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "retail-data-science.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "anomaly_detection (1) (1).pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AlgoShort_V1_December2020.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "anomaly_detection (1).pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Entity Recognition and Intent Detection_Project Overview_31Mar2020.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Profile.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Marketing 200512 (1).pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "BigDatav2.1July2020.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "studyslide.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "TiE_QBR_17thApril_Final2.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Big Data v2.1 July 2020.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Time Series Data Analysis_by AlgoAnalytics_draft1.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Insurance Data.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Ultrasonic Analysis of Defects in Poles (23-03-2020).pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "NTT_Jan20_v2.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Manufacturing-logos.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "MononeVsEquilips.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "OMC Power_Remote Monitoring System_Phase-1_Proposal from AlgoAnalytics_draft1.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "NTT Data Asia Pacific - AI Healthcare Solution.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "TextSense_May2020_draft1.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Data_Safe_Haven_Project_Plan_Update_20190918.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "TiE_Introduction.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AlgoInitiatives_ad.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Copy of anomaly_detection (1).pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Manupatra Usecases.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Triple Extraction.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AlgoAnalytics_Information Extraction from Document_v1.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "end to end AI.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Knowledge Graph_20190614-1.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "NTTD_Completed_and_Ongoing_Projects_Since_April_2019 (1).pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "SBI Proposal.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "OneStopAI_Flame1.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "TextSense_May2020_draft3.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Triple_Extraction_Phase_II_Proposal.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "NTTD_Completed_and_Ongoing_Projects_Since_April_2019 (1) (1).pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Big Data 0.1.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Triple_Extraction_Phase_I_Proposal.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Clarity_Proposal.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "TextSense and NLP Capabilities_24Sep2019.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "NTTD-Monday (1).pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Hard_Disk_Removal_Detection.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "NTTD_Japanese_TextSense (1).pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "MotorInsurance_MiddleEast.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "NTTD_Japanese_TextSense (2).pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "NTTD_Japanese_TextSense.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Japanese_TextSense.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "NTTD-Monday.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "NTTD COE July 19.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "RBI-Jul19.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Hard_Disk_Theft_Detection.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "image analytics healthcare.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "NTTD_Knowledge_Graph (1).pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "TextSenseFeaturesv2.0.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "TextSenseFeaturesv2.0 (1).pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Singapore proposal rust.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Results and Analysis for AI models And Approaches Applied.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "NTTD_Knowledge_Graph.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Job Matching Proposal.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Overview of AI-rev2.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AlgoAnalytics_OilandGas.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Slide-for-VW.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Faurecia_phase_1.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Key People Slide.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Model Optimization with Openvino.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Anish_Kulkarni_Status_26Sep2020.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Quantum Computing (2).pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Slide deck 26_09.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Deep Learning on Edge Devices.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "String Segmentation.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Face Recognition Progress.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "VAE.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Private Distributed Deep Learning.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Distributed_Deep_Learning_NTT.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "VGG-AE Summary Presentaion Sept 2020.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Summary - 12 May 2020.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Introduction of analysis methods and AI-related cases（for Algo）.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "DISTRIBUTED DEEP LEARNING.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "ICD Coding.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Introduction of analysis methods and AI-related cases  (JPN).pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Augmented Model Quantitative Results.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Split NN (1).pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "SIG - Meetings Summary.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "NTT DATA Healthcare Solution Powered by Dell Technologies v1.3.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Heatmaps_in_different_way.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "NTT DATA Healthcare Solution Powered by Dell Technologies v1.5.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "data_visualization_company_skills.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Faurecia_March_14.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Faurecia March 4.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "KYC.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Project_overview_EN.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "NvidiaPitchShort.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AlgoProductIncubation-Sayali.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Methodology AI and Machine learning.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Machine to Machine variability call_01.08.19.pptx",
+                        "type": "Presentation file"
+                    }
+                ]
+            },
+            {
+                "name": "AlgoPPT_New",
+                "description": "Description for AlgoPPT_New.",
+                "subfolders": [],
+                "files": [
+                    {
+                        "name": "Equilips 4.0-v1.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Asset development updates.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AlgoFabric overview.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Manufacturing offerings_Algoanalytics_Dec 2022.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Algoanalytics overview_Dec22.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Active projects update_Dec 2022.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Product development updates_Algoanalytics.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Financial services offerings_Algoanalytics_Dec 2022.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Algointro + Product development updates_Dec22.pptx",
+                        "type": "Presentation file"
+                    }
+                ]
+            },
+            {
+                "name": "AlgoPPTOld",
+                "description": "Description for AlgoPPTOld.",
+                "subfolders": [],
+                "files": [
+                    {
+                        "name": "Diseases in cattle.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AI Healthcare.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Diseases in cattle (1).pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Email Categorization_NTTD UK_v4.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Metal detection in Scrap.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Key People Slide.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Recent_Projects.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Job Matching Proposal.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AI Retail.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AI Manufacturing_v1.1.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Slide-for-VW.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Faurecia PPT April.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Results and Analysis for AI models And Approaches Applied.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "TextSenseFeaturesv2.0.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "17_00-Dima-Panchenko-cnn-tips-and-tricks.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Welding Feb 26.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Manufacturing pitch.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Faurecia_phase_1.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "A2-VW.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AI BFSI.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AI Insurance.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AlgoAnalytics_Overview-jan19.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "A2IoT-pitch-rev0.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AlgoAnalytics_Overview_Feb19.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "A2IoT-Launchpad-Jan2018.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AI Manufacturing.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Manufacturing_AI_NTTD.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "NTT DATA - Analytics and AI Practice Overview.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Manufacturing_DD.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AirLiquid_AlgoAnalytics_v1.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "A2IoT-overview-April-2018.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "ML_Manufacturing.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "A2IoT-Faurencia-v2.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "A2IoT-Jan2018.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "A2IoT-Cisco Launchpad-rev1.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "A2IoT-product-plan.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "A2ioT-presentation-Nexus (1).pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "A2IoT-Profile and Strategy-Rev7 (1).pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AA_Faurecia_June5_ver2.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "A2IoT-Cisco Launchpad Summary.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "A2IoT-venture deck-July 2017.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "A2ioT-presentation-Nexus.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "A2IoT-Profile and Strategy-Rev7.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Predictive & AML.PPTX",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "A2IoT-Cisco Launchpad-rev0.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Advanced Analytics.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "FAQT.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AA_LegalAnalytics (1).pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AA_RETAIL_Edited.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AI Workshop Agenda.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AI Ideas for Bandai v1.5.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AI Ideas v1.5.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AI Ideas for Bandai v1.4.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Faurecia_March_14.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "20181105_Email Assistant Architecture and Schedule(EN) (1).pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "FAQT Feb 26.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Faurecia March 4.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "20181105_Email Assistant Architecture and Schedule(EN).pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AI Ideas for Bandai v1.2.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AA_Overview_svbrdf.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AI Proposal for Bandai v0.9.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "SmartMedViewerDS_v0.2.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "SmartMedViewerDS.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AA_Retailbroking_Final.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Discussion with Aniruddha.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "SmartMedViewerDS_v0.1.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Healthcare_analytics.pptx.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Diabetic Retinopathy Detection Final.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Diabetic Retinopathy Detection (Deep Learning).pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AA_Image_Analytics.pptx.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AA-MSFT-PROFILE.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AI_In_Radiology_ver0.2.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Visualization.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "ForBNY.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AA_NBFC_INDIABULLS.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Mutual Funds Products.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "RetailBrokingAnalytics1.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "BNYV1.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "BNYV4.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "HDFCsec_retailbroking.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Mutual Funds Product.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AA_Aplava.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Medicalimagediagnos.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AA_NBFC_INDIABULLS (1).pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "BFSI.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Banking.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "PuneUnivTalk.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Healthcare.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "BankingforKotak.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "BNYV2.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Kotak Dormancy.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "ATT_extraslides.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AAMarketingintro.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "ChurnRecommender.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "ATT PPT.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "RM_Analytics.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AA_Insurance_final.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Kotak Dormancy17.07.16.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AAMarketinging.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AADS.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "DataScience.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "HealthcareRevenue.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AA_DSBrief.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "NBFCAnalytics1.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "K2.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AA_PLUG.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AA_TextAnalytics.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "ForWebpage.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "NBFCAnalyticsFinal.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AA_Insurance_vf.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "NBFCANALYTICSHL.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "FullSet.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AA_NBFCHL_Final.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AA_RETAIL.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Kohls_AA_DataAnalyticsSolutions.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Zensar_InsuranceAnalytics.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AA_DataAnalyticsSolutions.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Anand Rathi.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AA_CaseStudies.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AA_Insurance.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Insurance.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Xoriant_AA.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Broking - IIFL.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AA_SocialMedia.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Deep-Learning (Convolutional Neural Networks).pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AA_H2O.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AA_facebook_kaggle4.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Glenmark.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AA_Churn Prediction_marketing.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AA_SocialMedia_v1.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "DataScience@Xoriant.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AA_TextAnalytics_IIFL_v2.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AAHealthcare.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AAMarketing-BrainMRI.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Screenshots.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "TwitterAnalytics_AAMarketing.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Customer Presentation - Intro.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AAMarketing-GE.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "MATI_AAMarketing.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "RiskScoreModelling_AAMarketing.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AAMarketing.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "RetailBrokingAnalytics.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Diabetic Retinopathy Detection.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AssistedLiving_AAMarketing.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Cueris – go forward conversation.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Cueris Intro (DRAFT) Revised by Suhas.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Brokerage16Feb.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "analytics@xoriant.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AAportfolioMarketingV2.0.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AutoIntel@AlgoAnalytics.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AAEquity (2015_09_26 07_08_02 UTC).pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Marketing (2015_09_26 07_08_02 UTC).pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "clickstream_analytics_slides.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AA_HealthcarePPT.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AABrokerage.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Broking.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "InsuranceAnalytics.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Kohls_AA_v2.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Xoriant_AACaseStudies.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AAMarketing_consolidated.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AAMarketing_Ugam.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Kohls_AA_CaseStudies.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "BigDataAnalytics.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AAMarketing_consolidated_withNewCaseStudies.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AA (2015_09_26 07_08_02 UTC).pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AAMarketing_IISER.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Welding.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Xoriant Data Management Offering Portfolio v2.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Xoriant Data Science.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Swiss_Re_tcs (2015_09_26 07_08_02 UTC).pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "jenny-ner-2007.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Conf (2015_09_26 07_08_02 UTC).pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Cap Metrics - Quant - ver 5 (2015_09_26 07_08_02 UTC).pptx",
+                        "type": "Presentation file"
+                    }
+                ]
+            },
+            {
+                "name": "AlgoPPT",
+                "description": "Description for AlgoPPT.",
+                "subfolders": [],
+                "files": [
+                    {
+                        "name": "UseCases-20191121_all_ForDeepTek.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "OneStopSCIT.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "OneStopFT.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "OneStopAI.TIE.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "OneStopAI.Group.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "OneStopAI_NTTDIndia.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "OneStop.AI.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "OneStop_KN.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "OneStop_Fukuoka.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "PresalesDiscussions.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Strategy.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "SudOfffer.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Response - A2 AA offer summary v1.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "SudFeedback.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "SeemerFeedback.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "SampleFormat.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "SmartCCTV.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Technologies.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Profile.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "SmartCCTV1.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "RBI-Proposal.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "OneStopClientPartners.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "OneStopAIProductsBrief.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "TextSenseFeaturesv2.0.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Signature Verification.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Recent_Projects.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "A2IoT-Manufacturing.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "OurTeam.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Signature Verification_Solution_v1.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "OneStopAI.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "OneStopAI.BFSI.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "SIG_VAD (3).pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "OneStopAI_Xoriant.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "OneStopAIProducts.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Market Research.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "OneStopAI_Products.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "OneStopAI_FlameCollaboration.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "TextSense-2.2_v2.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "OneStopAI_Lazar.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "OneStopAI_MIT.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Market Research Plan.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "OneStopAI_BFSI.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "OneStopAI_NTTD.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "OneStopAI_ProductsPICT.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "PDFInformationExtraction.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "OneStopAI_Sigma.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "LastSlides.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "JayFeedback.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "IIFL Problems.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "OneStopAI_Manufacturing.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "NTTD COE.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Metal detection in Scrap.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Interns.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Icertis_One-Slide.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "OneStopAI_IISER.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "OneStopAI_Healthcare.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "OneStop.AI_PKC.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "OneStopAI_Indegene.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "NTTD June visit.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "OneStop.AI-Healthcare.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Icertis_One-Slide_PR_17Dec2020.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Karandikar.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "OneStopAI_Amit.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Important Projects.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "OneStop.AI_WV.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "OneStopAI_GHV.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "FAQT Review.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Icertis Intern Program + BOT.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Healthtech.AI.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Data_Safe_Haven_Project_Plan_20180801.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Icertis.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Build&Operate_for_Xoriant.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Manufacturing.AI.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "GAN.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Aritar-Concern.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Asquared_Valecha.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "OneStopAI_Flame1.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Ame-San.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "BIGDataSlides.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "KnowledgeGraphTextSense.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AlgoVision and PreSales Plan.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "DeepTekDeck.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "CVProjects.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "ISBIS2020.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Big Data v2.0 Jan 2020.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "KYC_Mar2021.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AlgoVision and PreSales Plan_v1.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AlgoUpdate_G2_unlinked.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Big Data Sudarshan.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AlgoUpdate_ver2.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "BA_Brief.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AlgoJourney.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "OneStop.AI_AutoInsurance.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "CCTVSomeslides.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AlgoMVP_Financials.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Fintech.AI.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AlgoProductIncubation.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AlgoUpdate.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AlgoMVP_15Jan21.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Computer Vision Use Cases (4).pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "NTT DATA - Analytics and AI Practice Overview.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AlgoAnalytics Plan for Business.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "InsurTech.AI.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AlgoShort_IndianServices.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AlgoInitiatives.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AlgoShort.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Aniruddha_Insurance.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AlgoMVPNTTDATA.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Inventory Management using AI .pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Algo.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AlgoAnalytics_Smart-Manuf_SIG_Presentation_Summary.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AlgoAnalytics_NLP_SIG.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Algo-FABRIC.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AlgoFinPlan.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Algo_ProductBrief.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AlgoMVP.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AlgoInitiatives_KuniSan.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Computer Vision AA.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AlgoMVP_Sudhanshu.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AlgoAnalytics_NLP SIG Tech Community_25May2020_v1 (1).pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AI Survery for APAC markts.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AI_in_India.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "A2 AA options.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AlgoMVP_Intellilink.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Algo_IdeasToMVP_v1.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AGPProfile.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "A2 nvest ppt.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AIProductMVPs.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AI_in_India_v2.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "A2 nvest v3.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Algo-FABRIC_v1.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AlgoAnalytics_NLP Projects and Platform_12Jun2020_v1.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AI Strategy and AI Services_12Nov2020_v1.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AIMarketIndia.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "A2 nvest v2.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Algo_OneStopAI.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AI Manufacturing.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AI in Healthcare_draft2.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AI StockBroking Algo.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AlgoAnalytics_Overview_Feb19.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Afewslides.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AlgoShort_V2_December2020.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AI Retail.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AI Manufacturing-Ford-June-2019.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AI Insurance Aug19.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AA-DT.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AI Insurance.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AI BFSI.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "3DModelRelevantWork.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "3DModel.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AAOverview.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "State of AI Report 2020 - ONLINE.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Smart CCTV Survey.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Photo ID Verification with techical details v2.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "VideoAnomaly.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Tech-Community-Summary-20210126_v1.0.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "OneStopAI_CVSIG.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "OneStopAI_Products_Intellilink.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Fashion AI business model.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "DeepTekGroup.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Honeywell_Presentation_Aksha_22Mar2021.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "KYC.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AICOE updates 06.12.2020.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AI COE Update .pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Aksha.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Aksha Presentation 12 Apr 2021.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "TextSenseFeaturesv3.0.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AlgoShortNTTDATA.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "NumericalAnalytics.pptx",
+                        "type": "Presentation file"
+                    }
+                ]
+            },
+            {
+                "name": "Algo_Contents_FY_24_25",
+                "description": "Description for Algo_Contents_FY_24_25.",
+                "subfolders": [],
+                "files": [
+                    {
+                        "name": "InsightEdge_Dec_12_2024_v2.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Our Work _ Welding.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Project_Summaries_Jan2025_v1.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AlgoCreator_Feb_2025_(updated).pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "NDBS - UC1 Training Document v1.0 [2025.02.26].pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Production Level Deployments by Algoanalytics (March 2025).pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AI Agent System Research_Deliverable by Algo_March 28, 2025.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "NDIL Demo Site_ Report_March 28, 2025.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Agentic_AI_Executive_Summary(D&I)_March_2025.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AIAgentSystem_Executive_Summary_March_2025.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Agentic_AI_Project Report(D&I)_March_2025.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "NDBS - UC2 Training Document v1.0 [2025.01.24].pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AlgoAnalytics deck for UK_Europe.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Presentation Deck for Vodafone.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Digital Twin Explanation_Sept_25_2024.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Insurance Fraud Detection_2024 for business.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "SLMs Slides for NTT Data.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Algoanalytics Gen AI Capability overview.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "ML_Consultancy_Updates_ Algo_(March 14, 2024).pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Federated Learning - Project Overview.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Digital Twin - Project Overview.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AI for Insurance Demo.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Manufacturing capabilities_AlgoAnalytics_Aug_24_v3.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Financial services offerings_Algoanalytics_Aug 2024.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AlgoAnalytics_Healthcare and Pharma_overview.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AlgoAnalytics overview_NDIL_Feb 24.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AlgoFabric_TS_updates.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AI_ML on Cloud-Final.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AlgoFabric overview_Deck_oct_24.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Aksha_Overview_Deck_Oct_2024.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Algoanalytics Gen AI Capability overview_Jan2025.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Generative AI in FinTech_AGP Talk.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "AlgoAnalytics - LLM .pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Retriever.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "LLM Assessment Examples.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Anthropic_meeting (1).pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "D&I Project_flowcharts2.pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Summary Report MOTAS(Jan2025-Mar2025).pptx",
+                        "type": "Presentation file"
+                    },
+                    {
+                        "name": "Report MOTAS(Jan2025-Mar2025).pptx",
+                        "type": "Presentation file"
+                    }
+                ]
+            }
+        ],
+        "files": []
+    },
+    "first_level_folders": [
+        "AlgoPPTOld",
+        "AlgoPPT_New",
+        "Algo_Contents_FY_24_25",
+        "AlgoFromDownload",
+        "AlgoPPT"
+    ]
+}

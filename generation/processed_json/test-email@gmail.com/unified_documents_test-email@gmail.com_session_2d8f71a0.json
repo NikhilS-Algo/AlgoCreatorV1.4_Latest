@@ -1,0 +1,171 @@
+{
+  "documents": [
+    {
+      "doc_id": "Digital Twin - Project Overview",
+      "doc_type": "pptx",
+      "units": [
+        {
+          "index": 0,
+          "unit_type": "slide",
+          "text": [
+            "DIGITAL TWIN",
+            "Project Overview\n13th March 2024"
+          ],
+          "images": []
+        },
+        {
+          "index": 1,
+          "unit_type": "slide",
+          "text": [
+            "Overview & Timeline",
+            "2"
+          ],
+          "images": []
+        },
+        {
+          "index": 2,
+          "unit_type": "slide",
+          "text": [
+            "NDIL Project",
+            "Timeline: June 23 to March 24\n(Phase 1 to 3)",
+            "3"
+          ],
+          "images": []
+        },
+        {
+          "index": 3,
+          "unit_type": "slide",
+          "text": [
+            "Objective\nBuild capabilities on NVIDIA Omniverse platform\nDetecting faults and changing the visual of related parts of Electric circuit with 4 sub-circuit connected to each other\nMain Features\nDefinitions of each part of electrical circuit is stored in predefined master data using python\nThe detailed information of errors induced in the electric circuit are stored in log files\nAlert signals for the parts having defects or showing anomaly \nCustom format for defect visualization\nText Alert\nColor change of the component",
+            "4",
+            "Digital Twin: Phase 1 (June 2023 to September 2023)",
+            "Electric circuit (Raw 3D Model)",
+            "Electric circuit (Digital Twin Model)"
+          ],
+          "images": [
+            "images/test-email@gmail.com/temp_uploads/session_2d8f71a0/img_test-email@gmail.com_session_2d8f71a0_004e0747_unit3_img0_a1b22c.png",
+            "images/test-email@gmail.com/temp_uploads/session_2d8f71a0/img_test-email@gmail.com_session_2d8f71a0_004e0747_unit3_img1_40166d.png"
+          ]
+        },
+        {
+          "index": 4,
+          "unit_type": "slide",
+          "text": [
+            "Digital Twin: Phase 2 (October 2023 to December 2023)",
+            "Objective:\nImplementation of the navigation of 3D primitives such  Position Marker and Human character, which acquires coordinates in real time (JSON file input) and navigates these primitives in the direction of those coordinates",
+            "5",
+            "Main Features of the Experiment:\nSupport for input of X, Y, and Z coordinates\nIndividual navigation of primitives\nNavigation of multiple primitives at the same time\nSpeed can be set dynamically (input from user) for Position Marker"
+          ],
+          "images": []
+        },
+        {
+          "index": 5,
+          "unit_type": "slide",
+          "text": [
+            "Experimentation:\nFor Human Character, setting up the speed dynamically \nAnimation of multiple Human Characters in Real World scenario\nExploration of Issac Sim for Human character animation (instead of using USD composer)\nExploration of the possibility to integrate with simulation functions to perform animations according to the terrain without speed settings input",
+            "6",
+            "Digital Twin: Phase 3.1 (January 2024 to February 2024)"
+          ],
+          "images": [
+            "images/test-email@gmail.com/temp_uploads/session_2d8f71a0/img_test-email@gmail.com_session_2d8f71a0_004e0747_unit5_img0_edfa46.png"
+          ]
+        },
+        {
+          "index": 6,
+          "unit_type": "slide",
+          "text": [
+            "Integrated Navigation Demo",
+            "7"
+          ],
+          "images": []
+        },
+        {
+          "index": 7,
+          "unit_type": "slide",
+          "text": [
+            "8",
+            "Digital Twin: Phase 3.1 (January 2024 to February 2024)",
+            "Objective: \nCustomize the Markup function in USD Composer for two scenarios: either Facilities (3D primitives) and comments/logs are linked or they are not",
+            "Main Features:\nDisplay two separate windows for log/comment file content as the facilities are clicked\nUI Buttons to open log/comment file\nLog/comment file can be edited and changes are reflected in respective windows\nFetch the comment made for each markup and rename thumbnail in specific format"
+          ],
+          "images": []
+        },
+        {
+          "index": 8,
+          "unit_type": "slide",
+          "text": [
+            "9",
+            "Digital Twin: Phase 3.2 (Work in progress)",
+            "Objective: \nResearch on AR functionality on Omniverse \nImplementation of AR navigation on Omniverse"
+          ],
+          "images": [
+            "images/test-email@gmail.com/temp_uploads/session_2d8f71a0/img_test-email@gmail.com_session_2d8f71a0_004e0747_unit8_img0_e4041c.png"
+          ]
+        },
+        {
+          "index": 9,
+          "unit_type": "slide",
+          "text": [
+            "AlgoAnalytics Internal Work",
+            "Timeline: Nov 23 to Dec 23",
+            "10"
+          ],
+          "images": []
+        },
+        {
+          "index": 10,
+          "unit_type": "slide",
+          "text": [
+            "AlgoAnalytics Internal Work (Azure Digital Twin)",
+            "Objectives\nBuild capabilities on the Azure Digital Twin (ADT) platform\nExperimentation of Real Life scenarios in ADT\nExperiments: Real Life Scenario\nExperiment #1: Cheese Factory\n The objective is to provide alerts based on Temperature & Humidity for each of the three caves of the factory\nExperiment #2: Wind Farm\n The objective is to evaluate wind turbine performance against expected thresholds",
+            "Cheese Factory",
+            "Wind Farm",
+            "ADT Architecture"
+          ],
+          "images": [
+            "images/test-email@gmail.com/temp_uploads/session_2d8f71a0/img_test-email@gmail.com_session_2d8f71a0_004e0747_unit10_img0_5f81b6.png",
+            "images/test-email@gmail.com/temp_uploads/session_2d8f71a0/img_test-email@gmail.com_session_2d8f71a0_004e0747_unit10_img1_b129cc.png",
+            "images/test-email@gmail.com/temp_uploads/session_2d8f71a0/img_test-email@gmail.com_session_2d8f71a0_004e0747_unit10_img2_ab34c2.png",
+            "images/test-email@gmail.com/temp_uploads/session_2d8f71a0/img_test-email@gmail.com_session_2d8f71a0_004e0747_unit10_img3_4fae24.png"
+          ]
+        },
+        {
+          "index": 11,
+          "unit_type": "slide",
+          "text": [
+            "Azure DT Demo 1 (Cheese Factory)",
+            "12"
+          ],
+          "images": []
+        },
+        {
+          "index": 12,
+          "unit_type": "slide",
+          "text": [
+            "Azure DT Demo 1 (Wind Farm)",
+            "13"
+          ],
+          "images": []
+        },
+        {
+          "index": 13,
+          "unit_type": "slide",
+          "text": [
+            "Key Learnings",
+            "Detailed understanding of Digital Twin technology\nBuilt capabilities on NVIDIA Omniverse platform\nHands-on experience building real-life Digital Twin scenario\nElectrical Circuit Simulation\nHuman Character Simulation\nAugmented Reality Simulation\nBuild capabilities on Azure Digital Twin\nHands-on experience building real-life Digital Twin scenario\nCheese Factory Simulation\nWind Farm Simulation",
+            "14"
+          ],
+          "images": []
+        },
+        {
+          "index": 14,
+          "unit_type": "slide",
+          "text": [
+            "Thank You!"
+          ],
+          "images": []
+        }
+      ]
+    }
+  ]
+}

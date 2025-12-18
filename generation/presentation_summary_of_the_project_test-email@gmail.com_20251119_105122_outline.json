@@ -1,0 +1,133 @@
+{
+  "presentation_title": "Summary of the Project",
+  "total_slides": 6,
+  "presentation_style": "professional",
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_title": "Summary of the Project",
+      "slide_type": "title",
+      "key_points": []
+    },
+    {
+      "slide_number": 2,
+      "slide_title": "Project Overview",
+      "slide_type": "content",
+      "key_points": [
+        "Introduction to the project focusing on AI-based solutions for retail applications.",
+        "Utilization of both open-source and closed-source frameworks to enhance flexibility and performance.",
+        "Objective: Streamline customer interactions and improve operational efficiency."
+      ]
+    },
+    {
+      "slide_number": 3,
+      "slide_title": "Key Features",
+      "slide_type": "content",
+      "key_points": [
+        "Efficient summarization of customer-service agent interactions for better clarity.",
+        "Support for diverse data formats, enabling seamless data management and insights extraction.",
+        "Sentiment analysis tools designed to enhance customer satisfaction and loyalty."
+      ]
+    },
+    {
+      "slide_number": 4,
+      "slide_title": "Knowledge Management",
+      "slide_type": "content",
+      "key_points": [
+        "Development of a quick-access knowledge base for employees.",
+        "Organizing unstructured data (documents, procedures, FAQs) for improved accessibility.",
+        "Facilitating knowledge sharing and collaboration within the organization."
+      ]
+    },
+    {
+      "slide_number": 5,
+      "slide_title": "Customization and Scalability",
+      "slide_type": "content",
+      "key_points": [
+        "Current accelerators are designed for easy customization to meet specific client needs.",
+        "Scalable solutions that can grow alongside business requirements.",
+        "Flexibility to adapt to various retail environments and operational challenges."
+      ]
+    },
+    {
+      "slide_number": 6,
+      "slide_title": "Business Value and Impact",
+      "slide_type": "content",
+      "key_points": [
+        "Enhancement of customer experience leading to increased loyalty and retention.",
+        "Improved operational efficiency resulting in cost savings and higher productivity.",
+        "Strategic advantage in the competitive retail landscape through innovative AI solutions."
+      ]
+    }
+  ],
+  "user_id": "test-email@gmail.com",
+  "search_mode": "uploaded_only",
+  "generation_timestamp": "2025-11-19T10:51:22.113057",
+  "retrieved_chunks_metadata": [
+    {
+      "chunk_id": "text_slide_AI Companion _2_chunk_0_session_d25abb9f",
+      "source_document": "AI Companion ",
+      "similarity_score": 0.3261,
+      "content_preview": "Our Work  ‹#›  ‹#›",
+      "content_length": 18,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_AI Companion _5_chunk_0_session_d25abb9f",
+      "source_document": "AI Companion ",
+      "similarity_score": 0.3046,
+      "content_preview": "Our Gen AI based accelerators for Retail based applications   ‹#› We use a combination of Open-source and Closed-source frameworks to build these applications https://apps.onestop.ai/llm-dashboard/ Ef...",
+      "content_length": 712,
+      "chunk_type": "text_chunk"
+    }
+  ],
+  "total_retrieved_chunks": 2,
+  "content_richness_metrics": {
+    "total_content_slides": 5,
+    "total_key_points": 15,
+    "average_points_per_slide": 3.0,
+    "slides_with_rich_content": 5,
+    "richness_ratio": 1.0
+  },
+  "content_richness": "medium",
+  "character_metrics": {
+    "2": {
+      "total_characters": 278,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "3": {
+      "total_characters": 265,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "4": {
+      "total_characters": 238,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "5": {
+      "total_characters": 260,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "6": {
+      "total_characters": 273,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    }
+  },
+  "character_summary": {
+    "slides_within_range": 5,
+    "total_content_slides": 5,
+    "compliance_ratio": "100.0%",
+    "average_characters_per_slide": 262,
+    "bullet_point_variation": "3-3 points per slide",
+    "variation_quality": "LOW VARIATION"
+  }
+}

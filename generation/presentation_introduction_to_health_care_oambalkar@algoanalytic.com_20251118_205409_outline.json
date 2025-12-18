@@ -1,0 +1,253 @@
+{
+  "presentation_title": "Introduction to Health Care",
+  "total_slides": 10,
+  "presentation_style": "professional corporate",
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_title": "Introduction to Health Care",
+      "slide_type": "title",
+      "key_points": []
+    },
+    {
+      "slide_number": 2,
+      "slide_title": "The Role of AI in Healthcare",
+      "slide_type": "content",
+      "key_points": [
+        "AI technologies are transforming patient care through enhanced data analysis.",
+        "Applications include predictive analytics for patient outcomes and personalized treatment plans.",
+        "AI-driven chatbots improve patient engagement by providing instant medical information."
+      ]
+    },
+    {
+      "slide_number": 3,
+      "slide_title": "Healthcare and Pharma Overview",
+      "slide_type": "content",
+      "key_points": [
+        "The healthcare sector is increasingly reliant on data-driven insights for decision-making.",
+        "Pharmaceutical companies leverage AI for drug discovery and market analysis.",
+        "Case studies demonstrate successful AI implementations in improving operational efficiencies."
+      ]
+    },
+    {
+      "slide_number": 4,
+      "slide_title": "Case Studies in Healthcare AI",
+      "slide_type": "content",
+      "key_points": [
+        "Successful AI applications have led to reduced operational costs and improved patient outcomes.",
+        "Examples include AI in medical imaging and clinical decision support systems.",
+        "Insights from case studies highlight best practices and lessons learned."
+      ]
+    },
+    {
+      "slide_number": 5,
+      "slide_title": "Evolution of AI in Healthcare",
+      "slide_type": "content",
+      "key_points": [
+        "The evolution of AI has been marked by exponential increases in computing power and data availability.",
+        "Key milestones include the introduction of MYCIN in the 1970s and FDA-approved AI applications in recent years.",
+        "Current trends show a rise in generative AI applications for diagnostics and patient interaction."
+      ]
+    },
+    {
+      "slide_number": 6,
+      "slide_title": "Applications of LLMs in Healthcare",
+      "slide_type": "content",
+      "key_points": [
+        "Large Language Models (LLMs) enhance medical transcription and EHR management.",
+        "They support clinical decision-making by providing real-time data analysis.",
+        "LLMs also facilitate patient engagement through conversational AI interfaces."
+      ]
+    },
+    {
+      "slide_number": 7,
+      "slide_title": "Next-Gen Technologies in Healthcare",
+      "slide_type": "content",
+      "key_points": [
+        "AI for Cloud enables scalable healthcare solutions with improved data management.",
+        "Applications include automated patient condition prediction and NLP for clinical notes.",
+        "Generative AI and federated learning are paving the way for innovative healthcare applications."
+      ]
+    },
+    {
+      "slide_number": 8,
+      "slide_title": "ICD Coding Assistant Using NLP",
+      "slide_type": "content",
+      "key_points": [
+        "NLP methodologies streamline the ICD coding process, enhancing coder productivity.",
+        "The solution minimizes errors, reducing the risk of audits related to coding inaccuracies.",
+        "Empowers healthcare providers with accurate coding, improving billing and reimbursement processes."
+      ]
+    },
+    {
+      "slide_number": 9,
+      "slide_title": "Patient Knowledge Graphs",
+      "slide_type": "content",
+      "key_points": [
+        "Knowledge graphs transform unstructured patient data into actionable insights.",
+        "They facilitate personalized care by enabling healthcare providers to query patient histories effectively.",
+        "This technology enhances decision-making and improves overall patient management."
+      ]
+    },
+    {
+      "slide_number": 10,
+      "slide_title": "Conclusion and Future Directions",
+      "slide_type": "content",
+      "key_points": [
+        "The integration of AI in healthcare is set to revolutionize patient care and operational efficiency.",
+        "Future advancements will focus on ethical AI use, data privacy, and enhancing patient experience.",
+        "Organizations must adapt to these changes to remain competitive in the evolving healthcare landscape."
+      ]
+    }
+  ],
+  "user_id": "oambalkar@algoanalytic.com",
+  "search_mode": "uploaded_only",
+  "generation_timestamp": "2025-11-18T20:54:00.717834",
+  "retrieved_chunks_metadata": [
+    {
+      "chunk_id": "text_slide_AlgoAnalytics_Healthcare and Pharma_overview_3_chunk_0_session_30fc970a",
+      "source_document": "AlgoAnalytics_Healthcare and Pharma_overview",
+      "similarity_score": 0.3964,
+      "content_preview": "AI in Healthcare Our work and Offerings",
+      "content_length": 39,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_AlgoAnalytics_Healthcare and Pharma_overview_0_chunk_0_session_30fc970a",
+      "source_document": "AlgoAnalytics_Healthcare and Pharma_overview",
+      "similarity_score": 0.3908,
+      "content_preview": "Healthcare and Pharma overview Our Expertise and Case Studies",
+      "content_length": 61,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_AlgoAnalytics_Healthcare and Pharma_overview_16_chunk_0_session_30fc970a",
+      "source_document": "AlgoAnalytics_Healthcare and Pharma_overview",
+      "similarity_score": 0.3662,
+      "content_preview": "Case Studies Our past work with Healthcare and Pharma organizations",
+      "content_length": 67,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_AlgoAnalytics_Healthcare and Pharma_overview_12_chunk_0_session_30fc970a",
+      "source_document": "AlgoAnalytics_Healthcare and Pharma_overview",
+      "similarity_score": 0.3591,
+      "content_preview": "AlgoMed : Healthcare Chat Assistant Objective Data : BioASQ data consists of PubMed Articles and extracts over many medical topics. Framework : LangChain Index : Character Text Splitter, Hugging Face ...",
+      "content_length": 650,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_AlgoAnalytics_Healthcare and Pharma_overview_4_chunk_0_session_30fc970a",
+      "source_document": "AlgoAnalytics_Healthcare and Pharma_overview",
+      "similarity_score": 0.3524,
+      "content_preview": "Evolution of AI in Healthcare Exponential increase in computing power Growth of genomic sequencing database Widespread implementation of Electronic Medical Record (EMR) Systems Enhancements in Natural...",
+      "content_length": 749,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_AlgoAnalytics_Healthcare and Pharma_overview_9_chunk_0_session_30fc970a",
+      "source_document": "AlgoAnalytics_Healthcare and Pharma_overview",
+      "similarity_score": 0.3446,
+      "content_preview": "LLMs are finding Applications in every Healthcare Segment Subject to risks such as.. Data privacy concerns Embedded bias Robustness Synthetic data Explainability Healthcare chatbots Medical Transcript...",
+      "content_length": 419,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_AlgoAnalytics_Healthcare and Pharma_overview_5_chunk_0_session_30fc970a",
+      "source_document": "AlgoAnalytics_Healthcare and Pharma_overview",
+      "similarity_score": 0.3202,
+      "content_preview": "Offerings for Healthcare and Pharma ‹#› ‹#›   Next-Gen Technologies AI for Cloud AI application development for Cloud ML Ops and Data Ops ML services in Cloud AI-based Process Automation Medical terms...",
+      "content_length": 691,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_AlgoAnalytics_Healthcare and Pharma_overview_18_chunk_0_session_30fc970a",
+      "source_document": "AlgoAnalytics_Healthcare and Pharma_overview",
+      "similarity_score": 0.3121,
+      "content_preview": "ICD Coding Assistant using NLP ‹#›   Automatically suggest appropriate ICD codes based on medical records of the patient Medical Text Sentences ICD-10 Coding Book NLP Methodologies (Classification & E...",
+      "content_length": 473,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_AlgoAnalytics_Healthcare and Pharma_overview_25_chunk_0_session_30fc970a",
+      "source_document": "AlgoAnalytics_Healthcare and Pharma_overview",
+      "similarity_score": 0.3049,
+      "content_preview": "Patient Knowledge Graph ‹#›   Extract patient history and diagnosis from unstructured text to structured data format viz. knowledge graph. Enables to find the insights for individual patient as well a...",
+      "content_length": 390,
+      "chunk_type": "text_chunk"
+    }
+  ],
+  "total_retrieved_chunks": 9,
+  "content_richness_metrics": {
+    "total_content_slides": 9,
+    "total_key_points": 27,
+    "average_points_per_slide": 3.0,
+    "slides_with_rich_content": 9,
+    "richness_ratio": 1.0
+  },
+  "content_richness": "medium",
+  "character_metrics": {
+    "2": {
+      "total_characters": 288,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "3": {
+      "total_characters": 289,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "4": {
+      "total_characters": 273,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "5": {
+      "total_characters": 339,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "6": {
+      "total_characters": 264,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "7": {
+      "total_characters": 298,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "8": {
+      "total_characters": 300,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "9": {
+      "total_characters": 289,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "10": {
+      "total_characters": 330,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    }
+  },
+  "character_summary": {
+    "slides_within_range": 9,
+    "total_content_slides": 9,
+    "compliance_ratio": "100.0%",
+    "average_characters_per_slide": 296,
+    "bullet_point_variation": "3-3 points per slide",
+    "variation_quality": "LOW VARIATION"
+  }
+}

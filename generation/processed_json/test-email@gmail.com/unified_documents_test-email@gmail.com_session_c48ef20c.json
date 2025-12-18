@@ -1,0 +1,57 @@
+{
+  "documents": [
+    {
+      "doc_id": "Autonomous_cars_Tech",
+      "doc_type": "docx",
+      "units": [
+        {
+          "index": 0,
+          "unit_type": "section",
+          "text": [
+            "The Road to Autonomy: Technical and Ethical Challenges in Autonomous Vehicle Development",
+            "Autonomous vehicles (AVs) represent a disruptive technology poised to redefine transportation, promising a future of reduced traffic congestion, optimized fuel efficiency, and, most crucially, a dramatic decrease in accident rates attributed to human error. However, the path to achieving widespread, fully autonomous, and safe driving capability (Level 5 autonomy) is fraught with significant technical, legal, and ethical hurdles. Developing a machine capable of navigating the unpredictable complexity of the real world—a domain governed by social cues, ambiguous situations, and environmental variance—requires overcoming challenges that extend far beyond simple engineering.",
+            "The Challenge of Sensor Fusion and Perception",
+            "The foundation of any self-driving system is its ability to accurately perceive its environment, a function executed through a suite of advanced sensors, including LiDAR, radar, and high-resolution cameras. While each sensor provides unique data—LiDAR for precise 3D mapping, radar for velocity and distance, and cameras for classification and color detail—no single sensor is infallible. Rain, fog, or snow can blind cameras; bright sunlight can degrade LiDAR performance; and radar lacks the resolution for detailed object classification. The primary technical challenge lies in sensor fusion: merging these disparate data streams in real-time to create a consistent, reliable, and holistic environmental model."
+          ],
+          "images": [
+            "images/test-email@gmail.com/temp_uploads/session_c48ef20c/img_test-email@gmail.com_session_c48ef20c_186c528d_unit0_img0_66b7b2.jpg",
+            "images/test-email@gmail.com/temp_uploads/session_c48ef20c/img_test-email@gmail.com_session_c48ef20c_186c528d_unit0_img1_a79c13.png",
+            "images/test-email@gmail.com/temp_uploads/session_c48ef20c/img_test-email@gmail.com_session_c48ef20c_186c528d_unit0_img3_308912.png"
+          ]
+        }
+      ]
+    },
+    {
+      "doc_id": "Natural Language Processing",
+      "doc_type": "pdf",
+      "units": [
+        {
+          "index": 0,
+          "unit_type": "page",
+          "text": [
+            "Natural Language Processing (NLP) is a branch of artificial intelligence (AI) that helps  computers understand, interpret, and generate human language. It combines principles from  computational linguistics, machine learning, and deep learning to process vast amounts of  unstructured text and speech data. NLP is used in many common applications, including virtual  assistants like Siri and Alexa, search engines, and automated customer service chatbots. Key  techniques in NLP Preprocessing Before language can be analyzed, it must be cleaned and  prepared in a process called text preprocessing. The goal is to transform raw text into a  consistent, structured format that a machine learning model can understand. Common  preprocessing techniques include: Tokenization: The text is split into smaller units, or \"tokens.\"  These can be individual words, subwords, or sentences. For example, the sentence \"I'm a  computer\" would be broken into the tokens ['I', \"'m\", 'a', 'computer']. Stop word removal:  Common words that don't add significant meaning, such as \"the,\" \"is,\" and \"a,\" are removed to  reduce noise. Stemming and lemmatization: These techniques reduce words to their root form.  Stemming works by simply trimming word endings (e.g., \"running\" becomes \"run\"), while  lemmatization uses vocabulary and morphological analysis to find the correct base word, or  lemma (e.g., \"better\" becomes \"good\"). Case normalization: All text is converted to a standard  case, typically lowercase, so that words like \"Apple\" and \"apple\" are treated the same. Analysis  After preprocessing, the text is analyzed using a variety of techniques to derive meaning.  Part-of-Speech (POS) tagging: The algorithm labels each word with its grammatical function,  such as noun, verb, or adjective, based on its context. Named Entity Recognition (NER):  Specific entities in the text are identified and classified into predefined categories, such as  people, organizations, locations, and dates. Word sense disambiguation (WSD): This technique  determines the correct meaning of a word with multiple possible interpretations by analyzing its  context. For example, a WSD model can distinguish the word \"bank\" in \"river bank\" versus  \"savings bank.\" Dependency parsing: The grammatical structure of a sentence is analyzed to  find the relationships between words. This helps a machine understand how words modify and  relate to each other. Feature extraction and representation: NLP converts text into numerical  representations so that machine learning models can process it. Techniques include:  Bag-of-Words (BoW): This simple method represents text as an unordered collection of word  frequencies, ignoring grammar and order. TF-IDF: This statistical measure evaluates how  relevant a word is to a document in a collection. It scores words based on frequency within a  single document versus across the entire dataset. Word embeddings: These advanced  techniques, such as Word2Vec or GloVe, map words to dense numerical vectors, capturing  semantic relationships. For example, the vectors for \"king\" and \"queen\" would be closer to each  other than to \"car\". Machine learning and deep learning Modern NLP relies heavily on machine"
+          ],
+          "images": []
+        },
+        {
+          "index": 1,
+          "unit_type": "page",
+          "text": [
+            "learning models, especially deep learning, to perform complex language tasks."
+          ],
+          "images": []
+        },
+        {
+          "index": 2,
+          "unit_type": "page",
+          "text": [
+            "Neural Networks (RNNs): These models process sequences of data by remembering previous  inputs, making them effective for tasks like language modeling and text generation.  Transformers: This groundbreaking architecture, which uses a \"self-attention\" mechanism,  allows the model to weigh the importance of different words in a sequence simultaneously.  Transformers power many modern Large Language Models (LLMs) like GPT. Transfer learning:  This approach uses a large, pre-trained model as a starting point and then \"fine-tunes\" it with a  smaller, task-specific dataset. This significantly boosts performance with less data and  computational resources. Advanced techniques and applications Sentiment analysis: This is the  process of automatically determining the emotional tone behind a piece of text, such as whether  it's positive, negative, or neutral. Text summarization: NLP models can condense longer texts  into a concise summary while preserving the most important information. Text classification:  Algorithms automatically sort text into predefined categories. This is used for tasks like spam  detection and organizing customer emails. Question answering: Systems like IBM's Watson  analyze vast text corpora to answer questions in natural language. Machine translation: Tools  like Google Translate use NLP to convert text or speech from one language to another while  retaining accuracy and context."
+          ],
+          "images": [
+            "images/test-email@gmail.com/temp_uploads/session_c48ef20c/img_test-email@gmail.com_session_c48ef20c_49f53d4e_unit2_img0_daac36.png"
+          ]
+        }
+      ]
+    }
+  ]
+}

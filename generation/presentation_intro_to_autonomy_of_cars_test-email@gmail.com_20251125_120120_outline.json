@@ -1,0 +1,157 @@
+{
+  "presentation_title": "Intro to Autonomy of Cars",
+  "total_slides": 8,
+  "presentation_style": "corporate",
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_title": "Intro to Autonomy of Cars",
+      "slide_type": "title",
+      "key_points": []
+    },
+    {
+      "slide_number": 2,
+      "slide_title": "Understanding Autonomous Vehicles",
+      "slide_type": "content",
+      "key_points": [
+        "Definition of Autonomous Vehicles (AVs) and their classifications.",
+        "Overview of the levels of autonomy, focusing on Level 5 as the ultimate goal.",
+        "Potential to redefine transportation through enhanced safety and efficiency."
+      ]
+    },
+    {
+      "slide_number": 3,
+      "slide_title": "Business Value of Autonomous Vehicles",
+      "slide_type": "content",
+      "key_points": [
+        "Reduction in traffic congestion leading to increased productivity.",
+        "Optimized fuel efficiency contributing to lower operational costs.",
+        "Significant decrease in accident rates, reducing insurance and liability costs."
+      ]
+    },
+    {
+      "slide_number": 4,
+      "slide_title": "Technical Challenges in AV Development",
+      "slide_type": "content",
+      "key_points": [
+        "Complexity of sensor fusion and the need for advanced perception capabilities.",
+        "Integration of LiDAR, radar, and high-resolution cameras for environment mapping.",
+        "Challenges in navigating unpredictable real-world scenarios and social cues."
+      ]
+    },
+    {
+      "slide_number": 5,
+      "slide_title": "Ethical and Legal Considerations",
+      "slide_type": "content",
+      "key_points": [
+        "Navigating the legal landscape surrounding liability in accidents involving AVs.",
+        "Addressing ethical dilemmas in decision-making algorithms during critical situations.",
+        "Importance of regulatory frameworks to ensure safety and public trust."
+      ]
+    },
+    {
+      "slide_number": 6,
+      "slide_title": "Market Trends and Adoption Rates",
+      "slide_type": "content",
+      "key_points": [
+        "Current market landscape and key players in the autonomous vehicle sector.",
+        "Projected growth rates and adoption timelines for AV technology.",
+        "Consumer acceptance and the role of public perception in market success."
+      ]
+    },
+    {
+      "slide_number": 7,
+      "slide_title": "Practical Applications of Autonomous Vehicles",
+      "slide_type": "content",
+      "key_points": [
+        "Use cases in public transportation, logistics, and personal mobility.",
+        "Potential for AVs in reducing urban congestion and enhancing last-mile delivery.",
+        "Exploration of partnerships with tech companies for innovation in AV solutions."
+      ]
+    },
+    {
+      "slide_number": 8,
+      "slide_title": "Future Outlook and Strategic Recommendations",
+      "slide_type": "content",
+      "key_points": [
+        "Long-term vision for the integration of AVs into existing transportation networks.",
+        "Strategic investments in technology and infrastructure to support AV deployment.",
+        "Collaboration with stakeholders to address challenges and leverage opportunities."
+      ]
+    }
+  ],
+  "user_id": "test-email@gmail.com",
+  "search_mode": "uploaded_only",
+  "generation_timestamp": "2025-11-25T12:01:12.861697",
+  "retrieved_chunks_metadata": [
+    {
+      "chunk_id": "text_docx_Autonomous cars2_section_0_chunk_0_session_a2291c8a",
+      "source_document": "Autonomous cars2",
+      "similarity_score": 0.5877,
+      "content_preview": "The Road to Autonomy: Technical and Ethical Challenges in Autonomous Vehicle Development Autonomous vehicles (AVs) represent a disruptive technology poised to redefine transportation, promising a futu...",
+      "content_length": 1021,
+      "chunk_type": "text_chunk"
+    }
+  ],
+  "total_retrieved_chunks": 1,
+  "content_richness_metrics": {
+    "total_content_slides": 7,
+    "total_key_points": 21,
+    "average_points_per_slide": 3.0,
+    "slides_with_rich_content": 7,
+    "richness_ratio": 1.0
+  },
+  "content_richness": "medium",
+  "character_metrics": {
+    "2": {
+      "total_characters": 252,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "3": {
+      "total_characters": 248,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "4": {
+      "total_characters": 273,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "5": {
+      "total_characters": 267,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "6": {
+      "total_characters": 242,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "7": {
+      "total_characters": 273,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "8": {
+      "total_characters": 287,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    }
+  },
+  "character_summary": {
+    "slides_within_range": 7,
+    "total_content_slides": 7,
+    "compliance_ratio": "100.0%",
+    "average_characters_per_slide": 263,
+    "bullet_point_variation": "3-3 points per slide",
+    "variation_quality": "LOW VARIATION"
+  }
+}

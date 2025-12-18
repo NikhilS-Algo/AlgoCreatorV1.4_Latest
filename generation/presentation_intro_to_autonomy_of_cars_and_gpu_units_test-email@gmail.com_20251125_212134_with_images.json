@@ -1,0 +1,350 @@
+{
+  "presentation_title": "Intro to Autonomy of Cars and GPU Units",
+  "total_slides": 8,
+  "presentation_style": "technical",
+  "content_richness": "medium",
+  "executive_summary": "Comprehensive overview of Intro to Autonomy of Cars and GPU Units",
+  "key_value_propositions": [
+    "Transition from specialized 3D rendering units to general-purpose parallel processors.",
+    "Optimized for massive parallel processing, enabling efficient data-intensive tasks.",
+    "Core architecture supports high-performance computing, scientific simulations, and AI applications."
+  ],
+  "strategic_insights": [
+    "Accelerates time-to-discovery in complex computational science.",
+    "Essential for training large neural networks, particularly in deep learning.",
+    "High core density and memory bandwidth support rapid model iteration and optimization."
+  ],
+  "actionable_recommendations": [
+    "Promises reduced traffic congestion and optimized fuel efficiency.",
+    "Aims to significantly lower accident rates caused by human error.",
+    "Challenges include technical, legal, and ethical hurdles in achieving Level 5 autonomy."
+  ],
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_title": "Intro to Autonomy of Cars and GPU Units",
+      "slide_type": "title",
+      "content": "Intro to Autonomy of Cars and GPU Units",
+      "images": []
+    },
+    {
+      "slide_number": 2,
+      "slide_title": "The Evolution of GPUs",
+      "slide_type": "content",
+      "content": "• Transition from specialized 3D rendering units to general-purpose parallel processors.\n• Optimized for massive parallel processing, enabling efficient data-intensive tasks.\n• Core architecture supports high-performance computing, scientific simulations, and AI applications.",
+      "speaker_notes": "Discuss: Transition from specialized 3D rendering units to general-purpose parallel processors., Optimized for massive parallel processing, enabling efficient data-intensive tasks., Core architecture supports high-performance computing, scientific simulations, and AI applications.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: The Evolution of GPUs",
+      "images": [
+        {
+          "image_id": "image_docx_GPU_section_0_chunk_0_session_6984e846_img2",
+          "caption": "This is a digital illustration of a GPU (Graphics Processing Unit) on a circuit board. The GPU is prominently displayed in the center, with the text \"GPU\" illuminated in blue. Surrounding it are various microchips and circuit pathways, emphasizing a",
+          "similarity_score": 0.5509441612237777,
+          "source_document": "GPU",
+          "image_path": "images/test-email@gmail.com/temp_uploads/session_6984e846/img_test-email@gmail.com_session_6984e846_52f9ec21_unit0_img3_0c65bf.png",
+          "user_id": "test-email@gmail.com",
+          "relevance_rank": 1
+        }
+      ]
+    },
+    {
+      "slide_number": 3,
+      "slide_title": "GPU's Role in AI and Deep Learning",
+      "slide_type": "content",
+      "content": "• Accelerates time-to-discovery in complex computational science.\n• Essential for training large neural networks, particularly in deep learning.\n• High core density and memory bandwidth support rapid model iteration and optimization.",
+      "speaker_notes": "Discuss: Accelerates time-to-discovery in complex computational science., Essential for training large neural networks, particularly in deep learning., High core density and memory bandwidth support rapid model iteration and optimization.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: GPU's Role in AI and Deep Learning",
+      "images": [
+        {
+          "image_id": "image_docx_GPU_section_0_chunk_0_session_6984e846_img1",
+          "caption": "This is a diagram illustrating the architecture of a computer graphics system. It features labeled components including the CPU, system memory, GPU with dual fans, GPU memory, cache, and a screen displaying a car icon. The layout shows data flow between these elements",
+          "similarity_score": 0.4539149427328705,
+          "source_document": "GPU",
+          "image_path": "images/test-email@gmail.com/temp_uploads/session_6984e846/img_test-email@gmail.com_session_6984e846_52f9ec21_unit0_img0_1490e1.png",
+          "user_id": "test-email@gmail.com",
+          "relevance_rank": 1
+        }
+      ]
+    },
+    {
+      "slide_number": 4,
+      "slide_title": "Autonomous Vehicles: A Disruptive Technology",
+      "slide_type": "content",
+      "content": "• Promises reduced traffic congestion and optimized fuel efficiency.\n• Aims to significantly lower accident rates caused by human error.\n• Challenges include technical, legal, and ethical hurdles in achieving Level 5 autonomy.",
+      "speaker_notes": "Discuss: Promises reduced traffic congestion and optimized fuel efficiency., Aims to significantly lower accident rates caused by human error., Challenges include technical, legal, and ethical hurdles in achieving Level 5 autonomy.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Autonomous Vehicles: A Disruptive Technology",
+      "images": [
+        {
+          "image_id": "temp_image_docx_Autonomous_cars_Tech_section_0_chunk_0_session_64d84ab4_img2_edc8f37b",
+          "caption": "This is a diagram illustrating the concept of \"Autonomous Vehicles in Smart Cities.\" It features a circular design with seven colored figures representing collaboration. Surrounding the circle are key topics: \"Challenges and Ethical Considerations,\" \"Data-Driven Urban Planning,\"",
+          "similarity_score": 0.498037711515075,
+          "source_document": "Autonomous_cars_Tech",
+          "image_path": "images/test-email@gmail.com/main_corpus/img_test-email@gmail.com_session_64d84ab4_186c528d_unit0_img3_148a0c.png",
+          "user_id": "test-email@gmail.com",
+          "relevance_rank": 1
+        }
+      ]
+    },
+    {
+      "slide_number": 5,
+      "slide_title": "Sensor Fusion and Perception in AVs",
+      "slide_type": "content",
+      "content": "• Relies on advanced sensors like LiDAR, radar, and high-resolution cameras.\n• Accurate environmental perception is critical for safe navigation.\n• Integration of sensor data is essential for real-time decision-making.",
+      "speaker_notes": "Discuss: Relies on advanced sensors like LiDAR, radar, and high-resolution cameras., Accurate environmental perception is critical for safe navigation., Integration of sensor data is essential for real-time decision-making.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Sensor Fusion and Perception in AVs",
+      "images": [
+        {
+          "image_id": "temp_image_docx_Autonomous_cars_Tech_section_0_chunk_0_session_64d84ab4_img0_b49b1db5",
+          "caption": "This is an illustration depicting the interior view of an autonomous vehicle. It features a digital dashboard with various controls and displays, including distance markers (100 m, 300 m, 50 m) and icons representing pedestrians and obstacles. The background shows a",
+          "similarity_score": 0.45148112076341973,
+          "source_document": "Autonomous_cars_Tech",
+          "image_path": "images/test-email@gmail.com/main_corpus/img_test-email@gmail.com_session_64d84ab4_186c528d_unit0_img0_5f12a2.jpg",
+          "user_id": "test-email@gmail.com",
+          "relevance_rank": 1
+        }
+      ]
+    },
+    {
+      "slide_number": 6,
+      "slide_title": "GPU Architecture and Its Impact on AV Technology",
+      "slide_type": "content",
+      "content": "• Specialized hardware like Tensor Cores enhances deep learning capabilities.\n• Parallel architecture allows for processing of multiple data streams simultaneously.\n• Critical for real-time processing requirements in autonomous driving systems.",
+      "speaker_notes": "Discuss: Specialized hardware like Tensor Cores enhances deep learning capabilities., Parallel architecture allows for processing of multiple data streams simultaneously., Critical for real-time processing requirements in autonomous driving systems.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: GPU Architecture and Its Impact on AV Technology",
+      "images": [
+        {
+          "image_id": "image_slide_Copy of Computer Vision AA_32_chunk_0_build_084d5582_img0",
+          "caption": "This is a diagram illustrating the architecture of a software system, specifically for Edge Insights. It includes components like Image Store, Video Analytics, and Time Series Ingestion & Analytics, with connections to various libraries and frameworks. Key elements include security configurations, data",
+          "similarity_score": 0.4281507755077306,
+          "source_document": "Copy of Computer Vision AA",
+          "image_path": "images/test-email@gmail.com/main_corpus/slide_032_img_000_d9bb45.png",
+          "user_id": "test-email@gmail.com",
+          "relevance_rank": 1
+        }
+      ]
+    },
+    {
+      "slide_number": 7,
+      "slide_title": "Business Value of Autonomous Vehicles and GPUs",
+      "slide_type": "content",
+      "content": "• Potential for significant cost savings through improved efficiency and safety.\n• Market growth driven by advancements in AI and GPU technology.\n• Investment in AV technology can lead to competitive advantages in transportation and logistics.",
+      "speaker_notes": "Discuss: Potential for significant cost savings through improved efficiency and safety., Market growth driven by advancements in AI and GPU technology., Investment in AV technology can lead to competitive advantages in transportation and logistics.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Business Value of Autonomous Vehicles and GPUs",
+      "images": [
+        {
+          "image_id": "image_slide_Copy of AlgoAnalytics_OilandGas_8_chunk_0_build_084d5582_img2",
+          "caption": "This is a diagram featuring a list of projects utilizing image and video analytics. It includes two bullet points: one on \"Absenteeism Prediction\" for a global automobile company and another on \"Manufacturing process monitoring\" for a company in Ahmedabad, India",
+          "similarity_score": 0.4286040123977458,
+          "source_document": "Copy of AlgoAnalytics_OilandGas",
+          "image_path": "images/test-email@gmail.com/main_corpus/slide_008_img_008_3f750c.png",
+          "user_id": "test-email@gmail.com",
+          "relevance_rank": 1
+        }
+      ]
+    },
+    {
+      "slide_number": 8,
+      "slide_title": "Future Trends and Considerations",
+      "slide_type": "content",
+      "content": "• Continued evolution of GPU capabilities will enhance AV performance.\n• Ethical and regulatory frameworks will shape the deployment of autonomous vehicles.\n• Collaboration between tech and automotive industries is essential for innovation.",
+      "speaker_notes": "Discuss: Continued evolution of GPU capabilities will enhance AV performance., Ethical and regulatory frameworks will shape the deployment of autonomous vehicles., Collaboration between tech and automotive industries is essential for innovation.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Future Trends and Considerations",
+      "images": [
+        {
+          "image_id": "image_slide_AlgoAnalytics deck for UK_Europe_33_chunk_0_build_084d5582_img2",
+          "caption": "This is a diagram presenting the offerings and expertise of AlgoAnalytics, focusing on Generative AI and related technologies. It includes sections on core offerings like Generative AI solutions, AI/ML solutions, Cloud Data Engineering, and Emerging Technologies. Visual elements include",
+          "similarity_score": 0.40175380430577695,
+          "source_document": "AlgoAnalytics deck for UK_Europe",
+          "image_path": "images/test-email@gmail.com/main_corpus/slide_033_img_002_2444c4.png",
+          "user_id": "test-email@gmail.com",
+          "relevance_rank": 1
+        }
+      ]
+    }
+  ],
+  "generated_date": "2025-11-25T21:21:23.091101",
+  "version": "1.0",
+  "content_approach": "industry_ready",
+  "estimated_duration": "16 minutes",
+  "character_metrics": {
+    "2": {
+      "total_characters": 289,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "3": {
+      "total_characters": 259,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "4": {
+      "total_characters": 262,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "5": {
+      "total_characters": 245,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "6": {
+      "total_characters": 284,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "7": {
+      "total_characters": 281,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "8": {
+      "total_characters": 264,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    }
+  },
+  "character_summary": {
+    "slides_within_range": 7,
+    "total_content_slides": 7,
+    "compliance_ratio": "100.0%",
+    "average_characters_per_slide": 269,
+    "bullet_point_variation": "3-3 points per slide",
+    "variation_quality": "LOW VARIATION"
+  },
+  "content_richness_metrics": {
+    "total_content_slides": 7,
+    "total_key_points": 21,
+    "average_points_per_slide": 3.0,
+    "slides_with_rich_content": 7,
+    "richness_ratio": 1.0
+  },
+  "retrieved_chunks_metadata": [
+    {
+      "chunk_id": "text_docx_GPU_section_1_chunk_0_session_6984e846",
+      "source_document": "GPU",
+      "similarity_score": 0.5249,
+      "content_preview": "The Graphics Processing Unit (GPU), initially conceived as a specialized circuit for accelerating the rendering of 3D graphics in video games, has undergone a profound architectural and functional tra...",
+      "content_length": 1100,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_docx_GPU_section_1_chunk_3_session_6984e846",
+      "source_document": "GPU",
+      "similarity_score": 0.5074,
+      "content_preview": "The GPU accelerates time-to-discovery, making complex computational science faster, more accessible, and more energy-efficient relative to the performance delivered. In conclusion, the Graphics Proces...",
+      "content_length": 812,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "temp_text_docx_Autonomous_cars_Tech_section_0_chunk_0_session_c48ef20c_f018b7dc",
+      "source_document": "Autonomous_cars_Tech",
+      "similarity_score": 0.5046,
+      "content_preview": "The Road to Autonomy: Technical and Ethical Challenges in Autonomous Vehicle Development Autonomous vehicles (AVs) represent a disruptive technology poised to redefine transportation, promising a futu...",
+      "content_length": 1021,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_docx_GPU_section_1_chunk_2_session_6984e846",
+      "source_document": "GPU",
+      "similarity_score": 0.4723,
+      "content_preview": "Modern GPUs further specialize this capability with dedicated hardware, such as Tensor Cores, which are optimized specifically for the low-precision matrix operations vital to deep learning training a...",
+      "content_length": 1112,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_docx_GPU_section_1_chunk_1_session_6984e846",
+      "source_document": "GPU",
+      "similarity_score": 0.467,
+      "content_preview": "This arrangement allows the GPU to process thousands of data streams and execute concurrent threads simultaneously. For tasks that can be broken down into many independent, simultaneous operations—kno...",
+      "content_length": 930,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_docx_GPU_section_0_chunk_0_session_6984e846",
+      "source_document": "GPU",
+      "similarity_score": 0.4402,
+      "content_preview": "The Graphics Processing Unit: Architecture, Parallelism, and the Transformation of Modern Computing",
+      "content_length": 99,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Copy of Computer Vision AA_29_chunk_0_build_084d5582",
+      "source_document": "Copy of Computer Vision AA",
+      "similarity_score": 0.42,
+      "content_preview": "Computer Vision on Edge 30 Asquared IoT",
+      "content_length": 39,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_SLMs Slides for NTT Data_2_chunk_0_build_084d5582",
+      "source_document": "SLMs Slides for NTT Data",
+      "similarity_score": 0.4181,
+      "content_preview": "Key Findings from the Research Work: In the context of the edge computing spectrum and generative AI, we explored solutions with respect to Device Edge and Compute Edge, particularly those offered by ...",
+      "content_length": 902,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Copy of Computer Vision AA_23_chunk_0_build_084d5582",
+      "source_document": "Copy of Computer Vision AA",
+      "similarity_score": 0.4062,
+      "content_preview": "CCTV Manual monitoring Techniques Autoencoders Generative Self-supervised Model Compression Distillation Edge computing Nvidia, Intel Smart CCTV MVP in 6-9 Months Volcano eruption Railway crossing Tra...",
+      "content_length": 225,
+      "chunk_type": "text_chunk"
+    }
+  ],
+  "image_mapping_metrics": {
+    "user_id": "test-email@gmail.com",
+    "search_mode": "uploaded_plus_corpus",
+    "total_slides": 8,
+    "content_slides": 7,
+    "slides_with_images": 7,
+    "total_images_mapped": 7,
+    "total_available_images": 715,
+    "images_used": 7,
+    "similarity_threshold_used": 0.4,
+    "utilization_rate": "7/715",
+    "coverage_ratio": "7/7",
+    "mapping_strategy": "STRICT_RELEVANCE_ONLY"
+  }
+}

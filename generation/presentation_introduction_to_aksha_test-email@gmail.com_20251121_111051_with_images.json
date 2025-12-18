@@ -1,0 +1,314 @@
+{
+  "presentation_title": "Introduction to Aksha",
+  "total_slides": 7,
+  "presentation_style": "technical",
+  "content_richness": "medium",
+  "executive_summary": "Comprehensive overview of Introduction to Aksha",
+  "key_value_propositions": [
+    "Aksha is an intelligent surveillance system designed for automated monitoring with minimal human intervention.",
+    "Utilizes advanced technologies such as Computer Vision, Artificial Intelligence, and Generative AI for real-time analysis.",
+    "Key functionalities include object detection, anomaly identification, and automated response mechanisms."
+  ],
+  "strategic_insights": [
+    "Multiple deployment models: Aksha on Edge (On-Premise), Aksha UI & Backend on Edge, and hybrid models combining Edge & Cloud.",
+    "Supports seamless integration with existing CCTV systems through standard RTSP links.",
+    "Decoupled architecture enhances maintainability and fault tolerance, allowing for independent service development."
+  ],
+  "actionable_recommendations": [
+    "Live recording and processing capabilities for immediate data access.",
+    "Advanced object detection including various categories such as vehicles, personnel, and safety gear compliance.",
+    "Customizable alerts enable users to set specific notifications based on detected anomalies."
+  ],
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_title": "Introduction to Aksha",
+      "slide_type": "title",
+      "content": "Introduction to Aksha",
+      "images": []
+    },
+    {
+      "slide_number": 2,
+      "slide_title": "Overview of Aksha",
+      "slide_type": "content",
+      "content": "• Aksha is an intelligent surveillance system designed for automated monitoring with minimal human intervention.\n• Utilizes advanced technologies such as Computer Vision, Artificial Intelligence, and Generative AI for real-time analysis.\n• Key functionalities include object detection, anomaly identification, and automated response mechanisms.",
+      "speaker_notes": "Discuss: Aksha is an intelligent surveillance system designed for automated monitoring with minimal human intervention., Utilizes advanced technologies such as Computer Vision, Artificial Intelligence, and Generative AI for real-time analysis., Key functionalities include object detection, anomaly identification, and automated response mechanisms.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Overview of Aksha",
+      "images": [
+        {
+          "image_id": "image_slide_Aksha_Overview_Deck_Oct_2024_0_chunk_0_session_b2af5e1f_img0",
+          "caption": "This is a logo for Aksha, featuring a stylized blue eye design with a medical cross symbol, indicating a focus on eye care. The background is a lighter blue square, and the brand name \"Aksha\" is displayed prominently below the eye",
+          "similarity_score": 0.5526900431553938,
+          "source_document": "Aksha_Overview_Deck_Oct_2024",
+          "image_path": "images/test-email@gmail.com/temp_uploads/session_b2af5e1f/img_test-email@gmail.com_session_b2af5e1f_20251121_110906_5b321621_unit0_img0.jpg",
+          "user_id": "test-email@gmail.com",
+          "relevance_rank": 1
+        }
+      ]
+    },
+    {
+      "slide_number": 3,
+      "slide_title": "Architectural Approaches",
+      "slide_type": "content",
+      "content": "• Multiple deployment models: Aksha on Edge (On-Premise), Aksha UI & Backend on Edge, and hybrid models combining Edge & Cloud.\n• Supports seamless integration with existing CCTV systems through standard RTSP links.\n• Decoupled architecture enhances maintainability and fault tolerance, allowing for independent service development.",
+      "speaker_notes": "Discuss: Multiple deployment models: Aksha on Edge (On-Premise), Aksha UI & Backend on Edge, and hybrid models combining Edge & Cloud., Supports seamless integration with existing CCTV systems through standard RTSP links., Decoupled architecture enhances maintainability and fault tolerance, allowing for independent service development.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Architectural Approaches",
+      "images": [
+        {
+          "image_id": "image_slide_Aksha_Overview_Deck_Oct_2024_6_chunk_0_session_b2af5e1f_img0",
+          "caption": "This is a screenshot of a surveillance monitoring interface displaying multiple live camera feeds. The layout includes several grid sections showing various environments, such as an office and warehouse. Key visual elements include highlighted figures labeled as \"person\" and \"truck\" in green boxes",
+          "similarity_score": 0.44314649108722776,
+          "source_document": "Aksha_Overview_Deck_Oct_2024",
+          "image_path": "images/test-email@gmail.com/temp_uploads/session_b2af5e1f/img_test-email@gmail.com_session_b2af5e1f_20251121_110906_5b321621_unit6_img0.jpg",
+          "user_id": "test-email@gmail.com",
+          "relevance_rank": 1
+        }
+      ]
+    },
+    {
+      "slide_number": 4,
+      "slide_title": "Key Features of Aksha",
+      "slide_type": "content",
+      "content": "• Live recording and processing capabilities for immediate data access.\n• Advanced object detection including various categories such as vehicles, personnel, and safety gear compliance.\n• Customizable alerts enable users to set specific notifications based on detected anomalies.",
+      "speaker_notes": "Discuss: Live recording and processing capabilities for immediate data access., Advanced object detection including various categories such as vehicles, personnel, and safety gear compliance., Customizable alerts enable users to set specific notifications based on detected anomalies.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Key Features of Aksha",
+      "images": [
+        {
+          "image_id": "image_slide_Aksha_Overview_Deck_Oct_2024_13_chunk_0_session_b2af5e1f_img0",
+          "caption": "This is a screenshot of a web application interface, specifically a camera directory management tool. It displays fields for camera name, link, priority, and description, along with options to add features like live streaming and object detection. The right side lists alert names",
+          "similarity_score": 0.47436429426729165,
+          "source_document": "Aksha_Overview_Deck_Oct_2024",
+          "image_path": "images/test-email@gmail.com/temp_uploads/session_b2af5e1f/img_test-email@gmail.com_session_b2af5e1f_20251121_110906_5b321621_unit13_img0.jpg",
+          "user_id": "test-email@gmail.com",
+          "relevance_rank": 1
+        }
+      ]
+    },
+    {
+      "slide_number": 5,
+      "slide_title": "Collaboration and Customization",
+      "slide_type": "content",
+      "content": "• Partnership with NDIL to enhance Aksha for worker safety, integrating Edge + Cloud solutions.\n• Phased development approach, with significant enhancements in Gen AI capabilities for improved anomaly detection.\n• Successful proof of concept executed on Raspberry Pi 4B, showcasing versatility and cost-effectiveness.",
+      "speaker_notes": "Discuss: Partnership with NDIL to enhance Aksha for worker safety, integrating Edge + Cloud solutions., Phased development approach, with significant enhancements in Gen AI capabilities for improved anomaly detection., Successful proof of concept executed on Raspberry Pi 4B, showcasing versatility and cost-effectiveness.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Collaboration and Customization",
+      "images": []
+    },
+    {
+      "slide_number": 6,
+      "slide_title": "Customer Testimonials",
+      "slide_type": "content",
+      "content": "• Clients report significant reductions in human monitoring efforts and improved detection of unforeseen events.\n• Positive feedback highlights Aksha's ability to transform traditional CCTV usage into proactive safety management.\n• Ongoing interest in future updates and innovations, indicating strong customer engagement and satisfaction.",
+      "speaker_notes": "Discuss: Clients report significant reductions in human monitoring efforts and improved detection of unforeseen events., Positive feedback highlights Aksha's ability to transform traditional CCTV usage into proactive safety management., Ongoing interest in future updates and innovations, indicating strong customer engagement and satisfaction.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Customer Testimonials",
+      "images": []
+    },
+    {
+      "slide_number": 7,
+      "slide_title": "Scalability and Performance",
+      "slide_type": "content",
+      "content": "• Effortless scalability achieved through microservices architecture and Kubernetes orchestration.\n• Real-time data processing capabilities ensure timely insights and actions for enhanced operational efficiency.\n• High availability maintained through distributed messaging systems like Kafka, ensuring reliable performance.",
+      "speaker_notes": "Discuss: Effortless scalability achieved through microservices architecture and Kubernetes orchestration., Real-time data processing capabilities ensure timely insights and actions for enhanced operational efficiency., High availability maintained through distributed messaging systems like Kafka, ensuring reliable performance.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Scalability and Performance",
+      "images": []
+    }
+  ],
+  "generated_date": "2025-11-21T11:10:48.335743",
+  "version": "1.0",
+  "content_approach": "industry_ready",
+  "estimated_duration": "14 minutes",
+  "character_metrics": {
+    "2": {
+      "total_characters": 353,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "3": {
+      "total_characters": 348,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "4": {
+      "total_characters": 292,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "5": {
+      "total_characters": 340,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "6": {
+      "total_characters": 352,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "7": {
+      "total_characters": 342,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    }
+  },
+  "character_summary": {
+    "slides_within_range": 6,
+    "total_content_slides": 6,
+    "compliance_ratio": "100.0%",
+    "average_characters_per_slide": 337,
+    "bullet_point_variation": "3-3 points per slide",
+    "variation_quality": "LOW VARIATION"
+  },
+  "content_richness_metrics": {
+    "total_content_slides": 6,
+    "total_key_points": 18,
+    "average_points_per_slide": 3.0,
+    "slides_with_rich_content": 6,
+    "richness_ratio": 1.0
+  },
+  "retrieved_chunks_metadata": [
+    {
+      "chunk_id": "text_slide_Aksha_Overview_Deck_Oct_2024_3_chunk_0_session_b2af5e1f",
+      "source_document": "Aksha_Overview_Deck_Oct_2024",
+      "similarity_score": 0.6754,
+      "content_preview": "Introduction to Aksha Aksha - Intelligent surveillance system is envisioned to automatically monitor the environment or premises with less or without human intervention. Such monitoring tasks include ...",
+      "content_length": 416,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Aksha_Overview_Deck_Oct_2024_21_chunk_0_session_b2af5e1f",
+      "source_document": "Aksha_Overview_Deck_Oct_2024",
+      "similarity_score": 0.6396,
+      "content_preview": "For more on AKSHA (अक्ष) Visit on below link https://aksha.algoanalytics.com/ Contact Us on aksha@algoanalytics.com Visit our office at Alacrity India Innovation Centre, Ideas to Impacts Building, Pal...",
+      "content_length": 268,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Aksha_Overview_Deck_Oct_2024_4_chunk_0_session_b2af5e1f",
+      "source_document": "Aksha_Overview_Deck_Oct_2024",
+      "similarity_score": 0.6131,
+      "content_preview": "Aksha architectural approaches We provide below mentioned architectural approaches Aksha on Edge (On Premise) Aksha UI & Backend on Edge Aksha on Edge & Cloud Aksha UI on Cloud & Backend on Edge ‹#›",
+      "content_length": 198,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Aksha_Overview_Deck_Oct_2024_14_chunk_0_session_b2af5e1f",
+      "source_document": "Aksha_Overview_Deck_Oct_2024",
+      "similarity_score": 0.5867,
+      "content_preview": "AlgoAnalytics and NDIL collaboration AlgoAnalytics customized “Aksha for workers safety” in collaboration with NDIL. This customized new Aksha version runs on “Edge + Cloud”. Three stages of Aksha cus...",
+      "content_length": 815,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Aksha_Overview_Deck_Oct_2024_5_chunk_0_session_b2af5e1f",
+      "source_document": "Aksha_Overview_Deck_Oct_2024",
+      "similarity_score": 0.5825,
+      "content_preview": "Aksha Aksha, the smart surveillance system for the businesses that value employee safety. It is self learning system which detects object & anomalies using the power of Artificial Intelligence. It ena...",
+      "content_length": 629,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Aksha_Overview_Deck_Oct_2024_20_chunk_0_session_b2af5e1f",
+      "source_document": "Aksha_Overview_Deck_Oct_2024",
+      "similarity_score": 0.571,
+      "content_preview": "What our customers have to say Aksha has empowered our investments into the CCTV setup. Human monitoring efforts have reduced a lot. The ability to detect abnormal unforeseen events along with specifi...",
+      "content_length": 633,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Aksha_Overview_Deck_Oct_2024_0_chunk_0_session_b2af5e1f",
+      "source_document": "Aksha_Overview_Deck_Oct_2024",
+      "similarity_score": 0.5565,
+      "content_preview": "AI Powered Video Surveillance https://aksha.algoanalytics.com CONFIDENTIAL AND PROPRIETARY Any use of this material without specific permission AlgoAnalytics is strictly prohibited Aksha अक्ष",
+      "content_length": 191,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Aksha_Overview_Deck_Oct_2024_18_chunk_0_session_b2af5e1f",
+      "source_document": "Aksha_Overview_Deck_Oct_2024",
+      "similarity_score": 0.5388,
+      "content_preview": "Enhancing Aksha’s Scalability: Architecture and Advantages ‹#›   Effortless Scalability: Easily scale microservices with Kubernetes and manage high message volumes with Kafka. Decoupled Architecture: ...",
+      "content_length": 516,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Aksha_Overview_Deck_Oct_2024_23_chunk_0_session_b2af5e1f",
+      "source_document": "Aksha_Overview_Deck_Oct_2024",
+      "similarity_score": 0.5279,
+      "content_preview": "Aksha installation steps In the same network OR Get the Camera RTSP links 2. Install Aksha on Edge device which is in the same network with DVR/NVR",
+      "content_length": 147,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Aksha_Overview_Deck_Oct_2024_19_chunk_0_session_b2af5e1f",
+      "source_document": "Aksha_Overview_Deck_Oct_2024",
+      "similarity_score": 0.5239,
+      "content_preview": "Aksha’s compatibility with the cameras Aksha is compatible with any standard CCTV camera that provides RTSP link for connection. A few examples (but not limited to these) are:",
+      "content_length": 175,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Aksha_Overview_Deck_Oct_2024_6_chunk_0_session_b2af5e1f",
+      "source_document": "Aksha_Overview_Deck_Oct_2024",
+      "similarity_score": 0.5077,
+      "content_preview": "AKSHA : Live recording and processing of the data Live view of AKSHA implementation at one of our client’s manufacturing factory outlet",
+      "content_length": 135,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Aksha_Overview_Deck_Oct_2024_13_chunk_0_session_b2af5e1f",
+      "source_document": "Aksha_Overview_Deck_Oct_2024",
+      "similarity_score": 0.4213,
+      "content_preview": "AKSHA : Customizable Alerts",
+      "content_length": 27,
+      "chunk_type": "text_chunk"
+    }
+  ],
+  "image_mapping_metrics": {
+    "user_id": "test-email@gmail.com",
+    "search_mode": "uploaded_only",
+    "total_slides": 7,
+    "content_slides": 6,
+    "slides_with_images": 3,
+    "total_images_mapped": 3,
+    "total_available_images": 18,
+    "images_used": 3,
+    "similarity_threshold_used": 0.4,
+    "utilization_rate": "3/18",
+    "coverage_ratio": "3/6",
+    "mapping_strategy": "STRICT_RELEVANCE_ONLY"
+  }
+}

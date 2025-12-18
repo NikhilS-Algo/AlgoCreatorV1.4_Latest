@@ -1,0 +1,237 @@
+{
+  "presentation_title": "Unlocking Investment Potential with Algofabric",
+  "total_slides": 6,
+  "presentation_style": "professional",
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_title": "Unlocking Investment Potential with Algofabric",
+      "slide_type": "title",
+      "key_points": []
+    },
+    {
+      "slide_number": 2,
+      "slide_title": "Overview of Algofabric",
+      "slide_type": "content",
+      "key_points": [
+        "AI-powered fintech solution designed for stock market investors.",
+        "Generates actionable recommendations based on comprehensive data analysis.",
+        "Utilizes advanced algorithms to enhance stock selection and portfolio management."
+      ]
+    },
+    {
+      "slide_number": 3,
+      "slide_title": "Key Features of Algofabric",
+      "slide_type": "content",
+      "key_points": [
+        "Real-time performance monitoring dashboard for backend tasks.",
+        "Insight generation from news articles using small language models (SLMs).",
+        "Portfolio expansion capabilities aligned with stock picking strategies."
+      ]
+    },
+    {
+      "slide_number": 4,
+      "slide_title": "Investment Insights and Analytics",
+      "slide_type": "content",
+      "key_points": [
+        "Mutual fund investment composition display for asset allocation analysis.",
+        "Historical performance review and backtesting for informed decision-making.",
+        "Insights derived from company reports, including shareholding patterns and cash flow."
+      ]
+    },
+    {
+      "slide_number": 5,
+      "slide_title": "Practical Applications of Algofabric",
+      "slide_type": "content",
+      "key_points": [
+        "Identify top gainers and losers with the 'What's Trending' feature.",
+        "Track daily price movements and significant corporate actions.",
+        "Diversify portfolios with superior returns while minimizing risk."
+      ]
+    },
+    {
+      "slide_number": 6,
+      "slide_title": "Future Developments and Enhancements",
+      "slide_type": "content",
+      "key_points": [
+        "Continuous integration of new companies into the Algofabric ecosystem.",
+        "Performance comparison and optimization of SLMs versus LLMs.",
+        "Expansion of business use cases to address real-life investment challenges."
+      ]
+    }
+  ],
+  "user_id": "test-email@gmail.com",
+  "search_mode": "corpus_only",
+  "generation_timestamp": "2025-11-19T15:35:44.670285",
+  "retrieved_chunks_metadata": [
+    {
+      "chunk_id": "text_slide_AlgoFabric_TS_updates_0_chunk_0_build_1205e1f7",
+      "source_document": "AlgoFabric_TS_updates",
+      "similarity_score": 0.5298,
+      "content_preview": "AlgoFabric and AlgoTrading Updates CONFIDENTIAL AND PROPRIETARY Any use of this material without specific permission AlgoAnalytics is strictly prohibited",
+      "content_length": 153,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_AlgoFabric_TS_updates_2_chunk_0_build_1205e1f7",
+      "source_document": "AlgoFabric_TS_updates",
+      "similarity_score": 0.4766,
+      "content_preview": "AlgoFabric – Upcoming Features (WIP) .  3 1. Dashboard to monitor performance of all backend tasks for easy debugging The Dashboard provides a centralized and real-time view of all tasks, facilitating...",
+      "content_length": 809,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_AlgoFabric_TS_updates_1_chunk_0_build_1205e1f7",
+      "source_document": "AlgoFabric_TS_updates",
+      "similarity_score": 0.4495,
+      "content_preview": "AlgoFabric – New Additions What’s Trending Tab Quickly identify top gainers and losers Track daily price movements Track which companies has most news published Stay updated on significant corporate a...",
+      "content_length": 688,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_ML_Consultancy_Updates_ Algo_(March 14, 2024)_3_chunk_0_build_1205e1f7",
+      "source_document": "ML_Consultancy_Updates_ Algo_(March 14, 2024)",
+      "similarity_score": 0.4389,
+      "content_preview": "AlgoFabric: AI-powered Stock research assistant It is a fintech solution that can generate actionable recommendations for stock market investors",
+      "content_length": 144,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_AIAgentSystem_Executive_Summary_March_2025_0_chunk_0_build_1205e1f7",
+      "source_document": "AIAgentSystem_Executive_Summary_March_2025",
+      "similarity_score": 0.3782,
+      "content_preview": "AI Agent System Research Executive Summary March, 2025 CONFIDENTIAL AND PROPRIETARY Any use of this material without specific permission AlgoAnalytics is strictly prohibited ‹#›",
+      "content_length": 177,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Agentic_AI_Executive_Summary(D&I)_March_2025_0_chunk_0_build_1205e1f7",
+      "source_document": "Agentic_AI_Executive_Summary(D&I)_March_2025",
+      "similarity_score": 0.3663,
+      "content_preview": "Agentic AI Research Executive Summary March, 2025 CONFIDENTIAL AND PROPRIETARY Any use of this material without specific permission AlgoAnalytics is strictly prohibited ‹#›",
+      "content_length": 172,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_SLMs Slides for NTT Data_8_chunk_0_build_1205e1f7",
+      "source_document": "SLMs Slides for NTT Data",
+      "similarity_score": 0.356,
+      "content_preview": "Tentative Further Work on SLMs High Level Overview of Tasks Research on SLMs Available SLM Models (open source/paid) Performance comparison among different models Experimentation on SLMs Replication o...",
+      "content_length": 703,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Copy of Insurance Data_0_chunk_0_build_1205e1f7",
+      "source_document": "Copy of Insurance Data",
+      "similarity_score": 0.3495,
+      "content_preview": "One Stop AI for Insurance CONFIDENTIAL AND PROPRIETARY Any use of this material without specific permission AlgoAnalytics is strictly prohibited",
+      "content_length": 144,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Our Work _ Welding_0_chunk_0_build_1205e1f7",
+      "source_document": "Our Work _ Welding",
+      "similarity_score": 0.3482,
+      "content_preview": "Our Work across Welding An Overview CONFIDENTIAL AND PROPRIETARY Any use of this material without specific permission AlgoAnalytics is strictly prohibited",
+      "content_length": 154,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_ML_Consultancy_Updates_ Algo_(March 14, 2024)_1_chunk_0_build_1205e1f7",
+      "source_document": "ML_Consultancy_Updates_ Algo_(March 14, 2024)",
+      "similarity_score": 0.3466,
+      "content_preview": "Contents Related to Business Issue #1 AlgoAnalytics work in Prediction Model Building Application for Japan Agriculture Commodities Data Availability & Data Requirements Q & A",
+      "content_length": 175,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_ML_Consultancy_Updates_ Algo_(March 14, 2024)_4_chunk_0_build_1205e1f7",
+      "source_document": "ML_Consultancy_Updates_ Algo_(March 14, 2024)",
+      "similarity_score": 0.3308,
+      "content_preview": "Stock Selection Dashboard for AlgoFabric The table showcases the stocks from β-Based Stock Membership Strategy that outperformed its benchmark in last 5 years Select Number of Stocks you want to inves...",
+      "content_length": 452,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Copy of Insurance Data_8_chunk_0_build_1205e1f7",
+      "source_document": "Copy of Insurance Data",
+      "similarity_score": 0.3251,
+      "content_preview": "Thank You info@algoanalytics.com",
+      "content_length": 32,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Aksha_Overview_Deck_Oct_2024_4_chunk_0_session_0f698ba7",
+      "source_document": "Aksha_Overview_Deck_Oct_2024",
+      "similarity_score": 0.3233,
+      "content_preview": "Aksha architectural approaches We provide below mentioned architectural approaches Aksha on Edge (On Premise) Aksha UI & Backend on Edge Aksha on Edge & Cloud Aksha UI on Cloud & Backend on Edge ‹#›",
+      "content_length": 198,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_AlgoAnalytics - LLM _34_chunk_0_build_1205e1f7",
+      "source_document": "AlgoAnalytics - LLM ",
+      "similarity_score": 0.306,
+      "content_preview": "‹#› Algoadvisor : Company Financial Advisor   AlgoAdvisor is an app that helps you in your investment journey. With this app, you can upload financial documents and get insights into a company’s perfo...",
+      "content_length": 687,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Algoanalytics Gen AI Capability overview_Jan2025_0_chunk_0_build_1205e1f7",
+      "source_document": "Algoanalytics Gen AI Capability overview_Jan2025",
+      "similarity_score": 0.3049,
+      "content_preview": "AlgoAnalytics – Gen AI Capabilities Overview CONFIDENTIAL AND PROPRIETARY Any use of this material without specific permission AlgoAnalytics is strictly prohibited ‹#› Jan 2025",
+      "content_length": 176,
+      "chunk_type": "text_chunk"
+    }
+  ],
+  "total_retrieved_chunks": 15,
+  "content_richness_metrics": {
+    "total_content_slides": 5,
+    "total_key_points": 15,
+    "average_points_per_slide": 3.0,
+    "slides_with_rich_content": 5,
+    "richness_ratio": 1.0
+  },
+  "content_richness": "medium",
+  "character_metrics": {
+    "2": {
+      "total_characters": 241,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "3": {
+      "total_characters": 231,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "4": {
+      "total_characters": 266,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "5": {
+      "total_characters": 230,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "6": {
+      "total_characters": 241,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    }
+  },
+  "character_summary": {
+    "slides_within_range": 5,
+    "total_content_slides": 5,
+    "compliance_ratio": "100.0%",
+    "average_characters_per_slide": 241,
+    "bullet_point_variation": "3-3 points per slide",
+    "variation_quality": "LOW VARIATION"
+  }
+}

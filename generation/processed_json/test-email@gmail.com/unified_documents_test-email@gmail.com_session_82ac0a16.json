@@ -1,0 +1,323 @@
+{
+  "documents": [
+    {
+      "doc_id": "Aksha_Overview_Deck_Oct_2024",
+      "doc_type": "pptx",
+      "units": [
+        {
+          "index": 0,
+          "unit_type": "slide",
+          "text": [
+            "AI Powered Video Surveillance",
+            "https://aksha.algoanalytics.com",
+            "CONFIDENTIAL AND PROPRIETARY\nAny use of this material without specific permission AlgoAnalytics is strictly prohibited",
+            "Aksha\nअक्ष"
+          ],
+          "images": [
+            "images/test-email@gmail.com/temp_uploads/session_82ac0a16/img_test-email@gmail.com_session_82ac0a16_5b321621_unit0_img0_ba3ccc.jpg"
+          ]
+        },
+        {
+          "index": 1,
+          "unit_type": "slide",
+          "text": [
+            "Still facing these issues ? We got intelligent CCTV for you...",
+            "Intrusion detection",
+            "Fire detection",
+            "Crowd detection",
+            "Water leaks detection",
+            "Gate open detection",
+            "Material shifting"
+          ],
+          "images": [
+            "images/test-email@gmail.com/temp_uploads/session_82ac0a16/img_test-email@gmail.com_session_82ac0a16_5b321621_unit1_img0_6ce71f.jpg",
+            "images/test-email@gmail.com/temp_uploads/session_82ac0a16/img_test-email@gmail.com_session_82ac0a16_5b321621_unit1_img1_b46213.jpg",
+            "images/test-email@gmail.com/temp_uploads/session_82ac0a16/img_test-email@gmail.com_session_82ac0a16_5b321621_unit1_img2_1cce87.jpg",
+            "images/test-email@gmail.com/temp_uploads/session_82ac0a16/img_test-email@gmail.com_session_82ac0a16_5b321621_unit1_img3_cb3840.jpg",
+            "images/test-email@gmail.com/temp_uploads/session_82ac0a16/img_test-email@gmail.com_session_82ac0a16_5b321621_unit1_img4_fe2f98.jpg"
+          ]
+        },
+        {
+          "index": 2,
+          "unit_type": "slide",
+          "text": [
+            "Camera connection lost detection",
+            "Helmet detection",
+            "Vehicle detection",
+            "Covered face detection",
+            "Perimeter breach"
+          ],
+          "images": [
+            "images/test-email@gmail.com/temp_uploads/session_82ac0a16/img_test-email@gmail.com_session_82ac0a16_5b321621_unit2_img0_55d1ae.jpg",
+            "images/test-email@gmail.com/temp_uploads/session_82ac0a16/img_test-email@gmail.com_session_82ac0a16_5b321621_unit2_img1_fbbba5.jpg",
+            "images/test-email@gmail.com/temp_uploads/session_82ac0a16/img_test-email@gmail.com_session_82ac0a16_5b321621_unit2_img2_f25ec6.jpg",
+            "images/test-email@gmail.com/temp_uploads/session_82ac0a16/img_test-email@gmail.com_session_82ac0a16_5b321621_unit2_img3_15237f.jpg",
+            "images/test-email@gmail.com/temp_uploads/session_82ac0a16/img_test-email@gmail.com_session_82ac0a16_5b321621_unit2_img4_de2d3f.jpg",
+            "images/test-email@gmail.com/temp_uploads/session_82ac0a16/img_test-email@gmail.com_session_82ac0a16_5b321621_unit2_img5_ba3e09.jpg"
+          ]
+        },
+        {
+          "index": 3,
+          "unit_type": "slide",
+          "text": [
+            "Introduction to Aksha",
+            "Aksha - Intelligent surveillance system is envisioned to automatically monitor the environment or premises with less or without human intervention.\nSuch monitoring tasks include automatically detecting objects, unusual situations and performing further analysis and actions.\nComputer vision, Artificial Intelligence, and Gen AI play a very important role in developing such intelligent systems."
+          ],
+          "images": []
+        },
+        {
+          "index": 4,
+          "unit_type": "slide",
+          "text": [
+            "Aksha architectural approaches",
+            "We provide below mentioned architectural approaches",
+            "Aksha on Edge (On Premise)\nAksha UI & Backend on Edge",
+            "Aksha on Edge & Cloud\nAksha UI on Cloud & Backend on Edge",
+            "‹#›",
+            "AlgoAnalytics Pvt. Ltd",
+            "Strictly Confidential"
+          ],
+          "images": []
+        },
+        {
+          "index": 5,
+          "unit_type": "slide",
+          "text": [
+            "Aksha",
+            "Aksha, the smart surveillance system for the businesses that value employee safety. It is self learning system which detects object & anomalies using the power of Artificial Intelligence. It enables user to set customized alerts at fingertips.",
+            "‹#›",
+            "Main features",
+            "Live recording and processing of data",
+            "Object detection",
+            "Image analysis using Gen AI",
+            "Objects: Person, supine person, no helmet, helmet, car, bicycle, truck, motorbike, backpack, handbag, gate open, gate closed, fork lift, crowd",
+            "Insight report generation & analysis Using Gen AI",
+            "Unsupervised learning based Anomaly detection",
+            "Customized alert creation at fingertips"
+          ],
+          "images": [
+            "images/test-email@gmail.com/temp_uploads/session_82ac0a16/img_test-email@gmail.com_session_82ac0a16_5b321621_unit5_img0_32c7e3.jpg"
+          ]
+        },
+        {
+          "index": 6,
+          "unit_type": "slide",
+          "text": [
+            "AKSHA : Live recording and processing of the data",
+            "Live view of AKSHA implementation at one of our client’s manufacturing factory outlet"
+          ],
+          "images": [
+            "images/test-email@gmail.com/temp_uploads/session_82ac0a16/img_test-email@gmail.com_session_82ac0a16_5b321621_unit6_img0_d066ff.jpg"
+          ]
+        },
+        {
+          "index": 7,
+          "unit_type": "slide",
+          "text": [
+            "AKSHA : Anomalies and Object Detection",
+            "Anomalies (Unusual Situation)",
+            "Object Detection"
+          ],
+          "images": [
+            "images/test-email@gmail.com/temp_uploads/session_82ac0a16/img_test-email@gmail.com_session_82ac0a16_5b321621_unit7_img0_772659.jpg",
+            "images/test-email@gmail.com/temp_uploads/session_82ac0a16/img_test-email@gmail.com_session_82ac0a16_5b321621_unit7_img1_638e4f.jpg"
+          ]
+        },
+        {
+          "index": 8,
+          "unit_type": "slide",
+          "text": [
+            "Recent Alert and Alert report"
+          ],
+          "images": []
+        },
+        {
+          "index": 9,
+          "unit_type": "slide",
+          "text": [
+            "Image Analysis Using GenAI",
+            "To allow the user to ask any questions about the chosen image, a \"User prompt\" has been added to the \"Investigate\" tab."
+          ],
+          "images": []
+        },
+        {
+          "index": 10,
+          "unit_type": "slide",
+          "text": [
+            "Contd.."
+          ],
+          "images": []
+        },
+        {
+          "index": 11,
+          "unit_type": "slide",
+          "text": [
+            "Customization and analysis of alert report content to identify trends and identify turning points.",
+            "Using Gen AI for alert report content customization and analysis",
+            "This feature will produce an extremely perceptive synopsis. \n\nThe admin's workload will undoubtedly be lessened."
+          ],
+          "images": []
+        },
+        {
+          "index": 12,
+          "unit_type": "slide",
+          "text": [
+            "Activity Tracker",
+            "‹#›"
+          ],
+          "images": [
+            "images/test-email@gmail.com/temp_uploads/session_82ac0a16/img_test-email@gmail.com_session_82ac0a16_5b321621_unit12_img0_cde9e1.jpg"
+          ]
+        },
+        {
+          "index": 13,
+          "unit_type": "slide",
+          "text": [
+            "AKSHA : Customizable Alerts"
+          ],
+          "images": [
+            "images/test-email@gmail.com/temp_uploads/session_82ac0a16/img_test-email@gmail.com_session_82ac0a16_5b321621_unit13_img0_bf726a.jpg"
+          ]
+        },
+        {
+          "index": 14,
+          "unit_type": "slide",
+          "text": [
+            "AlgoAnalytics and NDIL collaboration",
+            "AlgoAnalytics customized “Aksha for workers safety” in collaboration with NDIL. This customized new Aksha version runs on “Edge + Cloud”.\nThree stages of Aksha customization with NDIL have been successfully finished by AlgoAnalytics; in Phase III, we added Gen AI to enhance Aksha features.",
+            "Aksha POC on Raspberry Pi 4B & Interfaced two wireless cameras with it.\nArchitectural changes to run Backend1 on Edge and UI on Azure",
+            "Aksha Phase I\nFY23 Q4",
+            "Continuous support to NDIL team to run Aksha on Raspberry Pi 4B with both OS support Linux and SPECTRA. Aksha code optimization to achieve better FPS and Notification",
+            "Aksha Phase II\nFY24 Q1",
+            "Enhanced Aksha features with Gen AI using Image prompt engineering. Improved Cloud architecture. Hardware mapping",
+            "Aksha Phase III\nFY24 Q2",
+            "‹#›",
+            "AlgoAnalytics Pvt. Ltd",
+            "Strictly Confidential"
+          ],
+          "images": []
+        },
+        {
+          "index": 15,
+          "unit_type": "slide",
+          "text": [
+            "Docomo Business Forum\nOctober 2024 (Japan)",
+            "Indian Mobile Congress (IMC) October 2024 \n(Delhi, India)",
+            "Exhibitions and Visibility"
+          ],
+          "images": [
+            "images/test-email@gmail.com/temp_uploads/session_82ac0a16/img_test-email@gmail.com_session_82ac0a16_5b321621_unit15_img0_0ce777.png"
+          ]
+        },
+        {
+          "index": 16,
+          "unit_type": "slide",
+          "text": [
+            "Current developments",
+            "Aksha on multi edge: Mapping between edge devices and cameras",
+            "The feed of all the cameras will be visible on the same GUI, whereas each camera will be running on a different hardware device, i.e. raspberry pi\nAll the cameras run on the same network.\nEvery camera communicates with the backend, which runs on the Azure app service. The feed is then sent to the front-end from the back-end",
+            "Local Network",
+            "RTSP",
+            "RTSP",
+            "Centralised GUI",
+            "VPN",
+            "‹#›",
+            "AlgoAnalytics Pvt. Ltd",
+            "Strictly Confidential"
+          ],
+          "images": [
+            "images/test-email@gmail.com/temp_uploads/session_82ac0a16/img_test-email@gmail.com_session_82ac0a16_5b321621_unit16_img0_2110a0.png",
+            "images/test-email@gmail.com/temp_uploads/session_82ac0a16/img_test-email@gmail.com_session_82ac0a16_5b321621_unit16_img1_6f0b51.png"
+          ]
+        },
+        {
+          "index": 17,
+          "unit_type": "slide",
+          "text": [
+            "Location 1",
+            "Location 2",
+            "Location 3",
+            "Location N",
+            "Network Backbone",
+            "Central location",
+            "‹#›",
+            "AlgoAnalytics Pvt. Ltd",
+            "Strictly Confidential",
+            "Enhancing Aksha’s Scalability: Using Kubernetes and Kafka"
+          ],
+          "images": [
+            "images/test-email@gmail.com/temp_uploads/session_82ac0a16/img_test-email@gmail.com_session_82ac0a16_5b321621_unit17_img0_3eba76.png"
+          ]
+        },
+        {
+          "index": 18,
+          "unit_type": "slide",
+          "text": [
+            "Enhancing Aksha’s Scalability: Architecture and Advantages",
+            "‹#›",
+            "AlgoAnalytics Pvt. Ltd",
+            "Strictly Confidential",
+            "Effortless Scalability: Easily scale microservices with Kubernetes and manage high message volumes with Kafka.\n\nDecoupled Architecture: Allows independent service development and deployment, improving fault tolerance and maintainability.\n\nReal-time Data Processing: Facilitates real-time data streaming for timely insights and actions.\n\nHigh Availability: Maintains reliable performance through Kubernetes orchestration and Kafka’s distributed messaging."
+          ],
+          "images": [
+            "images/test-email@gmail.com/temp_uploads/session_82ac0a16/img_test-email@gmail.com_session_82ac0a16_5b321621_unit18_img0_15fdb5.png"
+          ]
+        },
+        {
+          "index": 19,
+          "unit_type": "slide",
+          "text": [
+            "Aksha’s compatibility with the cameras",
+            "Aksha is compatible with any standard CCTV camera that provides RTSP link for connection. A few examples (but not limited to these) are:"
+          ],
+          "images": []
+        },
+        {
+          "index": 20,
+          "unit_type": "slide",
+          "text": [
+            "What our customers have to say",
+            "Aksha has empowered our investments into the CCTV setup. Human monitoring efforts have reduced a lot. The ability to detect abnormal unforeseen events along with specific important entities without a lot of CAPEX is wonderful.",
+            "COO, Sharada Industries",
+            "Aksha has given us a different outlook into how CCTV can be used. The ability to detect abnormal events and then highlighting them has been really useful. It has also been eye opening w.r.t. what all scenarios can be highlighted and avoided. We are looking forward to the new updates and innovations in the pipeline from Aksha",
+            "Partner, United Toolkits"
+          ],
+          "images": []
+        },
+        {
+          "index": 21,
+          "unit_type": "slide",
+          "text": [
+            "For more on AKSHA",
+            "(अक्ष)",
+            "Visit on below link\nhttps://aksha.algoanalytics.com/\n\nContact Us on\naksha@algoanalytics.com\n\nVisit our office at\nAlacrity India Innovation Centre, \nIdeas to Impacts Building,\nPallod Farm Lane 3, Baner Road,\nPune 411045\nLandmark : Near Vijay Sales"
+          ],
+          "images": []
+        },
+        {
+          "index": 22,
+          "unit_type": "slide",
+          "text": [
+            "Appendix"
+          ],
+          "images": []
+        },
+        {
+          "index": 23,
+          "unit_type": "slide",
+          "text": [
+            "Aksha installation steps",
+            "In the same network",
+            "OR",
+            "Get the Camera RTSP links",
+            "2.    Install Aksha on Edge device which is in the same network with DVR/NVR"
+          ],
+          "images": [
+            "images/test-email@gmail.com/temp_uploads/session_82ac0a16/img_test-email@gmail.com_session_82ac0a16_5b321621_unit23_img0_45ff56.png",
+            "images/test-email@gmail.com/temp_uploads/session_82ac0a16/img_test-email@gmail.com_session_82ac0a16_5b321621_unit23_img1_0a0528.png"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+[
+    {
+        "query": "Introduction to AlgoAnalytics",
+        "results": [
+            {
+                "index": 1,
+                "slideNumber": 10,
+                "pptName": "/content/drive/MyDrive/GenAI (UI UX)/Algo_Org_PPTs/AlgoFromDownload/Overview decks/AI Strategy and AI Services_10Nov2020_3.pptx",
+                "metadata": {
+                    "creation_date": "Fri Oct 11 06:38:14 2024",
+                    "file_id": "177",
+                    "file_path": "/content/drive/MyDrive/GenAI (UI UX)/Algo_Org_PPTs/AlgoFromDownload/Overview decks/AI Strategy and AI Services_10Nov2020_3.pptx",
+                    "filename": "AI Strategy and AI Services_10Nov2020_3.pptx",
+                    "last_modified_date": "Thu May 22 11:36:58 2025",
+                    "slide_number": 10
+                },
+                "slideContent": "Text:\nAlgoAnalytics Al Services Domain Specialized Generalized Specialized Baseline Out of Box Customized Later Out of Box Customized On Prem Cloud Agnostic Cloud On Prem Competitive Pricing AlgoAnalytics Pay Per Use Innovative AlgoAnalytics Pvt. Ltd Strictly Confidential 10\n\nTable Summary:\nNone\n\nImages Summary:\n[]\n\nTags:\nGeneralized, Cloud, Baseline, AlgoAnalytics, Agnostic, Prem, Services, Domain, Competitive, Innovative, Pricing, Specialized"
+            },
+            {
+                "index": 2,
+                "slideNumber": 4,
+                "pptName": "/content/drive/MyDrive/GenAI (UI UX)/Algo_Org_PPTs/AlgoFromDownload/Singapore proposal rust.pptx",
+                "metadata": {
+                    "creation_date": "Fri Oct 11 06:38:05 2024",
+                    "file_id": "79",
+                    "file_path": "/content/drive/MyDrive/GenAI (UI UX)/Algo_Org_PPTs/AlgoFromDownload/Singapore proposal rust.pptx",
+                    "filename": "Singapore proposal rust.pptx",
+                    "last_modified_date": "Thu May 22 11:32:16 2025",
+                    "slide_number": 4
+                },
+                "slideContent": "Text:\nExecutive Summary AlgoAnalytics is pleased to submit this document in response to seeking automated methods for non- destructive detection of corrosion and rust Background: AlgoAnalytics is one stop Al, with expertise in handling structured, image, video, sound and all other type of data to derive insights from data. After starting in 2016, we have executed 100+ projects with marquee clients. We have a strong team of 50+ data scientists on our premises. Technology Approach: we will be using deep learning based object detection and segmentation to. solve the problem. The solution will be implemented at client premises/ on cloud as per client. requirements Business aspect - After implementation, the client can input an image and get a result as to whether. the part is corroded or not, marking the region on the object that is corroded Commercials and Timelines: Our estimate is 36 man months distributed over 18 months at the cost of USD 180,000  AlgoAnalytics Pvt. Ltd. | Page  4\n\nTable Summary:\nNone\n\nImages Summary:\n[]\n\nTags:\nCommercials, Technology, Approach, AlgoAnalytics, Summary, Timelines, Executive"
+            }
+        ]
+    }
+]

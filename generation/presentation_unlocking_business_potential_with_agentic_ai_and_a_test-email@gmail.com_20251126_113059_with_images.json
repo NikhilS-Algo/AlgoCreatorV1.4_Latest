@@ -1,0 +1,418 @@
+{
+  "presentation_title": "Unlocking Business Potential with Agentic AI and AI Agents",
+  "total_slides": 10,
+  "presentation_style": "sales",
+  "content_richness": "medium",
+  "executive_summary": "Comprehensive overview of Unlocking Business Potential with Agentic AI and AI Agents",
+  "key_value_propositions": [
+    "Agentic AI leverages advanced algorithms to create intelligent agents capable of autonomous decision-making.",
+    "Focuses on implementing 11 distinct Agentic Patterns to enhance operational efficiency.",
+    "Supports various industries by automating processes and improving user interactions."
+  ],
+  "strategic_insights": [
+    "Adaptive Processing: Dynamic workflow optimization to enhance productivity.",
+    "Multi-Agent Collaboration: Seamless interaction between specialized agents for complex tasks.",
+    "Intelligent Routing: Smart query distribution to ensure optimal agent selection."
+  ],
+  "actionable_recommendations": [
+    "Passive and Proactive Goal Creators to align agent actions with business objectives.",
+    "Prompt/Response Optimizer and Retrieval-Augmented Generation (RAG) for enhanced information retrieval.",
+    "Human Reflection and Multimodal Guardrails to ensure user-centric design and safety."
+  ],
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_title": "Unlocking Business Potential with Agentic AI and AI Agents",
+      "slide_type": "title",
+      "content": "Unlocking Business Potential with Agentic AI and AI Agents",
+      "images": []
+    },
+    {
+      "slide_number": 2,
+      "slide_title": "Introduction to Agentic AI",
+      "slide_type": "content",
+      "content": "• Agentic AI leverages advanced algorithms to create intelligent agents capable of autonomous decision-making.\n• Focuses on implementing 11 distinct Agentic Patterns to enhance operational efficiency.\n• Supports various industries by automating processes and improving user interactions.",
+      "speaker_notes": "Discuss: Agentic AI leverages advanced algorithms to create intelligent agents capable of autonomous decision-making., Focuses on implementing 11 distinct Agentic Patterns to enhance operational efficiency., Supports various industries by automating processes and improving user interactions.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Introduction to Agentic AI",
+      "images": [
+        {
+          "image_id": "image_slide_AlgoAnalytics deck for UK_Europe_33_chunk_0_build_084d5582_img2",
+          "caption": "This is a diagram presenting the offerings and expertise of AlgoAnalytics, focusing on Generative AI and related technologies. It includes sections on core offerings like Generative AI solutions, AI/ML solutions, Cloud Data Engineering, and Emerging Technologies. Visual elements include",
+          "similarity_score": 0.5025793272056487,
+          "source_document": "AlgoAnalytics deck for UK_Europe",
+          "image_path": "images/test-email@gmail.com/main_corpus/slide_033_img_002_2444c4.png",
+          "user_id": "test-email@gmail.com",
+          "relevance_rank": 1
+        }
+      ]
+    },
+    {
+      "slide_number": 3,
+      "slide_title": "Key Features of Agentic AI",
+      "slide_type": "content",
+      "content": "• Adaptive Processing: Dynamic workflow optimization to enhance productivity.\n• Multi-Agent Collaboration: Seamless interaction between specialized agents for complex tasks.\n• Intelligent Routing: Smart query distribution to ensure optimal agent selection.",
+      "speaker_notes": "Discuss: Adaptive Processing: Dynamic workflow optimization to enhance productivity., Multi-Agent Collaboration: Seamless interaction between specialized agents for complex tasks., Intelligent Routing: Smart query distribution to ensure optimal agent selection.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Key Features of Agentic AI",
+      "images": [
+        {
+          "image_id": "image_slide_Agentic_AI_Project Report(D&I)_March_2025_18_chunk_0_build_084d5582_img1",
+          "caption": "This is a diagram illustrating the \"Agentic RAG Workflow.\" It features a user initiating a query that flows into an agent, which interacts with two vector stores (A and B). The agent processes the prompt and generates an output, with tool access",
+          "similarity_score": 0.5126310646318348,
+          "source_document": "Agentic_AI_Project Report(D&I)_March_2025",
+          "image_path": "images/test-email@gmail.com/main_corpus/slide_018_img_001_446e75.png",
+          "user_id": "test-email@gmail.com",
+          "relevance_rank": 1
+        }
+      ]
+    },
+    {
+      "slide_number": 4,
+      "slide_title": "The 11 Agentic Patterns",
+      "slide_type": "content",
+      "content": "• Passive and Proactive Goal Creators to align agent actions with business objectives.\n• Prompt/Response Optimizer and Retrieval-Augmented Generation (RAG) for enhanced information retrieval.\n• Human Reflection and Multimodal Guardrails to ensure user-centric design and safety.",
+      "speaker_notes": "Discuss: Passive and Proactive Goal Creators to align agent actions with business objectives., Prompt/Response Optimizer and Retrieval-Augmented Generation (RAG) for enhanced information retrieval., Human Reflection and Multimodal Guardrails to ensure user-centric design and safety.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: The 11 Agentic Patterns",
+      "images": [
+        {
+          "image_id": "image_slide_Agentic_AI_Project Report(D&I)_March_2025_5_chunk_0_build_084d5582_img0",
+          "caption": "This is a diagram illustrating a \"Passive Goal Creator\" system. It features a user interacting with an agent through a dialogue interface. Key components include memory, context retrieval, and goal creation processes. Arrows indicate data flow between elements, emphasizing context engineering",
+          "similarity_score": 0.5246388898935437,
+          "source_document": "Agentic_AI_Project Report(D&I)_March_2025",
+          "image_path": "images/test-email@gmail.com/main_corpus/slide_005_img_000_d6e59b.png",
+          "user_id": "test-email@gmail.com",
+          "relevance_rank": 1
+        }
+      ]
+    },
+    {
+      "slide_number": 5,
+      "slide_title": "Implementation Strategy",
+      "slide_type": "content",
+      "content": "• Phased implementation over three months, focusing on research and practical applications.\n• Utilization of the Dify platform for deploying individual agents and multi-agent systems.\n• Integration of all agents into a single user interface for streamlined operations.",
+      "speaker_notes": "Discuss: Phased implementation over three months, focusing on research and practical applications., Utilization of the Dify platform for deploying individual agents and multi-agent systems., Integration of all agents into a single user interface for streamlined operations.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Implementation Strategy",
+      "images": [
+        {
+          "image_id": "image_slide_Project_Summaries_Jan2025_v1_20_chunk_0_build_084d5582_img0",
+          "caption": "This is a diagram illustrating an agent-based architecture for a web application. It features components like a Web Client, API Management, and various agents including a Master Agent, Classifier Agent, and Research Agent with HyDE. The Data Layer includes Azure Open",
+          "similarity_score": 0.46597455727765225,
+          "source_document": "Project_Summaries_Jan2025_v1",
+          "image_path": "images/test-email@gmail.com/main_corpus/slide_020_img_000_304ba0.png",
+          "user_id": "test-email@gmail.com",
+          "relevance_rank": 1
+        }
+      ]
+    },
+    {
+      "slide_number": 6,
+      "slide_title": "Business Value of Agentic AI",
+      "slide_type": "content",
+      "content": "• Increases operational efficiency by automating routine tasks and decision-making.\n• Enhances customer engagement through personalized interactions and timely responses.\n• Facilitates data-driven insights for strategic decision-making and market analysis.",
+      "speaker_notes": "Discuss: Increases operational efficiency by automating routine tasks and decision-making., Enhances customer engagement through personalized interactions and timely responses., Facilitates data-driven insights for strategic decision-making and market analysis.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Business Value of Agentic AI",
+      "images": [
+        {
+          "image_id": "image_slide_AlgoAnalytics deck for UK_Europe_69_chunk_0_build_084d5582_img10",
+          "caption": "This is an infographic promoting the \"AI Competency Center for Manufacturing,\" a collaboration between AlgoAnalytics and Sharada Industries. It features sections on AI technologies like Digital Twin, Edge Computing, and Predictive Analytics, with key benefits outlined. The design includes",
+          "similarity_score": 0.4923568847295211,
+          "source_document": "AlgoAnalytics deck for UK_Europe",
+          "image_path": "images/test-email@gmail.com/main_corpus/slide_023_img_000_274011.png",
+          "user_id": "test-email@gmail.com",
+          "relevance_rank": 1
+        }
+      ]
+    },
+    {
+      "slide_number": 7,
+      "slide_title": "Practical Applications",
+      "slide_type": "content",
+      "content": "• Market Research Assistant: Multi-agent collaboration for comprehensive data analysis.\n• Customer Support: AI agents providing 24/7 assistance and query resolution.\n• Sales Optimization: Automated lead generation and follow-up processes.",
+      "speaker_notes": "Discuss: Market Research Assistant: Multi-agent collaboration for comprehensive data analysis., Customer Support: AI agents providing 24/7 assistance and query resolution., Sales Optimization: Automated lead generation and follow-up processes.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Practical Applications",
+      "images": [
+        {
+          "image_id": "image_slide_AlgoAnalytics deck for UK_Europe_33_chunk_0_build_084d5582_img3",
+          "caption": "This is an infographic providing an overview of AlgoAnalytics, an NTT Data company specializing in AI/ML solutions. It includes sections on their offerings, expertise in technologies like Quantum Computing, and products such as AI-powered video surveillance. The design features text",
+          "similarity_score": 0.48183967483580475,
+          "source_document": "AlgoAnalytics deck for UK_Europe",
+          "image_path": "images/test-email@gmail.com/main_corpus/slide_033_img_003_9fc32f.png",
+          "user_id": "test-email@gmail.com",
+          "relevance_rank": 1
+        }
+      ]
+    },
+    {
+      "slide_number": 8,
+      "slide_title": "Case Studies and Success Stories",
+      "slide_type": "content",
+      "content": "• Showcase of successful implementations across various sectors, including finance and retail.\n• Demonstrated ROI through increased efficiency and reduced operational costs.\n• Testimonials from clients highlighting improved customer satisfaction and engagement.",
+      "speaker_notes": "Discuss: Showcase of successful implementations across various sectors, including finance and retail., Demonstrated ROI through increased efficiency and reduced operational costs., Testimonials from clients highlighting improved customer satisfaction and engagement.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Case Studies and Success Stories",
+      "images": [
+        {
+          "image_id": "image_slide_Copy of AlgoAnalytics_OilandGas_8_chunk_0_build_084d5582_img2",
+          "caption": "This is a diagram featuring a list of projects utilizing image and video analytics. It includes two bullet points: one on \"Absenteeism Prediction\" for a global automobile company and another on \"Manufacturing process monitoring\" for a company in Ahmedabad, India",
+          "similarity_score": 0.4848136182998788,
+          "source_document": "Copy of AlgoAnalytics_OilandGas",
+          "image_path": "images/test-email@gmail.com/main_corpus/slide_008_img_008_3f750c.png",
+          "user_id": "test-email@gmail.com",
+          "relevance_rank": 1
+        }
+      ]
+    },
+    {
+      "slide_number": 9,
+      "slide_title": "Future of Agentic AI",
+      "slide_type": "content",
+      "content": "• Ongoing research and development to refine agent capabilities and expand use cases.\n• Potential for integration with emerging technologies like IoT and blockchain.\n• Vision for a fully autonomous agent ecosystem that adapts to business needs.",
+      "speaker_notes": "Discuss: Ongoing research and development to refine agent capabilities and expand use cases., Potential for integration with emerging technologies like IoT and blockchain., Vision for a fully autonomous agent ecosystem that adapts to business needs.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Future of Agentic AI",
+      "images": [
+        {
+          "image_id": "image_slide_Agentic_AI_Project Report(D&I)_March_2025_31_chunk_0_build_084d5582_img0",
+          "caption": "This is a diagram illustrating a system architecture for an AI agent. It features labeled components such as \"User,\" \"Agent,\" \"Environment,\" and \"External tools.\" Arrows indicate data flow, with a legend distinguishing between safe and risky data. Key",
+          "similarity_score": 0.4647492607440349,
+          "source_document": "Agentic_AI_Project Report(D&I)_March_2025",
+          "image_path": "images/test-email@gmail.com/main_corpus/slide_031_img_000_0ef4db.png",
+          "user_id": "test-email@gmail.com",
+          "relevance_rank": 1
+        }
+      ]
+    },
+    {
+      "slide_number": 10,
+      "slide_title": "Call to Action",
+      "slide_type": "content",
+      "content": "• Explore how Agentic AI can transform your business operations.\n• Schedule a consultation to discuss tailored solutions for your organization.\n• Join the forefront of AI innovation and drive your business to new heights.",
+      "speaker_notes": "Discuss: Explore how Agentic AI can transform your business operations., Schedule a consultation to discuss tailored solutions for your organization., Join the forefront of AI innovation and drive your business to new heights.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Call to Action",
+      "images": [
+        {
+          "image_id": "image_slide_AlgoAnalytics - LLM _9_chunk_0_build_084d5582_img0",
+          "caption": "This is a digital advertisement featuring a photograph related to insurance services. It includes a magnifying glass over an insurance policy document, with visible text stating \"Insurance Agent.\" The background features currency notes, emphasizing financial themes. The ad promotes a chatbot solution for",
+          "similarity_score": 0.44043905826806273,
+          "source_document": "AlgoAnalytics - LLM ",
+          "image_path": "images/test-email@gmail.com/main_corpus/slide_009_img_000_c707dc.png",
+          "user_id": "test-email@gmail.com",
+          "relevance_rank": 1
+        }
+      ]
+    }
+  ],
+  "generated_date": "2025-11-26T11:30:42.242840",
+  "version": "1.0",
+  "content_approach": "industry_ready",
+  "estimated_duration": "20 minutes",
+  "character_metrics": {
+    "2": {
+      "total_characters": 305,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "3": {
+      "total_characters": 274,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "4": {
+      "total_characters": 293,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "5": {
+      "total_characters": 283,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "6": {
+      "total_characters": 276,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "7": {
+      "total_characters": 252,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "8": {
+      "total_characters": 285,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "9": {
+      "total_characters": 256,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "10": {
+      "total_characters": 227,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    }
+  },
+  "character_summary": {
+    "slides_within_range": 9,
+    "total_content_slides": 9,
+    "compliance_ratio": "100.0%",
+    "average_characters_per_slide": 272,
+    "bullet_point_variation": "3-3 points per slide",
+    "variation_quality": "LOW VARIATION"
+  },
+  "content_richness_metrics": {
+    "total_content_slides": 9,
+    "total_key_points": 27,
+    "average_points_per_slide": 3.0,
+    "slides_with_rich_content": 9,
+    "richness_ratio": 1.0
+  },
+  "retrieved_chunks_metadata": [
+    {
+      "chunk_id": "text_slide_Agentic_AI_Executive_Summary(D&I)_March_2025_0_chunk_0_build_084d5582",
+      "source_document": "Agentic_AI_Executive_Summary(D&I)_March_2025",
+      "similarity_score": 0.6257,
+      "content_preview": "Agentic AI Research Executive Summary March, 2025 CONFIDENTIAL AND PROPRIETARY Any use of this material without specific permission AlgoAnalytics is strictly prohibited ‹#›",
+      "content_length": 172,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Agentic_AI_Executive_Summary(D&I)_March_2025_1_chunk_0_build_084d5582",
+      "source_document": "Agentic_AI_Executive_Summary(D&I)_March_2025",
+      "similarity_score": 0.5961,
+      "content_preview": "Project Overview Objectives: Research on the AI Agents Implement the 11 Agentic Patterns as per the research paper Implement Agentic Pattern Extension example Implement Multi-agent use case example ‹#...",
+      "content_length": 655,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Presentation Deck for Vodafone_13_chunk_0_build_084d5582",
+      "source_document": "Presentation Deck for Vodafone",
+      "similarity_score": 0.5955,
+      "content_preview": "Gen AI Capabilities   ‹#›",
+      "content_length": 25,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Agentic_AI_Project Report(D&I)_March_2025_0_chunk_0_build_084d5582",
+      "source_document": "Agentic_AI_Project Report(D&I)_March_2025",
+      "similarity_score": 0.5897,
+      "content_preview": "Agentic AI Research Project Report March, 2025 CONFIDENTIAL AND PROPRIETARY Any use of this material without specific permission AlgoAnalytics is strictly prohibited ‹#›",
+      "content_length": 169,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Agentic_AI_Project Report(D&I)_March_2025_1_chunk_0_build_084d5582",
+      "source_document": "Agentic_AI_Project Report(D&I)_March_2025",
+      "similarity_score": 0.5841,
+      "content_preview": "Contents Agentic Patterns Implementation Plan Details and Implementation for each Agentic Patterns Agentic Pattern #1: Passive Goal Creator Agentic Pattern #3: Prompt/Response Optimiser Agentic Patter...",
+      "content_length": 699,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Agentic_AI_Project Report(D&I)_March_2025_80_chunk_0_build_084d5582",
+      "source_document": "Agentic_AI_Project Report(D&I)_March_2025",
+      "similarity_score": 0.5838,
+      "content_preview": "Agentic AI Research User Guide March, 2025 CONFIDENTIAL AND PROPRIETARY Any use of this material without specific permission AlgoAnalytics is strictly prohibited ‹#›",
+      "content_length": 165,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Algoanalytics Gen AI Capability overview_Jan2025_5_chunk_0_build_084d5582",
+      "source_document": "Algoanalytics Gen AI Capability overview_Jan2025",
+      "similarity_score": 0.5832,
+      "content_preview": "Our Advanced Agentic Network Capabilities Advanced Agentic Network Adaptive Processing (Dynamic Workflow Optimization) Multi Agent Collaboration (Seamless interaction between multiple specialized agen...",
+      "content_length": 807,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Financial services offerings_Algoanalytics_Aug 2024_7_chunk_0_build_084d5582",
+      "source_document": "Financial services offerings_Algoanalytics_Aug 2024",
+      "similarity_score": 0.5807,
+      "content_preview": "Gen AI based Business Transformation",
+      "content_length": 36,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_AlgoAnalytics deck for UK_Europe_68_chunk_0_build_084d5582",
+      "source_document": "AlgoAnalytics deck for UK_Europe",
+      "similarity_score": 0.5795,
+      "content_preview": "AI Competency Center & Gen AI Capability Building",
+      "content_length": 49,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_AI Agent System Research_Deliverable by Algo_March 28, 2025_0_chunk_0_build_084d5582",
+      "source_document": "AI Agent System Research_Deliverable by Algo_March 28, 2025",
+      "similarity_score": 0.5778,
+      "content_preview": "AI Agent System Research March 28, 2025",
+      "content_length": 39,
+      "chunk_type": "text_chunk"
+    }
+  ],
+  "image_mapping_metrics": {
+    "user_id": "test-email@gmail.com",
+    "search_mode": "corpus_only",
+    "total_slides": 10,
+    "content_slides": 9,
+    "slides_with_images": 9,
+    "total_images_mapped": 9,
+    "total_available_images": 715,
+    "images_used": 9,
+    "similarity_threshold_used": 0.4,
+    "utilization_rate": "9/715",
+    "coverage_ratio": "9/9",
+    "mapping_strategy": "STRICT_RELEVANCE_ONLY"
+  }
+}

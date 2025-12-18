@@ -1,0 +1,410 @@
+{
+  "presentation_title": "Aksha Surveillance System and Digital Twin Project",
+  "total_slides": 10,
+  "presentation_style": "corporate",
+  "content_richness": "medium",
+  "executive_summary": "Comprehensive overview of Aksha Surveillance System and Digital Twin Project",
+  "key_value_propositions": [
+    "Aksha is an intelligent surveillance system designed for automated monitoring with minimal human intervention.",
+    "Utilizes advanced technologies such as Computer Vision, Artificial Intelligence, and Gen AI.",
+    "Focuses on real-time object detection and anomaly identification to enhance safety and security."
+  ],
+  "strategic_insights": [
+    "24/7 monitoring capabilities with live recording and data processing.",
+    "Advanced object detection for various entities including vehicles, people, and unusual behaviors.",
+    "Customizable alert systems that allow users to set specific notifications based on detected anomalies."
+  ],
+  "actionable_recommendations": [
+    "Transforms traditional CCTV setups into smart surveillance systems, enhancing operational efficiency.",
+    "Reduces human monitoring efforts, allowing businesses to allocate resources more effectively.",
+    "Low capital expenditure (CapEx) with SaaS-based pricing models, making it accessible for various industries."
+  ],
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_title": "Aksha Surveillance System and Digital Twin Project",
+      "slide_type": "title",
+      "content": "Aksha Surveillance System and Digital Twin Project",
+      "images": []
+    },
+    {
+      "slide_number": 2,
+      "slide_title": "Introduction to Aksha",
+      "slide_type": "content",
+      "content": "• Aksha is an intelligent surveillance system designed for automated monitoring with minimal human intervention.\n• Utilizes advanced technologies such as Computer Vision, Artificial Intelligence, and Gen AI.\n• Focuses on real-time object detection and anomaly identification to enhance safety and security.",
+      "speaker_notes": "Discuss: Aksha is an intelligent surveillance system designed for automated monitoring with minimal human intervention., Utilizes advanced technologies such as Computer Vision, Artificial Intelligence, and Gen AI., Focuses on real-time object detection and anomaly identification to enhance safety and security.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Introduction to Aksha",
+      "images": [
+        {
+          "image_id": "image_slide_AlgoAnalytics deck for UK_Europe_18_chunk_0_build_084d5582_img0",
+          "caption": "This is a diagram illustrating a software architecture for a monitoring system. It features components like Aksha Dashboard, FastAPI, MongoDB, and Kubernetes, connected by arrows indicating data flow. Key processes include object detection, alert identification, and anomaly detection,",
+          "similarity_score": 0.5663253821157175,
+          "source_document": "AlgoAnalytics deck for UK_Europe",
+          "image_path": "images/test-email@gmail.com/main_corpus/slide_018_img_000_3e700f.png",
+          "user_id": "test-email@gmail.com",
+          "relevance_rank": 1
+        }
+      ]
+    },
+    {
+      "slide_number": 3,
+      "slide_title": "Core Features of Aksha",
+      "slide_type": "content",
+      "content": "• 24/7 monitoring capabilities with live recording and data processing.\n• Advanced object detection for various entities including vehicles, people, and unusual behaviors.\n• Customizable alert systems that allow users to set specific notifications based on detected anomalies.",
+      "speaker_notes": "Discuss: 24/7 monitoring capabilities with live recording and data processing., Advanced object detection for various entities including vehicles, people, and unusual behaviors., Customizable alert systems that allow users to set specific notifications based on detected anomalies.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Core Features of Aksha",
+      "images": [
+        {
+          "image_id": "image_slide_Aksha_Overview_Deck_Oct_2024_0_chunk_0_build_084d5582_img0",
+          "caption": "This is a logo for \"Aksha,\" featuring a stylized blue eye symbol with a plus sign, indicating a focus on vision or eye care. The logo is set against a light blue background, framed by alternating blue and white stripes. The text",
+          "similarity_score": 0.48782005921010857,
+          "source_document": "Aksha_Overview_Deck_Oct_2024",
+          "image_path": "images/test-email@gmail.com/main_corpus/slide_000_img_001_be0e18.jpg",
+          "user_id": "test-email@gmail.com",
+          "relevance_rank": 1
+        }
+      ]
+    },
+    {
+      "slide_number": 4,
+      "slide_title": "Business Value Proposition",
+      "slide_type": "content",
+      "content": "• Transforms traditional CCTV setups into smart surveillance systems, enhancing operational efficiency.\n• Reduces human monitoring efforts, allowing businesses to allocate resources more effectively.\n• Low capital expenditure (CapEx) with SaaS-based pricing models, making it accessible for various industries.",
+      "speaker_notes": "Discuss: Transforms traditional CCTV setups into smart surveillance systems, enhancing operational efficiency., Reduces human monitoring efforts, allowing businesses to allocate resources more effectively., Low capital expenditure (CapEx) with SaaS-based pricing models, making it accessible for various industries.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Business Value Proposition",
+      "images": [
+        {
+          "image_id": "image_slide_AlgoAnalytics deck for UK_Europe_11_chunk_0_build_084d5582_img0",
+          "caption": "This is a screenshot of a surveillance monitoring interface displaying multiple camera feeds. The layout features nine video thumbnails showing various environments, including an office and a warehouse. Some thumbnails highlight detected objects, such as \"person\" and \"truck,\" with green bounding boxes",
+          "similarity_score": 0.4249435462904354,
+          "source_document": "AlgoAnalytics deck for UK_Europe",
+          "image_path": "images/test-email@gmail.com/main_corpus/slide_011_img_001_e928d4.png",
+          "user_id": "test-email@gmail.com",
+          "relevance_rank": 1
+        }
+      ]
+    },
+    {
+      "slide_number": 5,
+      "slide_title": "Applications in Industrial Settings",
+      "slide_type": "content",
+      "content": "• Customized solutions for worker safety monitoring in construction and industrial environments.\n• Real-time insights into worker activities and safety compliance through advanced video analytics.\n• Seamless integration with existing infrastructure, ensuring minimal disruption during implementation.",
+      "speaker_notes": "Discuss: Customized solutions for worker safety monitoring in construction and industrial environments., Real-time insights into worker activities and safety compliance through advanced video analytics., Seamless integration with existing infrastructure, ensuring minimal disruption during implementation.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Applications in Industrial Settings",
+      "images": [
+        {
+          "image_id": "image_slide_Copy of AlgoAnalytics_OilandGas_8_chunk_0_build_084d5582_img2",
+          "caption": "This is a diagram featuring a list of projects utilizing image and video analytics. It includes two bullet points: one on \"Absenteeism Prediction\" for a global automobile company and another on \"Manufacturing process monitoring\" for a company in Ahmedabad, India",
+          "similarity_score": 0.5402767026710811,
+          "source_document": "Copy of AlgoAnalytics_OilandGas",
+          "image_path": "images/test-email@gmail.com/main_corpus/slide_008_img_008_3f750c.png",
+          "user_id": "test-email@gmail.com",
+          "relevance_rank": 1
+        }
+      ]
+    },
+    {
+      "slide_number": 6,
+      "slide_title": "Case Study: Worker Safety",
+      "slide_type": "content",
+      "content": "• Development of a video analytics solution specifically for monitoring worker safety at construction sites.\n• Utilized Aksha's capabilities to address challenges in real-time monitoring and anomaly detection.\n• Phased implementation approach tailored to client needs, enhancing adaptability and effectiveness.",
+      "speaker_notes": "Discuss: Development of a video analytics solution specifically for monitoring worker safety at construction sites., Utilized Aksha's capabilities to address challenges in real-time monitoring and anomaly detection., Phased implementation approach tailored to client needs, enhancing adaptability and effectiveness.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Case Study: Worker Safety",
+      "images": [
+        {
+          "image_id": "image_slide_AlgoAnalytics deck for UK_Europe_14_chunk_0_build_084d5582_img0",
+          "caption": "This is a screenshot of a digital report summarizing activity detected by surveillance cameras for the period from September 19 to September 26, 2024. It includes insights on forklift and truck detections, trends observed, and suggested actionable plans. The",
+          "similarity_score": 0.4576555427019299,
+          "source_document": "AlgoAnalytics deck for UK_Europe",
+          "image_path": "images/test-email@gmail.com/main_corpus/slide_014_img_000_3d58fd.png",
+          "user_id": "test-email@gmail.com",
+          "relevance_rank": 1
+        }
+      ]
+    },
+    {
+      "slide_number": 7,
+      "slide_title": "Collaborative Development Efforts",
+      "slide_type": "content",
+      "content": "• Collaboration with NDIL to customize Aksha for enhanced worker safety features.\n• Successful integration of Gen AI to improve detection accuracy and reporting capabilities.\n• Phased development approach with continuous support to optimize performance on edge devices.",
+      "speaker_notes": "Discuss: Collaboration with NDIL to customize Aksha for enhanced worker safety features., Successful integration of Gen AI to improve detection accuracy and reporting capabilities., Phased development approach with continuous support to optimize performance on edge devices.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Collaborative Development Efforts",
+      "images": [
+        {
+          "image_id": "image_slide_AlgoAnalytics deck for UK_Europe_69_chunk_0_build_084d5582_img10",
+          "caption": "This is an infographic promoting the \"AI Competency Center for Manufacturing,\" a collaboration between AlgoAnalytics and Sharada Industries. It features sections on AI technologies like Digital Twin, Edge Computing, and Predictive Analytics, with key benefits outlined. The design includes",
+          "similarity_score": 0.49783334204419716,
+          "source_document": "AlgoAnalytics deck for UK_Europe",
+          "image_path": "images/test-email@gmail.com/main_corpus/slide_023_img_000_274011.png",
+          "user_id": "test-email@gmail.com",
+          "relevance_rank": 1
+        }
+      ]
+    },
+    {
+      "slide_number": 8,
+      "slide_title": "Customer Testimonials",
+      "slide_type": "content",
+      "content": "• Positive feedback highlighting the reduction in human monitoring efforts and improved anomaly detection.\n• Clients appreciate the flexibility and customization options that Aksha provides.\n• Recognition of Aksha's role in transforming traditional surveillance into proactive safety management.",
+      "speaker_notes": "Discuss: Positive feedback highlighting the reduction in human monitoring efforts and improved anomaly detection., Clients appreciate the flexibility and customization options that Aksha provides., Recognition of Aksha's role in transforming traditional surveillance into proactive safety management.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Customer Testimonials",
+      "images": [
+        {
+          "image_id": "image_slide_AlgoAnalytics deck for UK_Europe_33_chunk_0_build_084d5582_img3",
+          "caption": "This is an infographic providing an overview of AlgoAnalytics, an NTT Data company specializing in AI/ML solutions. It includes sections on their offerings, expertise in technologies like Quantum Computing, and products such as AI-powered video surveillance. The design features text",
+          "similarity_score": 0.4549667441084909,
+          "source_document": "AlgoAnalytics deck for UK_Europe",
+          "image_path": "images/test-email@gmail.com/main_corpus/slide_033_img_003_9fc32f.png",
+          "user_id": "test-email@gmail.com",
+          "relevance_rank": 1
+        }
+      ]
+    },
+    {
+      "slide_number": 9,
+      "slide_title": "Future Innovations and Updates",
+      "slide_type": "content",
+      "content": "• Ongoing enhancements to Aksha's features, including further integration of Gen AI capabilities.\n• Plans for expanding applications across various sectors beyond construction and industrial domains.\n• Commitment to continuous improvement based on client feedback and technological advancements.",
+      "speaker_notes": "Discuss: Ongoing enhancements to Aksha's features, including further integration of Gen AI capabilities., Plans for expanding applications across various sectors beyond construction and industrial domains., Commitment to continuous improvement based on client feedback and technological advancements.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Future Innovations and Updates",
+      "images": [
+        {
+          "image_id": "image_slide_AlgoAnalytics deck for UK_Europe_33_chunk_0_build_084d5582_img2",
+          "caption": "This is a diagram presenting the offerings and expertise of AlgoAnalytics, focusing on Generative AI and related technologies. It includes sections on core offerings like Generative AI solutions, AI/ML solutions, Cloud Data Engineering, and Emerging Technologies. Visual elements include",
+          "similarity_score": 0.4198330631170202,
+          "source_document": "AlgoAnalytics deck for UK_Europe",
+          "image_path": "images/test-email@gmail.com/main_corpus/slide_033_img_002_2444c4.png",
+          "user_id": "test-email@gmail.com",
+          "relevance_rank": 1
+        }
+      ]
+    },
+    {
+      "slide_number": 10,
+      "slide_title": "Conclusion and Call to Action",
+      "slide_type": "content",
+      "content": "• Aksha represents a significant advancement in surveillance technology, prioritizing safety and efficiency.\n• Encouragement for stakeholders to explore Aksha's capabilities for their specific business needs.\n• Invitation for further discussions on implementation strategies and potential collaborations.",
+      "speaker_notes": "Discuss: Aksha represents a significant advancement in surveillance technology, prioritizing safety and efficiency., Encouragement for stakeholders to explore Aksha's capabilities for their specific business needs., Invitation for further discussions on implementation strategies and potential collaborations.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Conclusion and Call to Action",
+      "images": [
+        {
+          "image_id": "image_slide_AlgoAnalytics deck for UK_Europe_38_chunk_0_build_084d5582_img1",
+          "caption": "This is a digital document featuring an alert notification from AlgoAnalytics. It includes a greeting, alert details, and a camera image showing an open gate. The image is framed with a green box and labeled \"gate open.\" The document contains branding elements and",
+          "similarity_score": 0.40349141194885696,
+          "source_document": "AlgoAnalytics deck for UK_Europe",
+          "image_path": "images/test-email@gmail.com/main_corpus/slide_038_img_005_f4a31b.png",
+          "user_id": "test-email@gmail.com",
+          "relevance_rank": 1
+        }
+      ]
+    }
+  ],
+  "generated_date": "2025-11-24T13:21:42.103025",
+  "version": "1.0",
+  "content_approach": "industry_ready",
+  "estimated_duration": "20 minutes",
+  "character_metrics": {
+    "2": {
+      "total_characters": 319,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "3": {
+      "total_characters": 290,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "4": {
+      "total_characters": 328,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "5": {
+      "total_characters": 327,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "6": {
+      "total_characters": 327,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "7": {
+      "total_characters": 294,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "8": {
+      "total_characters": 308,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "9": {
+      "total_characters": 317,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "10": {
+      "total_characters": 325,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    }
+  },
+  "character_summary": {
+    "slides_within_range": 9,
+    "total_content_slides": 9,
+    "compliance_ratio": "100.0%",
+    "average_characters_per_slide": 315,
+    "bullet_point_variation": "3-3 points per slide",
+    "variation_quality": "LOW VARIATION"
+  },
+  "content_richness_metrics": {
+    "total_content_slides": 9,
+    "total_key_points": 27,
+    "average_points_per_slide": 3.0,
+    "slides_with_rich_content": 9,
+    "richness_ratio": 1.0
+  },
+  "retrieved_chunks_metadata": [
+    {
+      "chunk_id": "text_slide_Aksha_Overview_Deck_Oct_2024_5_chunk_0_build_084d5582",
+      "source_document": "Aksha_Overview_Deck_Oct_2024",
+      "similarity_score": 0.6996,
+      "content_preview": "Aksha Aksha, the smart surveillance system for the businesses that value employee safety. It is self learning system which detects object & anomalies using the power of Artificial Intelligence. It ena...",
+      "content_length": 629,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_AlgoAnalytics overview_NDIL_Feb 24_20_chunk_0_build_084d5582",
+      "source_document": "AlgoAnalytics overview_NDIL_Feb 24",
+      "similarity_score": 0.699,
+      "content_preview": "Aksha - AI Powered Video Surveillance Software . ‹#› Anomaly Detection 24x7 monitoring Activity tracking Email/ Text alerts Object Detection Multi Camera Insights Real Time Alerts Custom defined alert...",
+      "content_length": 512,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Aksha_Overview_Deck_Oct_2024_3_chunk_0_build_084d5582",
+      "source_document": "Aksha_Overview_Deck_Oct_2024",
+      "similarity_score": 0.6987,
+      "content_preview": "Introduction to Aksha Aksha - Intelligent surveillance system is envisioned to automatically monitor the environment or premises with less or without human intervention. Such monitoring tasks include ...",
+      "content_length": 416,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Manufacturing capabilities_AlgoAnalytics_Aug_24_v3_9_chunk_0_build_084d5582",
+      "source_document": "Manufacturing capabilities_AlgoAnalytics_Aug_24_v3",
+      "similarity_score": 0.6873,
+      "content_preview": "Case Study: Smart Video Surveillance (Aksha) for Worker Safety Objective of the project is to develop a video analytics solution running on an edge device to monitor worker safety at construction site...",
+      "content_length": 696,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Manufacturing capabilities_AlgoAnalytics_Aug_24_v3_25_chunk_0_build_084d5582",
+      "source_document": "Manufacturing capabilities_AlgoAnalytics_Aug_24_v3",
+      "similarity_score": 0.6777,
+      "content_preview": "Product Incubation: Aksha – Smart Video Surveillance powered by AI 26 Anomaly Detection 24x7 monitoring Activity tracking Email/ Text alerts Object Detection Multi Camera Insights Real Time Alerts Cus...",
+      "content_length": 516,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Aksha_Overview_Deck_Oct_2024_20_chunk_0_build_084d5582",
+      "source_document": "Aksha_Overview_Deck_Oct_2024",
+      "similarity_score": 0.6557,
+      "content_preview": "What our customers have to say Aksha has empowered our investments into the CCTV setup. Human monitoring efforts have reduced a lot. The ability to detect abnormal unforeseen events along with specifi...",
+      "content_length": 633,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_AlgoAnalytics deck for UK_Europe_12_chunk_0_build_084d5582",
+      "source_document": "AlgoAnalytics deck for UK_Europe",
+      "similarity_score": 0.6552,
+      "content_preview": "AlgoAnalytics and NDIL collaboration AlgoAnalytics customized “Aksha for workers safety” in collaboration with NDIL. This customized new Aksha version runs on “Edge + Cloud”. Three stages of Aksha cus...",
+      "content_length": 815,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Aksha_Overview_Deck_Oct_2024_0_chunk_0_build_084d5582",
+      "source_document": "Aksha_Overview_Deck_Oct_2024",
+      "similarity_score": 0.6372,
+      "content_preview": "AI Powered Video Surveillance https://aksha.algoanalytics.com CONFIDENTIAL AND PROPRIETARY Any use of this material without specific permission AlgoAnalytics is strictly prohibited Aksha अक्ष",
+      "content_length": 191,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Aksha_Overview_Deck_Oct_2024_6_chunk_0_build_084d5582",
+      "source_document": "Aksha_Overview_Deck_Oct_2024",
+      "similarity_score": 0.6228,
+      "content_preview": "AKSHA : Live recording and processing of the data Live view of AKSHA implementation at one of our client’s manufacturing factory outlet",
+      "content_length": 135,
+      "chunk_type": "text_chunk"
+    }
+  ],
+  "image_mapping_metrics": {
+    "user_id": "test-email@gmail.com",
+    "search_mode": "corpus_only",
+    "total_slides": 10,
+    "content_slides": 9,
+    "slides_with_images": 9,
+    "total_images_mapped": 9,
+    "total_available_images": 712,
+    "images_used": 9,
+    "similarity_threshold_used": 0.4,
+    "utilization_rate": "9/712",
+    "coverage_ratio": "9/9",
+    "mapping_strategy": "STRICT_RELEVANCE_ONLY"
+  }
+}

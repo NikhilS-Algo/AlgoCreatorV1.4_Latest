@@ -1,0 +1,22 @@
+# development / experiment related directories; not required in production
+experiments/
+venv/
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+.vscode/
+.pytest_cache/
+.env
+
+PPT_DATA/
+
+Resized_PPT_DATA/
+PPT_JSON_DB/
+PPT_DB_NEW/
+PPT_DB_OLD/
+Json_Files/
+Models/
+Output_files/
+PPT_DATA_V3/
+Database_V3/
+JSON/

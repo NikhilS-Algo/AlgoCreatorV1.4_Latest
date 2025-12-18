@@ -1,0 +1,216 @@
+{
+  "presentation_title": "Our Welding Work: Innovations and Insights",
+  "total_slides": 6,
+  "presentation_style": "professional corporate",
+  "content_richness": "medium",
+  "executive_summary": "Comprehensive overview of Our Welding Work: Innovations and Insights",
+  "key_value_propositions": [
+    "Integration of AI technologies to enhance welding quality and efficiency.",
+    "Real-time monitoring of welding processes through advanced data collection.",
+    "Utilization of sound analysis models to detect and classify welding defects."
+  ],
+  "strategic_insights": [
+    "Systematic data collection for various welding defects to ensure high standards.",
+    "Implementation of sensor configurations to log accurate parameters during welding.",
+    "Detailed documentation of weld processes, including natural language descriptions of defects."
+  ],
+  "actionable_recommendations": [
+    "Data sets include audio, video, and time-series parameters for comprehensive analysis.",
+    "Minimum of 20 samples per defect type across 14 different welding parameter combinations.",
+    "Synchronization of data recording to facilitate cross-analysis of welding activities."
+  ],
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_title": "Our Welding Work: Innovations and Insights",
+      "slide_type": "title",
+      "content": "Our Welding Work: Innovations and Insights",
+      "images": []
+    },
+    {
+      "slide_number": 2,
+      "slide_title": "AI-Driven Welding Solutions",
+      "slide_type": "content",
+      "content": "• Integration of AI technologies to enhance welding quality and efficiency.\n• Real-time monitoring of welding processes through advanced data collection.\n• Utilization of sound analysis models to detect and classify welding defects.",
+      "speaker_notes": "Discuss: Integration of AI technologies to enhance welding quality and efficiency., Real-time monitoring of welding processes through advanced data collection., Utilization of sound analysis models to detect and classify welding defects.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: AI-Driven Welding Solutions",
+      "images": []
+    },
+    {
+      "slide_number": 3,
+      "slide_title": "Comprehensive Data Collection for Quality Assurance",
+      "slide_type": "content",
+      "content": "• Systematic data collection for various welding defects to ensure high standards.\n• Implementation of sensor configurations to log accurate parameters during welding.\n• Detailed documentation of weld processes, including natural language descriptions of defects.",
+      "speaker_notes": "Discuss: Systematic data collection for various welding defects to ensure high standards., Implementation of sensor configurations to log accurate parameters during welding., Detailed documentation of weld processes, including natural language descriptions of defects.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Comprehensive Data Collection for Quality Assurance",
+      "images": []
+    },
+    {
+      "slide_number": 4,
+      "slide_title": "Multimodal Dataset Requirements",
+      "slide_type": "content",
+      "content": "• Data sets include audio, video, and time-series parameters for comprehensive analysis.\n• Minimum of 20 samples per defect type across 14 different welding parameter combinations.\n• Synchronization of data recording to facilitate cross-analysis of welding activities.",
+      "speaker_notes": "Discuss: Data sets include audio, video, and time-series parameters for comprehensive analysis., Minimum of 20 samples per defect type across 14 different welding parameter combinations., Synchronization of data recording to facilitate cross-analysis of welding activities.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Multimodal Dataset Requirements",
+      "images": []
+    },
+    {
+      "slide_number": 5,
+      "slide_title": "Innovative Setup and Experimentation",
+      "slide_type": "content",
+      "content": "• Utilization of cameras and microphones to capture welding processes in detail.\n• Automated triggering of data recording to enhance efficiency and accuracy.\n• Continuous inspection of welds to classify and document defects effectively.",
+      "speaker_notes": "Discuss: Utilization of cameras and microphones to capture welding processes in detail., Automated triggering of data recording to enhance efficiency and accuracy., Continuous inspection of welds to classify and document defects effectively.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Innovative Setup and Experimentation",
+      "images": []
+    },
+    {
+      "slide_number": 6,
+      "slide_title": "Business Value and Future Directions",
+      "slide_type": "content",
+      "content": "• Enhanced quality control leading to reduced rework and increased customer satisfaction.\n• Data-driven insights enabling proactive decision-making and process improvements.\n• Strategic focus on innovation to maintain competitive advantage in the welding industry.",
+      "speaker_notes": "Discuss: Enhanced quality control leading to reduced rework and increased customer satisfaction., Data-driven insights enabling proactive decision-making and process improvements., Strategic focus on innovation to maintain competitive advantage in the welding industry.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Business Value and Future Directions",
+      "images": []
+    }
+  ],
+  "generated_date": "2025-11-19T13:45:03.432499",
+  "version": "1.0",
+  "content_approach": "industry_ready",
+  "estimated_duration": "12 minutes",
+  "character_metrics": {
+    "2": {
+      "total_characters": 251,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "3": {
+      "total_characters": 306,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "4": {
+      "total_characters": 291,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "5": {
+      "total_characters": 264,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "6": {
+      "total_characters": 292,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    }
+  },
+  "character_summary": {
+    "slides_within_range": 5,
+    "total_content_slides": 5,
+    "compliance_ratio": "100.0%",
+    "average_characters_per_slide": 280,
+    "bullet_point_variation": "3-3 points per slide",
+    "variation_quality": "LOW VARIATION"
+  },
+  "content_richness_metrics": {
+    "total_content_slides": 5,
+    "total_key_points": 15,
+    "average_points_per_slide": 3.0,
+    "slides_with_rich_content": 5,
+    "richness_ratio": 1.0
+  },
+  "retrieved_chunks_metadata": [
+    {
+      "chunk_id": "text_slide_Our Work _ Welding_1_chunk_0_build_57a442fd",
+      "source_document": "Our Work _ Welding",
+      "similarity_score": 0.605,
+      "content_preview": "Our Past Work    AI-driven welding solutions Welding Data Collection for Intel Sound Analysis based AI model to monitor the quality of welding process Systematically collect welding data for multiple ...",
+      "content_length": 250,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Our Work _ Welding_0_chunk_0_build_57a442fd",
+      "source_document": "Our Work _ Welding",
+      "similarity_score": 0.5907,
+      "content_preview": "Our Work across Welding An Overview CONFIDENTIAL AND PROPRIETARY Any use of this material without specific permission AlgoAnalytics is strictly prohibited",
+      "content_length": 154,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Our Work _ Welding_3_chunk_0_build_57a442fd",
+      "source_document": "Our Work _ Welding",
+      "similarity_score": 0.5545,
+      "content_preview": "Welding Data Collection for Intel    Data Annotation Requirements Experiment Setup Information Sensor Configuration Continue with the process Inspect next lot / item for welding Classification of Weld...",
+      "content_length": 400,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Our Work _ Welding_4_chunk_0_build_57a442fd",
+      "source_document": "Our Work _ Welding",
+      "similarity_score": 0.5389,
+      "content_preview": "Welding Data Collection for Intel    Setup Details Camera attached to Welding Robot neck Microphones (placed side to the welding plate)",
+      "content_length": 135,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Our Work _ Welding_2_chunk_0_build_57a442fd",
+      "source_document": "Our Work _ Welding",
+      "similarity_score": 0.455,
+      "content_preview": "Welding Data Collection for Intel    Dataset Key Requirements Dataset should include data from 4 modalities: Audio, Video and time-series of the welding machine parameters, and a color photograph for ...",
+      "content_length": 648,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Digital Twin - Project Overview_1_chunk_0_build_57a442fd",
+      "source_document": "Digital Twin - Project Overview",
+      "similarity_score": 0.3256,
+      "content_preview": "Overview & Timeline 2",
+      "content_length": 21,
+      "chunk_type": "text_chunk"
+    }
+  ],
+  "image_mapping_metrics": {
+    "user_id": "test-email@gmail.com",
+    "search_mode": "corpus_only",
+    "total_slides": 6,
+    "content_slides": 5,
+    "slides_with_images": 0,
+    "total_images_mapped": 0,
+    "total_available_images": 11,
+    "images_used": 0,
+    "similarity_threshold_used": 0.4,
+    "utilization_rate": "0/11",
+    "coverage_ratio": "0/5",
+    "mapping_strategy": "STRICT_RELEVANCE_ONLY"
+  }
+}

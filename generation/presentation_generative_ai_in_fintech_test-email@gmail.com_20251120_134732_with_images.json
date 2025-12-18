@@ -1,0 +1,298 @@
+{
+  "presentation_title": "Generative AI in Fintech",
+  "total_slides": 8,
+  "presentation_style": "professional corporate",
+  "content_richness": "medium",
+  "executive_summary": "Comprehensive overview of Generative AI in Fintech",
+  "key_value_propositions": [
+    "Generative AI is transforming the Fintech landscape by enabling innovative solutions.",
+    "The market is projected to grow at a CAGR of 36.1% from 2023 to 2030, reaching $10 billion.",
+    "Key applications include compliance, fraud detection, and customer service enhancements."
+  ],
+  "strategic_insights": [
+    "Generative AI is utilized in risk management, credit scoring, and wealth management.",
+    "Synthetic data generation aids in compliance and fraud detection, reducing false positives.",
+    "Customer behavior analytics powered by AI enhances personalized financial services."
+  ],
+  "actionable_recommendations": [
+    "Capital One and JPMorgan Chase leverage Generative AI for fraud detection, improving accuracy and customer satisfaction.",
+    "Morgan Stanley utilizes OpenAI to provide insights for financial advisors, enhancing decision-making.",
+    "Wells Fargo focuses on automating document processing and scaling virtual assistant capabilities."
+  ],
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_title": "Generative AI in Fintech",
+      "slide_type": "title",
+      "content": "Generative AI in Fintech",
+      "images": []
+    },
+    {
+      "slide_number": 2,
+      "slide_title": "The Rise of Generative AI",
+      "slide_type": "content",
+      "content": "• Generative AI is transforming the Fintech landscape by enabling innovative solutions.\n• The market is projected to grow at a CAGR of 36.1% from 2023 to 2030, reaching $10 billion.\n• Key applications include compliance, fraud detection, and customer service enhancements.",
+      "speaker_notes": "Discuss: Generative AI is transforming the Fintech landscape by enabling innovative solutions., The market is projected to grow at a CAGR of 36.1% from 2023 to 2030, reaching $10 billion., Key applications include compliance, fraud detection, and customer service enhancements.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: The Rise of Generative AI",
+      "images": []
+    },
+    {
+      "slide_number": 3,
+      "slide_title": "Applications Across Fintech Segments",
+      "slide_type": "content",
+      "content": "• Generative AI is utilized in risk management, credit scoring, and wealth management.\n• Synthetic data generation aids in compliance and fraud detection, reducing false positives.\n• Customer behavior analytics powered by AI enhances personalized financial services.",
+      "speaker_notes": "Discuss: Generative AI is utilized in risk management, credit scoring, and wealth management., Synthetic data generation aids in compliance and fraud detection, reducing false positives., Customer behavior analytics powered by AI enhances personalized financial services.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Applications Across Fintech Segments",
+      "images": []
+    },
+    {
+      "slide_number": 4,
+      "slide_title": "Adoption by Industry Leaders",
+      "slide_type": "content",
+      "content": "• Capital One and JPMorgan Chase leverage Generative AI for fraud detection, improving accuracy and customer satisfaction.\n• Morgan Stanley utilizes OpenAI to provide insights for financial advisors, enhancing decision-making.\n• Wells Fargo focuses on automating document processing and scaling virtual assistant capabilities.",
+      "speaker_notes": "Discuss: Capital One and JPMorgan Chase leverage Generative AI for fraud detection, improving accuracy and customer satisfaction., Morgan Stanley utilizes OpenAI to provide insights for financial advisors, enhancing decision-making., Wells Fargo focuses on automating document processing and scaling virtual assistant capabilities.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Adoption by Industry Leaders",
+      "images": []
+    },
+    {
+      "slide_number": 5,
+      "slide_title": "Market Trends and Insights",
+      "slide_type": "content",
+      "content": "• Compliance and fraud detection dominated applications in 2022, accounting for 19.1% of the market.\n• Investment banking remains a significant segment for Generative AI deployment.\n• North America led revenue share in 2022, with a focus on on-premise solutions.",
+      "speaker_notes": "Discuss: Compliance and fraud detection dominated applications in 2022, accounting for 19.1% of the market., Investment banking remains a significant segment for Generative AI deployment., North America led revenue share in 2022, with a focus on on-premise solutions.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Market Trends and Insights",
+      "images": []
+    },
+    {
+      "slide_number": 6,
+      "slide_title": "Future of Generative AI in Fintech",
+      "slide_type": "content",
+      "content": "• The evolution of Large Language Models (LLMs) is driving the Generative AI boom.\n• Emergence of vector databases enhances data processing capabilities for financial applications.\n• A shift towards explainable AI (XAI) is crucial for regulatory compliance and trust.",
+      "speaker_notes": "Discuss: The evolution of Large Language Models (LLMs) is driving the Generative AI boom., Emergence of vector databases enhances data processing capabilities for financial applications., A shift towards explainable AI (XAI) is crucial for regulatory compliance and trust.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Future of Generative AI in Fintech",
+      "images": [
+        {
+          "image_id": "image_slide_Generative AI in FinTech_AGP Talk_2_chunk_0_session_2584219a_img0",
+          "caption": "This is an illustration depicting the \"Evolution of LLMs\" (Large Language Models). It features a rocket launching into space, symbolizing progress. Key milestones from 2014 to 2023 are marked along a dotted line, with years and",
+          "similarity_score": 0.4110305872979028,
+          "source_document": "Generative AI in FinTech_AGP Talk",
+          "image_path": "images/test-email@gmail.com/temp_uploads/session_2584219a/img_test-email@gmail.com_session_2584219a_20251120_134624_6301e0cf_unit2_img0.jpg",
+          "user_id": "test-email@gmail.com",
+          "relevance_rank": 1
+        }
+      ]
+    },
+    {
+      "slide_number": 7,
+      "slide_title": "Case Studies and Success Stories",
+      "slide_type": "content",
+      "content": "• Goldman Sachs and Citadel explore Generative AI for internal software development and analytics.\n• Successful implementation of AI-driven solutions leads to significant cost reductions.\n• Real-world applications demonstrate improved operational efficiency and customer engagement.",
+      "speaker_notes": "Discuss: Goldman Sachs and Citadel explore Generative AI for internal software development and analytics., Successful implementation of AI-driven solutions leads to significant cost reductions., Real-world applications demonstrate improved operational efficiency and customer engagement.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Case Studies and Success Stories",
+      "images": []
+    },
+    {
+      "slide_number": 8,
+      "slide_title": "Our Journey and Future Directions",
+      "slide_type": "content",
+      "content": "• At AlgoAnalytics, we are committed to exploring diverse applications of Generative AI.\n• Our approach involves using advanced ML frameworks to create customizable technology solutions.\n• We aim to lead the Fintech sector in innovative AI-driven transformations.",
+      "speaker_notes": "Discuss: At AlgoAnalytics, we are committed to exploring diverse applications of Generative AI., Our approach involves using advanced ML frameworks to create customizable technology solutions., We aim to lead the Fintech sector in innovative AI-driven transformations.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Our Journey and Future Directions",
+      "images": []
+    }
+  ],
+  "generated_date": "2025-11-20T13:47:27.989829",
+  "version": "1.0",
+  "content_approach": "industry_ready",
+  "estimated_duration": "16 minutes",
+  "character_metrics": {
+    "2": {
+      "total_characters": 289,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "3": {
+      "total_characters": 294,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "4": {
+      "total_characters": 346,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "5": {
+      "total_characters": 280,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "6": {
+      "total_characters": 293,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "7": {
+      "total_characters": 306,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "8": {
+      "total_characters": 288,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    }
+  },
+  "character_summary": {
+    "slides_within_range": 7,
+    "total_content_slides": 7,
+    "compliance_ratio": "100.0%",
+    "average_characters_per_slide": 299,
+    "bullet_point_variation": "3-3 points per slide",
+    "variation_quality": "LOW VARIATION"
+  },
+  "content_richness_metrics": {
+    "total_content_slides": 7,
+    "total_key_points": 21,
+    "average_points_per_slide": 3.0,
+    "slides_with_rich_content": 7,
+    "richness_ratio": 1.0
+  },
+  "retrieved_chunks_metadata": [
+    {
+      "chunk_id": "text_slide_Generative AI in FinTech_AGP Talk_8_chunk_0_session_2584219a",
+      "source_document": "Generative AI in FinTech_AGP Talk",
+      "similarity_score": 0.8976,
+      "content_preview": "Generative AI in FinTech   ‹#›",
+      "content_length": 30,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Generative AI in FinTech_AGP Talk_10_chunk_0_session_2584219a",
+      "source_document": "Generative AI in FinTech_AGP Talk",
+      "similarity_score": 0.7521,
+      "content_preview": "Gen AI is finding Applications in every FinTech Segment Source: Generative AI in Finance note: Risk Considerations (International Monetary Fund 2023) Subject to risks such as.. Data privacy concerns E...",
+      "content_length": 461,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Generative AI in FinTech_AGP Talk_0_chunk_0_session_2584219a",
+      "source_document": "Generative AI in FinTech_AGP Talk",
+      "similarity_score": 0.7142,
+      "content_preview": "Generative AI in FinTech CONFIDENTIAL AND PROPRIETARY Any use of this material without specific permission AlgoAnalytics is strictly prohibited ‹#› Aniruddha Pant Founder & CEO AlgoAnalytics",
+      "content_length": 190,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Generative AI in FinTech_AGP Talk_9_chunk_0_session_2584219a",
+      "source_document": "Generative AI in FinTech_AGP Talk",
+      "similarity_score": 0.7031,
+      "content_preview": "Generative AI in FinTech Market is Growing Rapidly.. 36.1% CAGR of from 2023 to 2030 $ 10 Bn Projected in 2030 Compliance & fraud detection was the dominant application in 2022 19.1% Investment Bankin...",
+      "content_length": 445,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Generative AI in FinTech_AGP Talk_12_chunk_0_session_2584219a",
+      "source_document": "Generative AI in FinTech_AGP Talk",
+      "similarity_score": 0.6609,
+      "content_preview": "Gen AI Adoption by FinTech Industry Capital One and JPMorgan Chase have leveraged GenAI to augment their AI-powered fraud and suspicious activity detection system. Significant reduction in false posit...",
+      "content_length": 874,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Generative AI in FinTech_AGP Talk_27_chunk_0_session_2584219a",
+      "source_document": "Generative AI in FinTech_AGP Talk",
+      "similarity_score": 0.6539,
+      "content_preview": "Future of Generative AI   ‹#›",
+      "content_length": 29,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Generative AI in FinTech_AGP Talk_1_chunk_0_session_2584219a",
+      "source_document": "Generative AI in FinTech_AGP Talk",
+      "similarity_score": 0.6267,
+      "content_preview": "Agenda Rise of Generative AI Evolution of LLM Emergence of Vector Databases AI trends in FinTech How the markets and applications are evolving Move towards XAI How industry is adopting Our Journey Wha...",
+      "content_length": 253,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Generative AI in FinTech_AGP Talk_13_chunk_0_session_2584219a",
+      "source_document": "Generative AI in FinTech_AGP Talk",
+      "similarity_score": 0.6053,
+      "content_preview": "Our Generative AI Work Exploring multiple applications   ‹#›",
+      "content_length": 60,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Generative AI in FinTech_AGP Talk_24_chunk_0_session_2584219a",
+      "source_document": "Generative AI in FinTech_AGP Talk",
+      "similarity_score": 0.5936,
+      "content_preview": "Applications for FinTech under Development Exploring multiple use cases relevant for the financial sector Our philosophy is to use latest ML frameworks as accelerators to build technology demonstrator...",
+      "content_length": 257,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Generative AI in FinTech_AGP Talk_2_chunk_0_session_2584219a",
+      "source_document": "Generative AI in FinTech_AGP Talk",
+      "similarity_score": 0.5528,
+      "content_preview": "Rise of Generative AI Traditional AI Pattern recognition Generative AI Pattern creation Evolution of Language model Continuous bag of World Model (CBOW) + Skip GRAM Recurrent Neural Network (RNN) Long...",
+      "content_length": 518,
+      "chunk_type": "text_chunk"
+    }
+  ],
+  "image_mapping_metrics": {
+    "user_id": "test-email@gmail.com",
+    "search_mode": "uploaded_only",
+    "total_slides": 8,
+    "content_slides": 7,
+    "slides_with_images": 1,
+    "total_images_mapped": 1,
+    "total_available_images": 6,
+    "images_used": 1,
+    "similarity_threshold_used": 0.4,
+    "utilization_rate": "1/6",
+    "coverage_ratio": "1/7",
+    "mapping_strategy": "STRICT_RELEVANCE_ONLY"
+  }
+}

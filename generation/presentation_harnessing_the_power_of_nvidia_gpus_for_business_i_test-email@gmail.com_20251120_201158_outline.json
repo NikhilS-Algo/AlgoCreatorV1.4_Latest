@@ -1,0 +1,157 @@
+{
+  "presentation_title": "Harnessing the Power of NVIDIA GPUs for Business Innovation",
+  "total_slides": 6,
+  "presentation_style": "professional corporate",
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_title": "Harnessing the Power of NVIDIA GPUs for Business Innovation",
+      "slide_type": "title",
+      "key_points": []
+    },
+    {
+      "slide_number": 2,
+      "slide_title": "The Evolution of GPUs",
+      "slide_type": "content",
+      "key_points": [
+        "Transitioned from specialized graphics rendering to general-purpose parallel processors.",
+        "Optimized architecture for massive parallelism enables efficient data-intensive tasks.",
+        "Critical in High-Performance Computing (HPC) and scientific simulations."
+      ]
+    },
+    {
+      "slide_number": 3,
+      "slide_title": "Architectural Advantages",
+      "slide_type": "content",
+      "key_points": [
+        "Thousands of cores designed for high-throughput, enabling simultaneous processing of multiple data streams.",
+        "Superior performance in 'embarrassingly parallel' problems compared to traditional CPUs.",
+        "Key enabler of deep learning and AI, significantly reducing model training time."
+      ]
+    },
+    {
+      "slide_number": 4,
+      "slide_title": "Business Applications of NVIDIA GPUs",
+      "slide_type": "content",
+      "key_points": [
+        "Accelerate complex simulations in fields like finance, weather forecasting, and molecular dynamics.",
+        "Enhance capabilities in natural language processing and computer vision applications.",
+        "Drive innovation in autonomous systems through rapid data processing and analysis."
+      ]
+    },
+    {
+      "slide_number": 5,
+      "slide_title": "Energy Efficiency and Time-to-Discovery",
+      "slide_type": "content",
+      "key_points": [
+        "GPUs deliver faster results with lower energy consumption compared to traditional computing methods.",
+        "Accelerate time-to-discovery in scientific research and business insights.",
+        "Support real-time data processing needs, essential for modern business operations."
+      ]
+    },
+    {
+      "slide_number": 6,
+      "slide_title": "Future of GPUs in Business",
+      "slide_type": "content",
+      "key_points": [
+        "As AI models grow, GPUs will remain central to technological advancements in various sectors.",
+        "Continued evolution of GPU technology will drive efficiency and innovation in business processes.",
+        "Investment in GPU capabilities is critical for organizations aiming to leverage big data and AI."
+      ]
+    }
+  ],
+  "user_id": "test-email@gmail.com",
+  "search_mode": "uploaded_only",
+  "generation_timestamp": "2025-11-20T20:11:55.565584",
+  "retrieved_chunks_metadata": [
+    {
+      "chunk_id": "text_docx_GPU_section_1_chunk_2_session_af88bf2f",
+      "source_document": "GPU",
+      "similarity_score": 0.5212,
+      "content_preview": "Modern GPUs further specialize this capability with dedicated hardware, such as Tensor Cores, which are optimized specifically for the low-precision matrix operations vital to deep learning training a...",
+      "content_length": 1112,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_docx_GPU_section_1_chunk_1_session_af88bf2f",
+      "source_document": "GPU",
+      "similarity_score": 0.4827,
+      "content_preview": "This arrangement allows the GPU to process thousands of data streams and execute concurrent threads simultaneously. For tasks that can be broken down into many independent, simultaneous operations—kno...",
+      "content_length": 930,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_docx_GPU_section_1_chunk_0_session_af88bf2f",
+      "source_document": "GPU",
+      "similarity_score": 0.476,
+      "content_preview": "The Graphics Processing Unit (GPU), initially conceived as a specialized circuit for accelerating the rendering of 3D graphics in video games, has undergone a profound architectural and functional tra...",
+      "content_length": 1100,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_docx_GPU_section_1_chunk_3_session_af88bf2f",
+      "source_document": "GPU",
+      "similarity_score": 0.4731,
+      "content_preview": "The GPU accelerates time-to-discovery, making complex computational science faster, more accessible, and more energy-efficient relative to the performance delivered. In conclusion, the Graphics Proces...",
+      "content_length": 812,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_docx_GPU_section_0_chunk_0_session_af88bf2f",
+      "source_document": "GPU",
+      "similarity_score": 0.3447,
+      "content_preview": "The Graphics Processing Unit: Architecture, Parallelism, and the Transformation of Modern Computing",
+      "content_length": 99,
+      "chunk_type": "text_chunk"
+    }
+  ],
+  "total_retrieved_chunks": 5,
+  "content_richness_metrics": {
+    "total_content_slides": 5,
+    "total_key_points": 15,
+    "average_points_per_slide": 3.0,
+    "slides_with_rich_content": 5,
+    "richness_ratio": 1.0
+  },
+  "content_richness": "medium",
+  "character_metrics": {
+    "2": {
+      "total_characters": 267,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "3": {
+      "total_characters": 299,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "4": {
+      "total_characters": 302,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "5": {
+      "total_characters": 295,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "6": {
+      "total_characters": 312,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    }
+  },
+  "character_summary": {
+    "slides_within_range": 5,
+    "total_content_slides": 5,
+    "compliance_ratio": "100.0%",
+    "average_characters_per_slide": 295,
+    "bullet_point_variation": "3-3 points per slide",
+    "variation_quality": "LOW VARIATION"
+  }
+}

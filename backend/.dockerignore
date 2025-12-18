@@ -1,0 +1,23 @@
+# development / experiment related directories; not required in production
+translations/
+experiments/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+.vscode/
+.pytest_cache/
+
+extraction/
+notebooks/
+venv/
+
+retrieval/version2/PPT_DB_NEW/
+retrieval/version2/PPT_DB_OLD/
+retrieval/version2/Models/
+retrieval/version2/PPT_DATA/
+retrieval/version2/Resized_PPT_DATA/
+retrieval/version2/PPT_DATA_V3/
+retrieval/version2/Database_V3/
+
+utils/user_data.csv

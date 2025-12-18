@@ -1,0 +1,229 @@
+{
+  "presentation_title": "Info about the Autonomous Cars and the Aksha Project",
+  "total_slides": 10,
+  "presentation_style": "technical",
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_title": "Info about the Autonomous Cars and the Aksha Project",
+      "slide_type": "title",
+      "key_points": []
+    },
+    {
+      "slide_number": 2,
+      "slide_title": "Introduction to Autonomous Vehicles",
+      "slide_type": "content",
+      "key_points": [
+        "Autonomous vehicles (AVs) are designed to operate without human intervention, utilizing advanced technologies.",
+        "Key benefits include reduced traffic congestion, optimized fuel efficiency, and significant decreases in accident rates due to human error.",
+        "The development of AVs faces technical, legal, and ethical challenges that must be addressed to achieve Level 5 autonomy."
+      ]
+    },
+    {
+      "slide_number": 3,
+      "slide_title": "Technical Challenges in AV Development",
+      "slide_type": "content",
+      "key_points": [
+        "Sensor fusion is critical, requiring integration of LiDAR, radar, and high-resolution cameras for accurate environment perception.",
+        "Navigating complex real-world scenarios involves understanding social cues and ambiguous situations.",
+        "Robust algorithms are necessary for real-time decision-making and ensuring passenger safety."
+      ]
+    },
+    {
+      "slide_number": 4,
+      "slide_title": "Overview of the Aksha Project",
+      "slide_type": "content",
+      "key_points": [
+        "Aksha is an intelligent surveillance system aimed at enhancing workplace safety through automated monitoring.",
+        "Utilizes computer vision, artificial intelligence, and generative AI for real-time object detection and anomaly analysis.",
+        "Designed to operate with minimal human intervention, providing continuous oversight of premises."
+      ]
+    },
+    {
+      "slide_number": 5,
+      "slide_title": "Aksha Customization and Development Phases",
+      "slide_type": "content",
+      "key_points": [
+        "Collaboration between AlgoAnalytics and NDIL led to the customization of Aksha for worker safety, running on Edge + Cloud architecture.",
+        "Three development phases completed, with Phase III incorporating generative AI to enhance functionality.",
+        "Successful proof of concept demonstrated on Raspberry Pi 4B with wireless camera integration."
+      ]
+    },
+    {
+      "slide_number": 6,
+      "slide_title": "Key Features of Aksha",
+      "slide_type": "content",
+      "key_points": [
+        "Live recording and processing capabilities ensure real-time monitoring and data analysis.",
+        "Advanced object detection includes recognition of persons, vehicles, and safety compliance (e.g., helmet detection).",
+        "Generative AI enables unsupervised learning for anomaly detection and customized alert creation."
+      ]
+    },
+    {
+      "slide_number": 7,
+      "slide_title": "Business Value of Aksha",
+      "slide_type": "content",
+      "key_points": [
+        "Enhances employee safety by providing immediate alerts for unsafe conditions or behaviors.",
+        "Reduces operational costs associated with manual surveillance and incident response.",
+        "Facilitates compliance with safety regulations through automated reporting and analysis."
+      ]
+    },
+    {
+      "slide_number": 8,
+      "slide_title": "Practical Applications of Aksha",
+      "slide_type": "content",
+      "key_points": [
+        "Applicable in various sectors including manufacturing, construction, and logistics for enhanced site safety.",
+        "Can be integrated into existing security systems to augment monitoring capabilities.",
+        "Supports data-driven decision-making through comprehensive insight report generation."
+      ]
+    },
+    {
+      "slide_number": 9,
+      "slide_title": "Future Directions for Aksha and AVs",
+      "slide_type": "content",
+      "key_points": [
+        "Continued development of AI capabilities to improve accuracy and responsiveness of surveillance systems.",
+        "Potential integration of Aksha technology into autonomous vehicles for enhanced safety and monitoring.",
+        "Exploration of ethical implications and regulatory frameworks to support the deployment of AVs and intelligent surveillance."
+      ]
+    },
+    {
+      "slide_number": 10,
+      "slide_title": "Contact Information and Further Resources",
+      "slide_type": "content",
+      "key_points": [
+        "For more information on Aksha, visit: https://aksha.algoanalytics.com/",
+        "Contact us at: aksha@algoanalytics.com for inquiries and collaboration opportunities.",
+        "Visit our office at Alacrity India Innovation Centre, Pune for direct engagement and demonstrations."
+      ]
+    }
+  ],
+  "user_id": "test-email@gmail.com",
+  "search_mode": "uploaded_plus_corpus",
+  "generation_timestamp": "2025-11-26T11:37:01.800490",
+  "retrieved_chunks_metadata": [
+    {
+      "chunk_id": "text_slide_Aksha_Overview_Deck_Oct_2024_3_chunk_0_build_084d5582",
+      "source_document": "Aksha_Overview_Deck_Oct_2024",
+      "similarity_score": 0.627,
+      "content_preview": "Introduction to Aksha Aksha - Intelligent surveillance system is envisioned to automatically monitor the environment or premises with less or without human intervention. Such monitoring tasks include ...",
+      "content_length": 416,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_AlgoAnalytics deck for UK_Europe_12_chunk_0_build_084d5582",
+      "source_document": "AlgoAnalytics deck for UK_Europe",
+      "similarity_score": 0.6071,
+      "content_preview": "AlgoAnalytics and NDIL collaboration AlgoAnalytics customized “Aksha for workers safety” in collaboration with NDIL. This customized new Aksha version runs on “Edge + Cloud”. Three stages of Aksha cus...",
+      "content_length": 815,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Aksha_Overview_Deck_Oct_2024_5_chunk_0_build_084d5582",
+      "source_document": "Aksha_Overview_Deck_Oct_2024",
+      "similarity_score": 0.5686,
+      "content_preview": "Aksha Aksha, the smart surveillance system for the businesses that value employee safety. It is self learning system which detects object & anomalies using the power of Artificial Intelligence. It ena...",
+      "content_length": 629,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Aksha_Overview_Deck_Oct_2024_21_chunk_0_build_084d5582",
+      "source_document": "Aksha_Overview_Deck_Oct_2024",
+      "similarity_score": 0.5643,
+      "content_preview": "For more on AKSHA (अक्ष) Visit on below link https://aksha.algoanalytics.com/ Contact Us on aksha@algoanalytics.com Visit our office at Alacrity India Innovation Centre, Ideas to Impacts Building, Pal...",
+      "content_length": 268,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Aksha_Overview_Deck_Oct_2024_0_chunk_0_build_084d5582",
+      "source_document": "Aksha_Overview_Deck_Oct_2024",
+      "similarity_score": 0.5628,
+      "content_preview": "AI Powered Video Surveillance https://aksha.algoanalytics.com CONFIDENTIAL AND PROPRIETARY Any use of this material without specific permission AlgoAnalytics is strictly prohibited Aksha अक्ष",
+      "content_length": 191,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_docx_Autonomous_cars_Tech_section_0_chunk_0_session_cf0c787b",
+      "source_document": "Autonomous_cars_Tech",
+      "similarity_score": 0.5126,
+      "content_preview": "The Road to Autonomy: Technical and Ethical Challenges in Autonomous Vehicle Development Autonomous vehicles (AVs) represent a disruptive technology poised to redefine transportation, promising a futu...",
+      "content_length": 1021,
+      "chunk_type": "text_chunk"
+    }
+  ],
+  "total_retrieved_chunks": 6,
+  "content_richness_metrics": {
+    "total_content_slides": 9,
+    "total_key_points": 27,
+    "average_points_per_slide": 3.0,
+    "slides_with_rich_content": 9,
+    "richness_ratio": 1.0
+  },
+  "content_richness": "medium",
+  "character_metrics": {
+    "2": {
+      "total_characters": 405,
+      "within_range": false,
+      "status": "ADJUST NEEDED",
+      "bullet_points": 3
+    },
+    "3": {
+      "total_characters": 360,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "4": {
+      "total_characters": 355,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "5": {
+      "total_characters": 374,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "6": {
+      "total_characters": 322,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "7": {
+      "total_characters": 285,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "8": {
+      "total_characters": 308,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "9": {
+      "total_characters": 365,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "10": {
+      "total_characters": 296,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    }
+  },
+  "character_summary": {
+    "slides_within_range": 8,
+    "total_content_slides": 9,
+    "compliance_ratio": "88.9%",
+    "average_characters_per_slide": 341,
+    "bullet_point_variation": "3-3 points per slide",
+    "variation_quality": "LOW VARIATION"
+  }
+}

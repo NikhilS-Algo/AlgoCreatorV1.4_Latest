@@ -1,0 +1,336 @@
+{
+  "presentation_title": "Insurance Fraud Detection",
+  "total_slides": 6,
+  "presentation_style": "corporate",
+  "content_richness": "high",
+  "executive_summary": "Comprehensive overview of Insurance Fraud Detection",
+  "key_value_propositions": [
+    "Insurance fraud involves deceiving companies for illegitimate benefits, including false and exaggerated claims.",
+    "Healthcare fraud includes billing for services not rendered and upcoding for higher reimbursements.",
+    "Identity fraud entails using someone else's personal information to file insurance claims."
+  ],
+  "strategic_insights": [
+    "Payment fraud utilizes stolen or counterfeit payment methods, impacting transaction integrity.",
+    "The financial impact of fraud includes significant losses, increased operational costs, and reputational damage.",
+    "Utilizing a synthetic vehicle insurance dataset with 1000 data points to analyze fraud patterns."
+  ],
+  "actionable_recommendations": [
+    "Key features include claim amounts, policy details, and incident characteristics to identify fraudulent behavior.",
+    "Fraudulent claims (24.7% of dataset) often show discrepancies between claimed amounts and actual damages.",
+    "Feature selection focuses on injury, property, and vehicle claims to enhance detection accuracy."
+  ],
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_title": "Insurance Fraud Detection",
+      "slide_type": "title",
+      "content": "Insurance Fraud Detection",
+      "images": []
+    },
+    {
+      "slide_number": 2,
+      "slide_title": "Understanding Insurance Fraud",
+      "slide_type": "content",
+      "content": "• Insurance fraud involves deceiving companies for illegitimate benefits, including false and exaggerated claims.\n• Healthcare fraud includes billing for services not rendered and upcoding for higher reimbursements.\n• Identity fraud entails using someone else's personal information to file insurance claims.\n• Payment fraud utilizes stolen or counterfeit payment methods, impacting transaction integrity.\n• The financial impact of fraud includes significant losses, increased operational costs, and reputational damage.",
+      "speaker_notes": "Discuss: Insurance fraud involves deceiving companies for illegitimate benefits, including false and exaggerated claims., Healthcare fraud includes billing for services not rendered and upcoding for higher reimbursements., Identity fraud entails using someone else's personal information to file insurance claims.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Understanding Insurance Fraud",
+      "images": [
+        {
+          "image_id": "image_slide_Copy of Insurance Data_7_chunk_0_build_1205e1f7_img0",
+          "caption": "This is a screenshot of an insurance analytics dashboard, displaying various data visualizations. Key elements include total claim amount ($37,867,320), total premium paid ($39,038,474), and fraud detected (247). It features bar graphs for",
+          "similarity_score": 0.5214136031753561,
+          "source_document": "Copy of Insurance Data",
+          "image_path": "images/test-email@gmail.com/main_corpus/slide_007_img_000_c74381.png",
+          "user_id": "test-email@gmail.com",
+          "relevance_rank": 1
+        }
+      ]
+    },
+    {
+      "slide_number": 3,
+      "slide_title": "Data Insights for Fraud Detection",
+      "slide_type": "content",
+      "content": "• Utilizing a synthetic vehicle insurance dataset with 1000 data points to analyze fraud patterns.\n• Key features include claim amounts, policy details, and incident characteristics to identify fraudulent behavior.\n• Fraudulent claims (24.7% of dataset) often show discrepancies between claimed amounts and actual damages.\n• Feature selection focuses on injury, property, and vehicle claims to enhance detection accuracy.\n• Understanding customer demographics and incident types aids in predicting potential fraud.",
+      "speaker_notes": "Discuss: Utilizing a synthetic vehicle insurance dataset with 1000 data points to analyze fraud patterns., Key features include claim amounts, policy details, and incident characteristics to identify fraudulent behavior., Fraudulent claims (24.7% of dataset) often show discrepancies between claimed amounts and actual damages.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Data Insights for Fraud Detection",
+      "images": [
+        {
+          "image_id": "image_slide_Insurance Fraud Detection_2024 for business_10_chunk_0_build_1205e1f7_img0",
+          "caption": "This is a diagram illustrating feature importance in a predictive model, likely related to insurance claims. It displays various features along the vertical axis, with corresponding values indicating their impact on the model's output. Positive values are shown in pink and negative values in blue",
+          "similarity_score": 0.499403457802796,
+          "source_document": "Insurance Fraud Detection_2024 for business",
+          "image_path": "images/test-email@gmail.com/main_corpus/slide_010_img_000_f8fb0b.png",
+          "user_id": "test-email@gmail.com",
+          "relevance_rank": 1
+        }
+      ]
+    },
+    {
+      "slide_number": 4,
+      "slide_title": "Machine Learning Techniques",
+      "slide_type": "content",
+      "content": "• Employing unsupervised learning methods like clustering to identify outlier transactions indicative of fraud.\n• Algorithms such as k-means clustering help separate normal transactions from potential fraud cases.\n• Feature importance analysis reveals critical indicators for fraud, including incident severity and property damage.\n• Machine learning models can predict the likelihood of claims based on customer data, improving risk assessment.\n• Continuous refinement of algorithms enhances detection capabilities and reduces false positives.",
+      "speaker_notes": "Discuss: Employing unsupervised learning methods like clustering to identify outlier transactions indicative of fraud., Algorithms such as k-means clustering help separate normal transactions from potential fraud cases., Feature importance analysis reveals critical indicators for fraud, including incident severity and property damage.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Machine Learning Techniques",
+      "images": [
+        {
+          "image_id": "image_slide_Copy of Big Data v2.1 July 2020_4_chunk_0_build_1205e1f7_img0",
+          "caption": "This is an illustration comparing two PDF parsing processes: traditional and machine learning (ML). The top section, in blue, outlines the traditional method involving manual data entry and database storage. The bottom section, in red, depicts the ML process with automated data",
+          "similarity_score": 0.41495700317398887,
+          "source_document": "Copy of Big Data v2.1 July 2020",
+          "image_path": "images/test-email@gmail.com/main_corpus/slide_004_img_000_47fe69.png",
+          "user_id": "test-email@gmail.com",
+          "relevance_rank": 1
+        }
+      ]
+    },
+    {
+      "slide_number": 5,
+      "slide_title": "Model Performance and Business Value",
+      "slide_type": "content",
+      "content": "• The CatBoost model achieves an F1 score of 0.81, balancing recall (0.95) and precision (0.71).\n• High recall ensures most fraudulent cases are identified, minimizing financial losses for insurers.\n• Moderate precision indicates some false positives, necessitating further investigation but enhancing overall fraud detection.\n• Effective fraud detection systems bolster business credibility and customer trust, leading to competitive advantage.\n• Scalable solutions allow for improved efficiency and adaptability in fraud detection processes.",
+      "speaker_notes": "Discuss: The CatBoost model achieves an F1 score of 0.81, balancing recall (0.95) and precision (0.71)., High recall ensures most fraudulent cases are identified, minimizing financial losses for insurers., Moderate precision indicates some false positives, necessitating further investigation but enhancing overall fraud detection.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Model Performance and Business Value",
+      "images": [
+        {
+          "image_id": "image_slide_SLMs Slides for NTT Data_0_chunk_0_build_1205e1f7_img3",
+          "caption": "This is a diagram presenting a performance comparison of various models in a classification task. It features a table with columns labeled \"Model,\" \"Class,\" \"Precision,\" \"Recall,\" \"F1,\" and \"Kappa (K).\" Each row lists model",
+          "similarity_score": 0.52651157327569,
+          "source_document": "SLMs Slides for NTT Data",
+          "image_path": "images/test-email@gmail.com/main_corpus/slide_058_img_001_e9e156.png",
+          "user_id": "test-email@gmail.com",
+          "relevance_rank": 1
+        }
+      ]
+    },
+    {
+      "slide_number": 6,
+      "slide_title": "Conclusion and Future Directions",
+      "slide_type": "content",
+      "content": "• Investing in advanced fraud detection technologies mitigates risks and enhances operational efficiency.\n• Continuous data analysis and model training are essential for adapting to evolving fraud tactics.\n• Collaboration across departments can improve data sharing and enhance fraud detection strategies.\n• Future improvements may include integrating real-world data for better model accuracy and reliability.\n• A robust fraud detection framework not only protects assets but also strengthens customer relationships.",
+      "speaker_notes": "Discuss: Investing in advanced fraud detection technologies mitigates risks and enhances operational efficiency., Continuous data analysis and model training are essential for adapting to evolving fraud tactics., Collaboration across departments can improve data sharing and enhance fraud detection strategies.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Conclusion and Future Directions",
+      "images": []
+    }
+  ],
+  "generated_date": "2025-11-19T17:07:08.573772",
+  "version": "1.0",
+  "content_approach": "industry_ready",
+  "estimated_duration": "12 minutes",
+  "character_metrics": {
+    "2": {
+      "total_characters": 535,
+      "within_range": false,
+      "status": "ADJUST NEEDED",
+      "bullet_points": 5
+    },
+    "3": {
+      "total_characters": 533,
+      "within_range": false,
+      "status": "ADJUST NEEDED",
+      "bullet_points": 5
+    },
+    "4": {
+      "total_characters": 557,
+      "within_range": false,
+      "status": "ADJUST NEEDED",
+      "bullet_points": 5
+    },
+    "5": {
+      "total_characters": 565,
+      "within_range": false,
+      "status": "ADJUST NEEDED",
+      "bullet_points": 5
+    },
+    "6": {
+      "total_characters": 535,
+      "within_range": false,
+      "status": "ADJUST NEEDED",
+      "bullet_points": 5
+    }
+  },
+  "character_summary": {
+    "slides_within_range": 0,
+    "total_content_slides": 5,
+    "compliance_ratio": "0.0%",
+    "average_characters_per_slide": 545,
+    "bullet_point_variation": "5-5 points per slide",
+    "variation_quality": "LOW VARIATION"
+  },
+  "content_richness_metrics": {
+    "total_content_slides": 5,
+    "total_key_points": 25,
+    "average_points_per_slide": 5.0,
+    "slides_with_rich_content": 5,
+    "richness_ratio": 1.0
+  },
+  "retrieved_chunks_metadata": [
+    {
+      "chunk_id": "text_slide_Insurance Fraud Detection_2024 for business_1_chunk_0_build_1205e1f7",
+      "source_document": "Insurance Fraud Detection_2024 for business",
+      "similarity_score": 0.6021,
+      "content_preview": "Various Frauds and their impact on business: Insurance Fraud: Deceiving an insurance company to receive illegitimate benefits or payouts. Ex:False Claims,Exaggerated Claims. Healthcare Fraud: Involves...",
+      "content_length": 674,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Insurance Fraud Detection_2024 for business_4_chunk_0_build_1205e1f7",
+      "source_document": "Insurance Fraud Detection_2024 for business",
+      "similarity_score": 0.5871,
+      "content_preview": "Overview of Vehicle Insurance Dataset Synthetic Dataset with 1000 data points 40 Columns Positive class(Fraud) is 24.70% Column names: Numerical Features: 'months_as_customer', 'age', 'policy_number',...",
+      "content_length": 1191,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Insurance Fraud Detection_2024 for business_0_chunk_0_build_1205e1f7",
+      "source_document": "Insurance Fraud Detection_2024 for business",
+      "similarity_score": 0.5808,
+      "content_preview": "Fraud Detection By: Nooruddin Peerzada, Nishant Tiwari, Sakshi Ramgir, Anuradha Pise ‹#›",
+      "content_length": 88,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Copy of Insurance Data_5_chunk_0_build_1205e1f7",
+      "source_document": "Copy of Insurance Data",
+      "similarity_score": 0.5559,
+      "content_preview": "Machine learning for Outlier/Fraud Detection Unsupervised Learning - Clustering Given objects are automatically grouped together and clusters are formed Unsupervised methods include using algorithms l...",
+      "content_length": 782,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Insurance Fraud Detection_2024 for business_7_chunk_0_build_1205e1f7",
+      "source_document": "Insurance Fraud Detection_2024 for business",
+      "similarity_score": 0.5501,
+      "content_preview": "Feature Selection: Numerical_features: Very crucial when it comes to insurance fraud as the fraudsters tend to claim high amount for minimum damage. Injury_claim: This field tells us what was the inju...",
+      "content_length": 994,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Insurance Fraud Detection_2024 for business_14_chunk_0_build_1205e1f7",
+      "source_document": "Insurance Fraud Detection_2024 for business",
+      "similarity_score": 0.5381,
+      "content_preview": "Conclusion: Effective Fraud Detection: The CatBoost model demonstrates strong detection capabilities with an F1 score of 0.81, ensuring a balance between recall and precision. High Recall (0.95): The ...",
+      "content_length": 970,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Insurance Fraud Detection_2024 for business_14_chunk_1_build_1205e1f7",
+      "source_document": "Insurance Fraud Detection_2024 for business",
+      "similarity_score": 0.5141,
+      "content_preview": "Competitive Advantage: A well-optimized fraud detection system enhances business credibility and market standing by providing a secure environment for transactions and customer data protection.",
+      "content_length": 193,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Copy of Insurance Data_4_chunk_0_build_1205e1f7",
+      "source_document": "Copy of Insurance Data",
+      "similarity_score": 0.4975,
+      "content_preview": "Which Customer is Likely to put insurance claim?  Classification Algorithm Claim No Claim Benefits Better understanding of liabilities arising Better pricing of premium Once the company inputs data ab...",
+      "content_length": 280,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Insurance Fraud Detection_2024 for business_11_chunk_0_build_1205e1f7",
+      "source_document": "Insurance Fraud Detection_2024 for business",
+      "similarity_score": 0.4917,
+      "content_preview": "Conclusions drawn from waterfall plot: 1. Feature Importance: Ord_incident_severity is most influential feature, positively impacting the prediction (likely towards fraud). nom_insured_hobbies_exercis...",
+      "content_length": 1144,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Copy of Insurance Data_6_chunk_0_build_1205e1f7",
+      "source_document": "Copy of Insurance Data",
+      "similarity_score": 0.4815,
+      "content_preview": "Some Of Our Work In Insurance Domain Part of Global AI Competency Centre for  https://insurance.onestop.ai/",
+      "content_length": 107,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Copy of Big Data v2.1 July 2020_4_chunk_0_build_1205e1f7",
+      "source_document": "Copy of Big Data v2.1 July 2020",
+      "similarity_score": 0.4803,
+      "content_preview": "Big Data Case study : Insurance Reference Data extraction  Process Flow Inbound Document (Unstructured) Digitized (Structured) Automate back office process of data extraction from unstructured PDF doc...",
+      "content_length": 216,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Insurance Fraud Detection_2024 for business_3_chunk_0_build_1205e1f7",
+      "source_document": "Insurance Fraud Detection_2024 for business",
+      "similarity_score": 0.4746,
+      "content_preview": "Challenges Faced while finding Dataset: Simulated Dataset Real-world data is often scarce or sensitive. Businesses use simulated datasets as a substitute. Simulated data may not capture the full compl...",
+      "content_length": 670,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Copy of Insurance Data_0_chunk_0_build_1205e1f7",
+      "source_document": "Copy of Insurance Data",
+      "similarity_score": 0.4719,
+      "content_preview": "One Stop AI for Insurance CONFIDENTIAL AND PROPRIETARY Any use of this material without specific permission AlgoAnalytics is strictly prohibited",
+      "content_length": 144,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Insurance Fraud Detection_2024 for business_2_chunk_0_build_1205e1f7",
+      "source_document": "Insurance Fraud Detection_2024 for business",
+      "similarity_score": 0.4652,
+      "content_preview": "Impact of Fraud Types on Financial Loss, Operational Costs, and Reputation Damage across Various Sectors",
+      "content_length": 104,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Copy of Big Data v2.1 July 2020_5_chunk_0_build_1205e1f7",
+      "source_document": "Copy of Big Data v2.1 July 2020",
+      "similarity_score": 0.4609,
+      "content_preview": "Big Data Case study : Insurance Reference Data extraction Architecture Enhanced Operational Efficiency – Automate import, processing and storing the inbound documents (40-60% cost saving) Improved Cus...",
+      "content_length": 491,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Copy of Insurance Data_7_chunk_0_build_1205e1f7",
+      "source_document": "Copy of Insurance Data",
+      "similarity_score": 0.4529,
+      "content_preview": "Our Work: Visualizations/ Analytics to Gain Better Insights into Business  http://beta.onestop.ai/insurance-analytics-dashboard/dashboard",
+      "content_length": 137,
+      "chunk_type": "text_chunk"
+    }
+  ],
+  "image_mapping_metrics": {
+    "user_id": "test-email@gmail.com",
+    "search_mode": "corpus_only",
+    "total_slides": 6,
+    "content_slides": 5,
+    "slides_with_images": 4,
+    "total_images_mapped": 4,
+    "total_available_images": 214,
+    "images_used": 4,
+    "similarity_threshold_used": 0.4,
+    "utilization_rate": "4/214",
+    "coverage_ratio": "4/5",
+    "mapping_strategy": "STRICT_RELEVANCE_ONLY"
+  }
+}

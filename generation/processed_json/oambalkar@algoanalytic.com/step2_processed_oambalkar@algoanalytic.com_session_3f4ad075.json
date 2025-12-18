@@ -1,0 +1,100 @@
+{
+  "processed_chunks": [
+    {
+      "chunk_id": "slide_Genrated_Presentation (7)_0_chunk_0_session_3f4ad075",
+      "text": "Technical Approach to AI-Powered Data Accessibility Advanced AI Solutions for Manufacturing Excellence",
+      "metadata": {
+        "doc_id": "Genrated_Presentation (7)",
+        "slide_index": 0,
+        "images": [],
+        "unit_type": "slide",
+        "session_id": "session_3f4ad075",
+        "original_doc_type": "pptx",
+        "original_doc_id": "Genrated_Presentation (7)",
+        "user_id": "oambalkar@algoanalytic.com",
+        "word_count": 12
+      }
+    },
+    {
+      "chunk_id": "slide_Genrated_Presentation (7)_1_chunk_0_session_3f4ad075",
+      "text": "Overview of FloatChat ▸ FloatChat is an AI-powered conversational interface designed for ARGO ocean data discovery and visualization. ▸ Utilizes advanced technologies including Python, FastAPI, and MySQL for robust performance. ▸ Empowers users to access complex oceanographic data without needing programming skills, democratizing data access. KEY POINTS 2/6",
+      "metadata": {
+        "doc_id": "Genrated_Presentation (7)",
+        "slide_index": 1,
+        "images": [
+          "images/oambalkar@algoanalytic.com/temp_uploads/session_3f4ad075/img_oambalkar@algoanalytic.com_session_3f4ad075_20251120_232226_b993c91e_unit1_img0.jpg"
+        ],
+        "unit_type": "slide",
+        "session_id": "session_3f4ad075",
+        "original_doc_type": "pptx",
+        "original_doc_id": "Genrated_Presentation (7)",
+        "user_id": "oambalkar@algoanalytic.com",
+        "word_count": 48
+      }
+    },
+    {
+      "chunk_id": "slide_Genrated_Presentation (7)_2_chunk_0_session_3f4ad075",
+      "text": "Addressing Technical and Market Risks ▸ Enhancing AI accuracy through advanced prompt engineering and a validation layer to ensure SQL correctness. ▸ Engaging with the scientific community to build trust and ensure the tool meets rigorous standards. ▸ Implementing a monitoring system for external services to mitigate operational risks and improve reliability. KEY POINTS 🖼️ Visual Content 3/6",
+      "metadata": {
+        "doc_id": "Genrated_Presentation (7)",
+        "slide_index": 2,
+        "images": [],
+        "unit_type": "slide",
+        "session_id": "session_3f4ad075",
+        "original_doc_type": "pptx",
+        "original_doc_id": "Genrated_Presentation (7)",
+        "user_id": "oambalkar@algoanalytic.com",
+        "word_count": 58
+      }
+    },
+    {
+      "chunk_id": "slide_Genrated_Presentation (7)_3_chunk_0_session_3f4ad075",
+      "text": "Unique Value Propositions 🖼️ Visual Content ▸ Democratized Data Access: Enables users to interact with scientific data without coding. ▸ Accelerated Time-to-Insight: Reduces data analysis time from hours to seconds. ▸ Zero Learning Curve: Intuitive interface eliminates the need for complex query languages. KEY POINTS 4/6",
+      "metadata": {
+        "doc_id": "Genrated_Presentation (7)",
+        "slide_index": 3,
+        "images": [],
+        "unit_type": "slide",
+        "session_id": "session_3f4ad075",
+        "original_doc_type": "pptx",
+        "original_doc_id": "Genrated_Presentation (7)",
+        "user_id": "oambalkar@algoanalytic.com",
+        "word_count": 46
+      }
+    },
+    {
+      "chunk_id": "slide_Genrated_Presentation (7)_4_chunk_0_session_3f4ad075",
+      "text": "Impacts and Benefits ▸ Supports advanced AI-driven oceanographic studies, enhancing research capabilities. ▸ Facilitates evidence-based decision-making for marine conservation and climate policy. ▸ Transforms education by providing interactive tools for students and educators to engage with real-world data. KEY POINTS 🖼️ Visual Content 5/6",
+      "metadata": {
+        "doc_id": "Genrated_Presentation (7)",
+        "slide_index": 4,
+        "images": [],
+        "unit_type": "slide",
+        "session_id": "session_3f4ad075",
+        "original_doc_type": "pptx",
+        "original_doc_id": "Genrated_Presentation (7)",
+        "user_id": "oambalkar@algoanalytic.com",
+        "word_count": 44
+      }
+    },
+    {
+      "chunk_id": "slide_Genrated_Presentation (7)_5_chunk_0_session_3f4ad075",
+      "text": "Feasibility and Scalability 🖼️ Visual Content ▸ Technical feasibility confirmed with a scalable architecture capable of handling large datasets. ▸ Market demand is high for tools simplifying access to complex scientific data, with few competitors offering similar solutions. ▸ Operational feasibility supported by a skilled team and a clear maintenance strategy for ongoing success. KEY POINTS 6/6",
+      "metadata": {
+        "doc_id": "Genrated_Presentation (7)",
+        "slide_index": 5,
+        "images": [],
+        "unit_type": "slide",
+        "session_id": "session_3f4ad075",
+        "original_doc_type": "pptx",
+        "original_doc_id": "Genrated_Presentation (7)",
+        "user_id": "oambalkar@algoanalytic.com",
+        "word_count": 57
+      }
+    }
+  ],
+  "total_chunks": 6,
+  "original_document_count": 1,
+  "user_id": "oambalkar@algoanalytic.com",
+  "session_id": "session_3f4ad075"
+}

@@ -1,0 +1,494 @@
+{
+  "documents": [
+    {
+      "doc_id": "AlgoAnalytics_Healthcare and Pharma_overview",
+      "doc_type": "pptx",
+      "units": [
+        {
+          "index": 0,
+          "unit_type": "slide",
+          "text": [
+            "Healthcare and Pharma overview",
+            "Our Expertise and Case Studies"
+          ],
+          "images": []
+        },
+        {
+          "index": 1,
+          "unit_type": "slide",
+          "text": [
+            "‹#›",
+            "AlgoAnalytics – An Overview",
+            "Our Partners",
+            "100+ AI solution implementation experience\nWork across domains, business problems and multi-model data\nStrong capabilities in Classical ML, Deep learning as well as emerging tech like Quantum Computing and Digital Twin",
+            "AlgoAnalytics Pvt. Ltd",
+            "Strictly Confidential",
+            "Client locations",
+            "Who we are",
+            "We are a specialist Data Analytics company focused on building AI/ML powered solutions to solve business problems",
+            "What makes us Special",
+            "Our Offerings",
+            "Services",
+            "Custom AI Solution Development",
+            "Cloud Data Engineering",
+            "AI R&D and Consulting",
+            "Large Language/ Foundational Models",
+            "Emerging Technologies",
+            "Products",
+            "Quantum Computing",
+            "Digital Twin",
+            "AI-powered video surveillance",
+            "AI-powered parts inspection",
+            "NLP based analytics platform",
+            "* We are an NTT Data invested company *"
+          ],
+          "images": [
+            "images/oambalkar@algoanalytic.com/temp_uploads/session_92f4090a/img_oambalkar@algoanalytic.com_session_92f4090a_20251118_213550_700835f6_unit1_img0.jpg"
+          ]
+        },
+        {
+          "index": 2,
+          "unit_type": "slide",
+          "text": [
+            "Strong Foundations backed by Industry Leaders",
+            "Aniruddha Pant, Founder & CEO\n PhD, Control Systems, University of California at Berkeley, USA 2001, 20+ years of experience in Machine learning. Expertise across financial engineering, quant trading and deep learning",
+            "Anand Deshpande, Co-founder & CSO\nPhD, Mechanical Engineering, University of Colorado at Boulder, USA 2001, 20+ years of experience in world-class research labs. Expert in mathematical modelling",
+            "Girish Patil, Co-founder & CFO \nBE/PGDBA, Director and CFO at AlgoAnalytics, cross functional including Quantitative trading, Finance, Operations, Legal, HR.",
+            "The Management Team",
+            "Advisors",
+            "Kanchan Pant, Advisor Manufacturing \n MS, Marketing, USA, 15+ years of experience in running a manufacturing company.",
+            "‹#›",
+            "AlgoAnalytics Pvt. Ltd",
+            "Strictly Confidential",
+            "Sayali Mahashur, Advisor Capital Markets \nCFA (ICFAI), 12+ years of core finance experience.",
+            "Founded in 2016 as a niche Data Analytics company",
+            "NTT Data engagement started in 2017",
+            "Built expertise in Deep Learning and AI solutions on Cloud",
+            "NTT Data Intellilink (NDIL) investment in 2023"
+          ],
+          "images": []
+        },
+        {
+          "index": 3,
+          "unit_type": "slide",
+          "text": [
+            "AI in Healthcare",
+            "Our work and Offerings"
+          ],
+          "images": []
+        },
+        {
+          "index": 4,
+          "unit_type": "slide",
+          "text": [
+            "Evolution of AI in Healthcare",
+            "Exponential increase in computing power\nGrowth of genomic sequencing database\nWidespread implementation of Electronic Medical Record (EMR) Systems \nEnhancements in Natural Language Processing (NLP) and computer vision\nEnhanced precision in micro-mechanics required for Robotic surgeries",
+            "1970",
+            "MYCIN\nAn AI program that identifies blood infection treatments",
+            "1980s -1990s",
+            "Factors contributing to the growth in Healthcare AI",
+            "Medical AI\nFaster data collection & processing\nAssisting in precise surgical procedures",
+            "2010-20",
+            "2020-2023",
+            "Rise of Generative AI\nMedical imaging & diagnostics\nVirtual Assistants (Chatbots)",
+            "2010: CAD applied to Endoscopy\n2017: First FDA approved Deep Learning application to detect heart problems",
+            "AlgoAnalytics Pvt. Ltd",
+            "Strictly Confidential",
+            "‹#›"
+          ],
+          "images": []
+        },
+        {
+          "index": 5,
+          "unit_type": "slide",
+          "text": [
+            "Offerings for Healthcare and Pharma",
+            "‹#›",
+            "‹#›",
+            "© AlgoAnalytics .Pvt .Ltd | Page",
+            "AlgoAnalytics Pvt. Ltd",
+            "Strictly Confidential",
+            "Next-Gen Technologies",
+            "AI for Cloud",
+            "AI application development for Cloud\nML Ops and Data Ops \nML services in Cloud",
+            "AI-based Process Automation",
+            "Medical terms extraction from clinical notes\nAutomation of Discharge summary creation\nPatient Condition Prediction using physiological measurments \nEntity and intent detection from nursing notes\nPathology report parsing, Patient knowledge graph",
+            "Text and Image Analytics",
+            "Natural Language Processing (NLP) applications\nFoundational/ Large Language Models (LLM) applications\nComputer Vision based Medical/ pharma applications",
+            "Generative AI based applications\nFederated Learning\nDigital Twin\nQuantum Computing"
+          ],
+          "images": []
+        },
+        {
+          "index": 6,
+          "unit_type": "slide",
+          "text": [
+            "Few Healthcare AI Project Summaries",
+            "AI Mirror using LLM",
+            "Developed a Gen AI application to create a mirror of senior citizens",
+            "Diabetic Retinopathy Detection using Computer Vision",
+            "AI Features for Pharma Consulting Platform using NLP",
+            "Medical Term Extraction from Clinical letters using NLP",
+            "Pathology Lab Report Parsing using NLP",
+            "AlgoAnalytics Pvt. Ltd",
+            "Strictly Confidential",
+            "‹#›",
+            "© AlgoAnalytics .Pvt .Ltd | Page",
+            "ICD Coding Assistant using NLP",
+            "Extracts the unstructured data from pathology lab reports and translate to structured data which is useful for downstream applications",
+            "Automatically suggest appropriate ICD codes based on medical records of the patient",
+            "Extract key medical term from the clinical letters shared across medical practitioner",
+            "Levraging image processing techniques to successfully predict Retinopathy of severity Grade 2 and 3",
+            "Build foundational functions/modules to provide trend and temporal analysis based on news and social media text data"
+          ],
+          "images": [
+            "images/oambalkar@algoanalytic.com/temp_uploads/session_92f4090a/img_oambalkar@algoanalytic.com_session_92f4090a_20251118_213550_700835f6_unit6_img0.jpg"
+          ]
+        },
+        {
+          "index": 7,
+          "unit_type": "slide",
+          "text": [
+            "Generative AI",
+            "Our work in Foundational/ Large Language Models (LLM)"
+          ],
+          "images": []
+        },
+        {
+          "index": 8,
+          "unit_type": "slide",
+          "text": [
+            "Large Language Models (LLM)",
+            "Generative AI is a type of AI that creates new content or synthetic data based on what it has learned from a given dataset.",
+            "Medical or Healthcare large language models (LLMs) are advanced AI-powered systems designed to understand & process vast amount of medical text",
+            "They possess the ability to\nComprehend complex medical texts\nExtract meaningful information\nGenerate valuable insights for healthcare professionals",
+            "LLM",
+            "Generative AI",
+            "Large Language Models (LLM) are a type of Deep Learning AI model notable for its ability to achieve general-purpose Language understanding and generation",
+            "AlgoAnalytics Pvt. Ltd",
+            "Strictly Confidential",
+            "‹#›"
+          ],
+          "images": []
+        },
+        {
+          "index": 9,
+          "unit_type": "slide",
+          "text": [
+            "LLMs are finding Applications in every Healthcare Segment",
+            "Subject to risks such as.. \nData privacy concerns\nEmbedded bias\nRobustness\nSynthetic data\nExplainability",
+            "Healthcare chatbots",
+            "Medical Transcription",
+            "Electronic Health Record (EHR) enhancement",
+            "Clinical Decision Support",
+            "Drug Discovery & Development",
+            "Personalized Treatment Plans",
+            "Medical Imaging Analysis",
+            "Ethics & Compliance monitoring",
+            "Predictive Health outcomes",
+            "AlgoAnalytics Pvt. Ltd",
+            "Strictly Confidential",
+            "‹#›"
+          ],
+          "images": []
+        },
+        {
+          "index": 10,
+          "unit_type": "slide",
+          "text": [
+            "Our LLM Center of Excellence (CoE)",
+            "https://apps.onestop.ai/llm-dashboard/",
+            "We use a combination of Open-source and Closed-source frameworks to build these applications",
+            "AlgoAnalytics Pvt. Ltd",
+            "Strictly Confidential",
+            "‹#›",
+            "Medical AI chatbot to answer from medical documents and summarize information",
+            "Predict molecular properties for enhanced drug discovery using AI",
+            "Effortlessly query insurance/ contract documents to know specific information just by uploading your documents.",
+            "Efficiently distill customer-service agent interactions into concise, easy-to-read summaries,",
+            "Our current LLM powered accelerators that can leveraged in Healthcare and Pharma domain"
+          ],
+          "images": []
+        },
+        {
+          "index": 11,
+          "unit_type": "slide",
+          "text": [
+            "Our LLM Center of Excellence (CoE)",
+            "https://apps.onestop.ai/llm-dashboard/",
+            "Analyze financial documents for insights into a company's performance. with comprehensive financial analysis.",
+            "Establish and manage a quick-access knowledge base for employees by organizing unstructured data (documents, procedures,  FAQ)",
+            "Analyzes feedback through sentiment analysis to aid corporate clients in enhancing customer satisfaction and loyalty",
+            "Effortlessly manage diverse data formats; upload, interpret, and gain valuable insights",
+            "Company Financial Advisor",
+            "Range of other LLM applications available on our demo portal",
+            "AlgoAnalytics Pvt. Ltd",
+            "Strictly Confidential",
+            "‹#›",
+            "Query your code repository to get the latest status of the code",
+            "Chatbot for planning your travel to a particular destination",
+            "Chatbot to assist in onboarding a new employee for a smooth transition",
+            "Chatbot to schedule meetings with date & time suggestions",
+            "Chatbot to get curated financial information from stock market news",
+            "Chatbot to find the right candidates with relevant skills",
+            "Many other apps are under development.."
+          ],
+          "images": []
+        },
+        {
+          "index": 12,
+          "unit_type": "slide",
+          "text": [
+            "AlgoMed : Healthcare Chat Assistant",
+            "Objective",
+            "Data : BioASQ data consists of PubMed Articles and extracts over many medical topics.\nFramework : LangChain\nIndex : Character Text Splitter, Hugging Face Embeddings, OpenAI Embeddings, FAISS\nPrompt : Custom Prompt designed to confine the use of its own knowledge and is engineered to respond in simple, everyday language to enhance user comprehension.\nLLM : GPT-3.5 turbo\nRetrievalQA based model uses similarity search.",
+            "‹#›",
+            "AlgoAnalytics Pvt. Ltd",
+            "Strictly Confidential",
+            "Help patients grasp complex medical jargon by providing easy-to-understand explanations and offer valuable medical insights on various illnesses.",
+            "Demo : Healthcare Chat Assistant"
+          ],
+          "images": []
+        },
+        {
+          "index": 13,
+          "unit_type": "slide",
+          "text": [
+            "Molecular Property Prediction",
+            "Objective",
+            "Data : \nList of SMILES notation and associated molecular properties (csv format)\nFramework : HuggingFace Transformers\nIndex : Not used\nPrompt : Custom prompt template to enable LLM to generate answers based on user input\nLLM : ChemBERTa-77M-MTR",
+            "‹#›",
+            "AlgoAnalytics Pvt. Ltd",
+            "Strictly Confidential",
+            "Predict molecular properties swiftly to streamline molecule identification",
+            "Demo : Molecular Propoerty Prediction"
+          ],
+          "images": []
+        },
+        {
+          "index": 14,
+          "unit_type": "slide",
+          "text": [
+            "Insurance Query Chatbot",
+            "Objective",
+            "Data : (combined)\n2 wheeler Insurance policy (pdf)\t\nPolicy general FAQ (pdf)\n2 wheeler policy terms & conditions (pdf)\nIndex : List Based (in-memory) and Pinecone (external)\nPrompt : Custom prompt template to prevent the LLM to retrieve from its own knowledge base\nLLM : GPT-3.5 turbo\nRetrieval mode : Compact",
+            "‹#›",
+            "Interpret prompts with respect to insurance policy along with terms and conditions",
+            "AlgoAnalytics Pvt. Ltd",
+            "Strictly Confidential",
+            "Demo : Insurance Agent Service"
+          ],
+          "images": []
+        },
+        {
+          "index": 15,
+          "unit_type": "slide",
+          "text": [
+            "Conversation Summarizing Agent",
+            "Objective",
+            "Data : \nDifferent types of conversation documents (txt format) between customer and customer representative.\nFramework : LangChain\nIndex : DocArray InMemorySearch\nPrompt : Custom prompt template to enable LLM chains based on user input and model recommendations.\nLLM : GPT-3.5 turbo\nChain : Conversational Retrieval Chain and load summarize chain",
+            "‹#›",
+            "AlgoAnalytics Pvt. Ltd",
+            "Strictly Confidential",
+            "Summarize and interact with customer-service agent interactions with concise, easy-to-read summaries, saving time and enhancing communication clarity.",
+            "Demo : ConvoSummarizer"
+          ],
+          "images": []
+        },
+        {
+          "index": 16,
+          "unit_type": "slide",
+          "text": [
+            "Case Studies",
+            "Our past work with Healthcare and Pharma organizations"
+          ],
+          "images": []
+        },
+        {
+          "index": 17,
+          "unit_type": "slide",
+          "text": [
+            "Diabetic Retinopathy Detection using Computer Vision",
+            "© AlgoAnalytics .Pvt .Ltd | Page",
+            "‹#›",
+            "AlgoAnalytics Pvt. Ltd",
+            "Strictly Confidential",
+            "Diabetic Retinopathy is the leading cause of blindness in the working-age population of the developed world. It is estimated to affect over 93 million people\nNeed of expertise and equipment required to detect DR is very high and is often unavailable in areas where requirement is high.",
+            "Images are classified into four classes according to their retinopathy grades:",
+            "Input Images are processed using Image Processing techniques",
+            "ML techniques such as neural networks and classifiers are used",
+            "Successful classification into one of the four class",
+            "Results\nSuccessful in predicting Retinopathy of severity grade 2 and 3 with more than 90% accuracy\nIf fundus images for both the eyes of the patient are available, the model will predict Retinopathy 2/3 with 99+ percent accuracy!"
+          ],
+          "images": []
+        },
+        {
+          "index": 18,
+          "unit_type": "slide",
+          "text": [
+            "ICD Coding Assistant using NLP",
+            "© AlgoAnalytics .Pvt .Ltd | Page",
+            "‹#›",
+            "AlgoAnalytics Pvt. Ltd",
+            "Strictly Confidential",
+            "Automatically suggest appropriate ICD codes based on medical records of the patient",
+            "Medical Text Sentences",
+            "ICD-10 Coding Book",
+            "NLP Methodologies (Classification & Extraction)",
+            "Human Coder",
+            "ICD Codes",
+            "Results",
+            "Benefits\nEmpower human coder with NLP solution to maximize their productivity\nEliminate audit and investigation of health care provider due to over-coding\nIncreases customer satisfaction by eliminating under-coding",
+            "Demo : ICD Coding"
+          ],
+          "images": []
+        },
+        {
+          "index": 19,
+          "unit_type": "slide",
+          "text": [
+            "AI Features for Pharma Consulting Platform using NLP",
+            "© AlgoAnalytics .Pvt .Ltd | Page",
+            "‹#›",
+            "AlgoAnalytics Pvt. Ltd",
+            "Strictly Confidential",
+            "For a UK based pharma consultancy organization specializing in dynamic decision support and product/portfolio strategy.",
+            "Build foundational functions/modules to provide trend and temporal analysis based on news and social media text data",
+            "Pharma Consulting Platform :\nProjects Executed",
+            "Data Acquisition from News Media and Social Media",
+            "Named Entity Recognition (NER) on news data and tweets data",
+            "Sentiment Analysis for news and tweets data",
+            "Confidence Detection on news data and tweets data"
+          ],
+          "images": []
+        },
+        {
+          "index": 20,
+          "unit_type": "slide",
+          "text": [
+            "Medical Term Extraction from Clinical letters using NLP",
+            "© AlgoAnalytics .Pvt .Ltd | Page",
+            "‹#›",
+            "AlgoAnalytics Pvt. Ltd",
+            "Strictly Confidential",
+            "Key Objectives",
+            "Extract key medical term from the clinical letters shared across medical practitioner",
+            "Dear Dr \nClinic notes \nMany thanks for referring this lady who last year was awoken at night by moderately fast regular palpitations which had a gradual offset. These symptoms have not recurred. She is otherwise well although is on treatment for hypertension. She stopped smoking 60 years ago and drinks rarely. Recent thyroid function tests have shown a slightly elevated TSH but a normal free thyroxine. Apart from amlodipine 5 mg daily, she takes simvastatin and calcium supplements. Her ECG showed sinus rhythm with a leftward axis. Ambulatory monitoring has shown sinus rhythm with first degree heart block at lower rates and two short salvos of atrial tachycardia of no more than 2 seconds. She was asymptomatic to these. I would pass her tape as within normal limits for the patient, and in the absence of ongoing symptoms would not suggest any specific treatment. I will arrange for an echocardiogram, however, and will write back further with the results. If she does suffer further palpitations, a small dose of bisoprolol such as 1.25 mg daily would be reasonable. With many thanks for your referral. \nYours sincerely \ncc list Consultant",
+            "Results",
+            "Demo : Mediterm Extraction Solution"
+          ],
+          "images": []
+        },
+        {
+          "index": 21,
+          "unit_type": "slide",
+          "text": [
+            "Entity and Intent Detection for Nursing Notes using NLP",
+            "© AlgoAnalytics .Pvt .Ltd | Page",
+            "‹#›",
+            "AlgoAnalytics Pvt. Ltd",
+            "Strictly Confidential",
+            "Key Objective : Create a model than can generate entity and intent at par with human expert",
+            "Each Sentence is traverse through High level models followed by Sub-level models",
+            "Two-level Approach",
+            "Leveraging multiple NLP frameworks for smart detection",
+            "AI/ ML Driven",
+            "Easily scalable and can be modified to support multilingual input",
+            "Multi-Lingual support",
+            "Key \nFeatures",
+            "Can’t raise left upper limb, but right upper limb is okey. Both lower limb don’t perform default action.",
+            "can not raise left upper limb.\nright upper limb is okey. \nboth lower limb do not perform default action.",
+            "can not raise left upper limb : Intent -> paralyzed\nright upper limb is okey. : Intent -> not paralyzed\nboth lower limb do not perform default action. : Intent -> paralyzed",
+            "Results and Outcomes\nAlgoAnalytics model results are at par with IBM Watson results\nThe model was able to detect additional relevant entities, which were either not mentioned or missed in the list by human expert",
+            "Client: Research project with NTT Data Japan",
+            "Text Processing",
+            "Entity Recognition \n Intent Detection"
+          ],
+          "images": []
+        },
+        {
+          "index": 22,
+          "unit_type": "slide",
+          "text": [
+            "Pathology Lab Report Parsing using NLP",
+            "© AlgoAnalytics .Pvt .Ltd | Page",
+            "‹#›",
+            "AlgoAnalytics Pvt. Ltd",
+            "Strictly Confidential",
+            "Key Objective : Extract relevant details from pathology lab reports",
+            "Stage 1 : Identifying Terms and Patterns (Unsupervised Learning)",
+            "Pathology Lab Reports",
+            "Stage 2 : Classification of Text into specific Categories\n(Supervised Learning)",
+            "The lab report parsing extracts the unstructured data from pathology lab reports and translate to structured data which is useful for downstream applications",
+            "Demo : Pathology Lab Parsing",
+            "Better Patient Management for hospitals and medical agencies",
+            "Effective Patient Care",
+            "Creating and Compiling Patient Record"
+          ],
+          "images": []
+        },
+        {
+          "index": 23,
+          "unit_type": "slide",
+          "text": [
+            "Discharge Summary using NLP",
+            "© AlgoAnalytics .Pvt .Ltd | Page",
+            "‹#›",
+            "AlgoAnalytics Pvt. Ltd",
+            "Strictly Confidential",
+            "Key Objective : Automate Discharge summary using information extraction approach",
+            "Leveraging the power of AI to not only extract relevant information but also identify insights from the categorized text",
+            "Color coding scheme for the Generated Discharge Summary:\nGreen Color :  Able to find data from data source\nRed Color : Not able to find data from data source\nBlue Color :  Need to be filled by doctor",
+            "Multiple reports are taken as input fields for generating discharge summary\nCLINICAL_NOTE\nOPERATIVE_REPORT\nPATHOLOGY INVESTIGATION REPORT\nRADIOLOGY INVESTIGATION REPORT",
+            "Demo : Discharge Summary Application"
+          ],
+          "images": []
+        },
+        {
+          "index": 24,
+          "unit_type": "slide",
+          "text": [
+            "Patient Condition Prediction – Early Warning System",
+            "TO-BE",
+            "NEWS tends to give many false alarms\nNEWS may not generate alarm until rapid deterioration is observed",
+            "Build predictive system, than detective system, based on physiological measurements of hospital inpatients",
+            "Clinical: Prediction of medical condition\nOperation: Generation of timely alerts\nResearch: Patient segmentation based on the patterns observed/emerged",
+            "AS-IS",
+            "National Early Warning System",
+            "NEWS",
+            "Scoring system pertaining to patient medical condition\nBased on the physiological parameters such as BP, RR, PR, O2S and TEMP\nMagnitude of score depends on variation in parameter from the norm\nAlert is generated based on the rules applied to aggregated score",
+            "AlgoAnalytics Pvt. Ltd.",
+            "Strictly Confidential",
+            "‹#›"
+          ],
+          "images": []
+        },
+        {
+          "index": 25,
+          "unit_type": "slide",
+          "text": [
+            "Patient Knowledge Graph",
+            "© AlgoAnalytics .Pvt .Ltd | Page",
+            "‹#›",
+            "AlgoAnalytics Pvt. Ltd",
+            "Strictly Confidential",
+            "Extract patient history and diagnosis from unstructured text to structured data format viz. knowledge graph.\nEnables to find the insights for individual patient as well as across patients through natural language queries.",
+            "Input : Multiple Medical documents \n(Diagnosis Details, Social History, Family History etc.)",
+            "Knowledge Graph",
+            "Demo : Patient Knowledge Graph"
+          ],
+          "images": []
+        },
+        {
+          "index": 26,
+          "unit_type": "slide",
+          "text": [
+            "Thank You",
+            "https://www.algoanalytics.com/\nOnestop.ai"
+          ],
+          "images": []
+        }
+      ]
+    }
+  ]
+}

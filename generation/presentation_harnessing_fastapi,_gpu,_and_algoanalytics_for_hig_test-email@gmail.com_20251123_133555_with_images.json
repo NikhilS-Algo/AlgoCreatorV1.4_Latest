@@ -1,0 +1,486 @@
+{
+  "presentation_title": "Harnessing FastAPI, GPU, and AlgoAnalytics for High-Performance Solutions",
+  "total_slides": 8,
+  "presentation_style": "corporate",
+  "content_richness": "medium",
+  "executive_summary": "Comprehensive overview of Harnessing FastAPI, GPU, and AlgoAnalytics for High-Performance Solutions",
+  "key_value_propositions": [
+    "Built on Starlette and Uvicorn, FastAPI offers performance that rivals compiled languages.",
+    "Utilizes asynchronous programming for efficient handling of concurrent requests, ideal for I/O-bound tasks.",
+    "Enhances developer experience with standard Python type hints and automatic generation of OpenAPI documentation."
+  ],
+  "strategic_insights": [
+    "FastAPI bridges the gap between Python's data-centric strengths and the demands of modern web infrastructure.",
+    "Enables rapid development of microservices and real-time applications with low latency.",
+    "Facilitates seamless integration with external APIs, enhancing operational efficiency."
+  ],
+  "actionable_recommendations": [
+    "GPUs excel in processing thousands of data streams simultaneously, outperforming CPUs in parallel tasks.",
+    "Critical for deep learning, enabling rapid training of large neural networks through high-speed matrix operations.",
+    "Supports real-time data processing, essential for applications in AI and machine learning."
+  ],
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_title": "Harnessing FastAPI, GPU, and AlgoAnalytics for High-Performance Solutions",
+      "slide_type": "title",
+      "content": "Harnessing FastAPI, GPU, and AlgoAnalytics for High-Performance Solutions",
+      "images": []
+    },
+    {
+      "slide_number": 2,
+      "slide_title": "Introduction to FastAPI",
+      "slide_type": "content",
+      "content": "• Built on Starlette and Uvicorn, FastAPI offers performance that rivals compiled languages.\n• Utilizes asynchronous programming for efficient handling of concurrent requests, ideal for I/O-bound tasks.\n• Enhances developer experience with standard Python type hints and automatic generation of OpenAPI documentation.",
+      "speaker_notes": "Discuss: Built on Starlette and Uvicorn, FastAPI offers performance that rivals compiled languages., Utilizes asynchronous programming for efficient handling of concurrent requests, ideal for I/O-bound tasks., Enhances developer experience with standard Python type hints and automatic generation of OpenAPI documentation.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Introduction to FastAPI",
+      "images": [
+        {
+          "image_id": "image_slide_Copy of AlgoAnalytics_NLPProjectsPlatform_14Jul2020_v1_23_chunk_0_build_084d5582_img0",
+          "caption": "This is a diagram illustrating an API architecture. It features components like \"API Umbrella,\" \"WSGI,\" and \"MicroFramework,\" with sections for validation, preprocessing, inference, and post-processing. Icons represent Docker and cloud services (Azure, Google",
+          "similarity_score": 0.4541319988331834,
+          "source_document": "Copy of AlgoAnalytics_NLPProjectsPlatform_14Jul2020_v1",
+          "image_path": "images/test-email@gmail.com/main_corpus/slide_023_img_000_ad3973.png",
+          "user_id": "test-email@gmail.com",
+          "relevance_rank": 1
+        }
+      ]
+    },
+    {
+      "slide_number": 3,
+      "slide_title": "The Business Value of FastAPI",
+      "slide_type": "content",
+      "content": "• FastAPI bridges the gap between Python's data-centric strengths and the demands of modern web infrastructure.\n• Enables rapid development of microservices and real-time applications with low latency.\n• Facilitates seamless integration with external APIs, enhancing operational efficiency.",
+      "speaker_notes": "Discuss: FastAPI bridges the gap between Python's data-centric strengths and the demands of modern web infrastructure., Enables rapid development of microservices and real-time applications with low latency., Facilitates seamless integration with external APIs, enhancing operational efficiency.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: The Business Value of FastAPI",
+      "images": [
+        {
+          "image_id": "image_slide_AlgoAnalytics deck for UK_Europe_18_chunk_0_build_084d5582_img0",
+          "caption": "This is a diagram illustrating a software architecture for a monitoring system. It features components like Aksha Dashboard, FastAPI, MongoDB, and Kubernetes, connected by arrows indicating data flow. Key processes include object detection, alert identification, and anomaly detection,",
+          "similarity_score": 0.4305586643570757,
+          "source_document": "AlgoAnalytics deck for UK_Europe",
+          "image_path": "images/test-email@gmail.com/main_corpus/slide_018_img_000_3e700f.png",
+          "user_id": "test-email@gmail.com",
+          "relevance_rank": 1
+        }
+      ]
+    },
+    {
+      "slide_number": 4,
+      "slide_title": "Understanding GPU Capabilities",
+      "slide_type": "content",
+      "content": "• GPUs excel in processing thousands of data streams simultaneously, outperforming CPUs in parallel tasks.\n• Critical for deep learning, enabling rapid training of large neural networks through high-speed matrix operations.\n• Supports real-time data processing, essential for applications in AI and machine learning.",
+      "speaker_notes": "Discuss: GPUs excel in processing thousands of data streams simultaneously, outperforming CPUs in parallel tasks., Critical for deep learning, enabling rapid training of large neural networks through high-speed matrix operations., Supports real-time data processing, essential for applications in AI and machine learning.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Understanding GPU Capabilities",
+      "images": [
+        {
+          "image_id": "image_docx_GPU_section_0_chunk_0_session_d02023c9_img2",
+          "caption": "This is a digital illustration of a GPU (Graphics Processing Unit) on a circuit board. The GPU is prominently displayed in the center with the text \"GPU\" illuminated in blue. Surrounding it are various microchips and circuit pathways, emphasizing a high",
+          "similarity_score": 0.49783094408375905,
+          "source_document": "GPU",
+          "image_path": "images/test-email@gmail.com/temp_uploads/session_d02023c9/img_test-email@gmail.com_session_d02023c9_52f9ec21_unit0_img3_1fde75.png",
+          "user_id": "test-email@gmail.com",
+          "relevance_rank": 1
+        }
+      ]
+    },
+    {
+      "slide_number": 5,
+      "slide_title": "AlgoAnalytics: Driving Innovation",
+      "slide_type": "content",
+      "content": "• Offers a comprehensive Gen AI tech stack, including orchestration frameworks and vector databases.\n• Expertise in deploying AI solutions across various industries, enhancing operational capabilities.\n• Provides tools for data extraction, model fine-tuning, and infrastructure provisioning.",
+      "speaker_notes": "Discuss: Offers a comprehensive Gen AI tech stack, including orchestration frameworks and vector databases., Expertise in deploying AI solutions across various industries, enhancing operational capabilities., Provides tools for data extraction, model fine-tuning, and infrastructure provisioning.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: AlgoAnalytics: Driving Innovation",
+      "images": [
+        {
+          "image_id": "image_slide_AlgoAnalytics deck for UK_Europe_33_chunk_0_build_084d5582_img2",
+          "caption": "This is a diagram presenting the offerings and expertise of AlgoAnalytics, focusing on Generative AI and related technologies. It includes sections on core offerings like Generative AI solutions, AI/ML solutions, Cloud Data Engineering, and Emerging Technologies. Visual elements include",
+          "similarity_score": 0.7355572081547412,
+          "source_document": "AlgoAnalytics deck for UK_Europe",
+          "image_path": "images/test-email@gmail.com/main_corpus/slide_033_img_002_2444c4.png",
+          "user_id": "test-email@gmail.com",
+          "relevance_rank": 1
+        }
+      ]
+    },
+    {
+      "slide_number": 6,
+      "slide_title": "Case Study: FastAPI in Action",
+      "slide_type": "content",
+      "content": "• Developed a FastAPI application for a global tech giant to host and deploy a proprietary LLM API.\n• Implemented robust error tracking and integrated with AWS services for high availability.\n• Conducted performance benchmarking to optimize resource usage and processing capacity.",
+      "speaker_notes": "Discuss: Developed a FastAPI application for a global tech giant to host and deploy a proprietary LLM API., Implemented robust error tracking and integrated with AWS services for high availability., Conducted performance benchmarking to optimize resource usage and processing capacity.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Case Study: FastAPI in Action",
+      "images": [
+        {
+          "image_id": "image_slide_Agentic_AI_Project Report(D&I)_March_2025_86_chunk_0_build_084d5582_img0",
+          "caption": "This is a diagram from an AWS Lambda function overview titled \"agentic-pattern-tools-fastapi-server.\" It displays a function box with the name and an icon representing AWS Lambda. The interface includes options for adding triggers and destinations, along with function details like",
+          "similarity_score": 0.44334848705648444,
+          "source_document": "Agentic_AI_Project Report(D&I)_March_2025",
+          "image_path": "images/test-email@gmail.com/main_corpus/slide_086_img_000_093e41.png",
+          "user_id": "test-email@gmail.com",
+          "relevance_rank": 1
+        }
+      ]
+    },
+    {
+      "slide_number": 7,
+      "slide_title": "Practical Applications of FastAPI and GPU",
+      "slide_type": "content",
+      "content": "• Supports various use cases including recommendation systems, fraud detection, and predictive analytics.\n• Enables real-time data processing for applications in finance, healthcare, and manufacturing.\n• Facilitates the development of scalable solutions that can adapt to evolving business needs.",
+      "speaker_notes": "Discuss: Supports various use cases including recommendation systems, fraud detection, and predictive analytics., Enables real-time data processing for applications in finance, healthcare, and manufacturing., Facilitates the development of scalable solutions that can adapt to evolving business needs.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Practical Applications of FastAPI and GPU",
+      "images": [
+        {
+          "image_id": "image_slide_Algoanalytics Gen AI Capability overview_4_chunk_0_build_084d5582_img0",
+          "caption": "This is a diagram illustrating a data processing architecture. It features interconnected components including Data Pipelines, an Embedding Model, Orchestration, App Hosting, and a Vector Database. Key elements are labeled with examples like OpenAI, Hugging Face,",
+          "similarity_score": 0.42244269101529847,
+          "source_document": "Algoanalytics Gen AI Capability overview",
+          "image_path": "images/test-email@gmail.com/main_corpus/slide_004_img_000_0cc464.png",
+          "user_id": "test-email@gmail.com",
+          "relevance_rank": 1
+        }
+      ]
+    },
+    {
+      "slide_number": 8,
+      "slide_title": "Conclusion and Future Outlook",
+      "slide_type": "content",
+      "content": "• FastAPI, combined with GPU capabilities, positions organizations for success in a data-driven landscape.\n• AlgoAnalytics provides the expertise and tools necessary to leverage these technologies effectively.\n• Investing in these solutions will enhance efficiency, reduce costs, and drive innovation across industries.",
+      "speaker_notes": "Discuss: FastAPI, combined with GPU capabilities, positions organizations for success in a data-driven landscape., AlgoAnalytics provides the expertise and tools necessary to leverage these technologies effectively., Investing in these solutions will enhance efficiency, reduce costs, and drive innovation across industries.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Conclusion and Future Outlook",
+      "images": [
+        {
+          "image_id": "image_slide_AlgoAnalytics deck for UK_Europe_33_chunk_0_build_084d5582_img3",
+          "caption": "This is an infographic providing an overview of AlgoAnalytics, an NTT Data company specializing in AI/ML solutions. It includes sections on their offerings, expertise in technologies like Quantum Computing, and products such as AI-powered video surveillance. The design features text",
+          "similarity_score": 0.5682666119774968,
+          "source_document": "AlgoAnalytics deck for UK_Europe",
+          "image_path": "images/test-email@gmail.com/main_corpus/slide_033_img_003_9fc32f.png",
+          "user_id": "test-email@gmail.com",
+          "relevance_rank": 1
+        }
+      ]
+    }
+  ],
+  "generated_date": "2025-11-23T13:35:48.221921",
+  "version": "1.0",
+  "content_approach": "industry_ready",
+  "estimated_duration": "16 minutes",
+  "character_metrics": {
+    "2": {
+      "total_characters": 332,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "3": {
+      "total_characters": 311,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "4": {
+      "total_characters": 338,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "5": {
+      "total_characters": 316,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "6": {
+      "total_characters": 301,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "7": {
+      "total_characters": 329,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "8": {
+      "total_characters": 340,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    }
+  },
+  "character_summary": {
+    "slides_within_range": 7,
+    "total_content_slides": 7,
+    "compliance_ratio": "100.0%",
+    "average_characters_per_slide": 323,
+    "bullet_point_variation": "3-3 points per slide",
+    "variation_quality": "LOW VARIATION"
+  },
+  "content_richness_metrics": {
+    "total_content_slides": 7,
+    "total_key_points": 21,
+    "average_points_per_slide": 3.0,
+    "slides_with_rich_content": 7,
+    "richness_ratio": 1.0
+  },
+  "retrieved_chunks_metadata": [
+    {
+      "chunk_id": "text_pdf_FastAPI_page_0_chunk_1_session_657d34c3",
+      "source_document": "FastAPI",
+      "similarity_score": 0.5862,
+      "content_preview": "Built atop Starlette for routing and Uvicorn as its ASGI (Asynchronous Server Gateway Interface) server, FastAPI achieves performance benchmarks that rival compiled languages. This asynchronous archit...",
+      "content_length": 1057,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_pdf_FastAPI_page_0_chunk_0_session_657d34c3",
+      "source_document": "FastAPI",
+      "similarity_score": 0.5829,
+      "content_preview": "FastAPI: The Catalyst for High-Performance Python API Development The Python programming language has long dominated the fields of data science, machine learning, and scripting, yet its role in web ba...",
+      "content_length": 1038,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_pdf_FastAPI_page_1_chunk_2_session_d02023c9",
+      "source_document": "FastAPI",
+      "similarity_score": 0.5376,
+      "content_preview": "As organizations continue to adopt microservice architectures and require increasingly fast, reliable APIs, FastAPI is poised to remain a dominant force, bridging the gap between Python's data-centric...",
+      "content_length": 265,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_AI_ML on Cloud-Final_0_chunk_0_build_084d5582",
+      "source_document": "AI_ML on Cloud-Final",
+      "similarity_score": 0.5273,
+      "content_preview": "AI/ML on Cloud AlgoAnalytics Offerings & Expertise October 2023",
+      "content_length": 63,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Copy of AI Manufacturing A2IOT_37_chunk_0_build_084d5582",
+      "source_document": "Copy of AI Manufacturing A2IOT",
+      "similarity_score": 0.5236,
+      "content_preview": "Demo Apps https://apps.algoanalytics.com/",
+      "content_length": 41,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_AlgoAnalytics_Healthcare and Pharma_overview_26_chunk_0_build_084d5582",
+      "source_document": "AlgoAnalytics_Healthcare and Pharma_overview",
+      "similarity_score": 0.5209,
+      "content_preview": "Thank You https://www.algoanalytics.com/ Onestop.ai",
+      "content_length": 51,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Manufacturing capabilities_AlgoAnalytics_Aug_24_v3_27_chunk_0_build_084d5582",
+      "source_document": "Manufacturing capabilities_AlgoAnalytics_Aug_24_v3",
+      "similarity_score": 0.5138,
+      "content_preview": "Thank You www.algoanalytics.com https://onestop.ai/",
+      "content_length": 51,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_AlgoAnalytics deck for UK_Europe_4_chunk_0_build_084d5582",
+      "source_document": "AlgoAnalytics deck for UK_Europe",
+      "similarity_score": 0.5004,
+      "content_preview": "‹#› AlgoAnalytics – Gen AI Tech Stack   Tech stack Apps / User Interface (Front End) Orchestration & Integration Frameworks Vector Database LLMs / SLMs Data extraction tools Cloud Infrastructure LLM m...",
+      "content_length": 349,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_AlgoAnalytics deck for UK_Europe_44_chunk_0_build_084d5582",
+      "source_document": "AlgoAnalytics deck for UK_Europe",
+      "similarity_score": 0.4996,
+      "content_preview": "Thank You info@algoanalytics.com | www.algoanalytics.com https://onestop.ai/",
+      "content_length": 76,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Algoanalytics Gen AI Capability overview_Jan2025_0_chunk_0_build_084d5582",
+      "source_document": "Algoanalytics Gen AI Capability overview_Jan2025",
+      "similarity_score": 0.4996,
+      "content_preview": "AlgoAnalytics – Gen AI Capabilities Overview CONFIDENTIAL AND PROPRIETARY Any use of this material without specific permission AlgoAnalytics is strictly prohibited ‹#› Jan 2025",
+      "content_length": 176,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_AlgoAnalytics deck for UK_Europe_66_chunk_0_build_084d5582",
+      "source_document": "AlgoAnalytics deck for UK_Europe",
+      "similarity_score": 0.4995,
+      "content_preview": "Case Study: Cloud based API for Client’s Proprietary Tsuzumi LLM   ‹#› Client: A global tech giant in IT Services AWS EC2 AWS Lambda AWS S3 AWS Cloud Watch Tools / Services used Problem statement: Hos...",
+      "content_length": 706,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_AI Agent System Research_Deliverable by Algo_March 28, 2025_14_chunk_1_build_084d5582",
+      "source_document": "AI Agent System Research_Deliverable by Algo_March 28, 2025",
+      "similarity_score": 0.4974,
+      "content_preview": "Classifies task dynamically based on intent recognition. Optimized Data Handling : Stores structured data in vector databases (FAISS,Pinecone)for fast retrieval. API - Driven Execution layer : Uses Fa...",
+      "content_length": 306,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_AlgoFabric overview_Deck_oct_24_13_chunk_0_build_084d5582",
+      "source_document": "AlgoFabric overview_Deck_oct_24",
+      "similarity_score": 0.4955,
+      "content_preview": "Thank you For more information, visit: https://algofabric.algoanalytics.com/",
+      "content_length": 76,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Algoanalytics Gen AI Capability overview_2_chunk_0_build_084d5582",
+      "source_document": "Algoanalytics Gen AI Capability overview",
+      "similarity_score": 0.495,
+      "content_preview": "AlgoAnalytics Gen AI Tech Stack - Tools used Apps / User Experience (Front End) Orchestration & Integration Frameworks Vector Database LLMs Data extraction tools Cloud Infrastructure UNSTRUCTURED Libr...",
+      "content_length": 280,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_AlgoAnalytics deck for UK_Europe_0_chunk_0_build_084d5582",
+      "source_document": "AlgoAnalytics deck for UK_Europe",
+      "similarity_score": 0.4908,
+      "content_preview": "AlgoAnalytics Overview and Capabilities Nov 2024 CONFIDENTIAL AND PROPRIETARY Any use of this material without specific permission AlgoAnalytics is strictly prohibited ‹#›",
+      "content_length": 171,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_docx_GPU_section_1_chunk_1_session_d02023c9",
+      "source_document": "GPU",
+      "similarity_score": 0.4907,
+      "content_preview": "This arrangement allows the GPU to process thousands of data streams and execute concurrent threads simultaneously. For tasks that can be broken down into many independent, simultaneous operations—kno...",
+      "content_length": 930,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_pdf_FastAPI_page_1_chunk_1_session_657d34c3",
+      "source_document": "FastAPI",
+      "similarity_score": 0.4898,
+      "content_preview": "The Pydantic models and path operation functions, complete with their type hints, are automatically converted into precise JSON Schema and OpenAPI documents. This immediate, interactive documentation ...",
+      "content_length": 944,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Copy of AlgoAnalytics_AI for BFSI_18Jun2019_0_chunk_0_build_084d5582",
+      "source_document": "Copy of AlgoAnalytics_AI for BFSI_18Jun2019",
+      "similarity_score": 0.4845,
+      "content_preview": "One Stop AI for BFSI CONFIDENTIAL AND PROPRIETARY Any use of this material without specific permission AlgoAnalytics is strictly prohibited",
+      "content_length": 139,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Copy of Insurance Data_8_chunk_0_build_084d5582",
+      "source_document": "Copy of Insurance Data",
+      "similarity_score": 0.4843,
+      "content_preview": "Thank You info@algoanalytics.com",
+      "content_length": 32,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_docx_GPU_section_1_chunk_3_session_d02023c9",
+      "source_document": "GPU",
+      "similarity_score": 0.4842,
+      "content_preview": "The GPU accelerates time-to-discovery, making complex computational science faster, more accessible, and more energy-efficient relative to the performance delivered. In conclusion, the Graphics Proces...",
+      "content_length": 812,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_AlgoFabric overview_Deck_oct_24_0_chunk_0_build_084d5582",
+      "source_document": "AlgoFabric overview_Deck_oct_24",
+      "similarity_score": 0.484,
+      "content_preview": "AlgoFabric: SaaS Platform AI-powered Financial Insights Platform CONFIDENTIAL AND PROPRIETARY Any use of this material without specific permission AlgoAnalytics is strictly prohibited",
+      "content_length": 183,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Algoanalytics Gen AI Capability overview_1_chunk_0_build_084d5582",
+      "source_document": "Algoanalytics Gen AI Capability overview",
+      "similarity_score": 0.4836,
+      "content_preview": "AlgoAnalytics expertise in Gen AI Tech Stack Apps / User Experience Orchestration & Integration (Frameworks and configuration) Data (Readiness, Vectorization) Models (Model Selection, Fine Tuning) Too...",
+      "content_length": 510,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Copy of AlgoAnalytics_AI for BFSI_18Jun2019_2_chunk_0_build_084d5582",
+      "source_document": "Copy of AlgoAnalytics_AI for BFSI_18Jun2019",
+      "similarity_score": 0.4786,
+      "content_preview": "3 Multiple use cases across functions to improve efficiency and reduce cost Source: AlgoAnalytics team analysis, internet research Churn Modelling Recommendation Systems Process Automation TextSense f...",
+      "content_length": 766,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Copy of AlgoAnalytics_OilandGas_1_chunk_0_build_084d5582",
+      "source_document": "Copy of AlgoAnalytics_OilandGas",
+      "similarity_score": 0.4768,
+      "content_preview": "Agenda AlgoAnalytics 01 Oil and Gas Case Studies 02 Team and Technology 03 Demo Apps 04  One Stop AI Shop AlgoAnalytics Patents 05",
+      "content_length": 130,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Report MOTAS(Jan2025-Mar2025)_30_chunk_0_build_084d5582",
+      "source_document": "Report MOTAS(Jan2025-Mar2025)",
+      "similarity_score": 0.4694,
+      "content_preview": "Deployment of extraction pipeline was done on AWS Apprunner: FastAPI app was created for the pipeline Result was the markdown format text for the input file We used Dify to run the pipeline each time(...",
+      "content_length": 216,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_SLMs Slides for NTT Data_2_chunk_0_build_084d5582",
+      "source_document": "SLMs Slides for NTT Data",
+      "similarity_score": 0.4631,
+      "content_preview": "Key Findings from the Research Work: In the context of the edge computing spectrum and generative AI, we explored solutions with respect to Device Edge and Compute Edge, particularly those offered by ...",
+      "content_length": 902,
+      "chunk_type": "text_chunk"
+    }
+  ],
+  "image_mapping_metrics": {
+    "user_id": "test-email@gmail.com",
+    "search_mode": "uploaded_plus_corpus",
+    "total_slides": 8,
+    "content_slides": 7,
+    "slides_with_images": 7,
+    "total_images_mapped": 7,
+    "total_available_images": 812,
+    "images_used": 7,
+    "similarity_threshold_used": 0.4,
+    "utilization_rate": "7/812",
+    "coverage_ratio": "7/7",
+    "mapping_strategy": "STRICT_RELEVANCE_ONLY"
+  }
+}

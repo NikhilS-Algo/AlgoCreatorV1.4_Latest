@@ -1,0 +1,97 @@
+[
+    {
+        "query": "Introduction to Generative AI",
+        "results": [
+            {
+                "index": 1,
+                "slideNumber": 3,
+                "pptName": "/content/drive/MyDrive/GenAI (UI UX)/Algo_Org_PPTs/Algo_Contents_FY_24_25/Generative AI in FinTech_AGP Talk.pptx",
+                "metadata": {
+                    "creation_date": "Fri Apr 18 06:08:51 2025",
+                    "file_id": "571",
+                    "file_path": "/content/drive/MyDrive/GenAI (UI UX)/Algo_Org_PPTs/Algo_Contents_FY_24_25/Generative AI in FinTech_AGP Talk.pptx",
+                    "filename": "Generative AI in FinTech_AGP Talk.pptx",
+                    "last_modified_date": "Thu May 22 11:52:13 2025",
+                    "slide_number": 3
+                },
+                "slideContent": "Text:\nRise of Generative Al. Classical ML vs. Generative AI Large Language Models (LLM) are fuelling the Generative Al boom Traditional Al  Pattern recognition. 2023 GPT-4 Generative Al 2022 . Pattern creation Evolution of LLMs Generative Pretrained Transformer 3GPT-3 2020 Evolution of Language mode Language model pre-training 2017 Continuous bag of World Model (CBOw) + Skip GRAM 2014 Transformers Generative models by Google Adversarial Network (GAN) Recurrent Neural Network (RNN) Long short-term Memory (LSTM) Bidirectional LSTM At AlgoAnalytics, we have seen the evolution from classical NLP Transformers / Large Language Models models to.. 10X increase in LLM sizes every year for the last few years AlgoAnalytics Pvt. Ltd Strictly Confidential\n\nTable Summary:\nNone\n\nImages Summary:\nThe image is a timeline of the evolution of language models, with years and notable developments in the field. The image is a timeline showing the evolution of Language Models from 2014 to 2023.\n\nTags:\nGenerative AI, Recurrent, LLM, World, Pattern, LSTM, AlgoAnalytics, Adversarial, Continuous, Traditional, CBOw, NLP, Skip, Bidirectional, RNN, GPT-4, GAN, 3GPT-3, Neural, Generative, Memory, GRAM, Pretrained, Transformers, Language, Transformer, Google, Network, Models"
+            }
+        ]
+    },
+    {
+        "query": "Key Techniques in Generative AI",
+        "results": [
+            {
+                "index": 2,
+                "slideNumber": 15,
+                "pptName": "/content/drive/MyDrive/GenAI (UI UX)/Algo_Org_PPTs/AlgoFromDownload/RBI-Jul19.pptx",
+                "metadata": {
+                    "creation_date": "Fri Oct 11 06:38:00 2024",
+                    "file_id": "73",
+                    "file_path": "/content/drive/MyDrive/GenAI (UI UX)/Algo_Org_PPTs/AlgoFromDownload/RBI-Jul19.pptx",
+                    "filename": "RBI-Jul19.pptx",
+                    "last_modified_date": "Thu May 22 11:32:04 2025",
+                    "slide_number": 15
+                },
+                "slideContent": "Text:\nTechniques and Methodologies Training set Discriminator Real Random _Fake noise Pc|f Generator Fake image Knowledge  Base (Source Content) he ho h y NLP Layer  Processing) ominal boundary  Data Storage Interaction History & Analytics) Xo X1 X2 X Full-connected 1 feature maps Input Convolutional Pooling1 Pooling2 layer 1 layer 2   Pvt. Ltd. | Page 15\n\nTable Summary:\nNone\n\nImages Summary:\n[]\n\nTags:\nMethodologies Training, Generator Fake, Knowledge  Base, Input Convolutional, Storage, History, Content, Pooling2, NLP, Pooling1, Random, Fake, Source, Discriminator, Techniques, Analytics, Real, Processing, Layer"
+            }
+        ]
+    },
+    {
+        "query": "Applications of Generative AI",
+        "results": [
+            {
+                "index": 3,
+                "slideNumber": 4,
+                "pptName": "/content/drive/MyDrive/GenAI (UI UX)/Algo_Org_PPTs/AlgoFromDownload/anomaly_detection (1).pptx",
+                "metadata": {
+                    "creation_date": "Fri Oct 11 06:37:27 2024",
+                    "file_id": "28",
+                    "file_path": "/content/drive/MyDrive/GenAI (UI UX)/Algo_Org_PPTs/AlgoFromDownload/anomaly_detection (1).pptx",
+                    "filename": "anomaly_detection (1).pptx",
+                    "last_modified_date": "Thu May 22 11:31:21 2025",
+                    "slide_number": 4
+                },
+                "slideContent": "Text:\nFuture Work 1. Attention-based methods such as Transformer Networks which are SOTA for language models 2.  Generative models such as GANs and Variational Autoencoders which learn the distribution of data 3. Various Self-supervised learning techniques such as RotNet which learn features of data without any need of labels O 2019 NTT DATA Corporation NTT DaTa\n\nTable Summary:\nNone\n\nImages Summary:\n[]\n\nTags:\nVariational Autoencoders, Transformer Networks, RotNet, DaTa, Transformer, Future, Generative, Work, NTT"
+            }
+        ]
+    },
+    {
+        "query": "Benefits of Generative AI",
+        "results": [
+            {
+                "index": 4,
+                "slideNumber": 2,
+                "pptName": "/content/drive/MyDrive/GenAI (UI UX)/Algo_Org_PPTs/Algo_Contents_FY_24_25/SLMs Slides for NTT Data.pptx",
+                "metadata": {
+                    "creation_date": "Thu Apr 17 07:30:39 2025",
+                    "file_id": "556",
+                    "file_path": "/content/drive/MyDrive/GenAI (UI UX)/Algo_Org_PPTs/Algo_Contents_FY_24_25/SLMs Slides for NTT Data.pptx",
+                    "filename": "SLMs Slides for NTT Data.pptx",
+                    "last_modified_date": "Thu May 22 11:51:19 2025",
+                    "slide_number": 2
+                },
+                "slideContent": "Text:\nGenerative Al on Edge Project Goal: To explore and understand the latest trends and research on Generative Al on Edge for Manufacturing/Industrial Applications Product Design Quality Supply Chain Machine Automation Customer Interactions &Development Control Management &Optimization &Support  GenAl  Edge Manufacturing Business Applications Generative Al Models Edge Hardware/Computing that supports GenAl Models. Manufacturing/Industrial use cases which have been successfully Modality-Specific Generative Al Models- Explore state of art models .  Importance and Advantages of GenAl on Edge and Key Challenges Edge-Optimized Architectures- Focus on Model architectures whiche  Research done on addressing these challenges executed  Potential future applications discussed in literature. Available hardware that can support GenAl Models can be used in edge devices . Best suited architectures and services for deploying GenAl on. Potential uses cases in near future with improvements in models Model Optimisation Techniques- to reduce the memory footprint of Edge and hardware state of art models  5G enabled GenAl solutions on Edge  Tools and Frameworks  2023 NTT DATA Corporation NTT DaTa 2\n\nTable Summary:\nNone\n\nImages Summary:\n[]\n\nTags:\nModel Optimisation, Edge  Tools, Generative Al, GenAl Models, Supply, Product, Applications, Architectures-, DaTa, Manufacturing, Support, Design, Specific, Models-, Research, Computing, Challenges, Advantages, Edge, whiche, Control, Industrial, Chain, Project, Explore, Generative, Customer, Interactions, NTT, Hardware, Frameworks, Techniques-, Machine, Key"
+            }
+        ]
+    },
+    {
+        "query": "Challenges and Ethical Considerations in Generative AI",
+        "results": [
+            {
+                "index": 5,
+                "slideNumber": 7,
+                "pptName": "/content/drive/MyDrive/GenAI (UI UX)/Algo_Org_PPTs/AlgoPPT/OneStopAI_Sigma.pptx",
+                "metadata": {
+                    "creation_date": "Fri Oct 11 07:30:25 2024",
+                    "file_id": "416",
+                    "file_path": "/content/drive/MyDrive/GenAI (UI UX)/Algo_Org_PPTs/AlgoPPT/OneStopAI_Sigma.pptx",
+                    "filename": "OneStopAI_Sigma.pptx",
+                    "last_modified_date": "Thu May 22 11:45:23 2025",
+                    "slide_number": 7
+                },
+                "slideContent": "Text:\nChallenges - Taking the Model from Lab to wild Challenges Involved in Deploying Models on the Field. Insufficient training data  Noisy annotations Different classes overlapping with each other. Mitigation Expert in the loop Image augmentations and generative techniques combined with anomaly detection for detecting domain shift.. and adjudicated before being used for training..\n\nTable Summary:\nNone\n\nImages Summary:\n[]\n\nTags:\nChallenges Involved, Deploying, Expert, Image, anomaly, Noisy"
+            }
+        ]
+    }
+]

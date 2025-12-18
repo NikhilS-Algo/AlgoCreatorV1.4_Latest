@@ -1,0 +1,181 @@
+{
+  "presentation_title": "Unlocking Business Potential with GenAI and LLM Technologies",
+  "total_slides": 6,
+  "presentation_style": "sales",
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_title": "Unlocking Business Potential with GenAI and LLM Technologies",
+      "slide_type": "title",
+      "key_points": []
+    },
+    {
+      "slide_number": 2,
+      "slide_title": "The Power of Generative AI and LLMs",
+      "slide_type": "content",
+      "key_points": [
+        "Generative AI (GenAI) and Large Language Models (LLMs) are transforming business operations across industries.",
+        "LLMs enhance capabilities in document summarization, customer service automation, and data retrieval.",
+        "Key applications include chatbots, personalized assistants, and dynamic content generation."
+      ]
+    },
+    {
+      "slide_number": 3,
+      "slide_title": "Innovative Use Cases and Applications",
+      "slide_type": "content",
+      "key_points": [
+        "Utilizing LLMs for autonomous agents and advanced document reading to streamline workflows.",
+        "Deployment of AI-driven chatbots for customer service, travel consultation, and insurance FAQs.",
+        "Integration of LLMs in financial decision-making tools, enhancing accuracy and efficiency."
+      ]
+    },
+    {
+      "slide_number": 4,
+      "slide_title": "Customization and Flexibility with Open Source LLMs",
+      "slide_type": "content",
+      "key_points": [
+        "Open-source LLMs like Meta's Llama 2 provide businesses with control, transparency, and customization options.",
+        "Self-hosting capabilities enhance data security and privacy, crucial for sensitive business operations.",
+        "Cost-effective solutions allow for scalable implementations tailored to specific business needs."
+      ]
+    },
+    {
+      "slide_number": 5,
+      "slide_title": "Future Trends in Generative AI and LLMs",
+      "slide_type": "content",
+      "key_points": [
+        "Emerging trends include specialized models for industry-specific applications and multimodal capabilities.",
+        "Integration with classical machine learning models will enhance the robustness of AI solutions.",
+        "Addressing ethical concerns and data privacy will be paramount as LLMs evolve."
+      ]
+    },
+    {
+      "slide_number": 6,
+      "slide_title": "Partnering for Success with GenAI Solutions",
+      "slide_type": "content",
+      "key_points": [
+        "Our expertise in GenAI and LLM frameworks positions us to deliver innovative solutions tailored to your business.",
+        "End-to-end solution development ensures seamless integration into existing workflows.",
+        "Join us in leveraging the transformative power of GenAI to drive efficiency and growth in your organization."
+      ]
+    }
+  ],
+  "user_id": "test-email@gmail.com",
+  "search_mode": "corpus_only",
+  "generation_timestamp": "2025-11-24T13:51:05.010198",
+  "retrieved_chunks_metadata": [
+    {
+      "chunk_id": "text_slide_AlgoAnalytics overview_NDIL_Feb 24_25_chunk_0_build_084d5582",
+      "source_document": "AlgoAnalytics overview_NDIL_Feb 24",
+      "similarity_score": 0.4253,
+      "content_preview": "Recent Generative AI Projects (using LLMs)   ‹#› We at AlgoAnalytics did realize the strong potential of LLM and are working on Open-source as well as Closed-source LLM technologies Client Projects an...",
+      "content_length": 831,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Algoanalytics Gen AI Capability overview_Jan2025_2_chunk_0_build_084d5582",
+      "source_document": "Algoanalytics Gen AI Capability overview_Jan2025",
+      "similarity_score": 0.4224,
+      "content_preview": "Our Gen AI Team: Offerings, Capabilities & Projects GenAI R&D, Validation and Benchmarking Cloud based API for Client’s Proprietary Tsuzumi LLM Personal assistants and copilots Enterprise Document Q&A...",
+      "content_length": 861,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Generative AI in FinTech_AGP Talk_4_chunk_0_session_4ece84d5",
+      "source_document": "Generative AI in FinTech_AGP Talk",
+      "similarity_score": 0.3863,
+      "content_preview": "LLMs are Proliferating in all Shapes and Sizes Parameters controlling the performance of LLM Model size Prompt Temperature Max Tokens Frequency Penalty Presence Penalty Top-P Source:Integrated AI: The...",
+      "content_length": 252,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_AlgoAnalytics - LLM _31_chunk_0_build_084d5582",
+      "source_document": "AlgoAnalytics - LLM ",
+      "similarity_score": 0.3848,
+      "content_preview": "Legal Advisor Objective Data : Motor Laws PDFS Framework : LangChain Index : FAISS index Prompt : Custom prompt template to enable LLM chains based on user input and model recommendations. LLM : GPT-3...",
+      "content_length": 415,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_AlgoAnalytics - LLM _7_chunk_0_build_084d5582",
+      "source_document": "AlgoAnalytics - LLM ",
+      "similarity_score": 0.3829,
+      "content_preview": "Our Generative AI offerings ‹#›   Strong expertise on developing innovative solutions across private and public LLM frameworks Core Offerings Technology Accelerator using latest LLM models and framewo...",
+      "content_length": 390,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_AlgoAnalytics - LLM _47_chunk_0_build_084d5582",
+      "source_document": "AlgoAnalytics - LLM ",
+      "similarity_score": 0.3772,
+      "content_preview": "GPAI Summit New Delhi 2023 Our team was invited to showcase our Llama 2 based LLM applications as part of the Meta booth Overwhelming response received from visitors to our LLM applications showcase! ...",
+      "content_length": 205,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Generative AI in FinTech_AGP Talk_28_chunk_0_session_4ece84d5",
+      "source_document": "Generative AI in FinTech_AGP Talk",
+      "similarity_score": 0.375,
+      "content_preview": "Future of Generative AI Reasoning & contextual understanding abilities Specialized models for specific industries Multimodality Edge device LLMs –Llocal data processing Integration with other technolo...",
+      "content_length": 393,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Algoanalytics Gen AI Capability overview_17_chunk_0_build_084d5582",
+      "source_document": "Algoanalytics Gen AI Capability overview",
+      "similarity_score": 0.3657,
+      "content_preview": "LLM Solutions built using Meta Llama 2 Framework 13+ LLM Demos updated to work with Meta’s Llama 2 LLM Choice of using Free and Open Source LLMs like Llama allows greater control and flexibility, tran...",
+      "content_length": 383,
+      "chunk_type": "text_chunk"
+    }
+  ],
+  "total_retrieved_chunks": 8,
+  "content_richness_metrics": {
+    "total_content_slides": 5,
+    "total_key_points": 15,
+    "average_points_per_slide": 3.0,
+    "slides_with_rich_content": 5,
+    "richness_ratio": 1.0
+  },
+  "content_richness": "medium",
+  "character_metrics": {
+    "2": {
+      "total_characters": 337,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "3": {
+      "total_characters": 313,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "4": {
+      "total_characters": 360,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "5": {
+      "total_characters": 318,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "6": {
+      "total_characters": 349,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    }
+  },
+  "character_summary": {
+    "slides_within_range": 5,
+    "total_content_slides": 5,
+    "compliance_ratio": "100.0%",
+    "average_characters_per_slide": 335,
+    "bullet_point_variation": "3-3 points per slide",
+    "variation_quality": "LOW VARIATION"
+  }
+}

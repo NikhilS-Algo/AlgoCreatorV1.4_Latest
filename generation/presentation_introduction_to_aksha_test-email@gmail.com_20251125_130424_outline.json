@@ -1,0 +1,261 @@
+{
+  "presentation_title": "Introduction to Aksha",
+  "total_slides": 10,
+  "presentation_style": "corporate",
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_title": "Introduction to Aksha",
+      "slide_type": "title",
+      "key_points": []
+    },
+    {
+      "slide_number": 2,
+      "slide_title": "What is Aksha?",
+      "slide_type": "content",
+      "key_points": [
+        "Aksha is an intelligent surveillance system designed for automated monitoring.",
+        "Utilizes advanced technologies including Computer Vision, AI, and Gen AI.",
+        "Capable of detecting objects and unusual situations with minimal human intervention."
+      ]
+    },
+    {
+      "slide_number": 3,
+      "slide_title": "Architectural Approaches",
+      "slide_type": "content",
+      "key_points": [
+        "Aksha offers multiple architectural configurations: On-Premise, Edge, and Cloud.",
+        "Flexible deployment options to suit various business environments.",
+        "Integration of UI and backend services across Edge and Cloud for enhanced performance."
+      ]
+    },
+    {
+      "slide_number": 4,
+      "slide_title": "Collaboration with NDIL",
+      "slide_type": "content",
+      "key_points": [
+        "Customized Aksha for worker safety in collaboration with NDIL.",
+        "Implemented a robust Edge + Cloud architecture for improved functionality.",
+        "Phased enhancements including Gen AI integration to optimize performance."
+      ]
+    },
+    {
+      "slide_number": 5,
+      "slide_title": "Key Features of Aksha",
+      "slide_type": "content",
+      "key_points": [
+        "Live recording and real-time data processing capabilities.",
+        "Advanced object detection and image analysis using Gen AI.",
+        "Customizable alerts for various scenarios, enhancing situational awareness."
+      ]
+    },
+    {
+      "slide_number": 6,
+      "slide_title": "Customer Testimonials",
+      "slide_type": "content",
+      "key_points": [
+        "Positive feedback on reduced human monitoring efforts and enhanced CCTV utility.",
+        "Customers appreciate the ability to detect and highlight abnormal events.",
+        "Anticipation for future updates and innovations from Aksha."
+      ]
+    },
+    {
+      "slide_number": 7,
+      "slide_title": "Scalability and Architecture",
+      "slide_type": "content",
+      "key_points": [
+        "Effortless scalability through microservices managed by Kubernetes.",
+        "Decoupled architecture enhances fault tolerance and maintainability.",
+        "Real-time data processing for timely insights and actions."
+      ]
+    },
+    {
+      "slide_number": 8,
+      "slide_title": "Installation Steps",
+      "slide_type": "content",
+      "key_points": [
+        "Ensure the Aksha installation device is on the same network as the cameras.",
+        "Obtain RTSP links from the cameras for seamless integration.",
+        "Follow straightforward installation procedures for quick setup."
+      ]
+    },
+    {
+      "slide_number": 9,
+      "slide_title": "Camera Compatibility",
+      "slide_type": "content",
+      "key_points": [
+        "Aksha is compatible with any standard CCTV camera providing RTSP links.",
+        "Supports a wide range of camera models for flexible deployment.",
+        "Ensures businesses can leverage existing infrastructure with minimal investment."
+      ]
+    },
+    {
+      "slide_number": 10,
+      "slide_title": "Contact Us",
+      "slide_type": "content",
+      "key_points": [
+        "For more information, visit our website: https://aksha.algoanalytics.com/",
+        "Contact us at: aksha@algoanalytics.com.",
+        "Visit our office at Alacrity India Innovation Centre, Pune for direct inquiries."
+      ]
+    }
+  ],
+  "user_id": "test-email@gmail.com",
+  "search_mode": "uploaded_only",
+  "generation_timestamp": "2025-11-25T13:04:18.262687",
+  "retrieved_chunks_metadata": [
+    {
+      "chunk_id": "text_slide_Aksha_Overview_Deck_Oct_2024_3_chunk_0_session_39347600",
+      "source_document": "Aksha_Overview_Deck_Oct_2024",
+      "similarity_score": 0.6755,
+      "content_preview": "Introduction to Aksha Aksha - Intelligent surveillance system is envisioned to automatically monitor the environment or premises with less or without human intervention. Such monitoring tasks include ...",
+      "content_length": 416,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Aksha_Overview_Deck_Oct_2024_21_chunk_0_session_39347600",
+      "source_document": "Aksha_Overview_Deck_Oct_2024",
+      "similarity_score": 0.6396,
+      "content_preview": "For more on AKSHA (अक्ष) Visit on below link https://aksha.algoanalytics.com/ Contact Us on aksha@algoanalytics.com Visit our office at Alacrity India Innovation Centre, Ideas to Impacts Building, Pal...",
+      "content_length": 268,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Aksha_Overview_Deck_Oct_2024_4_chunk_0_session_39347600",
+      "source_document": "Aksha_Overview_Deck_Oct_2024",
+      "similarity_score": 0.6132,
+      "content_preview": "Aksha architectural approaches We provide below mentioned architectural approaches Aksha on Edge (On Premise) Aksha UI & Backend on Edge Aksha on Edge & Cloud Aksha UI on Cloud & Backend on Edge ‹#›",
+      "content_length": 198,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Aksha_Overview_Deck_Oct_2024_14_chunk_0_session_39347600",
+      "source_document": "Aksha_Overview_Deck_Oct_2024",
+      "similarity_score": 0.5866,
+      "content_preview": "AlgoAnalytics and NDIL collaboration AlgoAnalytics customized “Aksha for workers safety” in collaboration with NDIL. This customized new Aksha version runs on “Edge + Cloud”. Three stages of Aksha cus...",
+      "content_length": 815,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Aksha_Overview_Deck_Oct_2024_5_chunk_0_session_39347600",
+      "source_document": "Aksha_Overview_Deck_Oct_2024",
+      "similarity_score": 0.5826,
+      "content_preview": "Aksha Aksha, the smart surveillance system for the businesses that value employee safety. It is self learning system which detects object & anomalies using the power of Artificial Intelligence. It ena...",
+      "content_length": 629,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Aksha_Overview_Deck_Oct_2024_20_chunk_0_session_39347600",
+      "source_document": "Aksha_Overview_Deck_Oct_2024",
+      "similarity_score": 0.571,
+      "content_preview": "What our customers have to say Aksha has empowered our investments into the CCTV setup. Human monitoring efforts have reduced a lot. The ability to detect abnormal unforeseen events along with specifi...",
+      "content_length": 633,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Aksha_Overview_Deck_Oct_2024_0_chunk_0_session_39347600",
+      "source_document": "Aksha_Overview_Deck_Oct_2024",
+      "similarity_score": 0.5565,
+      "content_preview": "AI Powered Video Surveillance https://aksha.algoanalytics.com CONFIDENTIAL AND PROPRIETARY Any use of this material without specific permission AlgoAnalytics is strictly prohibited Aksha अक्ष",
+      "content_length": 191,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Aksha_Overview_Deck_Oct_2024_18_chunk_0_session_39347600",
+      "source_document": "Aksha_Overview_Deck_Oct_2024",
+      "similarity_score": 0.5388,
+      "content_preview": "Enhancing Aksha’s Scalability: Architecture and Advantages ‹#›   Effortless Scalability: Easily scale microservices with Kubernetes and manage high message volumes with Kafka. Decoupled Architecture: ...",
+      "content_length": 516,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Aksha_Overview_Deck_Oct_2024_23_chunk_0_session_39347600",
+      "source_document": "Aksha_Overview_Deck_Oct_2024",
+      "similarity_score": 0.528,
+      "content_preview": "Aksha installation steps In the same network OR Get the Camera RTSP links 2. Install Aksha on Edge device which is in the same network with DVR/NVR",
+      "content_length": 147,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Aksha_Overview_Deck_Oct_2024_19_chunk_0_session_39347600",
+      "source_document": "Aksha_Overview_Deck_Oct_2024",
+      "similarity_score": 0.524,
+      "content_preview": "Aksha’s compatibility with the cameras Aksha is compatible with any standard CCTV camera that provides RTSP link for connection. A few examples (but not limited to these) are:",
+      "content_length": 175,
+      "chunk_type": "text_chunk"
+    }
+  ],
+  "total_retrieved_chunks": 10,
+  "content_richness_metrics": {
+    "total_content_slides": 9,
+    "total_key_points": 27,
+    "average_points_per_slide": 3.0,
+    "slides_with_rich_content": 9,
+    "richness_ratio": 1.0
+  },
+  "content_richness": "medium",
+  "character_metrics": {
+    "2": {
+      "total_characters": 249,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "3": {
+      "total_characters": 256,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "4": {
+      "total_characters": 232,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "5": {
+      "total_characters": 212,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "6": {
+      "total_characters": 233,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "7": {
+      "total_characters": 221,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "8": {
+      "total_characters": 216,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "9": {
+      "total_characters": 234,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "10": {
+      "total_characters": 202,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    }
+  },
+  "character_summary": {
+    "slides_within_range": 9,
+    "total_content_slides": 9,
+    "compliance_ratio": "100.0%",
+    "average_characters_per_slide": 228,
+    "bullet_point_variation": "3-3 points per slide",
+    "variation_quality": "LOW VARIATION"
+  }
+}

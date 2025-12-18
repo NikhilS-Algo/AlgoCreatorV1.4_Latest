@@ -1,0 +1,109 @@
+{
+  "documents": [
+    {
+      "doc_id": "Our Work _ Welding",
+      "doc_type": "pptx",
+      "units": [
+        {
+          "index": 0,
+          "unit_type": "slide",
+          "text": [
+            "Our Work across Welding\nAn Overview",
+            "CONFIDENTIAL AND PROPRIETARY\nAny use of this material without specific permission AlgoAnalytics is strictly prohibited"
+          ],
+          "images": []
+        },
+        {
+          "index": 1,
+          "unit_type": "slide",
+          "text": [
+            "Our Past Work",
+            "© AlgoAnalytics .Pvt .Ltd | Page",
+            "2",
+            "AlgoAnalytics Pvt. Ltd",
+            "Strictly Confidential",
+            "AI-driven welding solutions",
+            "Welding Data Collection for Intel",
+            "Sound Analysis based AI model to monitor the quality of welding process",
+            "Systematically collect welding data for multiple welding defects and log accurate sensor parameters"
+          ],
+          "images": []
+        },
+        {
+          "index": 2,
+          "unit_type": "slide",
+          "text": [
+            "Welding Data Collection for Intel",
+            "© AlgoAnalytics .Pvt .Ltd | Page",
+            "3",
+            "AlgoAnalytics Pvt. Ltd",
+            "Strictly Confidential",
+            "Dataset Key Requirements",
+            "Dataset should include data from 4 modalities: \nAudio, Video and time-series of the welding machine parameters, and a color photograph for each welding sample.",
+            "Sensor recordings requirements: \n4-17 different defect types, and 20 samples per defect type, and 14 different combinations of welding parameters per defect time.\nThe minimum sample length will be 10cm",
+            "Data should be synchronized and autonomous:\nTime synchronized so that the weld activities can be cross analyzed between the audio, video, and time-series modalities. \nThe data recording will be triggered in an automated fashion"
+          ],
+          "images": []
+        },
+        {
+          "index": 3,
+          "unit_type": "slide",
+          "text": [
+            "Welding Data Collection for Intel",
+            "© AlgoAnalytics .Pvt .Ltd | Page",
+            "4",
+            "AlgoAnalytics Pvt. Ltd",
+            "Strictly Confidential",
+            "Data Annotation Requirements",
+            "Experiment Setup Information",
+            "Sensor Configuration",
+            "Continue with the process\nInspect next lot / item for welding",
+            "Classification of Weld",
+            "Document what weld defects were created\nA natural language description on how the weld was created\nIf available, provide supporting testing data to confirm presence of defect",
+            "Good Weld",
+            "Defective Weld"
+          ],
+          "images": []
+        },
+        {
+          "index": 4,
+          "unit_type": "slide",
+          "text": [
+            "Welding Data Collection for Intel",
+            "© AlgoAnalytics .Pvt .Ltd | Page",
+            "5",
+            "AlgoAnalytics Pvt. Ltd",
+            "Strictly Confidential",
+            "Setup Details",
+            "Camera attached to Welding Robot neck",
+            "Microphones\n(placed side to the welding plate)"
+          ],
+          "images": []
+        },
+        {
+          "index": 5,
+          "unit_type": "slide",
+          "text": [
+            "Welding Data Collection for Intel",
+            "© AlgoAnalytics .Pvt .Ltd | Page",
+            "6",
+            "AlgoAnalytics Pvt. Ltd",
+            "Strictly Confidential",
+            "Camera Setup and Microphone",
+            "Camera Mounting",
+            "Naming of the microphones with MOTU device"
+          ],
+          "images": []
+        },
+        {
+          "index": 6,
+          "unit_type": "slide",
+          "text": [
+            "Thank You"
+          ],
+          "images": []
+        }
+      ]
+    }
+  ]
+}

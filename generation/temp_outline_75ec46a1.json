@@ -1,0 +1,354 @@
+{
+  "presentation_title": "Welding: Innovations and Quality Control",
+  "total_slides": 6,
+  "presentation_style": "corporate",
+  "content_richness": "medium",
+  "executive_summary": "Comprehensive overview of Welding: Innovations and Quality Control",
+  "key_value_propositions": [
+    "Welding is critical in various industries, including automotive and semiconductor manufacturing.",
+    "Robotic welding systems enhance precision and efficiency in production.",
+    "Real-time monitoring and data collection improve quality assurance and defect detection."
+  ],
+  "strategic_insights": [
+    "Utilization of advanced sensor technologies for comprehensive data acquisition.",
+    "Integration of audio, video, and time-series data for synchronized analysis.",
+    "Implementation of sound analysis models to distinguish between good and defective welds."
+  ],
+  "actionable_recommendations": [
+    "Common defects include lack of penetration, porosity, and undercut.",
+    "Data-driven approaches enable systematic identification and logging of defects.",
+    "Understanding defect types aids in refining welding processes and improving outcomes."
+  ],
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_title": "Welding: Innovations and Quality Control",
+      "slide_type": "title",
+      "content": "Welding: Innovations and Quality Control",
+      "images": []
+    },
+    {
+      "slide_number": 2,
+      "slide_title": "Overview of Welding Applications",
+      "slide_type": "content",
+      "content": "• Welding is critical in various industries, including automotive and semiconductor manufacturing.\n• Robotic welding systems enhance precision and efficiency in production.\n• Real-time monitoring and data collection improve quality assurance and defect detection.",
+      "speaker_notes": "Discuss: Welding is critical in various industries, including automotive and semiconductor manufacturing., Robotic welding systems enhance precision and efficiency in production., Real-time monitoring and data collection improve quality assurance and defect detection.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Overview of Welding Applications",
+      "images": [
+        {
+          "image_id": "image_slide_Copy of AI Manufacturing A2IOT_22_chunk_0_build_084d5582_img1",
+          "caption": "This is a photograph depicting a worker engaged in welding within an industrial setting. The individual, wearing a blue helmet and protective gear, operates a welding machine that emits bright sparks. The background features a green workstation with tools and equipment, emphasizing a manufacturing environment",
+          "similarity_score": 0.4769854447105115,
+          "source_document": "Copy of AI Manufacturing A2IOT",
+          "image_path": "images/test-email@gmail.com/main_corpus/slide_022_img_002_757ae1.jpg",
+          "user_id": "test-email@gmail.com",
+          "relevance_rank": 1
+        }
+      ]
+    },
+    {
+      "slide_number": 3,
+      "slide_title": "Data Collection and Quality Control",
+      "slide_type": "content",
+      "content": "• Utilization of advanced sensor technologies for comprehensive data acquisition.\n• Integration of audio, video, and time-series data for synchronized analysis.\n• Implementation of sound analysis models to distinguish between good and defective welds.",
+      "speaker_notes": "Discuss: Utilization of advanced sensor technologies for comprehensive data acquisition., Integration of audio, video, and time-series data for synchronized analysis., Implementation of sound analysis models to distinguish between good and defective welds.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Data Collection and Quality Control",
+      "images": [
+        {
+          "image_id": "image_slide_Aksha_Overview_Deck_Oct_2024_11_chunk_0_build_084d5582_img0",
+          "caption": "This is a screenshot of a digital report summarizing activity detected by surveillance cameras for the period of September 19 to September 26, 2024. It includes insights on forklift and truck detections, trends observed, and suggested actionable plans. Key",
+          "similarity_score": 0.4588696013380334,
+          "source_document": "Aksha_Overview_Deck_Oct_2024",
+          "image_path": "images/test-email@gmail.com/main_corpus/slide_011_img_000_7b169f.png",
+          "user_id": "test-email@gmail.com",
+          "relevance_rank": 1
+        }
+      ]
+    },
+    {
+      "slide_number": 4,
+      "slide_title": "Types of Welding Defects",
+      "slide_type": "content",
+      "content": "• Common defects include lack of penetration, porosity, and undercut.\n• Data-driven approaches enable systematic identification and logging of defects.\n• Understanding defect types aids in refining welding processes and improving outcomes.",
+      "speaker_notes": "Discuss: Common defects include lack of penetration, porosity, and undercut., Data-driven approaches enable systematic identification and logging of defects., Understanding defect types aids in refining welding processes and improving outcomes.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Types of Welding Defects",
+      "images": [
+        {
+          "image_id": "image_slide_Manufacturing capabilities_AlgoAnalytics_Aug_24_v3_15_chunk_0_build_084d5582_img0",
+          "caption": "This is a diagram in the form of a pie chart illustrating process-wise total rejected quantities for various manufacturing processes in April and May 2023. The chart includes segments labeled \"Welding,\" \"Spot Welding,\" \"Pressing,\" \"Machining,\"",
+          "similarity_score": 0.45768269449197163,
+          "source_document": "Manufacturing capabilities_AlgoAnalytics_Aug_24_v3",
+          "image_path": "images/test-email@gmail.com/main_corpus/slide_015_img_000_504a76.png",
+          "user_id": "test-email@gmail.com",
+          "relevance_rank": 1
+        }
+      ]
+    },
+    {
+      "slide_number": 5,
+      "slide_title": "Case Study: Intel Welding Data Collection",
+      "slide_type": "content",
+      "content": "• Collaboration with Intel to collect and analyze welding data for defect identification.\n• Deployment of cameras and microphones to capture real-time welding conditions.\n• Focus on achieving high sampling rates for accurate defect classification and quality assurance.",
+      "speaker_notes": "Discuss: Collaboration with Intel to collect and analyze welding data for defect identification., Deployment of cameras and microphones to capture real-time welding conditions., Focus on achieving high sampling rates for accurate defect classification and quality assurance.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Case Study: Intel Welding Data Collection",
+      "images": [
+        {
+          "image_id": "image_slide_Copy of AlgoAnalytics_OilandGas_8_chunk_0_build_084d5582_img2",
+          "caption": "This is a diagram featuring a list of projects utilizing image and video analytics. It includes two bullet points: one on \"Absenteeism Prediction\" for a global automobile company and another on \"Manufacturing process monitoring\" for a company in Ahmedabad, India",
+          "similarity_score": 0.4819211997309593,
+          "source_document": "Copy of AlgoAnalytics_OilandGas",
+          "image_path": "images/test-email@gmail.com/main_corpus/slide_008_img_008_3f750c.png",
+          "user_id": "test-email@gmail.com",
+          "relevance_rank": 1
+        }
+      ]
+    },
+    {
+      "slide_number": 6,
+      "slide_title": "Business Value and Future Directions",
+      "slide_type": "content",
+      "content": "• Enhanced quality control leads to reduced rework and increased customer satisfaction.\n• Predictive analytics can optimize procurement and inventory management in manufacturing.\n• Future innovations in AI and machine learning will further enhance welding processes and defect detection.",
+      "speaker_notes": "Discuss: Enhanced quality control leads to reduced rework and increased customer satisfaction., Predictive analytics can optimize procurement and inventory management in manufacturing., Future innovations in AI and machine learning will further enhance welding processes and defect detection.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Business Value and Future Directions",
+      "images": [
+        {
+          "image_id": "image_slide_AlgoAnalytics deck for UK_Europe_69_chunk_0_build_084d5582_img10",
+          "caption": "This is an infographic promoting the \"AI Competency Center for Manufacturing,\" a collaboration between AlgoAnalytics and Sharada Industries. It features sections on AI technologies like Digital Twin, Edge Computing, and Predictive Analytics, with key benefits outlined. The design includes",
+          "similarity_score": 0.510529222336423,
+          "source_document": "AlgoAnalytics deck for UK_Europe",
+          "image_path": "images/test-email@gmail.com/main_corpus/slide_023_img_000_274011.png",
+          "user_id": "test-email@gmail.com",
+          "relevance_rank": 1
+        }
+      ]
+    }
+  ],
+  "generated_date": "2025-11-20T10:49:30.641953",
+  "version": "1.0",
+  "content_approach": "industry_ready",
+  "estimated_duration": "12 minutes",
+  "character_metrics": {
+    "2": {
+      "total_characters": 287,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "3": {
+      "total_characters": 278,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "4": {
+      "total_characters": 255,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "5": {
+      "total_characters": 302,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "6": {
+      "total_characters": 315,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    }
+  },
+  "character_summary": {
+    "slides_within_range": 5,
+    "total_content_slides": 5,
+    "compliance_ratio": "100.0%",
+    "average_characters_per_slide": 287,
+    "bullet_point_variation": "3-3 points per slide",
+    "variation_quality": "LOW VARIATION"
+  },
+  "content_richness_metrics": {
+    "total_content_slides": 5,
+    "total_key_points": 15,
+    "average_points_per_slide": 3.0,
+    "slides_with_rich_content": 5,
+    "richness_ratio": 1.0
+  },
+  "retrieved_chunks_metadata": [
+    {
+      "chunk_id": "text_slide_Our Work _ Welding_3_chunk_0_build_084d5582",
+      "source_document": "Our Work _ Welding",
+      "similarity_score": 0.5403,
+      "content_preview": "Welding Data Collection for Intel    Data Annotation Requirements Experiment Setup Information Sensor Configuration Continue with the process Inspect next lot / item for welding Classification of Weld...",
+      "content_length": 400,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Copy of AI Manufacturing A2IOT_21_chunk_0_build_084d5582",
+      "source_document": "Copy of AI Manufacturing A2IOT",
+      "similarity_score": 0.5355,
+      "content_preview": "Welding quality control of ultrasound welding for a major automobile parts manufacturer Event Sound Hydraulic actuator sets the jobs in place generating a sound which helps detect “start of event” Sou...",
+      "content_length": 382,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Our Work _ Welding_0_chunk_0_build_084d5582",
+      "source_document": "Our Work _ Welding",
+      "similarity_score": 0.5111,
+      "content_preview": "Our Work across Welding An Overview CONFIDENTIAL AND PROPRIETARY Any use of this material without specific permission AlgoAnalytics is strictly prohibited",
+      "content_length": 154,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Manufacturing capabilities_AlgoAnalytics_Aug_24_v3_24_chunk_0_build_084d5582",
+      "source_document": "Manufacturing capabilities_AlgoAnalytics_Aug_24_v3",
+      "similarity_score": 0.4999,
+      "content_preview": "Case Study: Scientific Data Acquisition for Welding : Setup and Data Collection    Done for a global Semiconductor manufacturer in collaboration with Pune based manufacturing company Key Objectives Go...",
+      "content_length": 632,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Our Work _ Welding_4_chunk_0_build_084d5582",
+      "source_document": "Our Work _ Welding",
+      "similarity_score": 0.4955,
+      "content_preview": "Welding Data Collection for Intel    Setup Details Camera attached to Welding Robot neck Microphones (placed side to the welding plate)",
+      "content_length": 135,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Our Work _ Welding_1_chunk_0_build_084d5582",
+      "source_document": "Our Work _ Welding",
+      "similarity_score": 0.494,
+      "content_preview": "Our Past Work    AI-driven welding solutions Welding Data Collection for Intel Sound Analysis based AI model to monitor the quality of welding process Systematically collect welding data for multiple ...",
+      "content_length": 250,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Our Work _ Welding_2_chunk_0_build_084d5582",
+      "source_document": "Our Work _ Welding",
+      "similarity_score": 0.4225,
+      "content_preview": "Welding Data Collection for Intel    Dataset Key Requirements Dataset should include data from 4 modalities: Audio, Video and time-series of the welding machine parameters, and a color photograph for ...",
+      "content_length": 648,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Our Work _ Welding_5_chunk_0_build_084d5582",
+      "source_document": "Our Work _ Welding",
+      "similarity_score": 0.3924,
+      "content_preview": "Welding Data Collection for Intel    Camera Setup and Microphone Camera Mounting Naming of the microphones with MOTU device",
+      "content_length": 123,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_AI Agent System Research_Deliverable by Algo_March 28, 2025_58_chunk_1_build_084d5582",
+      "source_document": "AI Agent System Research_Deliverable by Algo_March 28, 2025",
+      "similarity_score": 0.3851,
+      "content_preview": "Limitations Benefits",
+      "content_length": 20,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Algoanalytics Gen AI Capability overview_4_chunk_0_build_084d5582",
+      "source_document": "Algoanalytics Gen AI Capability overview",
+      "similarity_score": 0.3715,
+      "content_preview": "Typical RAG Architecture Used   5",
+      "content_length": 33,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_NDBS - UC1 Training Document v1.0 [2025.02.26]_3_chunk_0_build_084d5582",
+      "source_document": "NDBS - UC1 Training Document v1.0 [2025.02.26]",
+      "similarity_score": 0.3589,
+      "content_preview": "Use Case Overview 1. ‹#›",
+      "content_length": 24,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Manufacturing capabilities_AlgoAnalytics_Aug_24_v3_12_chunk_0_build_084d5582",
+      "source_document": "Manufacturing capabilities_AlgoAnalytics_Aug_24_v3",
+      "similarity_score": 0.3562,
+      "content_preview": "Predictive Analytics : Strategic Steel Spot Buying Consultancy for Manufacturing Companies Value delivered Enhanced Purchase Efficiency by precisely timing commodity purchases, ensuring optimal pricin...",
+      "content_length": 1024,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Copy of ICD Coding_63_chunk_0_build_084d5582",
+      "source_document": "Copy of ICD Coding",
+      "similarity_score": 0.3522,
+      "content_preview": "Overview of the Project -- The project involves the",
+      "content_length": 51,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Copy of AI Manufacturing A2IOT_22_chunk_0_build_084d5582",
+      "source_document": "Copy of AI Manufacturing A2IOT",
+      "similarity_score": 0.3459,
+      "content_preview": "Equilips 4.0: Current Deployments Japan: Deployed Equilips for 24x7 monitoring of multiple sawing machines and factory level visualization A global automotive supplier: Quality monitoring of ultrasoni...",
+      "content_length": 442,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Copy of AI Manufacturing A2IOT_36_chunk_0_build_084d5582",
+      "source_document": "Copy of AI Manufacturing A2IOT",
+      "similarity_score": 0.342,
+      "content_preview": "YOLOv3: Architecture",
+      "content_length": 20,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Copy of AI Manufacturing A2IOT_32_chunk_0_build_084d5582",
+      "source_document": "Copy of AI Manufacturing A2IOT",
+      "similarity_score": 0.3298,
+      "content_preview": "Tools and Techniques",
+      "content_length": 20,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Agentic_AI_Project Report(D&I)_March_2025_66_chunk_1_build_084d5582",
+      "source_document": "Agentic_AI_Project Report(D&I)_March_2025",
+      "similarity_score": 0.3022,
+      "content_preview": "This gives agents a consistent way to interact with all tools, simplifying tool management and reducing complexity. 3.Interoperability through a single shared tool interface for all agent workflows : ...",
+      "content_length": 552,
+      "chunk_type": "text_chunk"
+    }
+  ],
+  "image_mapping_metrics": {
+    "user_id": "test-email@gmail.com",
+    "search_mode": "corpus_only",
+    "total_slides": 6,
+    "content_slides": 5,
+    "slides_with_images": 5,
+    "total_images_mapped": 5,
+    "total_available_images": 809,
+    "images_used": 5,
+    "similarity_threshold_used": 0.4,
+    "utilization_rate": "5/809",
+    "coverage_ratio": "5/5",
+    "mapping_strategy": "STRICT_RELEVANCE_ONLY"
+  }
+}

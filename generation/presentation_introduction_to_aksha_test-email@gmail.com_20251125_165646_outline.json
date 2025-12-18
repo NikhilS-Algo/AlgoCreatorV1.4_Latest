@@ -1,0 +1,221 @@
+{
+  "presentation_title": "Introduction to Aksha",
+  "total_slides": 10,
+  "presentation_style": "corporate",
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_title": "Introduction to Aksha",
+      "slide_type": "title",
+      "key_points": []
+    },
+    {
+      "slide_number": 2,
+      "slide_title": "What is Aksha?",
+      "slide_type": "content",
+      "key_points": [
+        "Aksha is an intelligent surveillance system designed for automated monitoring.",
+        "Utilizes advanced technologies including Computer Vision, Artificial Intelligence, and Gen AI.",
+        "Capable of detecting objects and unusual situations with minimal human intervention."
+      ]
+    },
+    {
+      "slide_number": 3,
+      "slide_title": "Key Features of Aksha",
+      "slide_type": "content",
+      "key_points": [
+        "Live recording and real-time data processing for immediate insights.",
+        "Advanced object detection capabilities, identifying various objects and anomalies.",
+        "Customizable alerts that allow users to respond quickly to incidents."
+      ]
+    },
+    {
+      "slide_number": 4,
+      "slide_title": "Architectural Approaches",
+      "slide_type": "content",
+      "key_points": [
+        "Multiple deployment options including Aksha on Edge and Cloud.",
+        "Flexible architecture with UI and backend options tailored to business needs.",
+        "Supports both on-premise and cloud-based solutions for scalability."
+      ]
+    },
+    {
+      "slide_number": 5,
+      "slide_title": "Collaboration with NDIL",
+      "slide_type": "content",
+      "key_points": [
+        "Customized version of Aksha developed for worker safety in collaboration with NDIL.",
+        "Integration of Edge + Cloud architecture for enhanced performance.",
+        "Phased development approach with continuous support and optimization."
+      ]
+    },
+    {
+      "slide_number": 6,
+      "slide_title": "Phased Development Overview",
+      "slide_type": "content",
+      "key_points": [
+        "Phase I: Initial deployment on Raspberry Pi 4B with dual OS support.",
+        "Phase II: Enhanced features using Gen AI and improved cloud architecture.",
+        "Phase III: Final optimizations and advanced features for better user experience."
+      ]
+    },
+    {
+      "slide_number": 7,
+      "slide_title": "Business Value of Aksha",
+      "slide_type": "content",
+      "key_points": [
+        "Enhances employee safety by providing real-time monitoring and alerts.",
+        "Reduces operational risks through automated anomaly detection.",
+        "Improves decision-making with insightful report generation and analysis."
+      ]
+    },
+    {
+      "slide_number": 8,
+      "slide_title": "Practical Applications",
+      "slide_type": "content",
+      "key_points": [
+        "Ideal for businesses prioritizing workplace safety and security.",
+        "Applicable in various sectors including manufacturing, logistics, and retail.",
+        "Supports compliance with safety regulations through continuous monitoring."
+      ]
+    },
+    {
+      "slide_number": 9,
+      "slide_title": "Contact Information",
+      "slide_type": "content",
+      "key_points": [
+        "For more information, visit: https://aksha.algoanalytics.com/",
+        "Contact us at: aksha@algoanalytics.com",
+        "Office Location: Alacrity India Innovation Centre, Pune."
+      ]
+    },
+    {
+      "slide_number": 10,
+      "slide_title": "Conclusion",
+      "slide_type": "content",
+      "key_points": [
+        "Aksha represents a significant advancement in intelligent surveillance technology.",
+        "Combines AI and Gen AI to provide a robust solution for modern business challenges.",
+        "Investing in Aksha enhances safety, efficiency, and operational excellence."
+      ]
+    }
+  ],
+  "user_id": "test-email@gmail.com",
+  "search_mode": "uploaded_only",
+  "generation_timestamp": "2025-11-25T16:56:38.875696",
+  "retrieved_chunks_metadata": [
+    {
+      "chunk_id": "text_slide_Aksha_Overview_Deck_Oct_2024_3_chunk_0_session_0e666b05",
+      "source_document": "Aksha_Overview_Deck_Oct_2024",
+      "similarity_score": 0.6755,
+      "content_preview": "Introduction to Aksha Aksha - Intelligent surveillance system is envisioned to automatically monitor the environment or premises with less or without human intervention. Such monitoring tasks include ...",
+      "content_length": 416,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Aksha_Overview_Deck_Oct_2024_21_chunk_0_session_0e666b05",
+      "source_document": "Aksha_Overview_Deck_Oct_2024",
+      "similarity_score": 0.6396,
+      "content_preview": "For more on AKSHA (अक्ष) Visit on below link https://aksha.algoanalytics.com/ Contact Us on aksha@algoanalytics.com Visit our office at Alacrity India Innovation Centre, Ideas to Impacts Building, Pal...",
+      "content_length": 268,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Aksha_Overview_Deck_Oct_2024_4_chunk_0_session_0e666b05",
+      "source_document": "Aksha_Overview_Deck_Oct_2024",
+      "similarity_score": 0.6132,
+      "content_preview": "Aksha architectural approaches We provide below mentioned architectural approaches Aksha on Edge (On Premise) Aksha UI & Backend on Edge Aksha on Edge & Cloud Aksha UI on Cloud & Backend on Edge ‹#›",
+      "content_length": 198,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Aksha_Overview_Deck_Oct_2024_14_chunk_0_session_0e666b05",
+      "source_document": "Aksha_Overview_Deck_Oct_2024",
+      "similarity_score": 0.5867,
+      "content_preview": "AlgoAnalytics and NDIL collaboration AlgoAnalytics customized “Aksha for workers safety” in collaboration with NDIL. This customized new Aksha version runs on “Edge + Cloud”. Three stages of Aksha cus...",
+      "content_length": 815,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Aksha_Overview_Deck_Oct_2024_5_chunk_0_session_82ac0a16",
+      "source_document": "Aksha_Overview_Deck_Oct_2024",
+      "similarity_score": 0.5826,
+      "content_preview": "Aksha Aksha, the smart surveillance system for the businesses that value employee safety. It is self learning system which detects object & anomalies using the power of Artificial Intelligence. It ena...",
+      "content_length": 629,
+      "chunk_type": "text_chunk"
+    }
+  ],
+  "total_retrieved_chunks": 5,
+  "content_richness_metrics": {
+    "total_content_slides": 9,
+    "total_key_points": 27,
+    "average_points_per_slide": 3.0,
+    "slides_with_rich_content": 9,
+    "richness_ratio": 1.0
+  },
+  "content_richness": "medium",
+  "character_metrics": {
+    "2": {
+      "total_characters": 270,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "3": {
+      "total_characters": 240,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "4": {
+      "total_characters": 230,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "5": {
+      "total_characters": 241,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "6": {
+      "total_characters": 248,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "7": {
+      "total_characters": 227,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "8": {
+      "total_characters": 237,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "9": {
+      "total_characters": 174,
+      "within_range": false,
+      "status": "ADJUST NEEDED",
+      "bullet_points": 3
+    },
+    "10": {
+      "total_characters": 250,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    }
+  },
+  "character_summary": {
+    "slides_within_range": 8,
+    "total_content_slides": 9,
+    "compliance_ratio": "88.9%",
+    "average_characters_per_slide": 235,
+    "bullet_point_variation": "3-3 points per slide",
+    "variation_quality": "LOW VARIATION"
+  }
+}

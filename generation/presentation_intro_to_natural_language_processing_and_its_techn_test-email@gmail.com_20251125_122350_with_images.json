@@ -1,0 +1,258 @@
+{
+  "presentation_title": "Intro to Natural Language Processing and Its Techniques",
+  "total_slides": 8,
+  "presentation_style": "technical",
+  "content_richness": "medium",
+  "executive_summary": "Comprehensive overview of Intro to Natural Language Processing and Its Techniques",
+  "key_value_propositions": [
+    "NLP is a branch of AI focused on enabling computers to understand and generate human language.",
+    "Integrates computational linguistics, machine learning, and deep learning for processing unstructured data.",
+    "Common applications include virtual assistants, search engines, and automated customer service."
+  ],
+  "strategic_insights": [
+    "Text Preprocessing: Essential for transforming raw text into a structured format for analysis.",
+    "Tokenization: Splits text into smaller units (tokens) for easier processing.",
+    "Stop Word Removal: Eliminates common words that add little meaning, reducing noise in data."
+  ],
+  "actionable_recommendations": [
+    "Sentiment Analysis: Automatically gauges emotional tone, valuable for brand monitoring and customer feedback.",
+    "Text Summarization: Condenses lengthy documents into concise summaries, enhancing information accessibility.",
+    "Word Sense Disambiguation: Resolves multiple meanings of words based on context, improving text understanding."
+  ],
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_title": "Intro to Natural Language Processing",
+      "slide_type": "title",
+      "content": "Intro to Natural Language Processing",
+      "images": []
+    },
+    {
+      "slide_number": 2,
+      "slide_title": "Understanding Natural Language Processing",
+      "slide_type": "content",
+      "content": "• NLP is a branch of AI focused on enabling computers to understand and generate human language.\n• Integrates computational linguistics, machine learning, and deep learning for processing unstructured data.\n• Common applications include virtual assistants, search engines, and automated customer service.",
+      "speaker_notes": "Discuss: NLP is a branch of AI focused on enabling computers to understand and generate human language., Integrates computational linguistics, machine learning, and deep learning for processing unstructured data., Common applications include virtual assistants, search engines, and automated customer service.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Understanding Natural Language Processing",
+      "images": [
+        {
+          "image_id": "image_pdf_NLP_page_1_chunk_0_session_c56b3a13_img0",
+          "caption": "This is a diagram illustrating the workflow of Natural Language Processing (NLP). It features a central circle labeled \"NLP working,\" surrounded by eight colorful segments, each numbered and detailing specific steps: text input and data collection, text preprocessing, text representation",
+          "similarity_score": 0.5643273457991416,
+          "source_document": "NLP",
+          "image_path": "images/test-email@gmail.com/temp_uploads/session_c56b3a13/img_test-email@gmail.com_session_c56b3a13_85587c49_unit1_img0_00f6ec.png",
+          "user_id": "test-email@gmail.com",
+          "relevance_rank": 1
+        }
+      ]
+    },
+    {
+      "slide_number": 3,
+      "slide_title": "Key Techniques in NLP",
+      "slide_type": "content",
+      "content": "• Text Preprocessing: Essential for transforming raw text into a structured format for analysis.\n• Tokenization: Splits text into smaller units (tokens) for easier processing.\n• Stop Word Removal: Eliminates common words that add little meaning, reducing noise in data.",
+      "speaker_notes": "Discuss: Text Preprocessing: Essential for transforming raw text into a structured format for analysis., Tokenization: Splits text into smaller units (tokens) for easier processing., Stop Word Removal: Eliminates common words that add little meaning, reducing noise in data.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Key Techniques in NLP",
+      "images": []
+    },
+    {
+      "slide_number": 4,
+      "slide_title": "Advanced NLP Techniques",
+      "slide_type": "content",
+      "content": "• Sentiment Analysis: Automatically gauges emotional tone, valuable for brand monitoring and customer feedback.\n• Text Summarization: Condenses lengthy documents into concise summaries, enhancing information accessibility.\n• Word Sense Disambiguation: Resolves multiple meanings of words based on context, improving text understanding.",
+      "speaker_notes": "Discuss: Sentiment Analysis: Automatically gauges emotional tone, valuable for brand monitoring and customer feedback., Text Summarization: Condenses lengthy documents into concise summaries, enhancing information accessibility., Word Sense Disambiguation: Resolves multiple meanings of words based on context, improving text understanding.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Advanced NLP Techniques",
+      "images": []
+    },
+    {
+      "slide_number": 5,
+      "slide_title": "Machine Learning and Deep Learning in NLP",
+      "slide_type": "content",
+      "content": "• Neural Networks (RNNs): Effective for sequential data, enhancing language modeling and text generation.\n• Transformers: Utilize self-attention mechanisms, powering modern Large Language Models (LLMs) like GPT.\n• Transfer Learning: Leverages pre-trained models for improved performance with minimal data.",
+      "speaker_notes": "Discuss: Neural Networks (RNNs): Effective for sequential data, enhancing language modeling and text generation., Transformers: Utilize self-attention mechanisms, powering modern Large Language Models (LLMs) like GPT., Transfer Learning: Leverages pre-trained models for improved performance with minimal data.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Machine Learning and Deep Learning in NLP",
+      "images": []
+    },
+    {
+      "slide_number": 6,
+      "slide_title": "Feature Extraction Techniques",
+      "slide_type": "content",
+      "content": "• Bag-of-Words (BoW): Represents text as an unordered collection of word frequencies, simplifying analysis.\n• TF-IDF: Evaluates word relevance in documents, aiding in effective text classification.\n• Word Embeddings: Techniques like Word2Vec map words to dense vectors, capturing semantic relationships.",
+      "speaker_notes": "Discuss: Bag-of-Words (BoW): Represents text as an unordered collection of word frequencies, simplifying analysis., TF-IDF: Evaluates word relevance in documents, aiding in effective text classification., Word Embeddings: Techniques like Word2Vec map words to dense vectors, capturing semantic relationships.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Feature Extraction Techniques",
+      "images": []
+    },
+    {
+      "slide_number": 7,
+      "slide_title": "Practical Applications of NLP",
+      "slide_type": "content",
+      "content": "• Automated Customer Support: Chatbots enhance customer service efficiency and satisfaction.\n• Market Analysis: Sentiment analysis provides insights into consumer opinions and trends.\n• Content Management: Text summarization and classification streamline information retrieval and organization.",
+      "speaker_notes": "Discuss: Automated Customer Support: Chatbots enhance customer service efficiency and satisfaction., Market Analysis: Sentiment analysis provides insights into consumer opinions and trends., Content Management: Text summarization and classification streamline information retrieval and organization.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Practical Applications of NLP",
+      "images": []
+    },
+    {
+      "slide_number": 8,
+      "slide_title": "Future of NLP in Business",
+      "slide_type": "content",
+      "content": "• Increased Adoption: Businesses are leveraging NLP for data-driven decision-making.\n• Enhanced User Experience: NLP technologies improve interaction with customers through personalization.\n• Continuous Innovation: Ongoing advancements in NLP techniques will drive new applications and efficiencies.",
+      "speaker_notes": "Discuss: Increased Adoption: Businesses are leveraging NLP for data-driven decision-making., Enhanced User Experience: NLP technologies improve interaction with customers through personalization., Continuous Innovation: Ongoing advancements in NLP techniques will drive new applications and efficiencies.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Future of NLP in Business",
+      "images": []
+    }
+  ],
+  "generated_date": "2025-11-25T12:23:45.088646",
+  "version": "1.0",
+  "content_approach": "industry_ready",
+  "estimated_duration": "16 minutes",
+  "character_metrics": {
+    "2": {
+      "total_characters": 337,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "3": {
+      "total_characters": 282,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "4": {
+      "total_characters": 350,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "5": {
+      "total_characters": 338,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "6": {
+      "total_characters": 324,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "7": {
+      "total_characters": 315,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "8": {
+      "total_characters": 316,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    }
+  },
+  "character_summary": {
+    "slides_within_range": 7,
+    "total_content_slides": 7,
+    "compliance_ratio": "100.0%",
+    "average_characters_per_slide": 323,
+    "bullet_point_variation": "3-3 points per slide",
+    "variation_quality": "LOW VARIATION"
+  },
+  "content_richness_metrics": {
+    "total_content_slides": 7,
+    "total_key_points": 21,
+    "average_points_per_slide": 3.0,
+    "slides_with_rich_content": 7,
+    "richness_ratio": 1.0
+  },
+  "retrieved_chunks_metadata": [
+    {
+      "chunk_id": "text_pdf_NLP_page_0_chunk_0_session_c56b3a13",
+      "source_document": "NLP",
+      "similarity_score": 0.635,
+      "content_preview": "Natural Language Processing (NLP) is a branch of artificial intelligence (AI) that helps computers understand, interpret, and generate human language. It combines principles from computational linguis...",
+      "content_length": 975,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_pdf_NLP_page_1_chunk_0_session_c56b3a13",
+      "source_document": "NLP",
+      "similarity_score": 0.5116,
+      "content_preview": "Neural Networks (RNNs): These models process sequences of data by remembering previous inputs, making them effective for tasks like language modeling and text generation. Transformers: This groundbrea...",
+      "content_length": 1065,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_pdf_NLP_page_0_chunk_2_session_c56b3a13",
+      "source_document": "NLP",
+      "similarity_score": 0.424,
+      "content_preview": "Word sense disambiguation (WSD): This technique determines the correct meaning of a word with multiple possible interpretations by analyzing its context. For example, a WSD model can distinguish the w...",
+      "content_length": 915,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_pdf_NLP_page_0_chunk_1_session_c56b3a13",
+      "source_document": "NLP",
+      "similarity_score": 0.414,
+      "content_preview": "Stop word removal: Common words that don't add significant meaning, such as \"the,\" \"is,\" and \"a,\" are removed to reduce noise. Stemming and lemmatization: These techniques reduce words to their root f...",
+      "content_length": 985,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_pdf_NLP_page_0_chunk_3_session_c56b3a13",
+      "source_document": "NLP",
+      "similarity_score": 0.3796,
+      "content_preview": "Word embeddings: These advanced techniques, such as Word2Vec or GloVe, map words to dense numerical vectors, capturing semantic relationships. For example, the vectors for \"king\" and \"queen\" would be ...",
+      "content_length": 395,
+      "chunk_type": "text_chunk"
+    }
+  ],
+  "image_mapping_metrics": {
+    "user_id": "test-email@gmail.com",
+    "search_mode": "uploaded_only",
+    "total_slides": 8,
+    "content_slides": 7,
+    "slides_with_images": 1,
+    "total_images_mapped": 1,
+    "total_available_images": 1,
+    "images_used": 1,
+    "similarity_threshold_used": 0.4,
+    "utilization_rate": "1/1",
+    "coverage_ratio": "1/7",
+    "mapping_strategy": "STRICT_RELEVANCE_ONLY"
+  }
+}

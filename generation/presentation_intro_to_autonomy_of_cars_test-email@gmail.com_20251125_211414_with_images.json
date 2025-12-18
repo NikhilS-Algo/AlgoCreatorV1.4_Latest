@@ -1,0 +1,236 @@
+{
+  "presentation_title": "Intro to Autonomy of Cars",
+  "total_slides": 8,
+  "presentation_style": "corporate",
+  "content_richness": "medium",
+  "executive_summary": "Comprehensive overview of Intro to Autonomy of Cars",
+  "key_value_propositions": [
+    "Definition of Autonomous Vehicles (AVs) and their classification levels.",
+    "Overview of the technology driving AVs, including AI and machine learning.",
+    "Potential impact on transportation systems and urban planning."
+  ],
+  "strategic_insights": [
+    "Reduction in traffic congestion leading to increased productivity.",
+    "Significant decrease in accident rates, lowering insurance costs.",
+    "Potential for new revenue streams through ride-sharing and delivery services."
+  ],
+  "actionable_recommendations": [
+    "Complexity of sensor fusion and the need for accurate environmental perception.",
+    "Challenges in navigating unpredictable real-world scenarios.",
+    "Integration of advanced sensors like LiDAR, radar, and cameras for reliable operation."
+  ],
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_title": "Intro to Autonomy of Cars",
+      "slide_type": "title",
+      "content": "Intro to Autonomy of Cars",
+      "images": []
+    },
+    {
+      "slide_number": 2,
+      "slide_title": "Understanding Autonomous Vehicles",
+      "slide_type": "content",
+      "content": "• Definition of Autonomous Vehicles (AVs) and their classification levels.\n• Overview of the technology driving AVs, including AI and machine learning.\n• Potential impact on transportation systems and urban planning.",
+      "speaker_notes": "Discuss: Definition of Autonomous Vehicles (AVs) and their classification levels., Overview of the technology driving AVs, including AI and machine learning., Potential impact on transportation systems and urban planning.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Understanding Autonomous Vehicles",
+      "images": [
+        {
+          "image_id": "image_docx_Autonomous_cars_Tech_section_0_chunk_0_session_64d84ab4_img2",
+          "caption": "This is a diagram illustrating the concept of \"Autonomous Vehicles in Smart Cities.\" It features a circular design with seven colored figures representing collaboration. Surrounding the circle are key topics: \"Challenges and Ethical Considerations,\" \"Data-Driven Urban Planning,\"",
+          "similarity_score": 0.5364836547426945,
+          "source_document": "Autonomous_cars_Tech",
+          "image_path": "images/test-email@gmail.com/temp_uploads/session_64d84ab4/img_test-email@gmail.com_session_64d84ab4_186c528d_unit0_img3_148a0c.png",
+          "user_id": "test-email@gmail.com",
+          "relevance_rank": 1
+        }
+      ]
+    },
+    {
+      "slide_number": 3,
+      "slide_title": "Business Value of Autonomous Vehicles",
+      "slide_type": "content",
+      "content": "• Reduction in traffic congestion leading to increased productivity.\n• Significant decrease in accident rates, lowering insurance costs.\n• Potential for new revenue streams through ride-sharing and delivery services.",
+      "speaker_notes": "Discuss: Reduction in traffic congestion leading to increased productivity., Significant decrease in accident rates, lowering insurance costs., Potential for new revenue streams through ride-sharing and delivery services.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Business Value of Autonomous Vehicles",
+      "images": [
+        {
+          "image_id": "image_docx_Autonomous_cars_Tech_section_0_chunk_0_session_64d84ab4_img0",
+          "caption": "This is an illustration depicting the interior view of an autonomous vehicle. It features a digital dashboard with various controls and displays, including distance markers (100 m, 300 m, 50 m) and icons representing pedestrians and obstacles. The background shows a",
+          "similarity_score": 0.44074165223026446,
+          "source_document": "Autonomous_cars_Tech",
+          "image_path": "images/test-email@gmail.com/temp_uploads/session_64d84ab4/img_test-email@gmail.com_session_64d84ab4_186c528d_unit0_img0_5f12a2.jpg",
+          "user_id": "test-email@gmail.com",
+          "relevance_rank": 1
+        }
+      ]
+    },
+    {
+      "slide_number": 4,
+      "slide_title": "Technical Challenges in AV Development",
+      "slide_type": "content",
+      "content": "• Complexity of sensor fusion and the need for accurate environmental perception.\n• Challenges in navigating unpredictable real-world scenarios.\n• Integration of advanced sensors like LiDAR, radar, and cameras for reliable operation.",
+      "speaker_notes": "Discuss: Complexity of sensor fusion and the need for accurate environmental perception., Challenges in navigating unpredictable real-world scenarios., Integration of advanced sensors like LiDAR, radar, and cameras for reliable operation.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Technical Challenges in AV Development",
+      "images": []
+    },
+    {
+      "slide_number": 5,
+      "slide_title": "Ethical and Legal Considerations",
+      "slide_type": "content",
+      "content": "• Addressing liability in the event of accidents involving AVs.\n• Navigating regulatory frameworks and compliance for deployment.\n• Ethical implications of decision-making algorithms in critical situations.",
+      "speaker_notes": "Discuss: Addressing liability in the event of accidents involving AVs., Navigating regulatory frameworks and compliance for deployment., Ethical implications of decision-making algorithms in critical situations.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Ethical and Legal Considerations",
+      "images": []
+    },
+    {
+      "slide_number": 6,
+      "slide_title": "Current Market Landscape",
+      "slide_type": "content",
+      "content": "• Overview of key players in the autonomous vehicle industry.\n• Recent advancements and pilot programs in various regions.\n• Investment trends and market forecasts for AV technology.",
+      "speaker_notes": "Discuss: Overview of key players in the autonomous vehicle industry., Recent advancements and pilot programs in various regions., Investment trends and market forecasts for AV technology.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Current Market Landscape",
+      "images": []
+    },
+    {
+      "slide_number": 7,
+      "slide_title": "Future Trends in Autonomous Vehicles",
+      "slide_type": "content",
+      "content": "• Emerging technologies that will enhance AV capabilities.\n• Predictions for the timeline of achieving Level 5 autonomy.\n• Potential societal changes driven by widespread AV adoption.",
+      "speaker_notes": "Discuss: Emerging technologies that will enhance AV capabilities., Predictions for the timeline of achieving Level 5 autonomy., Potential societal changes driven by widespread AV adoption.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Future Trends in Autonomous Vehicles",
+      "images": []
+    },
+    {
+      "slide_number": 8,
+      "slide_title": "Conclusion and Call to Action",
+      "slide_type": "content",
+      "content": "• Recap of the transformative potential of autonomous vehicles.\n• Encouragement for stakeholders to engage in AV initiatives.\n• Invitation for collaboration in addressing challenges and leveraging opportunities.",
+      "speaker_notes": "Discuss: Recap of the transformative potential of autonomous vehicles., Encouragement for stakeholders to engage in AV initiatives., Invitation for collaboration in addressing challenges and leveraging opportunities.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Conclusion and Call to Action",
+      "images": []
+    }
+  ],
+  "generated_date": "2025-11-25T21:14:09.690553",
+  "version": "1.0",
+  "content_approach": "industry_ready",
+  "estimated_duration": "16 minutes",
+  "character_metrics": {
+    "2": {
+      "total_characters": 241,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "3": {
+      "total_characters": 245,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "4": {
+      "total_characters": 263,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "5": {
+      "total_characters": 230,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "6": {
+      "total_characters": 198,
+      "within_range": false,
+      "status": "ADJUST NEEDED",
+      "bullet_points": 3
+    },
+    "7": {
+      "total_characters": 211,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "8": {
+      "total_characters": 232,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    }
+  },
+  "character_summary": {
+    "slides_within_range": 6,
+    "total_content_slides": 7,
+    "compliance_ratio": "85.7%",
+    "average_characters_per_slide": 231,
+    "bullet_point_variation": "3-3 points per slide",
+    "variation_quality": "LOW VARIATION"
+  },
+  "content_richness_metrics": {
+    "total_content_slides": 7,
+    "total_key_points": 21,
+    "average_points_per_slide": 3.0,
+    "slides_with_rich_content": 7,
+    "richness_ratio": 1.0
+  },
+  "retrieved_chunks_metadata": [
+    {
+      "chunk_id": "text_docx_Autonomous_cars_Tech_section_0_chunk_0_session_c48ef20c",
+      "source_document": "Autonomous_cars_Tech",
+      "similarity_score": 0.5882,
+      "content_preview": "The Road to Autonomy: Technical and Ethical Challenges in Autonomous Vehicle Development Autonomous vehicles (AVs) represent a disruptive technology poised to redefine transportation, promising a futu...",
+      "content_length": 1021,
+      "chunk_type": "text_chunk"
+    }
+  ],
+  "image_mapping_metrics": {
+    "user_id": "test-email@gmail.com",
+    "search_mode": "uploaded_only",
+    "total_slides": 8,
+    "content_slides": 7,
+    "slides_with_images": 2,
+    "total_images_mapped": 2,
+    "total_available_images": 3,
+    "images_used": 2,
+    "similarity_threshold_used": 0.4,
+    "utilization_rate": "2/3",
+    "coverage_ratio": "2/7",
+    "mapping_strategy": "STRICT_RELEVANCE_ONLY"
+  }
+}

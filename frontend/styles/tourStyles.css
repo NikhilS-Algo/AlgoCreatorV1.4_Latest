@@ -1,0 +1,158 @@
+/* tourStyles.css */
+
+/* 🌫️ Professional blur background for enhanced focus */
+/* .shepherd-modal-overlay-container {
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px); 
+  background-color: rgba(0, 0, 0, 0.4);
+  transition: background-color 0.3s ease-in-out, opacity 0.3s ease-in-out;
+} */
+
+/* ✨ Clean highlight with no distracting borders */
+.tour-highlight {
+  z-index: 9999 !important;
+  box-shadow: none !important;
+  border-radius: 8px;
+}
+
+/* 🧠 Modern tooltip container */
+.shepherd-element {
+  background: #ffffff;
+  border-radius: 12px !important; /* Slightly larger radius */
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.08);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  max-width: 380px;
+  border-top: 4px solid #007BFF; /* A more standard, professional blue */
+  transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1), opacity 0.3s ease;
+  padding: 0;
+}
+
+/* 🎯 Header for the title */
+.shepherd-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 22px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.shepherd-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #212529;
+  margin: 0;
+}
+
+/* 📄 Description text */
+.shepherd-text {
+  padding: 18px 22px;
+  font-size: 1rem;
+  color: #495057;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* 📌 Arrow connector */
+.shepherd-arrow:before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  background: white;
+  position: absolute;
+  transform: rotate(45deg);
+  box-shadow: -3px -3px 8px rgba(0, 0, 0, 0.06);
+}
+
+/* 🎛️ Buttons and progress area */
+.shepherd-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 22px 18px;
+  gap: 10px;
+}
+
+/* 📊 Step progress indicator */
+.shepherd-progress {
+  font-size: 0.9rem;
+  color: #6c757d;
+  font-weight: 500;
+}
+
+/* General button styling */
+.shepherd-button {
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+/* ⚪ Secondary (Back) button - Ghost style */
+.shepherd-button-secondary {
+  background-color: #f8f9fa;
+  color: #495057;
+  border: 1px solid #dee2e6;
+}
+
+.shepherd-button-secondary:hover {
+  background-color: #e9ecef;
+  border-color: #ced4da;
+}
+
+/* 🟦 Primary (Next/Finish) button */
+.shepherd-button-primary {
+  background-color: #007BFF;
+  color: white;
+  box-shadow: 0 2px 5px rgba(0, 123, 255, 0.2);
+}
+
+.shepherd-button-primary:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 123, 255, 0.3);
+}
+
+/* Close ('X') icon styling */
+.shepherd-cancel-icon {
+  font-size: 1.8rem;
+  font-weight: 300;
+  color: #adb5bd;
+}
+
+.shepherd-cancel-icon:hover {
+  color: #495057;
+}
+
+/* 🎞️ Entry and Exit animations */
+.shepherd-element {
+  animation: tourStepFadeIn 0.35s cubic-bezier(0.25, 0.8, 0.25, 1) forwards;
+}
+
+.shepherd-element.shepherd-hidden {
+  animation: tourStepFadeOut 0.25s cubic-bezier(0.25, 0.8, 0.25, 1) forwards;
+}
+
+@keyframes tourStepFadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.97) translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+@keyframes tourStepFadeOut {
+  from {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: scale(0.97) translateY(15px);
+  }
+}

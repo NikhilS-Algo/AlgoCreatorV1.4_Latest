@@ -1,0 +1,84 @@
+{
+  "documents": [
+    {
+      "doc_id": "Genrated_Presentation (7)",
+      "doc_type": "pptx",
+      "units": [
+        {
+          "index": 0,
+          "unit_type": "slide",
+          "text": [
+            "Technical Approach to AI-Powered Data Accessibility",
+            "Advanced AI Solutions for Manufacturing Excellence"
+          ],
+          "images": []
+        },
+        {
+          "index": 1,
+          "unit_type": "slide",
+          "text": [
+            "Overview of FloatChat",
+            "▸ • FloatChat is an AI-powered conversational interface designed for ARGO ocean data discovery and visualization.\n▸ • Utilizes advanced technologies including Python, FastAPI, and MySQL for robust performance.\n▸ • Empowers users to access complex oceanographic data without needing programming skills, democratizing data access.",
+            "KEY POINTS",
+            "2/6"
+          ],
+          "images": [
+            "images/oambalkar@algoanalytic.com/temp_uploads/session_3f4ad075/img_oambalkar@algoanalytic.com_session_3f4ad075_20251120_232226_b993c91e_unit1_img0.jpg"
+          ]
+        },
+        {
+          "index": 2,
+          "unit_type": "slide",
+          "text": [
+            "Addressing Technical and Market Risks",
+            "▸ • Enhancing AI accuracy through advanced prompt engineering and a validation layer to ensure SQL correctness.\n▸ • Engaging with the scientific community to build trust and ensure the tool meets rigorous standards.\n▸ • Implementing a monitoring system for external services to mitigate operational risks and improve reliability.",
+            "KEY POINTS",
+            "🖼️",
+            "Visual Content",
+            "3/6"
+          ],
+          "images": []
+        },
+        {
+          "index": 3,
+          "unit_type": "slide",
+          "text": [
+            "Unique Value Propositions",
+            "🖼️",
+            "Visual Content",
+            "▸ • Democratized Data Access: Enables users to interact with scientific data without coding.\n▸ • Accelerated Time-to-Insight: Reduces data analysis time from hours to seconds.\n▸ • Zero Learning Curve: Intuitive interface eliminates the need for complex query languages.",
+            "KEY POINTS",
+            "4/6"
+          ],
+          "images": []
+        },
+        {
+          "index": 4,
+          "unit_type": "slide",
+          "text": [
+            "Impacts and Benefits",
+            "▸ • Supports advanced AI-driven oceanographic studies, enhancing research capabilities.\n▸ • Facilitates evidence-based decision-making for marine conservation and climate policy.\n▸ • Transforms education by providing interactive tools for students and educators to engage with real-world data.",
+            "KEY POINTS",
+            "🖼️",
+            "Visual Content",
+            "5/6"
+          ],
+          "images": []
+        },
+        {
+          "index": 5,
+          "unit_type": "slide",
+          "text": [
+            "Feasibility and Scalability",
+            "🖼️",
+            "Visual Content",
+            "▸ • Technical feasibility confirmed with a scalable architecture capable of handling large datasets.\n▸ • Market demand is high for tools simplifying access to complex scientific data, with few competitors offering similar solutions.\n▸ • Operational feasibility supported by a skilled team and a clear maintenance strategy for ongoing success.",
+            "KEY POINTS",
+            "6/6"
+          ],
+          "images": []
+        }
+      ]
+    }
+  ]
+}

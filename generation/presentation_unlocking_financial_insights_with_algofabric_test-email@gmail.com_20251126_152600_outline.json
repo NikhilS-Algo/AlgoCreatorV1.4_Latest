@@ -1,0 +1,229 @@
+{
+  "presentation_title": "Unlocking Financial Insights with Algofabric",
+  "total_slides": 8,
+  "presentation_style": "corporate",
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_title": "Unlocking Financial Insights with Algofabric",
+      "slide_type": "title",
+      "key_points": []
+    },
+    {
+      "slide_number": 2,
+      "slide_title": "Introduction to Algofabric",
+      "slide_type": "content",
+      "key_points": [
+        "AI-powered stock research assistant designed for financial professionals.",
+        "Integrates advanced Natural Language Processing (NLP) with numerical data analysis.",
+        "Provides actionable insights and recommendations for investment strategies."
+      ]
+    },
+    {
+      "slide_number": 3,
+      "slide_title": "Key Features of Algofabric",
+      "slide_type": "content",
+      "key_points": [
+        "Data-driven insights from unstructured data sources such as news articles.",
+        "Real-time sentiment analysis and trending topics for informed decision-making.",
+        "Personalized information digest tailored to user preferences and interests."
+      ]
+    },
+    {
+      "slide_number": 4,
+      "slide_title": "Platformification of Algofabric",
+      "slide_type": "content",
+      "key_points": [
+        "Transitioning to a SaaS platform for enhanced accessibility and scalability.",
+        "Facilitates integration with various financial tools and applications.",
+        "Supports a wide range of domains, including sports, politics, and technology."
+      ]
+    },
+    {
+      "slide_number": 5,
+      "slide_title": "Business Value Proposition",
+      "slide_type": "content",
+      "key_points": [
+        "Empowers users with a 360-degree view of market dynamics.",
+        "Enhances competitive edge through timely and relevant insights.",
+        "Streamlines decision-making processes with AI-driven recommendations."
+      ]
+    },
+    {
+      "slide_number": 6,
+      "slide_title": "User Experience and Interface",
+      "slide_type": "content",
+      "key_points": [
+        "Intuitive user interface designed for ease of navigation and usability.",
+        "Customizable UI components to cater to diverse user needs.",
+        "Incorporates LLM-powered chatbot for interactive user support."
+      ]
+    },
+    {
+      "slide_number": 7,
+      "slide_title": "Future Developments and Roadmap",
+      "slide_type": "content",
+      "key_points": [
+        "Expansion of data ingestion capabilities beyond news articles.",
+        "Generalization of features for applicability across various sectors.",
+        "Continuous updates and enhancements based on user feedback and market trends."
+      ]
+    },
+    {
+      "slide_number": 8,
+      "slide_title": "Conclusion and Call to Action",
+      "slide_type": "content",
+      "key_points": [
+        "Algofabric represents a transformative approach to financial analysis.",
+        "Encourages stakeholders to leverage AI for improved investment outcomes.",
+        "For more information, visit: https://algofabric.algoanalytics.com/"
+      ]
+    }
+  ],
+  "user_id": "test-email@gmail.com",
+  "search_mode": "corpus_only",
+  "generation_timestamp": "2025-11-26T15:25:47.506733",
+  "retrieved_chunks_metadata": [
+    {
+      "chunk_id": "text_slide_Production Level Deployments by Algoanalytics (March 2025)_18_chunk_0_build_084d5582",
+      "source_document": "Production Level Deployments by Algoanalytics (March 2025)",
+      "similarity_score": 0.662,
+      "content_preview": "Algofabric AI powered Stock Research Assistant",
+      "content_length": 46,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_AlgoAnalytics deck for UK_Europe_24_chunk_0_build_084d5582",
+      "source_document": "AlgoAnalytics deck for UK_Europe",
+      "similarity_score": 0.6378,
+      "content_preview": "Platformification of AlgoFabric ‹#›",
+      "content_length": 35,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_AlgoAnalytics deck for UK_Europe_9_chunk_0_build_084d5582",
+      "source_document": "AlgoAnalytics deck for UK_Europe",
+      "similarity_score": 0.5834,
+      "content_preview": "Aksha AlgoFabric AlgoCreator Presentation Overview ‹#›",
+      "content_length": 54,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_AlgoAnalytics deck for UK_Europe_19_chunk_0_build_084d5582",
+      "source_document": "AlgoAnalytics deck for UK_Europe",
+      "similarity_score": 0.5828,
+      "content_preview": "AlgoFabric ‹#› .  © . | Page",
+      "content_length": 28,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_AlgoFabric overview_Deck_oct_24_13_chunk_0_build_084d5582",
+      "source_document": "AlgoFabric overview_Deck_oct_24",
+      "similarity_score": 0.5641,
+      "content_preview": "Thank you For more information, visit: https://algofabric.algoanalytics.com/",
+      "content_length": 76,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_Project_Summaries_Jan2025_v1_23_chunk_0_build_084d5582",
+      "source_document": "Project_Summaries_Jan2025_v1",
+      "similarity_score": 0.5542,
+      "content_preview": "AlgoFabric: Generalization of Platform",
+      "content_length": 38,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_AlgoFabric overview_Deck_oct_24_0_chunk_0_build_084d5582",
+      "source_document": "AlgoFabric overview_Deck_oct_24",
+      "similarity_score": 0.5316,
+      "content_preview": "AlgoFabric: SaaS Platform AI-powered Financial Insights Platform CONFIDENTIAL AND PROPRIETARY Any use of this material without specific permission AlgoAnalytics is strictly prohibited",
+      "content_length": 183,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_AlgoFabric_TS_updates_0_chunk_0_build_084d5582",
+      "source_document": "AlgoFabric_TS_updates",
+      "similarity_score": 0.5297,
+      "content_preview": "AlgoFabric and AlgoTrading Updates CONFIDENTIAL AND PROPRIETARY Any use of this material without specific permission AlgoAnalytics is strictly prohibited",
+      "content_length": 153,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_AlgoAnalytics overview_NDIL_Feb 24_22_chunk_0_build_084d5582",
+      "source_document": "AlgoAnalytics overview_NDIL_Feb 24",
+      "similarity_score": 0.509,
+      "content_preview": "AlgoFabric: SaaS Platform – Insights from Unstructured Data ‹#› AlgoFabric combines the power of state-of-the-art NLP models with numerical data analysis to provide insights and recommendations. https...",
+      "content_length": 748,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_AlgoAnalytics deck for UK_Europe_25_chunk_0_build_084d5582",
+      "source_document": "AlgoAnalytics deck for UK_Europe",
+      "similarity_score": 0.4825,
+      "content_preview": "Architecture: Can the overall structure and design be adapted to different contexts? Feature engineering: Are the feature extraction techniques applicable to diverse datasets? Model building: Can the ...",
+      "content_length": 895,
+      "chunk_type": "text_chunk"
+    }
+  ],
+  "total_retrieved_chunks": 10,
+  "content_richness_metrics": {
+    "total_content_slides": 7,
+    "total_key_points": 21,
+    "average_points_per_slide": 3.0,
+    "slides_with_rich_content": 7,
+    "richness_ratio": 1.0
+  },
+  "content_richness": "medium",
+  "character_metrics": {
+    "2": {
+      "total_characters": 257,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "3": {
+      "total_characters": 253,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "4": {
+      "total_characters": 254,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "5": {
+      "total_characters": 215,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "6": {
+      "total_characters": 220,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "7": {
+      "total_characters": 238,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "8": {
+      "total_characters": 237,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    }
+  },
+  "character_summary": {
+    "slides_within_range": 7,
+    "total_content_slides": 7,
+    "compliance_ratio": "100.0%",
+    "average_characters_per_slide": 239,
+    "bullet_point_variation": "3-3 points per slide",
+    "variation_quality": "LOW VARIATION"
+  }
+}

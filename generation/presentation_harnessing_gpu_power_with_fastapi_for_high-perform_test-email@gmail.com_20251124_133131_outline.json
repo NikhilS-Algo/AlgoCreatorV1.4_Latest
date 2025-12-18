@@ -1,0 +1,229 @@
+{
+  "presentation_title": "Harnessing GPU Power with FastAPI for High-Performance Applications",
+  "total_slides": 8,
+  "presentation_style": "technical detailed",
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_title": "Harnessing GPU Power with FastAPI",
+      "slide_type": "title",
+      "key_points": []
+    },
+    {
+      "slide_number": 2,
+      "slide_title": "Introduction to FastAPI",
+      "slide_type": "content",
+      "key_points": [
+        "Built on Starlette and Uvicorn, FastAPI achieves performance comparable to compiled languages.",
+        "Utilizes asynchronous programming with 'async' and 'await' for efficient handling of I/O-bound tasks.",
+        "Ideal for microservices and real-time applications due to low latency and high concurrency capabilities."
+      ]
+    },
+    {
+      "slide_number": 3,
+      "slide_title": "FastAPI's Competitive Advantages",
+      "slide_type": "content",
+      "key_points": [
+        "Revolutionizes API development with standardized Python type hints, enhancing code quality and developer experience.",
+        "Automatically generates interactive API documentation using OpenAPI, simplifying client integration and testing.",
+        "Addresses historical performance constraints in Python web development, making it a preferred choice for modern applications."
+      ]
+    },
+    {
+      "slide_number": 4,
+      "slide_title": "Understanding GPU Architecture",
+      "slide_type": "content",
+      "key_points": [
+        "GPUs are designed for massive parallelism, enabling simultaneous processing of thousands of data streams.",
+        "Critical for deep learning and AI, leveraging high-speed matrix multiplications across numerous cores.",
+        "Transitioned from graphics rendering to essential components in HPC and scientific modeling."
+      ]
+    },
+    {
+      "slide_number": 5,
+      "slide_title": "Business Value of GPUs",
+      "slide_type": "content",
+      "key_points": [
+        "Accelerate time-to-discovery in complex computational tasks, enhancing productivity and innovation.",
+        "Support real-time data processing, crucial for applications in finance, healthcare, and autonomous systems.",
+        "Enable large-scale simulations and deep learning model training, driving advancements in AI technologies."
+      ]
+    },
+    {
+      "slide_number": 6,
+      "slide_title": "Integrating FastAPI with GPU Capabilities",
+      "slide_type": "content",
+      "key_points": [
+        "FastAPI can efficiently handle requests for GPU-accelerated applications, optimizing resource utilization.",
+        "Supports data validation and serialization through Pydantic, ensuring safe and reliable API interactions.",
+        "Facilitates rapid development cycles, allowing businesses to quickly deploy AI-driven solutions."
+      ]
+    },
+    {
+      "slide_number": 7,
+      "slide_title": "Practical Applications of FastAPI and GPU",
+      "slide_type": "content",
+      "key_points": [
+        "Ideal for deploying machine learning models in production, providing low-latency API endpoints.",
+        "Enhances real-time analytics capabilities in sectors like e-commerce and finance.",
+        "Supports complex simulations in scientific research, improving accuracy and efficiency."
+      ]
+    },
+    {
+      "slide_number": 8,
+      "slide_title": "Conclusion and Future Outlook",
+      "slide_type": "content",
+      "key_points": [
+        "FastAPI and GPUs together represent a powerful combination for modern application development.",
+        "Their integration can significantly reduce operational costs while improving performance and scalability.",
+        "As AI and data processing demands grow, leveraging these technologies will be critical for competitive advantage."
+      ]
+    }
+  ],
+  "user_id": "test-email@gmail.com",
+  "search_mode": "uploaded_only",
+  "generation_timestamp": "2025-11-24T13:31:28.176055",
+  "retrieved_chunks_metadata": [
+    {
+      "chunk_id": "text_pdf_FastAPI_page_0_chunk_1_session_57072d56",
+      "source_document": "FastAPI",
+      "similarity_score": 0.6264,
+      "content_preview": "Built atop Starlette for routing and Uvicorn as its ASGI (Asynchronous Server Gateway Interface) server, FastAPI achieves performance benchmarks that rival compiled languages. This asynchronous archit...",
+      "content_length": 1057,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_pdf_FastAPI_page_0_chunk_0_session_57072d56",
+      "source_document": "FastAPI",
+      "similarity_score": 0.6034,
+      "content_preview": "FastAPI: The Catalyst for High-Performance Python API Development The Python programming language has long dominated the fields of data science, machine learning, and scripting, yet its role in web ba...",
+      "content_length": 1038,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_pdf_FastAPI_page_1_chunk_2_session_57072d56",
+      "source_document": "FastAPI",
+      "similarity_score": 0.5471,
+      "content_preview": "As organizations continue to adopt microservice architectures and require increasingly fast, reliable APIs, FastAPI is poised to remain a dominant force, bridging the gap between Python's data-centric...",
+      "content_length": 265,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_pdf_FastAPI_page_1_chunk_1_session_57072d56",
+      "source_document": "FastAPI",
+      "similarity_score": 0.4774,
+      "content_preview": "The Pydantic models and path operation functions, complete with their type hints, are automatically converted into precise JSON Schema and OpenAPI documents. This immediate, interactive documentation ...",
+      "content_length": 944,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_docx_GPU_section_1_chunk_3_session_57072d56",
+      "source_document": "GPU",
+      "similarity_score": 0.46,
+      "content_preview": "The GPU accelerates time-to-discovery, making complex computational science faster, more accessible, and more energy-efficient relative to the performance delivered. In conclusion, the Graphics Proces...",
+      "content_length": 812,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_docx_GPU_section_1_chunk_1_session_57072d56",
+      "source_document": "GPU",
+      "similarity_score": 0.4523,
+      "content_preview": "This arrangement allows the GPU to process thousands of data streams and execute concurrent threads simultaneously. For tasks that can be broken down into many independent, simultaneous operations—kno...",
+      "content_length": 930,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_docx_GPU_section_1_chunk_0_session_57072d56",
+      "source_document": "GPU",
+      "similarity_score": 0.4516,
+      "content_preview": "The Graphics Processing Unit (GPU), initially conceived as a specialized circuit for accelerating the rendering of 3D graphics in video games, has undergone a profound architectural and functional tra...",
+      "content_length": 1100,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_pdf_FastAPI_page_1_chunk_0_session_57072d56",
+      "source_document": "FastAPI",
+      "similarity_score": 0.4434,
+      "content_preview": "Developers define data schemas for requests and responses using Pydantic models, which are simple Python classes with type annotations. FastAPI automatically uses these annotations to perform critical...",
+      "content_length": 1073,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_docx_GPU_section_1_chunk_2_session_57072d56",
+      "source_document": "GPU",
+      "similarity_score": 0.4358,
+      "content_preview": "Modern GPUs further specialize this capability with dedicated hardware, such as Tensor Cores, which are optimized specifically for the low-precision matrix operations vital to deep learning training a...",
+      "content_length": 1112,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_docx_GPU_section_0_chunk_0_session_57072d56",
+      "source_document": "GPU",
+      "similarity_score": 0.3914,
+      "content_preview": "The Graphics Processing Unit: Architecture, Parallelism, and the Transformation of Modern Computing",
+      "content_length": 99,
+      "chunk_type": "text_chunk"
+    }
+  ],
+  "total_retrieved_chunks": 10,
+  "content_richness_metrics": {
+    "total_content_slides": 7,
+    "total_key_points": 21,
+    "average_points_per_slide": 3.0,
+    "slides_with_rich_content": 7,
+    "richness_ratio": 1.0
+  },
+  "content_richness": "medium",
+  "character_metrics": {
+    "2": {
+      "total_characters": 322,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "3": {
+      "total_characters": 385,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "4": {
+      "total_characters": 329,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "5": {
+      "total_characters": 333,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "6": {
+      "total_characters": 348,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "7": {
+      "total_characters": 304,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "8": {
+      "total_characters": 341,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    }
+  },
+  "character_summary": {
+    "slides_within_range": 7,
+    "total_content_slides": 7,
+    "compliance_ratio": "100.0%",
+    "average_characters_per_slide": 337,
+    "bullet_point_variation": "3-3 points per slide",
+    "variation_quality": "LOW VARIATION"
+  }
+}

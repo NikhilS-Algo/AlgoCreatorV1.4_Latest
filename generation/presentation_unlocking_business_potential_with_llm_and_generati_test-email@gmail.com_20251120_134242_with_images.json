@@ -1,0 +1,356 @@
+{
+  "presentation_title": "Unlocking Business Potential with LLM and Generative AI",
+  "total_slides": 8,
+  "presentation_style": "corporate",
+  "content_richness": "medium",
+  "executive_summary": "Comprehensive overview of Unlocking Business Potential with LLM and Generative AI",
+  "key_value_propositions": [
+    "LLMs are advanced algorithms designed to learn and replicate human-like text generation.",
+    "They analyze statistical patterns in large text corpuses to produce coherent and contextually relevant content.",
+    "Generative AI leverages LLMs to create new content, enhancing creativity and efficiency in various business applications."
+  ],
+  "strategic_insights": [
+    "Development of innovative solutions across both private and public LLM frameworks.",
+    "Utilization of cutting-edge technologies like Amazon Bedrock for enhanced performance.",
+    "Expertise in multi-modal Generative AI models, enabling diverse applications across industries."
+  ],
+  "actionable_recommendations": [
+    "Domain-specific LLMs enhance performance for targeted tasks, providing scalable integration.",
+    "Specialized models reduce computational power requirements and training costs.",
+    "Balancing specificity and versatility is crucial for effective model management and updates."
+  ],
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_title": "Unlocking Business Potential with LLM and Generative AI",
+      "slide_type": "title",
+      "content": "Unlocking Business Potential with LLM and Generative AI",
+      "images": []
+    },
+    {
+      "slide_number": 2,
+      "slide_title": "Understanding LLMs and Generative AI",
+      "slide_type": "content",
+      "content": "• LLMs are advanced algorithms designed to learn and replicate human-like text generation.\n• They analyze statistical patterns in large text corpuses to produce coherent and contextually relevant content.\n• Generative AI leverages LLMs to create new content, enhancing creativity and efficiency in various business applications.",
+      "speaker_notes": "Discuss: LLMs are advanced algorithms designed to learn and replicate human-like text generation., They analyze statistical patterns in large text corpuses to produce coherent and contextually relevant content., Generative AI leverages LLMs to create new content, enhancing creativity and efficiency in various business applications.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Understanding LLMs and Generative AI",
+      "images": [
+        {
+          "image_id": "image_slide_AlgoAnalytics - LLM _3_chunk_0_session_0bf143e2_img0",
+          "caption": "This is an illustration depicting the \"Evolution of LLMs\" (Large Language Models). It features a rocket launching into space, symbolizing progress. Key milestones are marked along a dotted line, with years (2014, 2017,",
+          "similarity_score": 0.44447742632642306,
+          "source_document": "AlgoAnalytics - LLM ",
+          "image_path": "images/test-email@gmail.com/temp_uploads/session_0bf143e2/img_test-email@gmail.com_session_0bf143e2_20251120_134125_b0c44fc2_unit3_img0.jpg",
+          "user_id": "test-email@gmail.com",
+          "relevance_rank": 1
+        }
+      ]
+    },
+    {
+      "slide_number": 3,
+      "slide_title": "Core Offerings in Generative AI",
+      "slide_type": "content",
+      "content": "• Development of innovative solutions across both private and public LLM frameworks.\n• Utilization of cutting-edge technologies like Amazon Bedrock for enhanced performance.\n• Expertise in multi-modal Generative AI models, enabling diverse applications across industries.",
+      "speaker_notes": "Discuss: Development of innovative solutions across both private and public LLM frameworks., Utilization of cutting-edge technologies like Amazon Bedrock for enhanced performance., Expertise in multi-modal Generative AI models, enabling diverse applications across industries.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Core Offerings in Generative AI",
+      "images": [
+        {
+          "image_id": "image_slide_AlgoAnalytics - LLM _48_chunk_0_session_0bf143e2_img1",
+          "caption": "This is a promotional graphic for a panel discussion titled \"Generative AI and Next Fintech Disruptions,\" scheduled for September 3 from 12:20 PM to 1:05 PM. It features three speakers: Prashant Mane (",
+          "similarity_score": 0.41562594344104636,
+          "source_document": "AlgoAnalytics - LLM ",
+          "image_path": "images/test-email@gmail.com/temp_uploads/session_0bf143e2/img_test-email@gmail.com_session_0bf143e2_20251120_134125_b0c44fc2_unit48_img1.jpg",
+          "user_id": "test-email@gmail.com",
+          "relevance_rank": 1
+        }
+      ]
+    },
+    {
+      "slide_number": 4,
+      "slide_title": "Specialization and Efficiency of LLMs",
+      "slide_type": "content",
+      "content": "• Domain-specific LLMs enhance performance for targeted tasks, providing scalable integration.\n• Specialized models reduce computational power requirements and training costs.\n• Balancing specificity and versatility is crucial for effective model management and updates.",
+      "speaker_notes": "Discuss: Domain-specific LLMs enhance performance for targeted tasks, providing scalable integration., Specialized models reduce computational power requirements and training costs., Balancing specificity and versatility is crucial for effective model management and updates.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Specialization and Efficiency of LLMs",
+      "images": []
+    },
+    {
+      "slide_number": 5,
+      "slide_title": "Practical Applications of LLMs",
+      "slide_type": "content",
+      "content": "• Applications include chatbots, customer feedback analysis, and legal advisory tools.\n• LLMs can streamline processes such as employee onboarding and financial advising.\n• Innovative solutions like travel consultation apps and stock market analysis tools showcase versatility.",
+      "speaker_notes": "Discuss: Applications include chatbots, customer feedback analysis, and legal advisory tools., LLMs can streamline processes such as employee onboarding and financial advising., Innovative solutions like travel consultation apps and stock market analysis tools showcase versatility.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Practical Applications of LLMs",
+      "images": []
+    },
+    {
+      "slide_number": 6,
+      "slide_title": "Future Trends in Generative AI",
+      "slide_type": "content",
+      "content": "• LLMs will evolve with enhanced reasoning and contextual understanding capabilities.\n• Integration with classical ML models will remain essential for comprehensive solutions.\n• Ethical considerations and data privacy will shape the development and deployment of LLMs.",
+      "speaker_notes": "Discuss: LLMs will evolve with enhanced reasoning and contextual understanding capabilities., Integration with classical ML models will remain essential for comprehensive solutions., Ethical considerations and data privacy will shape the development and deployment of LLMs.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Future Trends in Generative AI",
+      "images": []
+    },
+    {
+      "slide_number": 7,
+      "slide_title": "Challenges and Considerations",
+      "slide_type": "content",
+      "content": "• Challenges include managing model complexity, latency, and computational demands.\n• Addressing ethical concerns and data misuse is critical for maintaining trust.\n• Continuous improvement and adaptation of LLMs are necessary to meet evolving business needs.",
+      "speaker_notes": "Discuss: Challenges include managing model complexity, latency, and computational demands., Addressing ethical concerns and data misuse is critical for maintaining trust., Continuous improvement and adaptation of LLMs are necessary to meet evolving business needs.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Challenges and Considerations",
+      "images": []
+    },
+    {
+      "slide_number": 8,
+      "slide_title": "Conclusion and Next Steps",
+      "slide_type": "content",
+      "content": "• LLMs and Generative AI present significant opportunities for business innovation.\n• Investing in specialized LLM solutions can enhance operational efficiency and customer engagement.\n• Organizations should prioritize ethical practices and continuous learning to leverage the full potential of Generative AI.",
+      "speaker_notes": "Discuss: LLMs and Generative AI present significant opportunities for business innovation., Investing in specialized LLM solutions can enhance operational efficiency and customer engagement., Organizations should prioritize ethical practices and continuous learning to leverage the full potential of Generative AI.",
+      "visual_elements": [
+        "professional diagram",
+        "data visualization",
+        "supporting graphic"
+      ],
+      "key_takeaway": "Main insight: Conclusion and Next Steps",
+      "images": []
+    }
+  ],
+  "generated_date": "2025-11-20T13:42:36.955202",
+  "version": "1.0",
+  "content_approach": "industry_ready",
+  "estimated_duration": "16 minutes",
+  "character_metrics": {
+    "2": {
+      "total_characters": 356,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "3": {
+      "total_characters": 294,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "4": {
+      "total_characters": 299,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "5": {
+      "total_characters": 299,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "6": {
+      "total_characters": 290,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "7": {
+      "total_characters": 280,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    },
+    "8": {
+      "total_characters": 326,
+      "within_range": true,
+      "status": "GOOD",
+      "bullet_points": 3
+    }
+  },
+  "character_summary": {
+    "slides_within_range": 7,
+    "total_content_slides": 7,
+    "compliance_ratio": "100.0%",
+    "average_characters_per_slide": 306,
+    "bullet_point_variation": "3-3 points per slide",
+    "variation_quality": "LOW VARIATION"
+  },
+  "content_richness_metrics": {
+    "total_content_slides": 7,
+    "total_key_points": 21,
+    "average_points_per_slide": 3.0,
+    "slides_with_rich_content": 7,
+    "richness_ratio": 1.0
+  },
+  "retrieved_chunks_metadata": [
+    {
+      "chunk_id": "text_slide_AlgoAnalytics - LLM _7_chunk_0_session_0bf143e2",
+      "source_document": "AlgoAnalytics - LLM ",
+      "similarity_score": 0.6999,
+      "content_preview": "Our Generative AI offerings ‹#›   Strong expertise on developing innovative solutions across private and public LLM frameworks Core Offerings Technology Accelerator using latest LLM models and framewo...",
+      "content_length": 390,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_AlgoAnalytics - LLM _50_chunk_0_session_0bf143e2",
+      "source_document": "AlgoAnalytics - LLM ",
+      "similarity_score": 0.6473,
+      "content_preview": "Future of Generative AI Reasoning & contextual understanding abilities Specialized models for specific industries Multimodality Edge device LLMs –Local data processing Integration with other technolog...",
+      "content_length": 392,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_AlgoAnalytics - LLM _5_chunk_0_session_0bf143e2",
+      "source_document": "AlgoAnalytics - LLM ",
+      "similarity_score": 0.5945,
+      "content_preview": "LLM Specialization: Our Take Generic models like GPT may not meet the precise requirements of specific task or domains LLM specialization is required to enhance the performance in a targeted area Doma...",
+      "content_length": 592,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_AlgoAnalytics - LLM _3_chunk_0_session_0bf143e2",
+      "source_document": "AlgoAnalytics - LLM ",
+      "similarity_score": 0.5921,
+      "content_preview": "Rise of LLMs and Generative AI Traditional AI Pattern recognition Generative AI Pattern creation Evolution of Language model Continuous bag of World Model (CBOW) + Skip GRAM Recurrent Neural Network (...",
+      "content_length": 527,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_AlgoAnalytics - LLM _1_chunk_0_session_0bf143e2",
+      "source_document": "AlgoAnalytics - LLM ",
+      "similarity_score": 0.5467,
+      "content_preview": "Understanding LLM ‹#›   Definition Large Language Models (LLMs) refer to computer systems or algorithms that have been specifically developed to learn and understand the statistical patterns and prope...",
+      "content_length": 828,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_AlgoAnalytics - LLM _9_chunk_0_session_0bf143e2",
+      "source_document": "AlgoAnalytics - LLM ",
+      "similarity_score": 0.5457,
+      "content_preview": "Some LLM applications we have developed (continued)   ‹#› Insurance Query Chatbot ResumeChat Knowledge base management Data Analyzer Customer feedback analysis Legal advisor",
+      "content_length": 173,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_AlgoAnalytics - LLM _39_chunk_0_session_0bf143e2",
+      "source_document": "AlgoAnalytics - LLM ",
+      "similarity_score": 0.5452,
+      "content_preview": "LLM Solutions built using Llama 2 Framework (Meta) https://apps.onestop.ai/llama2-dashboard/   ‹#› Our Solutions using Llama 2",
+      "content_length": 126,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_AlgoAnalytics - LLM _4_chunk_0_session_0bf143e2",
+      "source_document": "AlgoAnalytics - LLM ",
+      "similarity_score": 0.5322,
+      "content_preview": "Our NLP Journey towards LLMs How we started Where we are today TF-IDF Bag of words Word embeddings GloVe word2vec Context-free models Early LLMs GPT NLP Libraries Sequence Learning Models RNN LSTM BER...",
+      "content_length": 386,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_AlgoAnalytics - LLM _51_chunk_0_session_0bf143e2",
+      "source_document": "AlgoAnalytics - LLM ",
+      "similarity_score": 0.5307,
+      "content_preview": "Thank You www.algoanalytics.com https://onestop.ai/#LLM",
+      "content_length": 55,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_AlgoAnalytics - LLM _8_chunk_0_session_0bf143e2",
+      "source_document": "AlgoAnalytics - LLM ",
+      "similarity_score": 0.529,
+      "content_preview": "Some LLM applications we have developed   ‹#› ConvoSummarizer Stock market News Analysis Molecular property prediction Travel Consultation App Chatbot for Code Repository AlgoMed: Healthcare chat assi...",
+      "content_length": 205,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_AlgoAnalytics - LLM _42_chunk_0_session_0bf143e2",
+      "source_document": "AlgoAnalytics - LLM ",
+      "similarity_score": 0.5245,
+      "content_preview": "AI coding tool : Architecture understanding and improvements AI coding pipeline architecture Working with a global client to understand their newly developed AI coding tool End Objective Leverage our ...",
+      "content_length": 860,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_AlgoAnalytics - LLM _40_chunk_0_session_0bf143e2",
+      "source_document": "AlgoAnalytics - LLM ",
+      "similarity_score": 0.5239,
+      "content_preview": "Projects in Generative AI An Overview of our global work   ‹#›",
+      "content_length": 62,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_AlgoAnalytics - LLM _6_chunk_0_session_0bf143e2",
+      "source_document": "AlgoAnalytics - LLM ",
+      "similarity_score": 0.5226,
+      "content_preview": "Our Generative AI Work Exploring multiple applications   ‹#›",
+      "content_length": 60,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_AlgoAnalytics - LLM _31_chunk_0_session_0bf143e2",
+      "source_document": "AlgoAnalytics - LLM ",
+      "similarity_score": 0.5216,
+      "content_preview": "Legal Advisor Objective Data : Motor Laws PDFS Framework : LangChain Index : FAISS index Prompt : Custom prompt template to enable LLM chains based on user input and model recommendations. LLM : GPT-3...",
+      "content_length": 415,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_AlgoAnalytics - LLM _10_chunk_0_session_0bf143e2",
+      "source_document": "AlgoAnalytics - LLM ",
+      "similarity_score": 0.5196,
+      "content_preview": "Some LLM applications we have developed (continued)   ‹#› Meeting scheduler Employee onboarding & Training Assistant Company financial advisor Banking Chatbot Portfolio Analyzer",
+      "content_length": 177,
+      "chunk_type": "text_chunk"
+    },
+    {
+      "chunk_id": "text_slide_AlgoAnalytics - LLM _49_chunk_0_session_0bf143e2",
+      "source_document": "AlgoAnalytics - LLM ",
+      "similarity_score": 0.5076,
+      "content_preview": "Future of Generative AI   ‹#›",
+      "content_length": 29,
+      "chunk_type": "text_chunk"
+    }
+  ],
+  "image_mapping_metrics": {
+    "user_id": "test-email@gmail.com",
+    "search_mode": "uploaded_only",
+    "total_slides": 8,
+    "content_slides": 7,
+    "slides_with_images": 2,
+    "total_images_mapped": 2,
+    "total_available_images": 11,
+    "images_used": 2,
+    "similarity_threshold_used": 0.4,
+    "utilization_rate": "2/11",
+    "coverage_ratio": "2/7",
+    "mapping_strategy": "STRICT_RELEVANCE_ONLY"
+  }
+}
