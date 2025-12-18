@@ -210,3 +210,24 @@ backend/static/
 .next/
 node_modules/
 .vercel/
+
+# User uploads / generated files
+generation/user_uploads/
+generation/output/
+generation/temp/
+
+# Large binaries
+*.pptx
+*.pdf
+*.docx
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+
+# Env
+.env
