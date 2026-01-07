@@ -5,6 +5,16 @@ from pathlib import Path
 
 #this is change
 # app.py
+# Add these imports (after other imports, before app initialization)
+import threading
+import uuid
+from typing import Dict, Any, Optional
+from enum import Enum
+
+# Add these global variables (after user_sessions, user_outlines, user_presentations)
+bulk_upload_progress = {}
+bulk_upload_lock = threading.Lock()
+bulk_upload_tasks = {}
 
 import os
 import uuid
@@ -81,6 +91,139 @@ class PresentationResponse(BaseModel):
     pdf_path: str
     template_used: str
     status: str
+
+
+class BulkUploadProgressTracker:
+    """Tracks progress of bulk upload processing - FIXED for minimal locking"""
+    
+    class Step(Enum):
+        EXTRACTING = "extracting"
+        PARSING = "parsing"
+        PREPROCESSING = "preprocessing"
+        IMAGE_CAPTIONING = "image_captioning"
+        DEDUPLICATION = "deduplication"
+        EMBEDDING = "embedding"
+        FINALIZING = "finalizing"
+        COMPLETE = "complete"
+        FAILED = "failed"
+    
+    STEP_WEIGHTS = {
+        Step.EXTRACTING: 5,
+        Step.PARSING: 30,
+        Step.PREPROCESSING: 10,
+        Step.IMAGE_CAPTIONING: 25,
+        Step.DEDUPLICATION: 5,
+        Step.EMBEDDING: 20,
+        Step.FINALIZING: 5,
+    }
+    
+    def __init__(self, user_id: str, task_id: str, total_files: int = 0):
+        self.user_id = user_id
+        self.task_id = task_id
+        self.total_files = total_files
+        self.processed_files = 0
+        self.current_step = self.Step.EXTRACTING
+        self.step_progress = 0  # 0-100 within current step
+        self.message = "Starting bulk upload..."
+        self.start_time = time.time()
+        self.end_time = None
+        self.error = None
+        self.result = None
+        self._lock = threading.Lock()  # Individual lock per tracker
+        
+    def update_step(self, step: Step, step_progress: int = 0, message: str = None):
+        """Update current step and progress - MINIMAL LOCKING"""
+        # Only lock for the actual assignment
+        with self._lock:
+            self.current_step = step
+            self.step_progress = max(0, min(100, step_progress))
+            if message:
+                self.message = message
+    
+    def update_file_progress(self, processed_files: int, total_files: int = None):
+        """Update file processing progress - MINIMAL LOCKING"""
+        with self._lock:
+            self.processed_files = processed_files
+            if total_files:
+                self.total_files = total_files
+    
+    def set_error(self, error: str):
+        """Set error state - MINIMAL LOCKING"""
+        with self._lock:
+            self.current_step = self.Step.FAILED
+            self.error = error
+            self.message = f"Error: {error}"
+            self.end_time = time.time()
+    
+    def set_complete(self, result: Dict[str, Any]):
+        """Set completion state - MINIMAL LOCKING"""
+        with self._lock:
+            self.current_step = self.Step.COMPLETE
+            self.step_progress = 100
+            self.message = "Bulk upload completed successfully"
+            self.result = result
+            self.end_time = time.time()
+            self.processed_files = self.total_files
+    
+    def get_progress(self) -> Dict[str, Any]:
+        """Get current progress as dictionary - MINIMAL LOCKING"""
+        # Use local variables to minimize lock time
+        with self._lock:
+            current_step = self.current_step
+            step_progress = self.step_progress
+            processed_files = self.processed_files
+            total_files = self.total_files
+            message = self.message
+            error = self.error
+            result = self.result
+            start_time = self.start_time
+            end_time = self.end_time
+        
+        # Calculate outside of lock
+        overall_progress = 0
+        if current_step == self.Step.COMPLETE:
+            overall_progress = 100
+        elif current_step == self.Step.FAILED:
+            overall_progress = 0
+        else:
+            # Calculate progress based on completed steps
+            completed_weight = 0
+            total_weight = sum(self.STEP_WEIGHTS.values())
+            
+            # Add weight for completed steps
+            for step, weight in self.STEP_WEIGHTS.items():
+                if step.value == current_step.value:
+                    # Add partial weight for current step
+                    completed_weight += (step_progress / 100) * weight
+                    break
+                else:
+                    # Add full weight for completed steps
+                    completed_weight += weight
+            
+            overall_progress = (completed_weight / total_weight) * 100
+        
+        elapsed_time = time.time() - start_time
+        if end_time:
+            elapsed_time = end_time - start_time
+        
+        status = "running" if current_step not in [self.Step.COMPLETE, self.Step.FAILED] else current_step.value
+        
+        return {
+            "user_id": self.user_id,
+            "task_id": self.task_id,
+            "current_step": current_step.value,
+            "step_progress": step_progress,
+            "overall_progress": round(overall_progress, 1),
+            "processed_files": processed_files,
+            "total_files": total_files,
+            "message": message,
+            "status": status,
+            "elapsed_time": round(elapsed_time, 1),
+            "error": error,
+            "result": result,
+            "start_time": start_time,
+            "end_time": end_time
+        }
 
 
 # Global storage for user sessions and outlines
@@ -419,11 +562,6 @@ async def upload_file(
 
 
 
-
-
-
-
-# Add this endpoint after other endpoints in app.py (maybe after /upload_file)
 @app.post("/bulk_upload")
 async def bulk_upload(
     user_id: str = Form(...),
@@ -432,6 +570,7 @@ async def bulk_upload(
     """
     Bulk upload and process zip file containing PPTX files
     Creates/updates vector database and image corpus
+    Returns immediately with task ID, use /bulk_upload_progress to track
     """
     print(f"📦 Bulk upload request for user: {user_id}")
     
@@ -444,83 +583,67 @@ async def bulk_upload(
         if not zip_file.filename.endswith('.zip'):
             raise HTTPException(status_code=400, detail="Only .zip files are supported")
         
-        # Create temporary directory for extraction
-        temp_dir = f"temp_bulk_{user_id}_{uuid.uuid4().hex[:8]}"
-        os.makedirs(temp_dir, exist_ok=True)
+        # Generate task ID
+        task_id = f"task_{uuid.uuid4().hex[:8]}"
         
-        # Save and extract zip file
-        zip_path = os.path.join(temp_dir, zip_file.filename)
-        with open(zip_path, "wb") as buffer:
-            shutil.copyfileobj(zip_file.file, buffer)
+        # Create a temporary directory to save the file
+        temp_save_dir = f"temp_uploads/{user_id}/{task_id}"
+        os.makedirs(temp_save_dir, exist_ok=True)
         
-        print(f"💾 Saved zip file: {zip_path}")
+        # Save the uploaded file IMMEDIATELY before returning response
+        zip_file_path = os.path.join(temp_save_dir, zip_file.filename)
         
-        # Extract zip
-        extract_dir = os.path.join(temp_dir, "extracted")
-        os.makedirs(extract_dir, exist_ok=True)
+        print(f"💾 Saving uploaded file to: {zip_file_path}")
         
-        with zipfile.ZipFile(zip_path, 'r') as zip_ref:
-            zip_ref.extractall(extract_dir)
+        # Read and save the file content
+        file_content = await zip_file.read()  # Read all content before returning
         
-        print(f"📂 Extracted to: {extract_dir}")
+        with open(zip_file_path, "wb") as buffer:
+            buffer.write(file_content)
         
-        # CHANGED: Find the actual folder containing PPTX files
-        # Check if there's a nested folder inside extract_dir
-        pptx_files = []
-        pptx_root_dir = extract_dir
+        print(f"✅ File saved: {zip_file_path} ({len(file_content)} bytes)")
         
-        # List contents of extract_dir
-        print(f"🔍 Scanning directory structure...")
-        for root, dirs, files in os.walk(extract_dir):
-            print(f"   📁 {root}")
-            for d in dirs:
-                print(f"     ├─ 📂 {d}")
-            for f in files:
-                print(f"     ├─ 📄 {f}")
-                if f.lower().endswith('.pptx'):
-                    pptx_files.append(os.path.join(root, f))
+        # Initialize progress tracker
+        tracker = BulkUploadProgressTracker(user_id, task_id)
         
-        # If we found PPTX files in a subdirectory, use that as root
-        if pptx_files:
-            # Get the common parent directory of all PPTX files
-            common_dir = os.path.commonprefix([os.path.dirname(f) for f in pptx_files])
-            if common_dir and common_dir != extract_dir:
-                print(f"📁 Found PPTX files in subdirectory: {common_dir}")
-                print(f"   Using this as the processing root")
-                pptx_root_dir = common_dir
+        # Store tracker
+        with bulk_upload_lock:
+            bulk_upload_progress[task_id] = tracker
         
-        if not pptx_files:
-            # Cleanup and return error
-            shutil.rmtree(temp_dir)
-            raise HTTPException(status_code=400, detail="No PPTX files found in the zip archive")
+        # Start processing in background thread - PASS THE SAVED FILE PATH
+        def process_in_background():
+            try:
+                process_bulk_upload_background(user_id, zip_file_path, tracker, task_id)
+            except Exception as e:
+                print(f"❌ Background processing failed for task {task_id}: {e}")
+                import traceback
+                traceback.print_exc()
+                tracker.set_error(str(e))
+                
+                # Cleanup temp directory on error
+                if os.path.exists(temp_save_dir):
+                    try:
+                        shutil.rmtree(temp_save_dir)
+                        print(f"🧹 Cleaned temp directory on error: {temp_save_dir}")
+                    except:
+                        pass
+                
+                # DO NOT start immediate cleanup here! Let the failed task stay for progress tracking
+                # The stale task cleanup will handle it later
         
-        print(f"📄 Found {len(pptx_files)} PPTX files")
-        for pptx_file in pptx_files:
-            print(f"   📍 {os.path.relpath(pptx_file, extract_dir)}")
+        # Start background thread
+        thread = threading.Thread(target=process_in_background, daemon=True)
+        thread.start()
         
-        # Process files using the correct root directory
-        result = await process_bulk_pptx_files(user_id, pptx_root_dir, pptx_files)
+        print(f"✅ Bulk upload started for user {user_id}, task ID: {task_id}")
         
-        # Cleanup temp directory
-        try:
-            shutil.rmtree(temp_dir)
-            print(f"🧹 Cleaned up temp directory: {temp_dir}")
-        except Exception as e:
-            print(f"⚠️ Could not clean temp directory: {e}")
-        
-        # Return success response
+        # Return immediately with task ID
         return {
-            "status": "success",
+            "status": "processing_started",
             "user_id": user_id,
-            "message": f"Successfully processed {len(pptx_files)} PPTX files",
-            "details": {
-                "vector_db_path": result.get("vector_db_path", ""),
-                "images_path": result.get("images_path", ""),
-                "total_images": result.get("total_images", 0),
-                "vector_documents": result.get("vector_documents", 0),
-                "total_pptx_files": len(pptx_files),
-                "processing_root": pptx_root_dir
-            }
+            "task_id": task_id,
+            "message": "Bulk upload processing started in background",
+            "progress_url": f"/bulk_upload_progress/{task_id}"
         }
         
     except HTTPException:
@@ -530,6 +653,395 @@ async def bulk_upload(
         import traceback
         traceback.print_exc()
         raise HTTPException(status_code=500, detail=f"Bulk upload failed: {str(e)}")
+
+
+def process_bulk_upload_background(user_id: str, zip_file_path: str, tracker: BulkUploadProgressTracker, task_id: str):
+    """Process bulk upload in background with progress tracking - FIXED for minimal locking"""
+    print(f"🔄 Starting background processing for task: {task_id}")
+    
+    # NO LONG GLOBAL LOCK HERE!
+    # Just quick check
+    with bulk_upload_lock:
+        if task_id not in bulk_upload_progress:
+            print(f"⚠️ Task {task_id} not found, might have been cleaned up")
+            return
+    
+    temp_dir = None
+    temp_save_dir = os.path.dirname(zip_file_path)
+    try:
+        # STEP 1: Extract ZIP file
+        tracker.update_step(tracker.Step.EXTRACTING, 0, "Extracting ZIP file...")
+        
+        # Use a different directory for extraction (inside the temp save dir)
+        temp_dir = os.path.join(temp_save_dir, "extracted")
+        os.makedirs(temp_dir, exist_ok=True)
+        
+        tracker.update_step(tracker.Step.EXTRACTING, 50, "Extracting files from ZIP...")
+        
+        extract_dir = os.path.join(temp_dir, "content")
+        os.makedirs(extract_dir, exist_ok=True)
+        
+        with zipfile.ZipFile(zip_file_path, 'r') as zip_ref:
+            zip_ref.extractall(extract_dir)
+        
+        tracker.update_step(tracker.Step.EXTRACTING, 100, "Extraction complete")
+        
+        # Find PPTX files
+        tracker.update_step(tracker.Step.PARSING, 0, "Scanning for PPTX files...")
+        
+        pptx_files = []
+        for root, dirs, files in os.walk(extract_dir):
+            for file in files:
+                if file.lower().endswith('.pptx'):
+                    pptx_files.append(os.path.join(root, file))
+        
+        if not pptx_files:
+            tracker.set_error("No PPTX files found in the zip archive")
+            return
+        
+        tracker.update_file_progress(0, len(pptx_files))
+        tracker.update_step(tracker.Step.PARSING, 10, f"Found {len(pptx_files)} PPTX files")
+        
+        # Get common directory
+        common_dir = extract_dir
+        if pptx_files:
+            common_parents = [os.path.dirname(f) for f in pptx_files]
+            if common_parents:
+                common_dir = os.path.commonprefix(common_parents)
+        
+        # Process files
+        result = process_bulk_pptx_files_with_progress(user_id, common_dir, pptx_files, tracker)
+        
+        # Finalize
+        tracker.update_step(tracker.Step.FINALIZING, 100, "Cleaning up temporary files...")
+        
+        # Cleanup all temp directories
+        cleanup_dirs = []
+        if temp_save_dir and os.path.exists(temp_save_dir):
+            cleanup_dirs.append(temp_save_dir)
+        
+        for dir_path in cleanup_dirs:
+            try:
+                shutil.rmtree(dir_path)
+                print(f"🧹 Cleaned up temp directory: {dir_path}")
+            except Exception as e:
+                print(f"⚠️ Could not clean temp directory {dir_path}: {e}")
+        
+        tracker.set_complete(result)
+        
+        print(f"✅ Background processing completed for task: {task_id}")
+        
+        # Schedule cleanup of completed task (keep for 1 hour)
+        def cleanup_completed_task():
+            time.sleep(3600)
+            with bulk_upload_lock:
+                if task_id in bulk_upload_progress:
+                    del bulk_upload_progress[task_id]
+        
+        threading.Thread(target=cleanup_completed_task, daemon=True).start()
+        
+    except Exception as e:
+        print(f"❌ Background processing error for task {task_id}: {e}")
+        import traceback
+        traceback.print_exc()
+        tracker.set_error(str(e))
+        
+        # Cleanup temp directories on error
+        cleanup_dirs = []
+        if temp_save_dir and os.path.exists(temp_save_dir):
+            cleanup_dirs.append(temp_save_dir)
+        
+        for dir_path in cleanup_dirs:
+            try:
+                shutil.rmtree(dir_path)
+            except:
+                pass
+
+
+
+# @app.get("/bulk_upload_progress/{task_id}")
+# async def get_bulk_upload_progress(task_id: str):
+#     """
+#     Get progress of bulk upload processing
+#     UI can poll this endpoint every 2-5 seconds
+#     """
+#     try:
+#         with bulk_upload_lock:
+#             print(f"📊 Checking progress for task: {task_id}")
+#             print(f"📊 Available tasks: {list(bulk_upload_progress.keys())}")
+            
+#             if task_id not in bulk_upload_progress:
+#                 raise HTTPException(status_code=404, detail="Task not found or has expired")
+            
+#             tracker = bulk_upload_progress[task_id]
+#             progress_data = tracker.get_progress()
+        
+#         print(f"📊 Progress request for task {task_id}: {progress_data['overall_progress']}% - {progress_data['message']}")
+        
+#         return progress_data
+        
+#     except HTTPException:
+#         raise
+#     except Exception as e:
+#         print(f"❌ Error getting progress for task {task_id}: {e}")
+#         raise HTTPException(status_code=500, detail=f"Error getting progress: {str(e)}")
+
+
+
+@app.get("/bulk_upload_progress/{user_id}")
+async def get_bulk_upload_progress(
+    user_id: str, 
+    task_id: Optional[str] = None
+):
+    """
+    Get progress of bulk upload processing
+    - If only user_id: returns latest task progress
+    - If user_id + task_id: returns specific task progress
+    FIXED: No global lock to prevent blocking
+    """
+    try:
+        # FIRST: Get the tracker WITHOUT holding global lock
+        tracker = None
+        found_task_id = None
+        
+        # Quick snapshot of available tasks
+        with bulk_upload_lock:  # VERY BRIEF lock
+            task_ids_snapshot = list(bulk_upload_progress.keys())
+        
+        print(f"🔍 Progress check for user: {user_id}")
+        print(f"📋 Available tasks: {task_ids_snapshot}")
+        
+        if task_id:
+            # Specific task requested
+            print(f"🎯 Looking for specific task: {task_id}")
+            
+            # Check if task exists (brief lock)
+            with bulk_upload_lock:
+                if task_id not in bulk_upload_progress:
+                    raise HTTPException(status_code=404, detail="Task not found or has expired")
+                tracker = bulk_upload_progress[task_id]
+                found_task_id = task_id
+        else:
+            # Find latest task for user
+            print(f"🔎 Finding latest task for user: {user_id}")
+            
+            latest_task_id = None
+            latest_time = 0
+            
+            # Iterate through snapshot without holding lock
+            for t_id in task_ids_snapshot:
+                # Brief check for each task
+                with bulk_upload_lock:
+                    if t_id in bulk_upload_progress:
+                        task_tracker = bulk_upload_progress[t_id]
+                        if task_tracker.user_id == user_id:
+                            if task_tracker.start_time > latest_time:
+                                latest_time = task_tracker.start_time
+                                latest_task_id = t_id
+                                tracker = task_tracker
+            
+            if not tracker:
+                raise HTTPException(status_code=404, detail="No bulk upload tasks found for this user")
+            
+            found_task_id = latest_task_id
+            print(f"✅ Using latest task: {found_task_id}")
+        
+        # Verify ownership (after we have the tracker)
+        if tracker.user_id != user_id:
+            raise HTTPException(status_code=403, detail="Task does not belong to this user")
+        
+        # Get progress data WITHOUT any locks (tracker has its own lock)
+        progress_data = tracker.get_progress()
+        
+        print(f"📊 Progress: {progress_data['overall_progress']}% - {progress_data['message']}")
+        
+        return progress_data
+        
+    except HTTPException:
+        raise
+    except Exception as e:
+        print(f"❌ Error getting progress: {e}")
+        import traceback
+        traceback.print_exc()
+        raise HTTPException(status_code=500, detail=f"Error getting progress: {str(e)}")
+    
+
+
+
+# @app.get("/bulk_upload_progress/{user_id}")
+# async def get_bulk_upload_progress(
+#     user_id: str, 
+#     task_id: Optional[str] = None  # Optional query parameter
+# ):
+#     """
+#     Get progress of bulk upload processing
+#     - If only user_id: returns latest task progress
+#     - If user_id + task_id: returns specific task progress
+#     """
+#     try:
+#         with bulk_upload_lock:
+#             # List all available tasks for debugging
+#             print(f"🔍 Looking up progress for user: {user_id}")
+#             print(f"📋 Available tasks in system: {list(bulk_upload_progress.keys())}")
+            
+#             # Track which tasks belong to this user
+#             user_tasks = []
+#             for t_id, tracker in bulk_upload_progress.items():
+#                 if tracker.user_id == user_id:
+#                     user_tasks.append(t_id)
+            
+#             print(f"👤 Tasks for user {user_id}: {user_tasks}")
+            
+#             if task_id:
+#                 # Specific task requested
+#                 print(f"🎯 Looking for specific task: {task_id}")
+                
+#                 if task_id not in bulk_upload_progress:
+#                     raise HTTPException(status_code=404, detail="Task not found or has expired")
+                
+#                 tracker = bulk_upload_progress[task_id]
+                
+#                 # Verify task belongs to user
+#                 if tracker.user_id != user_id:
+#                     raise HTTPException(status_code=403, detail="Task does not belong to this user")
+                    
+#                 print(f"✅ Found specific task: {task_id}")
+#             else:
+#                 # Find latest task for user
+#                 print(f"🔎 Finding latest task for user: {user_id}")
+                
+#                 if not user_tasks:
+#                     raise HTTPException(status_code=404, detail="No bulk upload tasks found for this user")
+                
+#                 # Get the most recent task (highest start_time)
+#                 latest_task_id = None
+#                 latest_time = 0
+                
+#                 for t_id in user_tasks:
+#                     tracker = bulk_upload_progress[t_id]
+#                     if tracker.start_time > latest_time:
+#                         latest_time = tracker.start_time
+#                         latest_task_id = t_id
+                
+#                 if not latest_task_id:
+#                     raise HTTPException(status_code=404, detail="No active bulk upload found")
+                
+#                 tracker = bulk_upload_progress[latest_task_id]
+#                 task_id = latest_task_id
+#                 print(f"✅ Using latest task: {task_id} (started at {tracker.start_time})")
+            
+#             progress_data = tracker.get_progress()
+        
+#         print(f"📊 Progress: {progress_data['overall_progress']}% - {progress_data['message']}")
+        
+#         return progress_data
+        
+#     except HTTPException:
+#         raise
+#     except Exception as e:
+#         print(f"❌ Error getting progress: {e}")
+#         import traceback
+#         traceback.print_exc()
+#         raise HTTPException(status_code=500, detail=f"Error getting progress: {str(e)}")
+    
+    
+@app.get("/bulk_upload_tasks/{user_id}")
+async def get_user_bulk_upload_tasks(user_id: str):
+    """Get all bulk upload tasks for a user"""
+    try:
+        user_tasks = []
+        with bulk_upload_lock:
+            for task_id, tracker in bulk_upload_progress.items():
+                if tracker.user_id == user_id:
+                    user_tasks.append({
+                        "task_id": task_id,
+                        "status": tracker.get_progress()["status"],
+                        "start_time": tracker.start_time,
+                        "progress": tracker.get_progress()["overall_progress"]
+                    })
+        
+        return {
+            "user_id": user_id,
+            "tasks": user_tasks,
+            "total_tasks": len(user_tasks)
+        }
+        
+    except Exception as e:
+        print(f"❌ Error getting tasks for user {user_id}: {e}")
+        raise HTTPException(status_code=500, detail=f"Error getting tasks: {str(e)}")
+
+@app.delete("/bulk_upload_task/{task_id}")
+async def cancel_bulk_upload_task(task_id: str, user_id: str):
+    """Cancel a bulk upload task"""
+    try:
+        with bulk_upload_lock:
+            if task_id not in bulk_upload_progress:
+                raise HTTPException(status_code=404, detail="Task not found")
+            
+            tracker = bulk_upload_progress[task_id]
+            if tracker.user_id != user_id:
+                raise HTTPException(status_code=403, detail="Task does not belong to this user")
+            
+            # Mark as failed with cancellation message
+            tracker.set_error("Task cancelled by user")
+            
+            # Remove from tracking after delay
+            def delayed_cleanup():
+                time.sleep(300)  # Keep cancelled tasks for 5 minutes
+                with bulk_upload_lock:
+                    if task_id in bulk_upload_progress:
+                        del bulk_upload_progress[task_id]
+                    if task_id in bulk_upload_tasks:
+                        del bulk_upload_tasks[task_id]
+            
+            threading.Thread(target=delayed_cleanup, daemon=True).start()
+        
+        print(f"🗑️ Task {task_id} cancelled by user {user_id}")
+        
+        return {
+            "status": "cancelled",
+            "message": f"Task {task_id} has been cancelled",
+            "task_id": task_id,
+            "user_id": user_id
+        }
+        
+    except HTTPException:
+        raise
+    except Exception as e:
+        print(f"❌ Error cancelling task {task_id}: {e}")
+        raise HTTPException(status_code=500, detail=f"Error cancelling task: {str(e)}")
+    
+
+def cleanup_stale_tasks():
+    """Clean up stale tasks that have been completed/failed for too long"""
+    while True:
+        try:
+            time.sleep(300)  # Run every 5 minutes
+            
+            current_time = time.time()
+            stale_tasks = []
+            
+            with bulk_upload_lock:
+                for task_id, tracker in list(bulk_upload_progress.items()):
+                    if tracker.end_time and (current_time - tracker.end_time > 3600):  # 1 hour
+                        stale_tasks.append(task_id)
+                
+                for task_id in stale_tasks:
+                    del bulk_upload_progress[task_id]
+                    if task_id in bulk_upload_tasks:
+                        del bulk_upload_tasks[task_id]
+                    
+                    print(f"🧹 Cleaned up stale task: {task_id}")
+        
+        except Exception as e:
+            print(f"⚠️ Error in cleanup_stale_tasks: {e}")
+
+# Start cleanup thread when app starts
+cleanup_thread = threading.Thread(target=cleanup_stale_tasks, daemon=True)
+cleanup_thread.start()
+print("✅ Started stale task cleanup thread")
+
+
 
 async def process_bulk_pptx_files(user_id: str, input_folder: str, pptx_files: List[str]):
     """Process multiple PPTX files and create/update corpus"""
@@ -943,6 +1455,270 @@ async def process_bulk_pptx_files(user_id: str, input_folder: str, pptx_files: L
 
 
 
+
+
+
+def process_bulk_pptx_files_with_progress(user_id: str, input_folder: str, pptx_files: List[str], tracker: BulkUploadProgressTracker):
+    """Process multiple PPTX files with progress tracking"""
+    
+    print(f"🔄 Processing {len(pptx_files)} PPTX files for user: {user_id}")
+    
+    # Create a modified version of SimpleCorpusBuilder with progress tracking
+    class BulkCorpusBuilderWithProgress:
+        def __init__(self, user_id: str, tracker: BulkUploadProgressTracker):
+            self.user_id = user_id
+            self.tracker = tracker
+            self.session_id = f"bulk_{uuid.uuid4().hex[:8]}"
+            
+            # Dynamic paths
+            self.output_vector_db = f"chroma_db/{self.user_id}/main_corpus"
+            self.output_images = f"images/{self.user_id}/main_corpus"
+            
+            # Create directories
+            self._create_directories()
+            
+            print(f"🚀 Bulk Corpus Builder for: {self.user_id}")
+        
+        def _create_directories(self):
+            """Create all necessary directories"""
+            directories = [
+                f"processed_json/{self.user_id}",
+                f"unified_output/{self.user_id}",
+                f"user_uploads/{self.user_id}",
+                f"images/{self.user_id}/main_corpus",
+                f"chroma_db/{self.user_id}/main_corpus",
+            ]
+            
+            for directory in directories:
+                os.makedirs(directory, exist_ok=True)
+        
+        def build_corpus(self, input_folder: str) -> Dict[str, Any]:
+            """Process all files with progress tracking"""
+            try:
+                # STEP 1: Parsing PPTX files
+                self.tracker.update_step(self.tracker.Step.PARSING, 20, "Parsing PPTX files...")
+                unified_json_path = self._step1_parse_pptx(input_folder)
+                
+                # Check if any files were processed
+                if not os.path.exists(unified_json_path) or os.path.getsize(unified_json_path) == 0:
+                    self.tracker.update_step(self.tracker.Step.PARSING, 100, "No PPTX files to process")
+                    return {
+                        'total_images': 0,
+                        'vector_documents': 0,
+                        'vector_db_path': self.output_vector_db,
+                        'images_path': self.output_images,
+                        'user_id': self.user_id,
+                        'status': 'no_files_processed'
+                    }
+                
+                self.tracker.update_step(self.tracker.Step.PARSING, 100, "PPTX parsing complete")
+                
+                # STEP 2: Preprocessing
+                self.tracker.update_step(self.tracker.Step.PREPROCESSING, 0, "Preprocessing documents...")
+                step2_output_path = self._step2_preprocessing(unified_json_path)
+                self.tracker.update_step(self.tracker.Step.PREPROCESSING, 100, "Preprocessing complete")
+                
+                # STEP 3: Image captioning
+                self.tracker.update_step(self.tracker.Step.IMAGE_CAPTIONING, 0, "Generating image captions...")
+                step3_output_path = self._step3_image_captioning(step2_output_path)
+                self.tracker.update_step(self.tracker.Step.IMAGE_CAPTIONING, 100, "Image captioning complete")
+                
+                # STEP 4: Deduplication
+                self.tracker.update_step(self.tracker.Step.DEDUPLICATION, 0, "Deduplicating content...")
+                step4_output_path = self._step4_deduplication(step3_output_path)
+                self.tracker.update_step(self.tracker.Step.DEDUPLICATION, 100, "Deduplication complete")
+                
+                # STEP 5: Create embeddings
+                self.tracker.update_step(self.tracker.Step.EMBEDDING, 0, "Creating vector embeddings...")
+                self._step5_create_embeddings(step4_output_path)
+                self.tracker.update_step(self.tracker.Step.EMBEDDING, 100, "Embeddings created")
+                
+                # STEP 6: Get statistics
+                final_stats = self._step6_get_statistics()
+                
+                return final_stats
+                
+            except Exception as e:
+                print(f"❌ Corpus building failed: {e}")
+                import traceback
+                traceback.print_exc()
+                raise
+        
+        def _step1_parse_pptx(self, input_folder: str) -> str:
+            """Parse all PPTX files"""
+            # Update progress within parsing
+            self.tracker.update_step(self.tracker.Step.PARSING, 30, "Parsing started...")
+            
+            parser = OptimizedPPTXParser(output_base_dir=f"unified_output/{self.user_id}", user_id=self.user_id)
+            unified_output_path = parser.parse_ppt_folder(
+                folder_path=input_folder,
+                output_filename=f"unified_ppt_{self.session_id}.json"
+            )
+            
+            self.tracker.update_step(self.tracker.Step.PARSING, 80, "PPTX parsing in progress...")
+            return unified_output_path
+        
+        def _step2_preprocessing(self, unified_json_path: str) -> str:
+            """Preprocess documents"""
+            self.tracker.update_step(self.tracker.Step.PREPROCESSING, 30, "Loading documents...")
+            
+            with open(unified_json_path, 'r', encoding='utf-8') as f:
+                unified_data = json.load(f)
+            
+            self.tracker.update_step(self.tracker.Step.PREPROCESSING, 60, "Processing documents...")
+            
+            preprocessor = JSONPreprocessor()
+            processed_data = preprocessor.preprocess_documents(
+                unified_data, 
+                user_id=self.user_id, 
+                session_id=self.session_id
+            )
+            
+            step2_output_path = f"processed_json/{self.user_id}/step2_processed_{self.user_id}_{self.session_id}.json"
+            preprocessor.save_processed_json(processed_data, step2_output_path)
+            
+            return step2_output_path
+        
+        def _step3_image_captioning(self, step2_input_path: str) -> str:
+            """Generate image captions"""
+            self.tracker.update_step(self.tracker.Step.IMAGE_CAPTIONING, 10, "Initializing image captioning...")
+            
+            caption_processor = ImageCaptionProcessor()
+            step3_output_path = caption_processor.process_user_documents(
+                user_id=self.user_id,
+                session_id=self.session_id,
+                step2_input_file=step2_input_path,
+                batch_delay=0.1
+            )
+            
+            return step3_output_path
+        
+        def _step4_deduplication(self, step3_input_path: str) -> str:
+            """Deduplicate content"""
+            self.tracker.update_step(self.tracker.Step.DEDUPLICATION, 30, "Analyzing content for duplicates...")
+            
+            deduplicator = DocumentDeduplicator()
+            deduplication_result = deduplicator.deduplicate_documents(
+                input_file=step3_input_path,
+                user_id=self.user_id,
+                session_id=self.session_id
+            )
+            
+            if not deduplication_result['success']:
+                if "No chunks found" in deduplication_result.get('error', ''):
+                    print(f"⚠️ No chunks to deduplicate")
+                    return step3_input_path
+                else:
+                    raise Exception(f"Deduplication failed: {deduplication_result['error']}")
+            
+            step4_output_path = deduplication_result['output_file']
+            return step4_output_path
+        
+        def _step5_create_embeddings(self, step4_input_path: str):
+            """Create embeddings"""
+            self.tracker.update_step(self.tracker.Step.EMBEDDING, 20, "Preparing for embedding...")
+            
+            openai_api_key = os.getenv("OPENAI_API_KEY")
+            if not openai_api_key:
+                print("❌ OPENAI_API_KEY not found - SKIPPING EMBEDDINGS")
+                return
+            
+            if not os.path.exists(step4_input_path):
+                print(f"❌ Input file not found - SKIPPING EMBEDDINGS")
+                return
+            
+            self.tracker.update_step(self.tracker.Step.EMBEDDING, 40, "Processing documents for embedding...")
+            
+            # Manual embedding method
+            try:
+                from step5_four_vector_store_with_image_caption_and_text import DocumentProcessor
+                
+                processor = DocumentProcessor(openai_api_key=openai_api_key)
+                
+                self.tracker.update_step(self.tracker.Step.EMBEDDING, 60, "Generating embeddings...")
+                documents = processor.process_json_file(
+                    json_file_path=step4_input_path,
+                    user_id=self.user_id,
+                    session_id=self.session_id
+                )
+                
+                if documents:
+                    self.tracker.update_step(self.tracker.Step.EMBEDDING, 80, "Storing embeddings...")
+                    processor.store_in_chromadb(
+                        documents, 
+                        self.user_id, 
+                        storage_mode="main_corpus",
+                        collection_name="document_embeddings"
+                    )
+                    
+                    print(f"✅ Stored {len(documents)} documents in vector database")
+                else:
+                    print("⚠️ No documents to embed")
+                    
+            except Exception as e:
+                print(f"❌ Manual embedding failed: {e}")
+        
+        def _step6_get_statistics(self) -> Dict[str, Any]:
+            """Get final statistics"""
+            self.tracker.update_step(self.tracker.Step.FINALIZING, 0, "Collecting statistics...")
+            
+            # Count images
+            final_image_path = f"images/{self.user_id}/main_corpus"
+            image_count = 0
+            if os.path.exists(final_image_path):
+                image_files = [f for f in os.listdir(final_image_path) 
+                             if f.endswith(('.jpg', '.jpeg', '.png', '.gif', '.bmp'))]
+                image_count = len(image_files)
+            
+            # Count vector documents
+            vector_count = self._count_vector_documents()
+            
+            # Cleanup temp data
+            self._cleanup_temp_data()
+            
+            self.tracker.update_step(self.tracker.Step.FINALIZING, 50, "Finalizing...")
+            
+            return {
+                'total_images': image_count,
+                'vector_documents': vector_count,
+                'vector_db_path': self.output_vector_db,
+                'images_path': final_image_path,
+                'user_id': self.user_id
+            }
+        
+        def _count_vector_documents(self) -> int:
+            """Count documents in vector database"""
+            try:
+                from step5_four_vector_store_with_image_caption_and_text import MultiUserChromaDBManager
+                chroma_manager = MultiUserChromaDBManager()
+                vector_stats = chroma_manager.get_user_stats(self.user_id)
+                return vector_stats.get('main_corpus_documents', 0)
+            except:
+                return 0
+        
+        def _cleanup_temp_data(self):
+            """Cleanup temporary processing data"""
+            print(f"\n🧹 Cleaning up temporary data...")
+            
+            temp_dirs = [
+                f"processed_json/{self.user_id}",
+                f"unified_output/{self.user_id}",
+                f"user_uploads/{self.user_id}",
+                f"chroma_db/{self.user_id}/temp_uploads",
+            ]
+            
+            for temp_dir in temp_dirs:
+                if os.path.exists(temp_dir):
+                    try:
+                        shutil.rmtree(temp_dir)
+                    except Exception as e:
+                        print(f"  ⚠️ Could not remove {temp_dir}: {e}")
+    
+    # Create builder and process files
+    builder = BulkCorpusBuilderWithProgress(user_id, tracker)
+    result = builder.build_corpus(input_folder)
+    
+    return result
 
 
 
