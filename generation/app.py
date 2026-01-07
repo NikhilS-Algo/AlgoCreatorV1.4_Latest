@@ -1,5 +1,7 @@
 
-
+# Add this import at the top of app.py (after other imports)
+import zipfile
+from pathlib import Path    
 
 #this is change
 # app.py
@@ -27,7 +29,8 @@ from step3_Image_caption_generator_Openai import ImageCaptionProcessor
 from step4_deduplicate_chunks_and_images import DocumentDeduplicator
 from step5_four_vector_store_with_image_caption_and_text import main_embedding_pipeline
 from storage_manager import StorageManager
-
+# In app.py, add this import:
+from unified_ppt_parser_optimized import OptimizedPPTXParser
 # Initialize FastAPI app
 app = FastAPI(title="Presentation Generation API", version="2.0.0")
 
@@ -412,6 +415,538 @@ async def upload_file(
                 storage.cleanup_temp_data(session_id)
             del user_sessions[user_id]
         raise HTTPException(status_code=500, detail=f"File upload failed: {str(e)}")
+    
+
+
+
+
+
+
+
+# Add this endpoint after other endpoints in app.py (maybe after /upload_file)
+@app.post("/bulk_upload")
+async def bulk_upload(
+    user_id: str = Form(...),
+    zip_file: UploadFile = File(...)
+):
+    """
+    Bulk upload and process zip file containing PPTX files
+    Creates/updates vector database and image corpus
+    """
+    print(f"📦 Bulk upload request for user: {user_id}")
+    
+    try:
+        # Validate user_id
+        if not user_id:
+            raise HTTPException(status_code=400, detail="user_id is required")
+        
+        # Validate file type
+        if not zip_file.filename.endswith('.zip'):
+            raise HTTPException(status_code=400, detail="Only .zip files are supported")
+        
+        # Create temporary directory for extraction
+        temp_dir = f"temp_bulk_{user_id}_{uuid.uuid4().hex[:8]}"
+        os.makedirs(temp_dir, exist_ok=True)
+        
+        # Save and extract zip file
+        zip_path = os.path.join(temp_dir, zip_file.filename)
+        with open(zip_path, "wb") as buffer:
+            shutil.copyfileobj(zip_file.file, buffer)
+        
+        print(f"💾 Saved zip file: {zip_path}")
+        
+        # Extract zip
+        extract_dir = os.path.join(temp_dir, "extracted")
+        os.makedirs(extract_dir, exist_ok=True)
+        
+        with zipfile.ZipFile(zip_path, 'r') as zip_ref:
+            zip_ref.extractall(extract_dir)
+        
+        print(f"📂 Extracted to: {extract_dir}")
+        
+        # CHANGED: Find the actual folder containing PPTX files
+        # Check if there's a nested folder inside extract_dir
+        pptx_files = []
+        pptx_root_dir = extract_dir
+        
+        # List contents of extract_dir
+        print(f"🔍 Scanning directory structure...")
+        for root, dirs, files in os.walk(extract_dir):
+            print(f"   📁 {root}")
+            for d in dirs:
+                print(f"     ├─ 📂 {d}")
+            for f in files:
+                print(f"     ├─ 📄 {f}")
+                if f.lower().endswith('.pptx'):
+                    pptx_files.append(os.path.join(root, f))
+        
+        # If we found PPTX files in a subdirectory, use that as root
+        if pptx_files:
+            # Get the common parent directory of all PPTX files
+            common_dir = os.path.commonprefix([os.path.dirname(f) for f in pptx_files])
+            if common_dir and common_dir != extract_dir:
+                print(f"📁 Found PPTX files in subdirectory: {common_dir}")
+                print(f"   Using this as the processing root")
+                pptx_root_dir = common_dir
+        
+        if not pptx_files:
+            # Cleanup and return error
+            shutil.rmtree(temp_dir)
+            raise HTTPException(status_code=400, detail="No PPTX files found in the zip archive")
+        
+        print(f"📄 Found {len(pptx_files)} PPTX files")
+        for pptx_file in pptx_files:
+            print(f"   📍 {os.path.relpath(pptx_file, extract_dir)}")
+        
+        # Process files using the correct root directory
+        result = await process_bulk_pptx_files(user_id, pptx_root_dir, pptx_files)
+        
+        # Cleanup temp directory
+        try:
+            shutil.rmtree(temp_dir)
+            print(f"🧹 Cleaned up temp directory: {temp_dir}")
+        except Exception as e:
+            print(f"⚠️ Could not clean temp directory: {e}")
+        
+        # Return success response
+        return {
+            "status": "success",
+            "user_id": user_id,
+            "message": f"Successfully processed {len(pptx_files)} PPTX files",
+            "details": {
+                "vector_db_path": result.get("vector_db_path", ""),
+                "images_path": result.get("images_path", ""),
+                "total_images": result.get("total_images", 0),
+                "vector_documents": result.get("vector_documents", 0),
+                "total_pptx_files": len(pptx_files),
+                "processing_root": pptx_root_dir
+            }
+        }
+        
+    except HTTPException:
+        raise
+    except Exception as e:
+        print(f"❌ Bulk upload failed for user {user_id}: {e}")
+        import traceback
+        traceback.print_exc()
+        raise HTTPException(status_code=500, detail=f"Bulk upload failed: {str(e)}")
+
+async def process_bulk_pptx_files(user_id: str, input_folder: str, pptx_files: List[str]):
+    """Process multiple PPTX files and create/update corpus"""
+    
+    print(f"🔄 Processing bulk PPTX files for user: {user_id}")
+    print(f"📁 Processing folder: {input_folder}")
+    print(f"📄 PPTX files to process: {len(pptx_files)}")
+    
+    # Create a modified version of SimpleCorpusBuilder
+    class BulkCorpusBuilder:
+        def __init__(self, user_id: str):
+            self.user_id = user_id
+            self.session_id = f"bulk_{uuid.uuid4().hex[:8]}"
+            
+            # Dynamic paths based on user_id
+            self.output_vector_db = f"chroma_db/{self.user_id}/main_corpus"
+            self.output_images = f"images/{self.user_id}/main_corpus"
+            
+            # Create all directories
+            self._create_directories()
+            
+            print(f"🚀 Bulk Corpus Builder for: {self.user_id}")
+            print(f"📤 Vector DB: {self.output_vector_db}")
+            print(f"🖼️ Images: {self.output_images}")
+        
+        def _create_directories(self):
+            """Create all necessary directories"""
+            directories = [
+                f"processed_json/{self.user_id}",
+                f"unified_output/{self.user_id}",
+                f"user_uploads/{self.user_id}",
+                f"images/{self.user_id}/main_corpus",
+                f"chroma_db/{self.user_id}/main_corpus",
+            ]
+            
+            for directory in directories:
+                os.makedirs(directory, exist_ok=True)
+                print(f"✅ Created: {directory}")
+        
+        def build_corpus(self, input_folder: str) -> Dict[str, Any]:
+            """Process all files and create/update embeddings"""
+            try:
+                # STEP 1: Parse all PPTX files
+                unified_json_path = self._step1_parse_pptx(input_folder)
+                
+                # Check if we actually processed any files
+                if not os.path.exists(unified_json_path) or os.path.getsize(unified_json_path) == 0:
+                    print(f"⚠️ No PPTX files were processed from {input_folder}")
+                    # Return empty statistics
+                    return {
+                        'total_images': 0,
+                        'vector_documents': 0,
+                        'vector_db_path': self.output_vector_db,
+                        'images_path': self.output_images,
+                        'user_id': self.user_id,
+                        'status': 'no_files_processed'
+                    }
+                
+                # STEP 2: Preprocessing
+                step2_output_path = self._step2_preprocessing(unified_json_path)
+                
+                # STEP 3: Image captioning
+                step3_output_path = self._step3_image_captioning(step2_output_path)
+                
+                # STEP 4: Deduplication (handles empty case)
+                step4_output_path = self._step4_deduplication(step3_output_path)
+                
+                # STEP 5: Create embeddings only if we have content
+                file_size = os.path.getsize(step4_output_path) if os.path.exists(step4_output_path) else 0
+                if file_size > 100:  # Arbitrary threshold for "has content"
+                    self._step5_create_embeddings(step4_output_path)
+                else:
+                    print(f"⚠️ No content to create embeddings for")
+                
+                # STEP 6: Get statistics
+                final_stats = self._step6_get_statistics()
+                
+                return final_stats
+                
+            except Exception as e:
+                print(f"❌ Corpus building failed: {e}")
+                import traceback
+                traceback.print_exc()
+                raise
+        
+        def _step1_parse_pptx(self, input_folder: str) -> str:
+            """Parse all PPTX files - pass the correct folder"""
+            print(f"\n🔍 STEP 1: Parsing PPTX files from: {input_folder}")
+            
+            # DEBUG: List what's in the folder
+            print(f"🔍 Contents of {input_folder}:")
+            for root, dirs, files in os.walk(input_folder):
+                level = root.replace(input_folder, '').count(os.sep)
+                indent = ' ' * 2 * level
+                print(f'{indent}📁 {os.path.basename(root)}/')
+                subindent = ' ' * 2 * (level + 1)
+                for file in files:
+                    print(f'{subindent}📄 {file}')
+            
+            # Parser will extract images to user's main_corpus
+            parser = OptimizedPPTXParser(output_base_dir=f"unified_output/{self.user_id}", user_id=self.user_id)
+            unified_output_path = parser.parse_ppt_folder(
+                folder_path=input_folder,  # This should be the folder containing PPTX files
+                output_filename=f"unified_ppt_{self.session_id}.json"
+            )
+            
+            print(f"✅ Unified parsing complete: {unified_output_path}")
+            return unified_output_path
+        
+        def _step2_preprocessing(self, unified_json_path: str) -> str:
+            """Preprocess documents"""
+            print(f"\n🔄 STEP 2: Preprocessing documents...")
+            
+            with open(unified_json_path, 'r', encoding='utf-8') as f:
+                unified_data = json.load(f)
+            
+            preprocessor = JSONPreprocessor()
+            processed_data = preprocessor.preprocess_documents(
+                unified_data, 
+                user_id=self.user_id, 
+                session_id=self.session_id
+            )
+            
+            step2_output_path = f"processed_json/{self.user_id}/step2_processed_{self.user_id}_{self.session_id}.json"
+            preprocessor.save_processed_json(processed_data, step2_output_path)
+            
+            print(f"✅ Preprocessing complete: {step2_output_path}")
+            return step2_output_path
+        
+        def _step3_image_captioning(self, step2_input_path: str) -> str:
+            """Generate image captions"""
+            print(f"\n🖼️ STEP 3: Generating image captions...")
+            
+            caption_processor = ImageCaptionProcessor()
+            step3_output_path = caption_processor.process_user_documents(
+                user_id=self.user_id,
+                session_id=self.session_id,
+                step2_input_file=step2_input_path,
+                batch_delay=0.1
+            )
+            
+            print(f"✅ Image captioning complete: {step3_output_path}")
+            return step3_output_path
+        
+
+        def _step4_deduplication(self, step3_input_path: str) -> str:
+            """Deduplicate content - handle empty files"""
+            print(f"\n🧹 STEP 4: Deduplicating content...")
+            
+            # Check if file exists and has content
+            if not os.path.exists(step3_input_path) or os.path.getsize(step3_input_path) == 0:
+                print(f"⚠️ Input file is empty or doesn't exist: {step3_input_path}")
+                print(f"   Returning input file as is")
+                return step3_input_path
+            
+            deduplicator = DocumentDeduplicator()
+            deduplication_result = deduplicator.deduplicate_documents(
+                input_file=step3_input_path,
+                user_id=self.user_id,
+                session_id=self.session_id
+            )
+            
+            if not deduplication_result['success']:
+                # If there are no chunks, return the original file instead of raising error
+                if "No chunks found" in deduplication_result.get('error', ''):
+                    print(f"⚠️ No chunks to deduplicate, returning original file")
+                    return step3_input_path
+                else:
+                    raise Exception(f"Deduplication failed: {deduplication_result['error']}")
+            
+            step4_output_path = deduplication_result['output_file']
+            print(f"✅ Deduplication complete: {step4_output_path}")
+            return step4_output_path
+        
+        # def _step4_deduplication(self, step3_input_path: str) -> str:
+        #     """Deduplicate content"""
+        #     print(f"\n🧹 STEP 4: Deduplicating content...")
+            
+        #     deduplicator = DocumentDeduplicator()
+        #     deduplication_result = deduplicator.deduplicate_documents(
+        #         input_file=step3_input_path,
+        #         user_id=self.user_id,
+        #         session_id=self.session_id
+        #     )
+            
+        #     if not deduplication_result['success']:
+        #         raise Exception(f"Deduplication failed: {deduplication_result['error']}")
+            
+        #     step4_output_path = deduplication_result['output_file']
+        #     print(f"✅ Deduplication complete: {step4_output_path}")
+        #     return step4_output_path
+        
+        # def _step5_create_embeddings(self, step4_input_path: str):
+        #     """Create embeddings - append to existing vector DB"""
+        #     print(f"\n📚 STEP 5: Creating/updating vector embeddings...")
+            
+        #     openai_api_key = os.getenv("OPENAI_API_KEY")
+        #     if not openai_api_key:
+        #         print("❌ OPENAI_API_KEY not found - SKIPPING EMBEDDINGS")
+        #         return
+            
+        #     if not os.path.exists(step4_input_path):
+        #         print(f"❌ Input file not found - SKIPPING EMBEDDINGS")
+        #         return
+            
+        #     print(f"📁 Using input file: {step4_input_path}")
+            
+        #     # Try to append to existing vector DB
+        #     try:
+        #         # We need to modify the main_embedding_pipeline to support appending
+        #         # For now, we'll create new embeddings
+        #         embedding_processor = main_embedding_pipeline(
+        #             openai_api_key=openai_api_key,
+        #             user_id=self.user_id,
+        #             session_id=self.session_id,
+        #             storage_mode="main_corpus"  # Add this parameter if supported
+        #         )
+        #         print("✅ Embeddings created/updated successfully")
+        #     except Exception as e:
+        #         print(f"❌ Embedding failed: {e}")
+        #         print("🔄 Trying manual embedding approach...")
+        #         self._create_embeddings_manual(step4_input_path)
+
+        def _step5_create_embeddings(self, step4_input_path: str):
+            """Create embeddings - ALWAYS use manual method for bulk to go to main_corpus"""
+            print(f"\n📚 STEP 5: Creating/updating vector embeddings in MAIN CORPUS...")
+            
+            openai_api_key = os.getenv("OPENAI_API_KEY")
+            if not openai_api_key:
+                print("❌ OPENAI_API_KEY not found - SKIPPING EMBEDDINGS")
+                return
+            
+            if not os.path.exists(step4_input_path):
+                print(f"❌ Input file not found - SKIPPING EMBEDDINGS")
+                return
+            
+            print(f"📁 Using input file: {step4_input_path}")
+            
+            # 🚨 CRITICAL: SKIP main_embedding_pipeline COMPLETELY for bulk uploads!
+            # It ALWAYS stores in temp_uploads, but we want main_corpus for bulk
+            
+            print("🔄 Using manual embedding method to store in MAIN_CORPUS...")
+            self._create_embeddings_manual(step4_input_path)
+            
+                
+        # def _create_embeddings_manual(self, step4_input_path: str):
+        #     """Manual embedding creation - FIXED"""
+        #     try:
+        #         from step5_four_vector_store_with_image_caption_and_text import DocumentProcessor
+                
+        #         openai_api_key = os.getenv("OPENAI_API_KEY")
+        #         processor = DocumentProcessor(openai_api_key=openai_api_key)
+                
+        #         # ✅ FIXED: Use process_json_file instead of process_document
+        #         documents = processor.process_json_file(
+        #             json_file_path=step4_input_path,
+        #             user_id=self.user_id,
+        #             session_id=self.session_id
+        #         )
+                
+        #         print(f"📊 Generated {len(documents)} documents for embedding")
+                
+        #         if documents:
+        #             # ✅ FIXED: Store in main_corpus instead of temp_uploads
+        #             try:
+        #                 # Check if vector DB already exists
+        #                 if os.path.exists(self.output_vector_db):
+        #                     print(f"📁 Appending to existing vector DB: {self.output_vector_db}")
+        #                     # Store in main_corpus for bulk upload
+        #                     processor.store_in_chromadb(
+        #                         documents, 
+        #                         self.user_id, 
+        #                         storage_mode="main_corpus",  # ✅ This goes to main_corpus
+        #                         collection_name="document_embeddings"
+        #                     )
+        #                 else:
+        #                     print(f"📁 Creating new vector DB: {self.output_vector_db}")
+        #                     processor.store_in_chromadb(
+        #                         documents, 
+        #                         self.user_id, 
+        #                         storage_mode="main_corpus",  # ✅ This goes to main_corpus
+        #                         collection_name="document_embeddings"
+        #                     )
+                        
+        #                 print(f"✅ Stored {len(documents)} documents in vector database (main_corpus)")
+        #             except Exception as e:
+        #                 print(f"❌ Failed to store in ChromaDB: {e}")
+        #         else:
+        #             print("⚠️ No documents to embed")
+                    
+        #     except Exception as e:
+        #         print(f"❌ Manual embedding failed: {e}")
+        #         print("💡 Continuing without embeddings for this batch")
+
+        def _create_embeddings_manual(self, step4_input_path: str):
+            """Manual embedding creation for bulk uploads - goes to main_corpus"""
+            try:
+                from step5_four_vector_store_with_image_caption_and_text import DocumentProcessor
+                
+                openai_api_key = os.getenv("OPENAI_API_KEY")
+                if not openai_api_key:
+                    print("❌ OPENAI_API_KEY not found")
+                    return
+                    
+                print(f"🔧 Creating DocumentProcessor...")
+                processor = DocumentProcessor(openai_api_key=openai_api_key)
+                
+                # Check if file exists
+                if not os.path.exists(step4_input_path):
+                    print(f"❌ File not found: {step4_input_path}")
+                    return
+                    
+                file_size = os.path.getsize(step4_input_path)
+                print(f"📄 Processing file: {step4_input_path} ({file_size} bytes)")
+                
+                # Process the JSON file
+                print(f"🔄 Calling process_json_file...")
+                documents = processor.process_json_file(
+                    json_file_path=step4_input_path,
+                    user_id=self.user_id,
+                    session_id=self.session_id
+                )
+                
+                if not documents:
+                    print("⚠️ No documents generated from JSON file")
+                    return
+                    
+                print(f"📊 Generated {len(documents)} documents for embedding")
+                
+                # 🎯 CRITICAL: Store in main_corpus, not temp_uploads!
+                print(f"💾 Storing in MAIN_CORPUS: {self.output_vector_db}")
+                collection = processor.store_in_chromadb(
+                    documents, 
+                    self.user_id, 
+                    storage_mode="main_corpus",  # 🎯 THIS IS THE KEY!
+                    collection_name="document_embeddings"
+                )
+                
+                print(f"✅ Successfully stored {len(documents)} documents in MAIN CORPUS vector DB")
+                print(f"📊 Collection now has {collection.count()} total documents")
+                
+            except Exception as e:
+                print(f"❌ Manual embedding failed: {e}")
+                import traceback
+                traceback.print_exc()
+                print("💡 Continuing without embeddings for this batch")
+
+        
+        def _step6_get_statistics(self) -> Dict[str, Any]:
+            """Get final statistics"""
+            print(f"\n📊 STEP 6: Collecting statistics...")
+            
+            # Count images
+            final_image_path = f"images/{self.user_id}/main_corpus"
+            image_count = 0
+            if os.path.exists(final_image_path):
+                image_files = [f for f in os.listdir(final_image_path) 
+                             if f.endswith(('.jpg', '.jpeg', '.png', '.gif', '.bmp'))]
+                image_count = len(image_files)
+            
+            # Count vector documents
+            vector_count = self._count_vector_documents()
+            
+            # Cleanup temp data
+            self._cleanup_temp_data()
+            
+            return {
+                'total_images': image_count,
+                'vector_documents': vector_count,
+                'vector_db_path': self.output_vector_db,
+                'images_path': final_image_path,
+                'user_id': self.user_id
+            }
+        
+        def _count_vector_documents(self) -> int:
+            """Count documents in vector database"""
+            try:
+                from step5_four_vector_store_with_image_caption_and_text import MultiUserChromaDBManager
+                chroma_manager = MultiUserChromaDBManager()
+                vector_stats = chroma_manager.get_user_stats(self.user_id)
+                return vector_stats.get('main_corpus_documents', 0)
+            except:
+                return 0
+        
+        def _cleanup_temp_data(self):
+            """Cleanup temporary processing data"""
+            print(f"\n🧹 Cleaning up temporary data...")
+            
+            temp_dirs = [
+                f"processed_json/{self.user_id}",
+                f"unified_output/{self.user_id}",
+                f"user_uploads/{self.user_id}",
+                f"chroma_db/{self.user_id}/temp_uploads",  # Only cleanup temp, not main_corpus
+            ]
+            
+            for temp_dir in temp_dirs:
+                if os.path.exists(temp_dir):
+                    try:
+                        shutil.rmtree(temp_dir)
+                        print(f"  ✅ Removed: {temp_dir}")
+                    except Exception as e:
+                        print(f"  ⚠️ Could not remove {temp_dir}: {e}")
+    
+    # Create builder and process files
+    builder = BulkCorpusBuilder(user_id)
+    result = builder.build_corpus(input_folder)
+    
+    return result
+
+
+
+
+
+
+
+
+
 
 @app.get("/get_modes", response_model=ModesResponse)
 async def get_modes(user_id: str):
