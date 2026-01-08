@@ -1,0 +1,22 @@
+NEXT_PUBLIC_LOGIN_API_URL=https://16mtnf6jfc.execute-api.ap-south-1.amazonaws.com/prod/login
+NEXT_PUBLIC_REGISTER_API_URL=https://16mtnf6jfc.execute-api.ap-south-1.amazonaws.com/prod/register
+# NEXT_PUBLIC_CHAT_API_URL=https://algocreator.algoanalytics.com/v4beta/rag/chat
+# NEXT_PUBLIC_RETRIEVAL_API_URL=https://algocreator.algoanalytics.com/v4beta/retrieval/retrieval/v4/retrieve_slides
+# NEXT_PUBLIC_DOWNLOAD_PDF_API_URL=https://algocreator.algoanalytics.com/v4beta/retrieval/retrieval/v4/download_pdf
+# NEXT_PUBLIC_UPDATE_FOLDERS_API_URL=http://localhost:8081/api/update-folders
+# NEXT_PUBLIC_SELECT_DATE_URL=https://algocreator.algoanalytics.com/v4beta/retrieval/retrieval/select_date
+# NEXT_PUBLIC_GET_PPTS_URL=https://algocreator.algoanalytics.com/v4beta/retrieval/retrieval/pptx_paths
+# # NEXT_PUBLIC_LIST_PDFS_API_URL=http://216.48.180.247:8081/retrieval/list_pdfs
+
+# NEXT_PUBLIC_LIST_PDFS_API_URL=https://algocreator.algoanalytics.com/v4beta/retrieval/retrieval/list_pdfs
+
+NEXT_PUBLIC_CHAT_API_URL=http://localhost:8080/chat
+NEXT_PUBLIC_RETRIEVAL_API_URL=http://localhost:8081/retrieval/v4/retrieve_slides
+NEXT_PUBLIC_DOWNLOAD_PDF_API_URL=http://localhost:8081/retrieval/v4/download_pdf
+NEXT_PUBLIC_UPDATE_FOLDERS_API_URL=http://localhost:8081/api/update-folders
+NEXT_PUBLIC_SELECT_DATE_URL=http://localhost:8081/retrieval/select_date
+NEXT_PUBLIC_GET_PPTS_URL=http://localhost:8081/retrieval/pptx_paths
+NEXT_PUBLIC_LIST_PDFS_API_URL=http://216.48.180.247:8081/retrieval/list_pdfs
+
+# NEXT_PUBLIC_BASE_PATH=/v4beta
+NEXT_PUBLIC_API_BASE_URL="http://216.48.180.247:8082" # Genration Backend
