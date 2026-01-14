@@ -188,7 +188,7 @@ class ProfessionalPresentationGenerator:
             unique_results = text_results + image_results
             
             # Use appropriate relevance threshold
-            relevance_threshold = 0.3
+            relevance_threshold = 0.4
             relevant_results = [
                 result for result in unique_results 
                 if result['similarity_score'] >= relevance_threshold
@@ -301,7 +301,7 @@ OUTPUT REQUIREMENTS:
                     {"role": "system", "content": system_prompt},
                     {"role": "user", "content": user_prompt}
                 ],
-                temperature=0.3,
+                temperature=0.2,
                 max_tokens=4000
             )
             
